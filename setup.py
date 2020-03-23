@@ -24,6 +24,7 @@ setup(
     install_requires = [
         'numpy',
         'openalpr'
+        'pyaml'
         ],
     extras_require = {
         "dev": [
