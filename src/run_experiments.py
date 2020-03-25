@@ -15,7 +15,11 @@ def run_experiments():
     openalpr_runtime = config["DEFAULT"]["open_alpr_runtime_data"]
 
     test_data_dir = config["DEFAULT"]["test_data_dir"]
-    label_dict = create_labeled_data()
+    labeled_data_dir = config["DEFAULT"]["labeled_data_dir"]
+    labeled_data_output = config["DEFAULT"]["labeled_data_output"]
+
+
+    label_dict = create_labeled_data(labeled_data_dir, labeled_data_output)
 
     alpr = ("au", openalpr_conf, openalpr_runtime)
     results = {}
