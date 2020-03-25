@@ -16,14 +16,14 @@ setup(
     description="Testing scripts to try out openALPR on speed camera images",
     keywords = 'openalpr, nsw, anpr',
     license="http://www.fsf.org/licensing/licenses/agpl-3.0.html",
-    url = "https://github.com/digitalnsw/ANPR-RevenueNSW"
+    url = "https://github.com/digitalnsw/ANPR-RevenueNSW",
     include_package_data = True,  # Will read MANIFEST.in
     data_files = [
         ("share/openfisca/openfisca_nsw_community_gaming", ["CHANGELOG.md", "LICENSE", "README.md"]),
         ],
     install_requires = [
         'numpy',
-        'openalpr'
+        'openalpr',
         'pyaml'
         ],
     extras_require = {
