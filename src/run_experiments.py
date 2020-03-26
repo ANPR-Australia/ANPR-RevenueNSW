@@ -30,9 +30,9 @@ def run_experiments():
         sys.exit(1)
 
 
-    untrained_results = test_untrained_caliberated_system(alpr, test_data_dir)
-    (evaluation_dict, matches, errors) = evaluate_results(untrained_results, label_dict)
-    print("%d\% of number plates detected correctly" % matches/len(evaluation_dict))
+    untrained_results = test_untrained_uncaliberated_system(alpr, test_data_dir)
+    (matches, errors, evaluation_dict) = evaluate_results(untrained_results, label_dict)
+    #print("%d percent of number plates detected correctly\n" % matches/len(evaluation_dict))
 
 
 
@@ -54,7 +54,9 @@ def evaluate_results(results_dict, label_dict):
             errors = errors + 1
         else:
             evaluation_dict[file_name] = False #you can directly assign the result of the comparison, but I left it like this so you can see what the result is more easily while coding, will fix it later.
-            
+    print(matches)
+    print(errors)
+    print(evaluation_dict)
     return (matches, errors, evaluation_dict)
 
 
@@ -69,26 +71,28 @@ consistent with the trained system.
 """
 def test_untrained_uncaliberated_system(alpr, test_data_dir):
     files = [f for f in glob.glob(test_data_dir + "/*.jpg", recursive=False)]
+    results = {}
     print(files)
     for f in files:
         results[f] = alpr.recognize_file(f)
         print(json.dumps(results, indent=4)) #for debugging only
     alpr.unload()
+    return results
 
 
 
         
 
 
-def test_untrained_caliberated_system():
+def test_untrained_caliberated_system(results_dict, label_dict):
     pass
 
 
-def test_trained_system_no_fonts():
+def test_trained_system_no_fonts(results_dict, label_dict):
     pass
 
 
-def test_trained_system_with_fonts():
+def test_trained_system_with_fonts(results_dict, label_dict):
     pass
 
 
