@@ -9,7 +9,6 @@ def create_labeled_data(labeled_data_dir, labeled_data_output):
     out = open(labeled_data_output, "w") #open and truncate the file
     label_dict = {}
     files = [f for f in glob.glob(labeled_data_dir + "/*.yaml", recursive=False)]
-    print(files)
 
 
     for f in files:
@@ -25,7 +24,7 @@ def create_labeled_data(labeled_data_dir, labeled_data_output):
                     sys.exit(1)
 
                 out.write("%s,%s,%s\n" % (img_file, region_code, plate_no))
-                label_dict[img_file] = (region_code, plate_no)
+                label_dict[os.path.basename(img_file)] = (region_code, plate_no)
             except yaml.YAMLError as exc:
                 print(exc)
                 system.exit(1)

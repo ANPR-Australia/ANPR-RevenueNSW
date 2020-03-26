@@ -44,16 +44,30 @@ def evaluate_results(results_dict, label_dict):
     matches = 0
     errors = 0
 
-    for file_name in results_dict:
+    for f in results_dict:
+        file_name = os.path.basename(f)
         expected = label_dict[file_name]
         result = results_dict[file_name]
         #compare expected with result
-        if result.something == expected: #you've got to run it and see what the fieldnames in the json object are
-            evaluation_dict[file_name] = True
-            matches = matches + 1
+        print("--------")
+        try:
+            plate = result['results'][0]['plate']
+            confidence = result['results'][0]['confidence']
+            print(plate)
+            print(confidence)
+            print(expected)
+            if plate==expected[1]:
+                evaluation_dict[file_name] = True
+                matches = matches + 1
+            else:
+                errors = errors + 1
+                evaluation_dict[file_name] = False
+        except:
+            print("no numberplate detected in %s" % file_name)
             errors = errors + 1
-        else:
-            evaluation_dict[file_name] = False #you can directly assign the result of the comparison, but I left it like this so you can see what the result is more easily while coding, will fix it later.
+            evaluation_dict[file_name] = False
+
+    print("___________________")
     print(matches)
     print(errors)
     print(evaluation_dict)
@@ -72,10 +86,9 @@ consistent with the trained system.
 def test_untrained_uncaliberated_system(alpr, test_data_dir):
     files = [f for f in glob.glob(test_data_dir + "/*.jpg", recursive=False)]
     results = {}
-    print(files)
     for f in files:
-        results[f] = alpr.recognize_file(f)
-        print(json.dumps(results, indent=4)) #for debugging only
+        results[os.path.basename(f)] = alpr.recognize_file(f)
+        #print(json.dumps(results, indent=4)) #for debugging only
     alpr.unload()
     return results
 
