@@ -6,6 +6,7 @@ import alpr
 import json
 import create_labeled_data
 import sys
+from openalpr import Alpr
 
 
 def run_experiments():
@@ -22,7 +23,7 @@ def run_experiments():
 
     label_dict = create_labeled_data.create_labeled_data(labeled_data_dir, labeled_data_output)
 
-    alpr = ("au", openalpr_conf, openalpr_runtime)
+    alpr = Alpr("au", openalpr_conf, openalpr_runtime)
     results = {}
     if not alpr.is_loaded():
         print("Error loading OpenALPR")
@@ -68,6 +69,7 @@ consistent with the trained system.
 """
 def test_untrained_uncaliberated_system(alpr, test_data_dir):
     files = [f for f in glob.glob(test_data_dir + "/*.jpg", recursive=False)]
+    print(files)
     for f in files:
         results[f] = alpr.recognize_file(f)
         print(json.dumps(results, indent=4)) #for debugging only

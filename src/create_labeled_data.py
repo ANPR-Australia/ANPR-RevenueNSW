@@ -18,7 +18,7 @@ def create_labeled_data(labeled_data_dir, labeled_data_output):
                 try:
                     contents = yaml.safe_load(stream)
                     img_file = contents['image_file']
-                    region_code = contents['region_code']
+                    region_code = contents['region_code_gt']
                     plate_no = contents['plate_number_gt']
                 except KeyError as e:
                     print("Missing key in file: " + f + "\n" + str(e))
