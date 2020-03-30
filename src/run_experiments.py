@@ -85,9 +85,9 @@ consistent with the trained system.
 Requires a file called openalpr.conf in the test_data_dir (top level). 
 This file should be empty
 """
-def test_untrained_uncaliberated_system(test_data_dir, config_file_name):
+def test_untrained_uncaliberated_system(test_data_dir, config_file_name, openalpr_runtime):
     test_name = "test_untrained_uncaliberated_system"
-    test_camera(test_name, test_data_dir, config_file_name)
+    test_camera(test_name, test_data_dir, config_file_name, openalpr_runtime)
 
 
 """
@@ -97,7 +97,7 @@ If multiple directories for multiple cameras are present, it will
 traverse them and aggregate the results. This is how it behaves
 for the uncaliberated test.
 """
-def test_camera(test_name, test_data_dir, config_file_name): 
+def test_camera(test_name, test_data_dir, config_file_name, openalpr_runtime): 
     openalpr_conf = os.path.join(test_data_dir, config_file_name)
     alpr = Alpr("au", openalpr_conf, openalpr_runtime)
     results = {}
@@ -128,7 +128,7 @@ def test_untrained_caliberated_system(test_name, test_data_dir, config_file_name
     camera_dirs = [f.path for f in os.scandir(test_data_dir) if f.is_dir()]
     results = {}
     for cam in camera_dirs:
-        results[cam] = test_camera(test_name, test_data_dir, config_file_name)
+        results[cam] = test_camera(test_name, test_data_dir, config_file_name, openalpr_runtime)
 
     return results
 
