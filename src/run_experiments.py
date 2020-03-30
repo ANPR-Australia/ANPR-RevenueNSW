@@ -28,7 +28,7 @@ def run_experiments():
     (matches, errors, evaluation_dict) = evaluate_results(untrained_results, label_dict)
     #print("%d percent of number plates detected correctly\n" % matches/len(evaluation_dict))
 
-    caliberated_results = test_untrained_caliberated_system(config_file_name, test_data_dir)
+    caliberated_results = test_untrained_caliberated_system(config_file_name, test_data_dir, open_alpr_runtime_data)
     for camera in caliberated_results:
         evaluate_results(camera, caliberated_results[camera], label_dict)
     
@@ -124,7 +124,7 @@ Gets all the directories under our test_data_dir, and assuming each
 represents one camera worth of files, it runs the test on those
 files using the config file in the dir.
 """
-def test_untrained_caliberated_system(test_name, test_data_dir, config_file_name):
+def test_untrained_caliberated_system(test_name, test_data_dir, config_file_name, openalpr_runtime):
     camera_dirs = [f.path for f in os.scandir(test_data_dir) if f.is_dir()]
     results = {}
     for cam in camera_dirs:
@@ -133,11 +133,11 @@ def test_untrained_caliberated_system(test_name, test_data_dir, config_file_name
     return results
 
 
-def test_trained_system_no_fonts(results_dict, label_dict):
+def test_trained_system_no_fonts(test_name, test_data_dir, config_file_name, openalpr_runtime):
     pass
 
 
-def test_trained_system_with_fonts(results_dict, label_dict):
+def test_trained_system_with_fonts(test_name, test_data_dir, config_file_name, openalpr_runtime):
     pass
 
 
