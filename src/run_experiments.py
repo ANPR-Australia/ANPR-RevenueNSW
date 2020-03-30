@@ -24,7 +24,7 @@ def run_experiments():
 
     label_dict = create_labeled_data.create_labeled_data(labeled_data_dir, labeled_data_output)
 
-    untrained_results = test_untrained_uncaliberated_system(config_file_name, test_data_dir)
+    untrained_results = test_untrained_uncaliberated_system(config_file_name, test_data_dir, open_alpr_runtime_data)
     (matches, errors, evaluation_dict) = evaluate_results(untrained_results, label_dict)
     #print("%d percent of number plates detected correctly\n" % matches/len(evaluation_dict))
 
