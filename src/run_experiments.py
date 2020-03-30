@@ -24,11 +24,11 @@ def run_experiments():
 
     label_dict = create_labeled_data.create_labeled_data(labeled_data_dir, labeled_data_output)
 
-    untrained_results = test_untrained_uncaliberated_system(config_file_name, test_data_dir, open_alpr_runtime_data)
-    (matches, errors, evaluation_dict) = evaluate_results(untrained_results, label_dict)
+    untrained_results = test_untrained_uncaliberated_system(config_file_name, test_data_dir, openalpr_runtime)
+    (matches, errors, evaluation_dict) = evaluate_results("untrained_uncaliberated_system", untrained_results, label_dict)
     #print("%d percent of number plates detected correctly\n" % matches/len(evaluation_dict))
 
-    caliberated_results = test_untrained_caliberated_system(config_file_name, test_data_dir, open_alpr_runtime_data)
+    caliberated_results = test_untrained_caliberated_system(config_file_name, test_data_dir, openalpr_runtime)
     for camera in caliberated_results:
         evaluate_results(camera, caliberated_results[camera], label_dict)
     
@@ -85,9 +85,9 @@ consistent with the trained system.
 Requires a file called openalpr.conf in the test_data_dir (top level). 
 This file should be empty
 """
-def test_untrained_uncaliberated_system(test_data_dir, config_file_name, openalpr_runtime):
+def test_untrained_uncaliberated_system( config_file_name,test_data_dir ,openalpr_runtime):
     test_name = "test_untrained_uncaliberated_system"
-    test_camera(test_name, test_data_dir, config_file_name, openalpr_runtime)
+    return test_camera(test_name, test_data_dir, config_file_name, openalpr_runtime)
 
 
 """
@@ -99,12 +99,14 @@ for the uncaliberated test.
 """
 def test_camera(test_name, test_data_dir, config_file_name, openalpr_runtime): 
     openalpr_conf = os.path.join(test_data_dir, config_file_name)
-    alpr = Alpr("au", openalpr_conf, openalpr_runtime)
     results = {}
-    results_file_name =  os.path.join(test_data_dir, results_file_name)
+    results_file_name =  os.path.join(test_data_dir, test_name+".json")
+    print(test_name)
+    print(results_file_name)
     res_out = open(results_file_name, "w") #open and truncate the file
     res_out.write("[")
 
+    alpr = Alpr("au", openalpr_conf, openalpr_runtime)
     if not alpr.is_loaded():
         print("Error loading OpenALPR")
         sys.exit(1)
@@ -124,7 +126,7 @@ Gets all the directories under our test_data_dir, and assuming each
 represents one camera worth of files, it runs the test on those
 files using the config file in the dir.
 """
-def test_untrained_caliberated_system(test_name, test_data_dir, config_file_name, openalpr_runtime):
+def test_untrained_caliberated_system(config_file_name,test_data_dir ,openalpr_runtime):
     camera_dirs = [f.path for f in os.scandir(test_data_dir) if f.is_dir()]
     results = {}
     for cam in camera_dirs:
