@@ -147,7 +147,7 @@ def test_camera(results_dir, test_name, test_data_dir, config_file_name, openalp
     openalpr_conf = os.path.join(test_data_dir, config_file_name)
     results_file_name =  os.path.join(results_dir, test_name+".json")
     if loc:
-        openalpr_conf = os.path.join(calibration_files, loc+"-"+cam+"-prewarp.conf")
+        openalpr_conf = os.path.join(calibration_files, loc.zfill(8)+"-"+cam+"-prewarp.conf")
         results_file_name =  os.path.join(results_dir, test_name+"_"+loc+"_"+cam+".json")
 
     print(openalpr_conf)
