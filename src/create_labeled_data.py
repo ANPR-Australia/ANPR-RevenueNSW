@@ -37,8 +37,8 @@ def create_labeled_data(labeled_data_dir, labeled_data_output):
     for loc in loc_dirs:
         camera_dirs = [f.path for f in os.scandir(loc) if f.is_dir()]
         for cam in camera_dirs:
-            files = files + ([f for f in glob.glob(labeled_data_dir + "/*.yaml", recursive=False)])
-
+            new_files = [f for f in glob.glob(cam + "/*.yaml", recursive=False)]
+            files = files + new_files
 
     for f in files:
         with open(f, 'r') as stream:

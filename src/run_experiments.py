@@ -73,7 +73,7 @@ def evaluate_results(results_dir, test_name, results_dict, label_dict):
     matches = 0
     errors = 0
     results_file_name = os.path.join(results_dir, "evaluation_results_"+test_name+".json")
-    res_out = open(results_file_name, "w") #open and truncate the file
+    res_out = open(results_file_name, "a+") #open and append to the file
 
 
     for f in results_dict:
@@ -99,6 +99,7 @@ def evaluate_results(results_dir, test_name, results_dict, label_dict):
             errors = errors + 1
             evaluation_dict[file_name] = False
         res_out.write(pprint.pformat(r))
+        res_out.write("\n\n")
         print(pprint.pformat(r))
 
     print("________________________________")
