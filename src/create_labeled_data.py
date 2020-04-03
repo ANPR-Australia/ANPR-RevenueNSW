@@ -3,6 +3,7 @@ import os
 import yaml
 import glob
 import sys
+import shutil
 
 """
 Filename is in the format of:
@@ -13,7 +14,7 @@ for example:
 
 date: 2020/02/05
 cameraType: 06
-locationID = 60002856
+locationID = 002856
 incidentID = 000000001
 cameraID = 001
 
@@ -27,6 +28,20 @@ def parse_filename(filename):
     r['incidentID'] = filename[17:26]
     r['cameraID'] = filename[27:30]
     return r
+
+
+def put_in_directories(pooled_data_dir, destination_dir, file_type):
+    all_files = [f for f in glob.glob(pooled_data_dir + "/*."+file_type, recursive=False)]
+    for f in all_files:
+        bits = parse_filename(os.path.basename(f))
+        new_location = os.path.join(destination_dir, bits["locationID"], bits["cameraID"])
+        print(new_location)
+        print(f)
+        if not os.path.exists(new_location):
+            os.makedirs(new_location)
+        shutil.copyfile(f, os.path.join(new_location, os.path.basename(f)))
+
+
 
 def create_labeled_data(labeled_data_dir, labeled_data_output):
     out = open(labeled_data_output, "w") #open and truncate the file
