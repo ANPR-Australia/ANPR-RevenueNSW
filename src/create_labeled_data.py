@@ -4,6 +4,29 @@ import yaml
 import glob
 import sys
 
+"""
+Filename is in the format of:
+date     cameraType locationID IncidentID.CameraID.jpg
+YYYYMMDD XX         DDDDDDDD  ZZZZZZZZ    CCC     .jpg
+for example:
+20200205060002856000000001.001.jpg
+
+date: 2020/02/05
+cameraType: 06
+locationID = 60002856
+incidentID = 000000001
+cameraID = 001
+
+returns a dictionary with incident metadata in it.
+"""
+def parse_filename(filename):
+    r = {}
+    r['date'] = filename[0:8]
+    r['cameraType'] = filename[8:10]
+    r['locationID'] = filename[10:17]
+    r['incidentID'] = filename[17:26]
+    r['cameraID'] = filename[27:30]
+    return r
 
 def create_labeled_data(labeled_data_dir, labeled_data_output):
     out = open(labeled_data_output, "w") #open and truncate the file
