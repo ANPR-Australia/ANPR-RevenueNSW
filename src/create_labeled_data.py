@@ -31,7 +31,13 @@ def parse_filename(filename):
 def create_labeled_data(labeled_data_dir, labeled_data_output):
     out = open(labeled_data_output, "w") #open and truncate the file
     label_dict = {}
-    files = [f for f in glob.glob(labeled_data_dir + "/*.yaml", recursive=False)]
+    files = []
+
+    loc_dirs = [f.path for f in os.scandir(labeled_data_dir) if f.is_dir()]
+    for loc in loc_dirs:
+        camera_dirs = [f.path for f in os.scandir(loc) if f.is_dir()]
+        for cam in camera_dirs:
+            files = files + ([f for f in glob.glob(labeled_data_dir + "/*.yaml", recursive=False)])
 
 
     for f in files:

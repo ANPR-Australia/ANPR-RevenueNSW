@@ -27,14 +27,43 @@ def run_experiments():
     label_dict = create_labeled_data.create_labeled_data(labeled_data_dir, labeled_data_output)
 
     untrained_results = test_untrained_uncalibrated_system(results_dir, config_file_name, test_data_dir, openalpr_runtime)
+    evaluationResults = {
+                         "matches": 0, 
+                         "errors": 0, 
+        #                 "dicts": [{}]
+                         }
+
     for camera in untrained_results:
-        evaluate_results(results_dir, "untrained_uncalibrated_system", untrained_results[camera], label_dict)
+        (matches, errors, eval_dict) = evaluate_results(results_dir, 
+                    "untrained_uncalibrated_system", 
+                    untrained_results[camera], label_dict)
+        evaluationResults["matches"] = evaluationResults["matches"] + matches
+        evaluationResults["errors"] = evaluationResults["errors"] + errors 
+        #evaluationResults["dicts"] = evaluationResults["dicts"].append(eval_dict)
+
+    pprint.pprint(evaluationResults)
+
+    evaluationResults = {
+                         "matches": 0, 
+                         "errors": 0, 
+        #                 "dicts": [{}]
+                         }
 
     #print("%d percent of number plates detected correctly\n" % matches/len(evaluation_dict))
-    calibrated_results = test_untrained_calibrated_system(results_dir, config_file_name, test_data_dir, openalpr_runtime, calibration_files)
+    calibrated_results = test_untrained_calibrated_system(results_dir, config_file_name, 
+            test_data_dir, openalpr_runtime, calibration_files)
     for camera in calibrated_results:
-        evaluate_results(results_dir, "untrained_calibrated_system", calibrated_results[camera], label_dict)
+        (matches, errors, eval_dict) = evaluate_results(results_dir, 
+                        "untrained_calibrated_system",
+                        calibrated_results[camera], label_dict)
     
+        evaluationResults["matches"] = evaluationResults["matches"] + matches
+        evaluationResults["errors"] = evaluationResults["errors"] + errors 
+        #evaluationResults["dicts"] = evaluationResults["dicts"].append(eval_dict)
+
+    pprint.pprint(evaluationResults)
+
+
 """
 Checks the results against our labeled data. Shows matches and
 failures.
@@ -132,7 +161,6 @@ def test_camera(results_dir, test_name, test_data_dir, config_file_name, openalp
     files = [f for f in glob.glob(test_data_dir + "/*.jpg", recursive=True)]
     results = {}
     for f in files:
-        print(f)
         res = alpr.recognize_file(f)
         results[os.path.basename(f)] = res 
         res_out.write(json.dumps(res, indent=4)) #for debugging only
