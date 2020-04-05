@@ -14,8 +14,8 @@ for example:
 
 date: 2020/02/05
 cameraType: 06
-locationID = 002856
-incidentID = 000000001
+locationID = 00028560
+incidentID = 00000001
 cameraID = 001
 
 returns a dictionary with incident metadata in it.
@@ -24,8 +24,8 @@ def parse_filename(filename):
     r = {}
     r['date'] = filename[0:8]
     r['cameraType'] = filename[8:10]
-    r['locationID'] = filename[10:17]
-    r['incidentID'] = filename[17:26]
+    r['locationID'] = filename[10:18]
+    r['incidentID'] = filename[18:26]
     r['cameraID'] = filename[27:30]
     return r
 
