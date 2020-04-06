@@ -155,7 +155,7 @@ def test_camera(results_dir, test_name, test_data_dir, config_file_name, openalp
     res_out = open(results_file_name, "w") #open and truncate the file
     res_out.write("[")
 
-    alpr = Alpr("au", openalpr_conf, openalpr_runtime)
+    alpr = Alpr("au,auwide", openalpr_conf, openalpr_runtime)
     if not alpr.is_loaded():
         print("Error loading OpenALPR")
         sys.exit(1)
