@@ -13,6 +13,11 @@ There are 3 main ways to enhance OpenALPR's results:
 
 We need to test each of these enhancements separately, and together.
 
+Potential areas for further experiments:
+
+Pattern matching: Currently the patterns mentioned in the au.patterns file in the runtime directory (also mentioned in the readme) are in no particular order, but will be read by OpenALPR in order of likelihood, so this is another area for further experimentation i.e. re-arranging the order of the patterns may improve accuracy. Also need to consider how to eliminate particular patterns, if need be.
+
+
 # Results
 
 ## Completely untrained and uncaliberated system
