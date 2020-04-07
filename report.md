@@ -48,31 +48,31 @@ You will pick out numberplates for all your images, and tag them with the conten
 
 1. Break the images into directories based on location and camera. The packages
    we've been provided contain images from 2 or 3 different cameras per
-incident. You can put the images in the appropriate directories by running the
-following function: 
-```
-cd src
-mkdir ../data/pooled_dirs
-mkdir /tmp/pool
+   incident. You can put the images in the appropriate directories by running the
+   following function: 
+	```
+	cd src
+	mkdir ../data/pooled_dirs
+	mkdir /tmp/pool
 
-python3
->>>import create_labeled_data
->>>create_labeled_data.put_in_directories("/tmp/pool", "../data/pooled_dirs", "jpg")
->>>create_labeled_data.put_in_directories("/tmp/pool", "../data/pooled_dirs", "yaml")
-```  
+	python3
+	>>>import create_labeled_data
+	>>>create_labeled_data.put_in_directories("/tmp/pool", "../data/pooled_dirs", "jpg")
+	>>>create_labeled_data.put_in_directories("/tmp/pool", "../data/pooled_dirs", "yaml")
+	```  
 
-You'll need to do this for the jpg files and the yaml files separately.
+   You'll need to do this for the jpg files and the yaml files separately.
 
 1. Run the first 2 experiments. 
 
 1. Now you have to use your yaml files to crop the plates in order to train tesserect. 
 
-```
-git clone https://github.com/sarafalamaki/train-detector.git
-```
-..and follow the instructions. I've raised a PR, but it hasn't been merged yet, so please use my copy for the moment.
+	``` git clone https://github.com/sarafalamaki/train-detector.git ```
+	..and follow the instructions. I've raised a PR, but it hasn't been merged yet,
+	so please use my copy for the moment.
 
-This will get you a directory full of cropped numberplates that you can feed into the next step.
+	This will get you a directory full of cropped numberplates that you can feed
+	into the next step.
 
 
 
