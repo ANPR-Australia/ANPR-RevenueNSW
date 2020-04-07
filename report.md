@@ -20,7 +20,7 @@ We have used the openalpr python bindings to write scripts to experiments.
 
 Before running the experiments, we have created separate config files for each plate type, depending on the state, dimensions of the plates common in Australia. The dimensions of some plates that we've encountered to be common are:
 
-|  Dimensions in mm)   |  Aspect Ratio  |
+|  Dimensions (in mm)  |  Aspect Ratio  |
 |----------------------|----------------|
 |      370 x 130       |    37 : 13     |
 |      320 x 140       |    16 : 7      |
