@@ -17,6 +17,18 @@ We have used the openalpr python bindings to write scripts to experiments.
 
 
 # Experiment Design
+
+Before running the experiments, we have created separate config files for each plate type, depending on the state, dimensions of the plates common in Australia. The dimensions of some plates that we've encountered to be common are:
+
+|  Dimensions in mm)   |  Aspect Ratio  |
+|----------------------|----------------|
+|      370 x 130       |    37 : 13     |
+|      320 x 140       |    16 : 7      |
+|      370 x 110       |    37 : 11     |
+|      375 x 90        |    25 : 6      |
+|      350 x 85        |    70 : 17     |
+
+
 There are 3 main ways to enhance OpenALPR's results:
 
 1. Train it with tagged number plates. Number plates regions are selected in
@@ -75,7 +87,7 @@ how we're doing the training here.
 1. Break the images into directories based on location and camera. The packages
    we've been provided contain images from 2 or 3 different cameras per
    incident. You can put the images in the appropriate directories by running the
-   following function: 
+   following function:
 	```
 	cd src
 	mkdir ../data/pooled_dirs
@@ -89,9 +101,9 @@ how we're doing the training here.
 
    You'll need to do this for the jpg files and the yaml files separately.
 
-1. Run the first 2 experiments. 
+1. Run the first 2 experiments.
 
-1. Now you have to use your yaml files to crop the plates in order to train tesserect. 
+1. Now you have to use your yaml files to crop the plates in order to train tesserect.
 
 	``` git clone https://github.com/sarafalamaki/train-detector.git ```
 	..and follow the instructions. I've raised a PR, but it hasn't been merged yet,
