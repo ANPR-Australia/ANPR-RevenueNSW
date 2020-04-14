@@ -4,7 +4,7 @@ import yaml
 import glob
 import alpr
 import json
-import create_labeled_data
+import utils 
 import sys
 from openalpr import Alpr
 import pprint
@@ -24,7 +24,7 @@ def run_experiments():
     calibration_files = config["DEFAULT"]["open_alpr_calibration_dir"]
     results_dir = config["DEFAULT"]["results"]
 
-    label_dict = create_labeled_data.create_labeled_data(labeled_data_dir, labeled_data_output)
+    label_dict = utils.create_labeled_data(labeled_data_dir, labeled_data_output)
 
     untrained_results = test_untrained_uncalibrated_system(results_dir, config_file_name, test_data_dir, openalpr_runtime)
     evaluationResults = {

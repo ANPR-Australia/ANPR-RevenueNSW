@@ -9,3 +9,7 @@ open_alpr_calibration_dir = /Users/sara/work/data/calibration
 open_alpr_config_file_name = openalpr.conf
 results = /Users/sara/work/ANPR-RevenueNSW/data/results
 
+[DB]
+dbFile = results.db
+dbOld = results_old.db
+dbSchema = schema.sql

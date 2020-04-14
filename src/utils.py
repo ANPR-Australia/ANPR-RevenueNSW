@@ -4,6 +4,8 @@ import yaml
 import glob
 import sys
 import shutil
+import sqlite3
+
 
 """
 Filename is in the format of:
@@ -75,6 +77,35 @@ def create_labeled_data(labeled_data_dir, labeled_data_output):
 
     out.close()
     return label_dict
+
+def init_db(dbFile, dbOld, dbSchema):
+    """
+    Truncates old database files, and loads the schema into
+    a fresh database. Returns db connector.
+    """
+    #if there's already a file there, cp it before
+    #truncating it to store new values
+    if os.path.exists(dbFile):
+        print("Moving and truncating old database file")
+        shutil.copyfile(dbOld, dbFile)
+        f = open(dbFile, "a")
+        f.truncate(0)
+        f.close()
+    
+    conn = sqlite3.connect(dbFile)
+    with open(dbSchema) as fp:
+        conn.executescript(fp.read())
+    print("Loaded schema")
+
+    return conn
+
+
+
+
+
+
+
+
 
 if __name__ == "__main__":
     config = configparser.ConfigParser()
