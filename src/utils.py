@@ -45,8 +45,7 @@ def put_in_directories(pooled_data_dir, destination_dir, file_type):
 
 
 
-def create_labeled_data(labeled_data_dir, labeled_data_output):
-    out = open(labeled_data_output, "w") #open and truncate the file
+def create_labeled_data(conn, labeled_data_dir, labeled_data_output):
     label_dict = {}
     files = []
 
@@ -67,15 +66,13 @@ def create_labeled_data(labeled_data_dir, labeled_data_output):
                     plate_no = contents['plate_number_gt']
                 except KeyError as e:
                     print("Missing key in file: " + f + "\n" + str(e))
-                    sys.exit(1)
-
-                out.write("%s,%s,%s\n" % (img_file, region_code, plate_no))
+                    sys.exit(1) ;
+                insert_label(conn, img_file, region_code, plate_no)
                 label_dict[os.path.basename(img_file)] = (region_code, plate_no)
             except yaml.YAMLError as exc:
                 print(exc)
                 system.exit(1)
 
-    out.close()
     return label_dict
 
 def init_db(dbFile, dbOld, dbSchema):
@@ -87,7 +84,7 @@ def init_db(dbFile, dbOld, dbSchema):
     #truncating it to store new values
     if os.path.exists(dbFile):
         print("Moving and truncating old database file")
-        shutil.copyfile(dbOld, dbFile)
+        shutil.copy(dbOld, dbFile)
         f = open(dbFile, "a")
         f.truncate(0)
         f.close()
@@ -101,7 +98,11 @@ def init_db(dbFile, dbOld, dbSchema):
 
 
 
-
+def insert_label(conn, img_file, region_code, plate_no):
+    c = conn.cursor()
+    values = (img_file, region_code, plate_no)
+    c.execute('''INSERT INTO labels VALUES (?, ?, ?)''', values)
+    conn.commit()
 
 
 
@@ -113,6 +114,8 @@ if __name__ == "__main__":
 
     labeled_data_dir = config["DEFAULT"]["labeled_data_dir"]
     labeled_data_output = config["DEFAULT"]["labeled_data_output"]
+    schema = config["DB"]["dbSchema"]
 
+    conn = init_db("util_test.db", "util_test_old.db", schema)
 
-    print(create_labeled_data(labeled_data_dir, labeled_data_output))
+    print(create_labeled_data(conn, labeled_data_dir, labeled_data_output))
