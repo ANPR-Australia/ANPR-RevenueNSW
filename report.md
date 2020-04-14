@@ -94,9 +94,9 @@ how we're doing the training here.
 	mkdir /tmp/pool
 
 	python3
-	>>>import create_labeled_data
-	>>>create_labeled_data.put_in_directories("/tmp/pool", "../data/pooled_dirs", "jpg")
-	>>>create_labeled_data.put_in_directories("/tmp/pool", "../data/pooled_dirs", "yaml")
+	>>>import utils 
+	>>>utils.put_in_directories("/tmp/pool", "../data/pooled_dirs", "jpg")
+	>>>utils.put_in_directories("/tmp/pool", "../data/pooled_dirs", "yaml")
 	```  
 
    You'll need to do this for the jpg files and the yaml files separately.
