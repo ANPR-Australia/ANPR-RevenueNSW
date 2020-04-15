@@ -1,0 +1,6 @@
+image_file: IMG_0523 2.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 666 2321 746 2318 746 2342 666 2344
+plate_number_gt: EBA64R
+plate_inverted_gt: false

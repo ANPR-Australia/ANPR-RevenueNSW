@@ -1,0 +1,7 @@
+image_file: IMG_1406.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1750 1730 2324 1680 2309 1905 1769 1987
+region_code_gt: nsw
+plate_number_gt: AT166
+plate_inverted_gt: false

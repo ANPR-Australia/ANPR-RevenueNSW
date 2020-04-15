@@ -1,0 +1,7 @@
+image_file: IMG_0955.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1330 1638 1654 1610 1664 1707 1338 1741
+region_code_gt: nsw
+plate_number_gt: DMV84V
+plate_inverted_gt: false

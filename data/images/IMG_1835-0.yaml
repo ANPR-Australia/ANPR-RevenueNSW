@@ -1,0 +1,7 @@
+image_file: IMG_1835.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 621 2180 1746 2368 1718 2577 626 2391
+region_code_gt: nsw
+plate_number_gt: DYK81P
+plate_inverted_gt: false

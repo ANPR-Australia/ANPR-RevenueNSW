@@ -1,0 +1,7 @@
+image_file: IMG_1107.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1781 1587 2133 1527 2145 1650 1794 1714
+region_code_gt: nsw
+plate_number_gt: ECN45A
+plate_inverted_gt: false

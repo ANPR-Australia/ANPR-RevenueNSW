@@ -1,0 +1,7 @@
+image_file: IMG_0912.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1448 1849 1764 1817 1776 1915 1458 1948
+region_code_gt: nsw
+plate_number_gt: YBM56V
+plate_inverted_gt: false

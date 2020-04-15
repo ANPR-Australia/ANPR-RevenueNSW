@@ -1,0 +1,7 @@
+image_file: IMG_20200408_173954.jpg
+image_width: 4032
+image_height: 3024
+plate_corners_gt: 1203 1612 2798 1772 2769 2086 1225 1882
+region_code_gt: nsw
+plate_number_gt: BJB67D
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1823.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1300 2813 2078 2808 2076 2929 1312 2932
+region_code_gt: nsw
+plate_number_gt: DYY72X
+plate_inverted_gt: false

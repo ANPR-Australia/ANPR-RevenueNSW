@@ -1,0 +1,7 @@
+image_file: IMG_1068.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1887 1997 1894 2103 1483 2231 1478 2113
+region_code_gt: nsw
+plate_number_gt: AMF96P
+plate_inverted_gt: false

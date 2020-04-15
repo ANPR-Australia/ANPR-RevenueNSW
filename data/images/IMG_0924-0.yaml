@@ -1,0 +1,7 @@
+image_file: IMG_0924.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1528 1780 1787 1760 1786 1862 1531 1888
+region_code_gt: nsw
+plate_number_gt: CP39QQ
+plate_inverted_gt: false

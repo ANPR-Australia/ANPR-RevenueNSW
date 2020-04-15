@@ -1,0 +1,7 @@
+image_file: IMG_0851.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 738 1685 1043 1707 1043 1777 745 1751
+region_code_gt: nsw
+plate_number_gt: DZK35A
+plate_inverted_gt: false

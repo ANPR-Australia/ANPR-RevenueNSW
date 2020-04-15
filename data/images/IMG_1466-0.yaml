@@ -1,0 +1,7 @@
+image_file: IMG_1466.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2066 1527 2575 1462 2582 1606 2073 1671
+region_code_gt: nsw
+plate_number_gt: CHC03V
+plate_inverted_gt: false

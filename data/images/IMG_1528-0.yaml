@@ -1,0 +1,7 @@
+image_file: IMG_1528.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1523 1834 1990 1754 2000 1931 1538 2000
+region_code_gt: nsw
+plate_number_gt: BL10YP
+plate_inverted_gt: false

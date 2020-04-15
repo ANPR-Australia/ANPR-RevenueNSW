@@ -1,0 +1,7 @@
+image_file: IMG_0738.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1262 2335 1813 2305 1808 2420 1266 2456
+region_code_gt: nsw
+plate_number_gt: SAV129
+plate_inverted_gt: false

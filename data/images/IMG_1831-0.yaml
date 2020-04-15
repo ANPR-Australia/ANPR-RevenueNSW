@@ -1,0 +1,7 @@
+image_file: IMG_1831.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1505 1318 1945 1333 1931 1412 1502 1390
+region_code_gt: nsw
+plate_number_gt: CQR96N
+plate_inverted_gt: false

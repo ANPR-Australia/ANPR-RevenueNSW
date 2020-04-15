@@ -1,0 +1,7 @@
+image_file: IMG_1437.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1058 1541 1241 1529 1244 1575 1060 1587
+region_code_gt: nsw
+plate_number_gt: CDH20A
+plate_inverted_gt: false

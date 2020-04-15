@@ -1,0 +1,7 @@
+image_file: IMG_1074.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1756 1943 2125 1871 2122 1998 1757 2079
+region_code_gt: nsw
+plate_number_gt: VYV835
+plate_inverted_gt: false

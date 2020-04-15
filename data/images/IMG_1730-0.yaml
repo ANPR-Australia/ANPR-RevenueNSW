@@ -1,0 +1,7 @@
+image_file: IMG_1730.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 846 1645 846 1563 1198 1648 1195 1737
+region_code_gt: nsw
+plate_number_gt: DQK51U
+plate_inverted_gt: false

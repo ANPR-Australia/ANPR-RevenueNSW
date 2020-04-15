@@ -1,0 +1,7 @@
+image_file: IMG_1065.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1975 1631 2343 1531 2348 1642 1976 1749
+region_code_gt: nsw
+plate_number_gt: EEA41K
+plate_inverted_gt: false

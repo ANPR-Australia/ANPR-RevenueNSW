@@ -1,0 +1,7 @@
+image_file: IMG_20200408_174042_1.jpg
+image_width: 4032
+image_height: 3024
+plate_corners_gt: 1231 1720 2644 1864 2631 2093 1258 1925
+region_code_gt: nsw
+plate_number_gt: CET50T
+plate_inverted_gt: false

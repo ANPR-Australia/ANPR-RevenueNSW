@@ -1,0 +1,7 @@
+image_file: IMG_026.png
+image_width: 2030
+image_height: 2205
+plate_corners_gt: 689 1269 1388 1270 1386 1499 703 1488
+region_code_gt: nsw
+plate_number_gt: CN43RA
+plate_inverted_gt: false

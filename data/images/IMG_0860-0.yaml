@@ -1,0 +1,7 @@
+image_file: IMG_0860.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1352 1794 1614 1885 1618 2022 1360 1913
+region_code_gt: nsw
+plate_number_gt: 05DECK
+plate_inverted_gt: true

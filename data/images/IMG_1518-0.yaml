@@ -1,0 +1,7 @@
+image_file: IMG_1518.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1298 1477 1808 1451 1785 1610 1298 1656
+region_code_gt: nsw
+plate_number_gt: VBM294
+plate_inverted_gt: false

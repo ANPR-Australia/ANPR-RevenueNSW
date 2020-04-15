@@ -1,0 +1,7 @@
+image_file: IMG_0703.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1015 2512 1984 2488 1977 2647 1020 2676
+region_code_gt: nsw
+plate_number_gt: CXL74D
+plate_inverted_gt: false

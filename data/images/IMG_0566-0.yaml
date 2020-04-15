@@ -1,0 +1,7 @@
+image_file: IMG_0566.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1919 2159 1997 2150 2005 2179 1924 2186
+region_code_gt: nsw
+plate_number_gt: CRF92J
+plate_inverted_gt: false

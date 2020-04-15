@@ -1,0 +1,7 @@
+image_file: IMG_1592.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1473 1020 1901 1020 1901 1143 1472 1139
+region_code_gt: nsw
+plate_number_gt: AZS76E
+plate_inverted_gt: false

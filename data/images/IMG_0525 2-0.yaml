@@ -1,0 +1,7 @@
+image_file: IMG_0525 2.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2129 2251 2219 2251 2222 2289 2133 2289
+region_code_gt: nsw
+plate_number_gt: CR13AS
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1304.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1477 1065 2042 1063 2042 1222 1483 1241
+region_code_gt: nsw
+plate_number_gt: YGK10R
+plate_inverted_gt: false

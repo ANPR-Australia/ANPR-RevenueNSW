@@ -1,0 +1,7 @@
+image_file: IMG_1242.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 414 1410 778 1450 763 1566 402 1530
+region_code_gt: nsw
+plate_number_gt: ZJS562
+plate_inverted_gt: false

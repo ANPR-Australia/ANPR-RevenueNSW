@@ -1,0 +1,7 @@
+image_file: IMG_1389.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 735 2080 719 1983 1185 2099 1200 2202
+region_code_gt: nsw
+plate_number_gt: DJR20J
+plate_inverted_gt: false

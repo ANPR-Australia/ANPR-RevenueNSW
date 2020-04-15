@@ -1,0 +1,7 @@
+image_file: IMG_1048.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2053 2268 2051 2361 1656 2480 1656 2386
+region_code_gt: nsw
+plate_number_gt: CNQ68C
+plate_inverted_gt: false

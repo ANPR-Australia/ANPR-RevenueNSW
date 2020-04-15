@@ -1,0 +1,7 @@
+image_file: IMG_1422.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1507 1910 1926 1831 1919 1952 1504 2038
+region_code_gt: nsw
+plate_number_gt: CZB44Z
+plate_inverted_gt: false

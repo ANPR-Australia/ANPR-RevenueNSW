@@ -1,0 +1,7 @@
+image_file: IMG_1626.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1748 962 2181 903 2189 1030 1759 1095
+region_code_gt: nsw
+plate_number_gt: BLD27H
+plate_inverted_gt: false

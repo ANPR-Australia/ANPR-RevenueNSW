@@ -1,0 +1,7 @@
+image_file: IMG_1411.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1745 1491 2222 1449 2224 1580 1752 1633
+region_code_gt: nsw
+plate_number_gt: DVJ87E
+plate_inverted_gt: false

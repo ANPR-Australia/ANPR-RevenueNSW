@@ -1,0 +1,7 @@
+image_file: IMG_1751.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2079 1691 2492 1659 2498 1793 2082 1838
+region_code_gt: nsw
+plate_number_gt: BKS88U
+plate_inverted_gt: false

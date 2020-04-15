@@ -1,0 +1,7 @@
+image_file: IMG_0881.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1368 1686 1694 1639 1694 1734 1373 1774
+region_code_gt: nsw
+plate_number_gt: ASO21L
+plate_inverted_gt: false

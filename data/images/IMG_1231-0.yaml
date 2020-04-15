@@ -1,0 +1,7 @@
+image_file: IMG_1231.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1125 1456 1727 1361 1745 1590 1156 1700
+region_code_gt: nsw
+plate_number_gt: CT63EA
+plate_inverted_gt: false

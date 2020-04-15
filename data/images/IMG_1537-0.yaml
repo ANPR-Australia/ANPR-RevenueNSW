@@ -1,0 +1,7 @@
+image_file: IMG_1537.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1786 1200 2215 1162 2220 1299 1795 1337
+region_code_gt: nsw
+plate_number_gt: AHE50C
+plate_inverted_gt: false

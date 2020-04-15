@@ -1,0 +1,7 @@
+image_file: IMG_20200408_173900.jpg
+image_width: 4032
+image_height: 3024
+plate_corners_gt: 1324 1641 2259 1712 2253 1885 1334 1816
+region_code_gt: nsw
+plate_number_gt: BZW95Z
+plate_inverted_gt: false

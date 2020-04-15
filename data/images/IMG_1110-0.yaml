@@ -1,0 +1,7 @@
+image_file: IMG_1110.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1690 1544 2080 1488 2085 1617 1707 1685
+region_code_gt: nsw
+plate_number_gt: AYY08T
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_027.png
+image_width: 2308
+image_height: 2235
+plate_corners_gt: 872 1081 1431 1081 1420 1213 877 1213
+region_code_gt: nsw
+plate_number_gt: YIG65W
+plate_inverted_gt: false

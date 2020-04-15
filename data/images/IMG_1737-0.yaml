@@ -1,0 +1,7 @@
+image_file: IMG_1737.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1621 1558 2041 1522 2036 1632 1623 1673
+region_code_gt: nsw
+plate_number_gt: YCN67G
+plate_inverted_gt: false

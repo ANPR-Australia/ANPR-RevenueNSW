@@ -1,0 +1,7 @@
+image_file: IMG_0762.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1532 2333 2044 2252 2037 2360 1539 2431
+region_code_gt: nsw
+plate_number_gt: DZB01K
+plate_inverted_gt: false

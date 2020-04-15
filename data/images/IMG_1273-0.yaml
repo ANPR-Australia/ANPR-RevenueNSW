@@ -1,0 +1,7 @@
+image_file: IMG_1273.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1685 1473 2055 1408 2064 1549 1688 1600
+region_code_gt: nsw
+plate_number_gt: AYY95U
+plate_inverted_gt: false

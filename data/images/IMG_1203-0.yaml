@@ -1,0 +1,7 @@
+image_file: IMG_1203.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1006 1844 1333 1893 1330 1960 1000 1910
+region_code_gt: nsw
+plate_number_gt: EDS90Q
+plate_inverted_gt: false

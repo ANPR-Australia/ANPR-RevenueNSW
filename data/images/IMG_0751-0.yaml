@@ -1,0 +1,7 @@
+image_file: IMG_0751.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1384 2206 1807 2216 1804 2301 1386 2280
+region_code_gt: nsw
+plate_number_gt: DSN23A
+plate_inverted_gt: false

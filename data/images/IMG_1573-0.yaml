@@ -1,0 +1,7 @@
+image_file: IMG_1573.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2232 714 2788 652 2781 821 2236 895
+region_code_gt: nsw
+plate_number_gt: TIMT
+plate_inverted_gt: false

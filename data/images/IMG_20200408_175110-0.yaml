@@ -1,0 +1,7 @@
+image_file: IMG_20200408_175110.jpg
+image_width: 4032
+image_height: 3024
+plate_corners_gt: 1612 1608 2262 1601 2271 1836 1620 1834
+region_code_gt: nsw
+plate_number_gt: CJ56QN
+plate_inverted_gt: false

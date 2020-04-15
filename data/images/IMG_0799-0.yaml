@@ -1,0 +1,7 @@
+image_file: IMG_0799.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1541 2166 1900 2126 1897 2198 1539 2246
+region_code_gt: nsw
+plate_number_gt: CTY66N
+plate_inverted_gt: false

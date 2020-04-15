@@ -1,0 +1,7 @@
+image_file: IMG_1506.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2258 1363 2834 1274 2836 1490 2257 1567
+region_code_gt: nsw
+plate_number_gt: CU72GO
+plate_inverted_gt: false

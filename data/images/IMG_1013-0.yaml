@@ -1,0 +1,7 @@
+image_file: IMG_1013.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1099 1500 1599 1515 1603 1687 1109 1668
+region_code_gt: nsw
+plate_number_gt: BX34YU
+plate_inverted_gt: false

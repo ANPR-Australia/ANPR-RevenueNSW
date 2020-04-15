@@ -1,0 +1,7 @@
+image_file: IMG_1549.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1615 1583 2083 1514 2095 1632 1623 1702
+region_code_gt: nsw
+plate_number_gt: DZZ58S
+plate_inverted_gt: false

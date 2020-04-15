@@ -1,0 +1,7 @@
+image_file: IMG_1783.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1552 1125 1836 1113 1836 1203 1553 1210
+region_code_gt: nsw
+plate_number_gt: DKS38D
+plate_inverted_gt: false

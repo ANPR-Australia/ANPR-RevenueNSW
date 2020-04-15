@@ -1,0 +1,7 @@
+image_file: IMG_0686.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1067 1935 1995 1893 1997 2195 1094 2224
+region_code_gt: nsw
+plate_number_gt: CH48AW
+plate_inverted_gt: false

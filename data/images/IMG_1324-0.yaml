@@ -1,0 +1,7 @@
+image_file: IMG_1324.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1463 1627 1849 1637 1853 1793 1468 1795
+region_code_gt: nsw
+plate_number_gt: CW98BC
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_0528 2.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2199 2426 2346 2416 2356 2471 2210 2483
+region_code_gt: nsw
+plate_number_gt: CS68PJ
+plate_inverted_gt: false

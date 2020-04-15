@@ -1,0 +1,7 @@
+image_file: IMG_1289.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 894 889 1290 978 1286 1151 900 1050
+region_code_gt: nsw
+plate_number_gt: BA73JK
+plate_inverted_gt: false

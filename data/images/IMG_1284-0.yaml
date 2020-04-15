@@ -1,0 +1,7 @@
+image_file: IMG_1284.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1154 587 2099 607 2077 882 1166 853
+region_code_gt: qld
+plate_number_gt: JOH224
+plate_inverted_gt: true

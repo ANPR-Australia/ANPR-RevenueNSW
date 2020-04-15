@@ -1,0 +1,7 @@
+image_file: IMG_1335.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 501 2348 507 2184 1495 2511 1463 2704
+region_code_gt: nsw
+plate_number_gt: DKR80E
+plate_inverted_gt: false

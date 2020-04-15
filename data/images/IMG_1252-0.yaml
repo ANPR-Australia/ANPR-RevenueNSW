@@ -1,0 +1,7 @@
+image_file: IMG_1252.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1405 1367 1889 1341 1891 1527 1418 1568
+region_code_gt: nsw
+plate_number_gt: CL39HU
+plate_inverted_gt: false

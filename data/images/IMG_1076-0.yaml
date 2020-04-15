@@ -1,0 +1,7 @@
+image_file: IMG_1076.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1510 1930 1920 1844 1922 1993 1509 2093
+region_code_gt: nsw
+plate_number_gt: CK27JN
+plate_inverted_gt: false

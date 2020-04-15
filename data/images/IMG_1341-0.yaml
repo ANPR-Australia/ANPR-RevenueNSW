@@ -1,0 +1,7 @@
+image_file: IMG_1341.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 747 1668 758 1530 1455 1702 1433 1852
+region_code_gt: nsw
+plate_number_gt: DAT83V
+plate_inverted_gt: false

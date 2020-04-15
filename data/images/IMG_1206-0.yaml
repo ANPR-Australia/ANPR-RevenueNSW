@@ -1,0 +1,7 @@
+image_file: IMG_1206.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1871 1239 2319 1270 2299 1424 1867 1407
+region_code_gt: nsw
+plate_number_gt: ECZ98Q
+plate_inverted_gt: false

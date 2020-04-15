@@ -1,0 +1,7 @@
+image_file: IMG_0831.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1360 2080 1993 2176 1981 2384 1352 2280
+region_code_gt: qld
+plate_number_gt: 222SUT
+plate_inverted_gt: false

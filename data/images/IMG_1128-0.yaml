@@ -1,0 +1,7 @@
+image_file: IMG_1128.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1556 2050 2039 1976 2030 2110 1553 2186
+region_code_gt: nsw
+plate_number_gt: CMV55N
+plate_inverted_gt: false

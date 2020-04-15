@@ -1,0 +1,6 @@
+image_file: IMG_1006.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1377 1404 1683 1319 1713 1459 1407 1562
+plate_number_gt: CG42ZO
+plate_inverted_gt: false

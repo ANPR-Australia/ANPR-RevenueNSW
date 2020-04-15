@@ -1,0 +1,7 @@
+image_file: IMG_1020.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 791 1681 1239 1796 1244 1966 810 1849
+region_code_gt: nsw
+plate_number_gt: BR21FK
+plate_inverted_gt: false

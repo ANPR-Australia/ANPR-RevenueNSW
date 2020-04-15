@@ -1,0 +1,7 @@
+image_file: IMG_0930.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1949 1715 2217 1686 2217 1823 1951 1855
+region_code_gt: nsw
+plate_number_gt: CG96SO
+plate_inverted_gt: false

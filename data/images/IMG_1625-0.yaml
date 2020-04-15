@@ -1,0 +1,7 @@
+image_file: IMG_1625.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1723 885 2176 834 2196 1008 1749 1065
+region_code_gt: nsw
+plate_number_gt: BV49YE
+plate_inverted_gt: false

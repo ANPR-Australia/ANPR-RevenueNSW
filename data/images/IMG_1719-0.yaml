@@ -1,0 +1,7 @@
+image_file: IMG_1719.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2161 1500 2500 1464 2487 1594 2153 1636
+region_code_gt: nsw
+plate_number_gt: YCP50A
+plate_inverted_gt: false

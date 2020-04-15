@@ -1,0 +1,7 @@
+image_file: IMG_1802.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1616 1162 1872 1108 1892 1190 1634 1244
+region_code_gt: nsw
+plate_number_gt: 55MILE
+plate_inverted_gt: false

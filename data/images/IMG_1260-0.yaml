@@ -1,0 +1,7 @@
+image_file: IMG_1260.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1512 1938 1665 1937 1664 1986 1516 1983
+region_code_gt: nsw
+plate_number_gt: DHK70Q
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1402.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1935 1746 2169 1747 2171 1811 1937 1811
+region_code_gt: nsw
+plate_number_gt: CPW56W
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_0692.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1056 2435 1904 2385 1884 2639 1056 2698
+region_code_gt: nsw
+plate_number_gt: BI14PZ
+plate_inverted_gt: false

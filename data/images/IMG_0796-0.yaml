@@ -1,0 +1,7 @@
+image_file: IMG_0796.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1476 2429 1883 2375 1886 2486 1481 2555
+region_code_gt: nsw
+plate_number_gt: HHO888
+plate_inverted_gt: false

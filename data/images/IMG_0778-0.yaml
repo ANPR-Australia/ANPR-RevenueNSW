@@ -1,0 +1,7 @@
+image_file: IMG_0778.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 796 2370 1485 2453 1482 2567 804 2492
+region_code_gt: nsw
+plate_number_gt: CGL14A
+plate_inverted_gt: false

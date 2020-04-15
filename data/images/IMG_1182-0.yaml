@@ -1,0 +1,7 @@
+image_file: IMG_1182.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 823 1453 1267 1527 1277 1642 833 1556
+region_code_gt: nsw
+plate_number_gt: CRQ48Q
+plate_inverted_gt: false

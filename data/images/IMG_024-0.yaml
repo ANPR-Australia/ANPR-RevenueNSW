@@ -1,0 +1,7 @@
+image_file: IMG_024.png
+image_width: 1632
+image_height: 1316
+plate_corners_gt: 449 655 1128 657 1123 834 453 831
+region_code_gt: nsw
+plate_number_gt: BGC41H
+plate_inverted_gt: false

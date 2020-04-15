@@ -1,0 +1,7 @@
+image_file: IMG_1630.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1001 1648 2065 1879 2028 2125 1001 1917
+region_code_gt: nsw
+plate_number_gt: EK2998
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1828.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1397 2166 2204 2144 2196 2298 1398 2314
+region_code_gt: nsw
+plate_number_gt: WDD
+plate_inverted_gt: false

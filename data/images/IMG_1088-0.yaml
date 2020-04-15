@@ -1,0 +1,7 @@
+image_file: IMG_1088.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1582 1384 2010 1342 2018 1478 1594 1528
+region_code_gt: nsw
+plate_number_gt: CEG31E
+plate_inverted_gt: false

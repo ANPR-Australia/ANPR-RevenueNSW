@@ -1,0 +1,7 @@
+image_file: IMG_1299.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 808 982 1220 1022 1224 1180 816 1144
+region_code_gt: nsw
+plate_number_gt: CD77LZ
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_0981.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1049 1460 1809 1627 1762 1833 1024 1648
+region_code_gt: nsw
+plate_number_gt: EAK03U
+plate_inverted_gt: false

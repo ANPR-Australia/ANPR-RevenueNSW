@@ -1,0 +1,7 @@
+image_file: IMG_1825.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1088 2521 1708 2497 1702 2609 1088 2634
+region_code_gt: nsw
+plate_number_gt: EBJ91Q
+plate_inverted_gt: false

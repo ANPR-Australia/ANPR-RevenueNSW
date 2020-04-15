@@ -1,0 +1,7 @@
+image_file: IMG_0861.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1735 1623 1960 1574 1965 1653 1741 1702
+region_code_gt: nsw
+plate_number_gt: CXD38Q
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1469.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1796 2035 2226 1966 2220 2129 1793 2209
+region_code_gt: nsw
+plate_number_gt: 1GJ4SU
+plate_inverted_gt: false

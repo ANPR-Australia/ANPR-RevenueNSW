@@ -1,0 +1,7 @@
+image_file: IMG_1004.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 472 1363 446 1260 903 1373 920 1492
+region_code_gt: nsw
+plate_number_gt: DLS16S
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1009.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 715 1238 1166 1324 1166 1434 727 1348
+region_code_gt: nsw
+plate_number_gt: ANA70Q
+plate_inverted_gt: false

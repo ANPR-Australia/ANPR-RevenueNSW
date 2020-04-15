@@ -1,0 +1,7 @@
+image_file: IMG_1211.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1410 1178 1840 1167 1842 1287 1413 1289
+region_code_gt: nsw
+plate_number_gt: EAQ51Z
+plate_inverted_gt: false

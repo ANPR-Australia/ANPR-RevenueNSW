@@ -1,0 +1,7 @@
+image_file: IMG_1435.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1344 1546 2078 1423 2090 1684 1375 1819
+region_code_gt: nsw
+plate_number_gt: CV34WP
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1052.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1556 2045 1913 2005 1910 2147 1561 2196
+region_code_gt: nsw
+plate_number_gt: CO87ZF
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1405.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1143 1739 1590 1739 1594 1851 1149 1858
+region_code_gt: nsw
+plate_number_gt: AQK94S
+plate_inverted_gt: false

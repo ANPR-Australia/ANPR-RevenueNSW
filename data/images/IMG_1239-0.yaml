@@ -1,0 +1,7 @@
+image_file: IMG_1239.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1049 2173 1590 2120 1596 2310 1049 2378
+region_code_gt: nsw
+plate_number_gt: CR45KH
+plate_inverted_gt: false

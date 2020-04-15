@@ -1,0 +1,7 @@
+image_file: IMG_0725.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1675 2617 2014 2561 2018 2701 1681 2748
+region_code_gt: nsw
+plate_number_gt: BJ67CN
+plate_inverted_gt: false

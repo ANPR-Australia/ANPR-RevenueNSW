@@ -1,0 +1,7 @@
+image_file: IMG_1771.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1385 810 1660 784 1662 899 1387 923
+region_code_gt: nsw
+plate_number_gt: CF30UJ
+plate_inverted_gt: false

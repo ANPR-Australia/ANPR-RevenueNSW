@@ -1,0 +1,7 @@
+image_file: IMG_0932.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1475 1641 1728 1621 1739 1731 1485 1757
+region_code_gt: nsw
+plate_number_gt: BX03GX
+plate_inverted_gt: false

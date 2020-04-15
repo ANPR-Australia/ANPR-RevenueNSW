@@ -1,0 +1,7 @@
+image_file: IMG_1092.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1486 1702 1965 1639 1965 1776 1491 1848
+region_code_gt: nsw
+plate_number_gt: DHT28C
+plate_inverted_gt: false

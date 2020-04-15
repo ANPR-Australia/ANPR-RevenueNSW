@@ -1,0 +1,7 @@
+image_file: IMG_025.jpg
+image_width: 2340
+image_height: 2276
+plate_corners_gt: 852 1327 1578 1344 1574 1565 858 1543
+region_code_gt: nsw
+plate_number_gt: 666WAI
+plate_inverted_gt: true

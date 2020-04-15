@@ -1,0 +1,7 @@
+image_file: IMG_1511.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1696 1770 2163 1695 2184 1864 1711 1937
+region_code_gt: nsw
+plate_number_gt: CK67TV
+plate_inverted_gt: false

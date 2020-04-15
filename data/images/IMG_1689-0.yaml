@@ -1,0 +1,7 @@
+image_file: IMG_1689.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 982 1836 1206 1811 1203 1882 978 1910
+region_code_gt: nsw
+plate_number_gt: BST66N
+plate_inverted_gt: false

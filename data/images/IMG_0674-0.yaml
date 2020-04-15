@@ -1,0 +1,7 @@
+image_file: IMG_0674.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 674 2384 1087 2468 1066 2611 666 2507
+region_code_gt: nsw
+plate_number_gt: YHA46K
+plate_inverted_gt: false

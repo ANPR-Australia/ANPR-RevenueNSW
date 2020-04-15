@@ -1,0 +1,7 @@
+image_file: IMG_0733.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1005 2486 1762 2681 1737 2926 1000 2726
+region_code_gt: nsw
+plate_number_gt: CM11UY
+plate_inverted_gt: false

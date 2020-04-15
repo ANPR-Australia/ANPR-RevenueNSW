@@ -1,0 +1,7 @@
+image_file: IMG_0568.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2271 2407 2361 2402 2368 2431 2279 2438
+region_code_gt: nsw
+plate_number_gt: CTV810
+plate_inverted_gt: false

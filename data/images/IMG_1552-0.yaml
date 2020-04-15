@@ -1,0 +1,7 @@
+image_file: IMG_1552.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1436 1744 2444 1696 2416 1962 1436 1990
+region_code_gt: nsw
+plate_number_gt: BBA24S
+plate_inverted_gt: false

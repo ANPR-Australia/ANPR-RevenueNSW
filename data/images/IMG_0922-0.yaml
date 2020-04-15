@@ -1,0 +1,7 @@
+image_file: IMG_0922.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1560 1778 1807 1756 1818 1843 1572 1872
+region_code_gt: nsw
+plate_number_gt: EHV77P
+plate_inverted_gt: false

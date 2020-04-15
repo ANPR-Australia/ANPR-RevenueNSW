@@ -1,0 +1,7 @@
+image_file: IMG_1311.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1349 988 1792 939 1799 1072 1362 1134
+region_code_gt: nsw
+plate_number_gt: DSD04Y
+plate_inverted_gt: false

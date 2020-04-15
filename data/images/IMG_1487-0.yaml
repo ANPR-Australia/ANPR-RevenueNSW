@@ -1,0 +1,7 @@
+image_file: IMG_1487.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1697 1343 2064 1295 2055 1426 1702 1490
+region_code_gt: nsw
+plate_number_gt: CH59VU
+plate_inverted_gt: false

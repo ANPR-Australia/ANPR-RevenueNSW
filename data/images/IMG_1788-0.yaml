@@ -1,0 +1,7 @@
+image_file: IMG_1788.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1767 1034 2176 1000 2176 1191 1772 1243
+region_code_gt: nsw
+plate_number_gt: ZKY715
+plate_inverted_gt: false

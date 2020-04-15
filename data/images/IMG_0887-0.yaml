@@ -1,0 +1,7 @@
+image_file: IMG_0887.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1446 1913 1754 1861 1763 1986 1457 2036
+region_code_gt: nsw
+plate_number_gt: CE72GX
+plate_inverted_gt: false

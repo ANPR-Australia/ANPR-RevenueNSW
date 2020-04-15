@@ -1,0 +1,7 @@
+image_file: IMG_1379.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1555 1545 1964 1502 1972 1659 1565 1700
+region_code_gt: nsw
+plate_number_gt: CQ19CJ
+plate_inverted_gt: false

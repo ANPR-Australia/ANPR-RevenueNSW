@@ -1,0 +1,7 @@
+image_file: IMG_1584.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1978 1083 2465 1034 2464 1185 1978 1239
+region_code_gt: nsw
+plate_number_gt: BNE83Y
+plate_inverted_gt: false

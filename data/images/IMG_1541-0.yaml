@@ -1,0 +1,7 @@
+image_file: IMG_1541.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1722 1500 2256 1421 2264 1578 1734 1676
+region_code_gt: nsw
+plate_number_gt: EBI09N
+plate_inverted_gt: false

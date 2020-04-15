@@ -1,0 +1,7 @@
+image_file: IMG_1195.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 963 1777 1347 1811 1354 1892 970 1852
+region_code_gt: nsw
+plate_number_gt: DFY75B
+plate_inverted_gt: false

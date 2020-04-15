@@ -1,0 +1,7 @@
+image_file: IMG_1691.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1545 1452 1900 1422 1894 1569 1544 1609
+region_code_gt: nsw
+plate_number_gt: CQ34UK
+plate_inverted_gt: false

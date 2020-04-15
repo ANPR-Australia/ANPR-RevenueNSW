@@ -1,0 +1,7 @@
+image_file: IMG_1522.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1901 770 2483 731 2499 925 1913 976
+region_code_gt: nsw
+plate_number_gt: EAR43G
+plate_inverted_gt: false

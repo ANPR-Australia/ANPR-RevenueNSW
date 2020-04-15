@@ -1,0 +1,7 @@
+image_file: IMG_1829.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1356 1857 1844 1845 1835 1959 1354 1971
+region_code_gt: nsw
+plate_number_gt: YIV84E
+plate_inverted_gt: false

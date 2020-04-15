@@ -1,0 +1,7 @@
+image_file: IMG_1079.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1075 2228 1735 2127 1756 2358 1096 2471
+region_code_gt: nsw
+plate_number_gt: CW70YH
+plate_inverted_gt: false

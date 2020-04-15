@@ -1,0 +1,7 @@
+image_file: IMG_0970.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1165 1568 1175 1412 1658 1574 1624 1728
+region_code_gt: nsw
+plate_number_gt: ES1819
+plate_inverted_gt: false

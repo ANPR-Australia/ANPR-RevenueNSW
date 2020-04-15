@@ -1,0 +1,7 @@
+image_file: IMG_1425.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1494 1719 1841 1698 1873 1825 1513 1855
+region_code_gt: nsw
+plate_number_gt: CO54UL
+plate_inverted_gt: false

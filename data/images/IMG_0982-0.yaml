@@ -1,0 +1,7 @@
+image_file: IMG_0982.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1007 1323 1712 1430 1684 1604 1005 1509
+region_code_gt: nsw
+plate_number_gt: DPE75M
+plate_inverted_gt: false

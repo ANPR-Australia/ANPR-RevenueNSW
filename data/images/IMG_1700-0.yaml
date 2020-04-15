@@ -1,0 +1,7 @@
+image_file: IMG_1700.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1598 1936 1969 1903 1954 2005 1589 2043
+region_code_gt: nsw
+plate_number_gt: YHK31A
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1241.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 830 2124 1312 2170 1320 2335 838 2287
+region_code_gt: nsw
+plate_number_gt: BW70QK
+plate_inverted_gt: false

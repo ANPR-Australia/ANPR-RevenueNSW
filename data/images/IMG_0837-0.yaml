@@ -1,0 +1,7 @@
+image_file: IMG_0837.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1190 1792 1666 1823 1658 1965 1178 1920
+region_code_gt: nsw
+plate_number_gt: AZW13Q
+plate_inverted_gt: false

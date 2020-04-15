@@ -1,0 +1,7 @@
+image_file: IMG_1042.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1161 1883 2043 1920 1985 2160 1147 2123
+region_code_gt: nsw
+plate_number_gt: CS22TE
+plate_inverted_gt: false

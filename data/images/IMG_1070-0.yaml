@@ -1,0 +1,7 @@
+image_file: IMG_1070.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1338 1821 1694 1753 1708 1874 1363 1940
+region_code_gt: nsw
+plate_number_gt: YCE08W
+plate_inverted_gt: false

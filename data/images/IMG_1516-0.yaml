@@ -1,0 +1,7 @@
+image_file: IMG_1516.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1698 842 2245 822 2243 983 1703 1004
+region_code_gt: nsw
+plate_number_gt: DQT59Z
+plate_inverted_gt: false

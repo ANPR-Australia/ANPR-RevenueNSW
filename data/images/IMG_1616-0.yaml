@@ -1,0 +1,7 @@
+image_file: IMG_1616.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1628 973 2065 937 2071 1065 1635 1107
+region_code_gt: nsw
+plate_number_gt: CNY48R
+plate_inverted_gt: false

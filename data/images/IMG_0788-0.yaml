@@ -1,0 +1,7 @@
+image_file: IMG_0788.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1091 2076 1657 2083 1662 2196 1098 2186
+region_code_gt: nsw
+plate_number_gt: DDC48U
+plate_inverted_gt: false

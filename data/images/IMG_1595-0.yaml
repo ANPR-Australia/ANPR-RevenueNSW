@@ -1,0 +1,7 @@
+image_file: IMG_1595.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1787 1960 2207 1890 2223 2009 1801 2087
+region_code_gt: nsw
+plate_number_gt: MAL44K
+plate_inverted_gt: false

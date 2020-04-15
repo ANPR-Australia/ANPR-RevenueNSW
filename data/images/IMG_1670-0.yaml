@@ -1,0 +1,7 @@
+image_file: IMG_1670.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1818 1425 2010 1442 2003 1492 1813 1476
+region_code_gt: nsw
+plate_number_gt: CZJ54M
+plate_inverted_gt: false

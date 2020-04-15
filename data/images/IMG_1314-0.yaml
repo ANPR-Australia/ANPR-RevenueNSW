@@ -1,0 +1,7 @@
+image_file: IMG_1314.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1110 1483 1516 1504 1518 1656 1119 1628
+region_code_gt: nsw
+plate_number_gt: CR78HV
+plate_inverted_gt: false

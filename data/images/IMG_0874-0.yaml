@@ -1,0 +1,7 @@
+image_file: IMG_0874.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1405 2048 1483 2045 1487 2078 1413 2081
+region_code_gt: nsw
+plate_number_gt: AT39AK
+plate_inverted_gt: false

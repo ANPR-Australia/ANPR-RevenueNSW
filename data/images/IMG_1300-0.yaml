@@ -1,0 +1,7 @@
+image_file: IMG_1300.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 579 1546 547 1384 1000 1540 1021 1736
+region_code_gt: nsw
+plate_number_gt: WUW303
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1499.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1339 1972 1641 1957 1639 2025 1339 2041
+region_code_gt: nsw
+plate_number_gt: APF95Z
+plate_inverted_gt: false

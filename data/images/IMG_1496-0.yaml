@@ -1,0 +1,7 @@
+image_file: IMG_1496.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1073 1666 1714 1683 1718 1850 1076 1839
+region_code_gt: nsw
+plate_number_gt: CXU72Y
+plate_inverted_gt: false

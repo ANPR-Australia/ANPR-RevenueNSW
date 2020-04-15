@@ -1,0 +1,7 @@
+image_file: IMG_1320.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 833 1393 1250 1475 1250 1575 841 1496
+region_code_gt: nsw
+plate_number_gt: BSU90Q
+plate_inverted_gt: false

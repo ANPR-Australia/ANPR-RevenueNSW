@@ -1,0 +1,7 @@
+image_file: IMG_1628.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 658 1406 1000 1475 1002 1540 662 1484
+region_code_gt: nsw
+plate_number_gt: BIR57K
+plate_inverted_gt: false
