@@ -68,6 +68,7 @@ def create_labeled_data(conn, labeled_data_dir, labeled_data_output):
                     print("Missing key in file: " + f + "\n" + str(e))
                     sys.exit(1) ;
                 insert_label(conn, img_file, region_code, plate_no)
+                insert_metadata(conn, img_file)
                 label_dict[os.path.basename(img_file)] = (region_code, plate_no)
             except yaml.YAMLError as exc:
                 print(exc)
@@ -104,6 +105,15 @@ def insert_label(conn, img_file, region_code, plate_no):
     values = (img_file, region_code, plate_no)
     c.execute('''INSERT INTO labels (image_file_name, region_code, plate_number) VALUES (?, ?, ?)''', values)
     conn.commit()
+
+
+def insert_metadata(conn, img_file):
+    c = conn.cursor()
+    r = parse_filename(img_file)
+    values = (img_file, r['date'], r['cameraType'], r['locationID'], r['incidentID'], r['cameraID'])
+    c.execute('''INSERT INTO file_metadata (image_file_name, capture_date, cameraType, location_id, incident_id, camera_id) values (?,?,?,?,?,?)''', values)
+    conn.commit()
+
 
 
 def insert_result(conn, test_name, img_file_name,

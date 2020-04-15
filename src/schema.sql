@@ -16,3 +16,14 @@ CREATE TABLE IF NOT EXISTS "results"
 	json_str TEXT
 );
 
+
+CREATE TABLE IF NOT EXISTS "file_metadata"
+(
+	image_file_name PRIMARY_KEY_NOT_NULL,
+	capture_date DATE NOT NULL,
+	cameraType TEXT NOT NULL,
+	location_id TEXT NOT NULL,
+	incident_id TEXT NOT NULL,
+	camera_id TEXT NOT NULL
+);
+
