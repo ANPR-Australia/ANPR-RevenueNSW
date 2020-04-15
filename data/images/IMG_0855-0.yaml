@@ -1,0 +1,7 @@
+image_file: IMG_0855.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 652 1727 929 1749 936 1869 666 1836
+region_code_gt: nsw
+plate_number_gt: CL73WN
+plate_inverted_gt: false

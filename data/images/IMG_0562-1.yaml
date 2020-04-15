@@ -1,0 +1,7 @@
+image_file: IMG_0562.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 725 2430 786 2426 788 2445 727 2451
+region_code_gt: nsw
+plate_number_gt: BI64PC
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_0800.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1625 2163 1829 2089 1826 2205 1621 2291
+region_code_gt: nsw
+plate_number_gt: RUGGEX
+plate_inverted_gt: false

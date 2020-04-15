@@ -1,0 +1,7 @@
+image_file: IMG_0998.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 589 976 1006 1072 1013 1187 604 1082
+region_code_gt: nsw
+plate_number_gt: BMD015
+plate_inverted_gt: false

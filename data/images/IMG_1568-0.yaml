@@ -1,0 +1,7 @@
+image_file: IMG_1568.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1290 1711 1909 1635 1913 1800 1304 1879
+region_code_gt: nsw
+plate_number_gt: EAN80H
+plate_inverted_gt: false

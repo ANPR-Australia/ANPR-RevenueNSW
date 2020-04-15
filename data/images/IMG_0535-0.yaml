@@ -1,0 +1,7 @@
+image_file: IMG_0535.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1877 2362 2054 2344 2070 2402 1887 2424
+region_code_gt: nsw
+plate_number_gt: DYK31L
+plate_inverted_gt: false

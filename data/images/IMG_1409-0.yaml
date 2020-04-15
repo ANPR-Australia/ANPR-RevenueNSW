@@ -1,0 +1,7 @@
+image_file: IMG_1409.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1467 1472 2104 1349 2099 1545 1478 1674
+region_code_gt: nsw
+plate_number_gt: AGE42M
+plate_inverted_gt: false

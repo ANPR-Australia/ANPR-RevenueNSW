@@ -1,0 +1,7 @@
+image_file: IMG_1512.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1582 1409 2005 1344 2024 1494 1602 1564
+region_code_gt: nsw
+plate_number_gt: CW29CH
+plate_inverted_gt: false

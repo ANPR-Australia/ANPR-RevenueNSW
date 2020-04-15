@@ -1,0 +1,7 @@
+image_file: IMG_1037.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1006 1437 1845 1191 1896 1506 1078 1787
+region_code_gt: qld
+plate_number_gt: 423YWJ
+plate_inverted_gt: false

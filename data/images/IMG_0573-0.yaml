@@ -1,0 +1,7 @@
+image_file: IMG_0573.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 851 2446 1018 2434 1014 2475 847 2481
+region_code_gt: nsw
+plate_number_gt: APX48B
+plate_inverted_gt: false

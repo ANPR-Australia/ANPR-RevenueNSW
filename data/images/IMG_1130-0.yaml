@@ -1,0 +1,7 @@
+image_file: IMG_1130.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2185 760 2723 730 2736 940 2192 985
+region_code_gt: nsw
+plate_number_gt: DNN52S
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_0893.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1475 1867 1745 1838 1753 1957 1495 1988
+region_code_gt: nsw
+plate_number_gt: CQ56SY
+plate_inverted_gt: false

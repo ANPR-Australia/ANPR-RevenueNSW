@@ -1,0 +1,7 @@
+image_file: IMG_20200408_174052.jpg
+image_width: 4032
+image_height: 3024
+plate_corners_gt: 1458 1400 2396 1505 2370 1813 1452 1700
+region_code_gt: qld
+plate_number_gt: 775KUF
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1236.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1688 1877 2243 1805 2214 1976 1683 2062
+region_code_gt: nsw
+plate_number_gt: APO87Y
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1084.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1809 1779 2469 1677 2476 1860 1834 1988
+region_code_gt: nsw
+plate_number_gt: CJF23C
+plate_inverted_gt: false

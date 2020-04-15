@@ -1,0 +1,7 @@
+image_file: IMG_1785.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1365 1151 1725 1105 1739 1205 1384 1260
+region_code_gt: nsw
+plate_number_gt: CDV37X
+plate_inverted_gt: false

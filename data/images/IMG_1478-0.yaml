@@ -1,0 +1,7 @@
+image_file: IMG_1478.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1594 1830 2263 1689 2276 1868 1605 2009
+region_code_gt: nsw
+plate_number_gt: DSZ52J
+plate_inverted_gt: false

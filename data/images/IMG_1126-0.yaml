@@ -1,0 +1,7 @@
+image_file: IMG_1126.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1551 1831 1963 1765 1971 1897 1557 1967
+region_code_gt: nsw
+plate_number_gt: CGH29Y
+plate_inverted_gt: false

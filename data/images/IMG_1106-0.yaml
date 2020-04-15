@@ -1,0 +1,7 @@
+image_file: IMG_1106.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1414 1594 1744 1541 1753 1644 1429 1699
+region_code_gt: nsw
+plate_number_gt: CZA14A
+plate_inverted_gt: false

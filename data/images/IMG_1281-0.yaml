@@ -1,0 +1,7 @@
+image_file: IMG_1281.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 674 1186 1171 1264 1165 1376 685 1288
+region_code_gt: nsw
+plate_number_gt: EGZ76V
+plate_inverted_gt: false

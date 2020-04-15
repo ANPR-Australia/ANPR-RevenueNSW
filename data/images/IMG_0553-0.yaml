@@ -1,0 +1,7 @@
+image_file: IMG_0553.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1377 2172 1465 2165 1469 2197 1379 2201
+region_code_gt: nsw
+plate_number_gt: CQ08TU
+plate_inverted_gt: false

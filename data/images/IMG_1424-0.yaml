@@ -1,0 +1,7 @@
+image_file: IMG_1424.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2047 1450 2477 1417 2476 1540 2041 1580
+region_code_gt: nsw
+plate_number_gt: BTY33A
+plate_inverted_gt: false

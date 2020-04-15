@@ -1,0 +1,7 @@
+image_file: IMG_1693.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1252 820 1665 801 1671 896 1263 924
+region_code_gt: nsw
+plate_number_gt: CKA64E
+plate_inverted_gt: false

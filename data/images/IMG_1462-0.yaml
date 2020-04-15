@@ -1,0 +1,7 @@
+image_file: IMG_1462.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1718 1522 2180 1461 2183 1588 1721 1660
+region_code_gt: nsw
+plate_number_gt: CTT36D
+plate_inverted_gt: false

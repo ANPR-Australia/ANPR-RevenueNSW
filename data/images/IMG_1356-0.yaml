@@ -1,0 +1,7 @@
+image_file: IMG_1356.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 807 1308 1342 1288 1358 1454 823 1468
+region_code_gt: nsw
+plate_number_gt: DPS92Z
+plate_inverted_gt: false

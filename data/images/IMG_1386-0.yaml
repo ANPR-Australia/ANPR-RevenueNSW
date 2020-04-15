@@ -1,0 +1,7 @@
+image_file: IMG_1386.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1613 1376 2046 1347 2053 1505 1622 1541
+region_code_gt: nsw
+plate_number_gt: CR67HQ
+plate_inverted_gt: false

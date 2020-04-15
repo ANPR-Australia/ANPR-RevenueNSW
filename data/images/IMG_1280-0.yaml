@@ -1,0 +1,7 @@
+image_file: IMG_1280.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 958 1092 1389 1140 1387 1309 964 1228
+region_code_gt: qld
+plate_number_gt: 545SVX
+plate_inverted_gt: false

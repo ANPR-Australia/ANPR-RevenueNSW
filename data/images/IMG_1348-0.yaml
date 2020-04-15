@@ -1,0 +1,7 @@
+image_file: IMG_1348.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 794 1992 1690 1881 1696 2004 823 2098
+region_code_gt: nsw
+plate_number_gt: 7D
+plate_inverted_gt: true

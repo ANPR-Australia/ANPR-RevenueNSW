@@ -1,0 +1,7 @@
+image_file: IMG_0947.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1136 1930 1360 1945 1360 2033 1143 2013
+region_code_gt: nsw
+plate_number_gt: CW79AL
+plate_inverted_gt: false

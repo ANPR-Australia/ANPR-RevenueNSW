@@ -1,0 +1,7 @@
+image_file: IMG_1254.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1333 1972 1741 1935 1738 2084 1334 2135
+region_code_gt: nsw
+plate_number_gt: CC61HE
+plate_inverted_gt: false

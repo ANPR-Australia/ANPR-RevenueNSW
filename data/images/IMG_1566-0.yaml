@@ -1,0 +1,7 @@
+image_file: IMG_1566.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1584 1518 2049 1451 2049 1590 1590 1662
+region_code_gt: nsw
+plate_number_gt: KN2201
+plate_inverted_gt: false

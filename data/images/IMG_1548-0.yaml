@@ -1,0 +1,7 @@
+image_file: IMG_1548.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1736 1257 2273 1157 2271 1334 1753 1446
+region_code_gt: nsw
+plate_number_gt: BF41KQ
+plate_inverted_gt: false

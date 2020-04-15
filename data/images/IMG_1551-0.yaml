@@ -1,0 +1,7 @@
+image_file: IMG_1551.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2089 1162 2634 1032 2624 1191 2097 1312
+region_code_gt: nsw
+plate_number_gt: CZW35G
+plate_inverted_gt: false

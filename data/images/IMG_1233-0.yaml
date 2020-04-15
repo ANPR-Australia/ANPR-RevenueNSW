@@ -1,0 +1,7 @@
+image_file: IMG_1233.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1317 1583 1795 1524 1798 1710 1328 1781
+region_code_gt: nsw
+plate_number_gt: cm38vj
+plate_inverted_gt: false

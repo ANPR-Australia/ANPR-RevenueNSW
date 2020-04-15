@@ -1,0 +1,7 @@
+image_file: IMG_1492.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1172 1133 2013 1215 1981 1445 1168 1354
+region_code_gt: nsw
+plate_number_gt: BFC23Z
+plate_inverted_gt: false

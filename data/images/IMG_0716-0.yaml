@@ -1,0 +1,7 @@
+image_file: IMG_0716.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 733 2586 1397 2621 1403 2728 742 2684
+region_code_gt: nsw
+plate_number_gt: DSW93P
+plate_inverted_gt: false

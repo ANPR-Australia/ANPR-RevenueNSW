@@ -1,0 +1,7 @@
+image_file: IMG_1686.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1254 1550 1494 1525 1501 1603 1263 1632
+region_code_gt: nsw
+plate_number_gt: YII87R
+plate_inverted_gt: false

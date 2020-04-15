@@ -1,0 +1,7 @@
+image_file: IMG_0776.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1204 2340 1805 2316 1809 2422 1219 2457
+region_code_gt: nsw
+plate_number_gt: DZY62W
+plate_inverted_gt: false

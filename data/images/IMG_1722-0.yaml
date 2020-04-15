@@ -1,0 +1,7 @@
+image_file: IMG_1722.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1701 1575 2010 1536 2012 1630 1703 1689
+region_code_gt: nsw
+plate_number_gt: ATU96N
+plate_inverted_gt: false

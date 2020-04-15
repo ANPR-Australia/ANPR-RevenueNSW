@@ -1,0 +1,7 @@
+image_file: IMG_1596.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1471 1765 1986 1729 1982 1905 1477 1948
+region_code_gt: nsw
+plate_number_gt: AV87SY
+plate_inverted_gt: false

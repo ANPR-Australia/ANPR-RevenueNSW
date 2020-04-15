@@ -1,0 +1,7 @@
+image_file: IMG_1591.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1296 750 1888 704 1876 839 1300 877
+region_code_gt: nsw
+plate_number_gt: DKY91L
+plate_inverted_gt: false

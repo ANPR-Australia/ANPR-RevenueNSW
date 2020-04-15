@@ -1,0 +1,7 @@
+image_file: IMG_1585.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1608 854 2173 798 2174 1019 1623 1079
+region_code_gt: nsw
+plate_number_gt: BT79ER
+plate_inverted_gt: false

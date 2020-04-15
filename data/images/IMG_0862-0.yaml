@@ -1,0 +1,7 @@
+image_file: IMG_0862.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1964 1877 2308 1823 2320 1940 1976 1984
+region_code_gt: nsw
+plate_number_gt: BNE63A
+plate_inverted_gt: false

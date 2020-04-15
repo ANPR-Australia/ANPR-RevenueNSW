@@ -1,0 +1,7 @@
+image_file: IMG_0782.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1430 2340 1952 2312 1947 2405 1427 2432
+region_code_gt: nsw
+plate_number_gt: EDR87J
+plate_inverted_gt: false

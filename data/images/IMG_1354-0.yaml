@@ -1,0 +1,7 @@
+image_file: IMG_1354.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1235 2066 1949 1953 1929 2123 1242 2243
+region_code_gt: nsw
+plate_number_gt: YGC31U
+plate_inverted_gt: false

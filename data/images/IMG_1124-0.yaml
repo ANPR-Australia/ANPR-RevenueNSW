@@ -1,0 +1,7 @@
+image_file: IMG_1124.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1435 1377 1893 1297 1918 1479 1458 1565
+region_code_gt: nsw
+plate_number_gt: BV24TD
+plate_inverted_gt: false

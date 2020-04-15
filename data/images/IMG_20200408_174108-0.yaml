@@ -1,0 +1,7 @@
+image_file: IMG_20200408_174108.jpg
+image_width: 4032
+image_height: 3024
+plate_corners_gt: 1413 1987 2343 2016 2341 2279 1447 2219
+region_code_gt: nsw
+plate_number_gt: BP89VF
+plate_inverted_gt: false

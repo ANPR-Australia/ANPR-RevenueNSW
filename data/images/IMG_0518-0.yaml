@@ -1,0 +1,7 @@
+image_file: IMG_0518.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1116 2155 1202 2166 1199 2191 1112 2185
+region_code_gt: nsw
+plate_number_gt: BZR47W
+plate_inverted_gt: false

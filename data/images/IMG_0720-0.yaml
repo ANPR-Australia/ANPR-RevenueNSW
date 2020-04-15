@@ -1,0 +1,7 @@
+image_file: IMG_0720.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1072 2100 1116 1926 1637 2103 1589 2303
+region_code_gt: nsw
+plate_number_gt: BHQ23Z
+plate_inverted_gt: false

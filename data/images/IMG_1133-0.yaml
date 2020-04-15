@@ -1,0 +1,7 @@
+image_file: IMG_1133.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1368 1909 1865 1791 1871 1934 1382 2063
+region_code_gt: nsw
+plate_number_gt: DSR24X
+plate_inverted_gt: false

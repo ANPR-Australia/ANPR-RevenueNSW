@@ -1,0 +1,7 @@
+image_file: IMG_0908.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1399 1810 1701 1777 1709 1912 1408 1948
+region_code_gt: nsw
+plate_number_gt: TQD504
+plate_inverted_gt: false

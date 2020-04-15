@@ -1,0 +1,7 @@
+image_file: IMG_0540.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2457 2183 2563 2180 2570 2226 2465 2230
+region_code_gt: nsw
+plate_number_gt: XSU359
+plate_inverted_gt: false

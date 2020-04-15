@@ -1,0 +1,7 @@
+image_file: IMG_1790.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1431 922 1760 925 1770 1043 1428 1048
+region_code_gt: nsw
+plate_number_gt: AQ41UE
+plate_inverted_gt: false

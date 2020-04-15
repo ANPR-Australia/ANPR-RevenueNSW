@@ -1,0 +1,7 @@
+image_file: IMG_1557.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2166 363 2764 346 2760 550 2166 594
+region_code_gt: nsw
+plate_number_gt: DPC62A
+plate_inverted_gt: false

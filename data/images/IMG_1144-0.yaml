@@ -1,0 +1,7 @@
+image_file: IMG_1144.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1207 1439 2417 1710 2340 2047 1183 1766
+region_code_gt: nsw
+plate_number_gt: YCP89E
+plate_inverted_gt: false

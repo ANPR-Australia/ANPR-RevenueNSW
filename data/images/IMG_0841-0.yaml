@@ -1,0 +1,7 @@
+image_file: IMG_0841.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1445 1603 1683 1605 1682 1666 1448 1658
+region_code_gt: nsw
+plate_number_gt: EAU12C
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1087.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1604 1671 2015 1587 2032 1717 1630 1817
+region_code_gt: nsw
+plate_number_gt: 52YUYU
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1760.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1030 1057 2005 1287 1925 1556 980 1324
+region_code_gt: nsw
+plate_number_gt: EAC48V
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1010.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 537 1230 1024 1275 1065 1433 573 1380
+region_code_gt: nsw
+plate_number_gt: CM11MJ
+plate_inverted_gt: false

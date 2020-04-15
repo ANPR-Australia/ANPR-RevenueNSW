@@ -1,0 +1,7 @@
+image_file: IMG_1089.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1567 1799 2060 1714 2068 1887 1583 1978
+region_code_gt: nsw
+plate_number_gt: CSJ38S
+plate_inverted_gt: false

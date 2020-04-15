@@ -1,0 +1,7 @@
+image_file: IMG_1562.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2038 1359 2478 1281 2497 1417 2047 1485
+region_code_gt: nsw
+plate_number_gt: CNM55H
+plate_inverted_gt: false

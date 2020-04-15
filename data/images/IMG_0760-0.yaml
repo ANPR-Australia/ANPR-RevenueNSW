@@ -1,0 +1,7 @@
+image_file: IMG_0760.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1024 2080 1344 2090 1353 2195 1033 2188
+region_code_gt: nsw
+plate_number_gt: BF77PS
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_0746.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1180 2112 1537 2134 1541 2209 1182 2180
+region_code_gt: nsw
+plate_number_gt: ZB99BI
+plate_inverted_gt: false

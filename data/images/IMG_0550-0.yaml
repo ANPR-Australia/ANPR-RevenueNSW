@@ -1,0 +1,7 @@
+image_file: IMG_0550.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1595 2339 1758 2311 1782 2381 1613 2401
+region_code_gt: nsw
+plate_number_gt: AYB7PW
+plate_inverted_gt: false

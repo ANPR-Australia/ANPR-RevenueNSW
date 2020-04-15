@@ -1,0 +1,7 @@
+image_file: IMG_0529.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2315 2317 2404 2304 2409 2337 2321 2348
+region_code_gt: nsw
+plate_number_gt: DQA85L
+plate_inverted_gt: false

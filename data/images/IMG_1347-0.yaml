@@ -1,0 +1,7 @@
+image_file: IMG_1347.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1961 1323 1955 1476 1104 1645 1081 1504
+region_code_gt: nsw
+plate_number_gt: CNE41T
+plate_inverted_gt: false

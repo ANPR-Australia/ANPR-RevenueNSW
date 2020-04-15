@@ -1,0 +1,7 @@
+image_file: IMG_0804.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1579 2098 1995 2038 1998 2128 1582 2187
+region_code_gt: nsw
+plate_number_gt: CEH14H
+plate_inverted_gt: false

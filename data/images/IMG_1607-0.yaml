@@ -1,0 +1,7 @@
+image_file: IMG_1607.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1788 926 2213 906 2212 1035 1787 1062
+region_code_gt: nsw
+plate_number_gt: DSV43M
+plate_inverted_gt: false

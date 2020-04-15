@@ -1,0 +1,7 @@
+image_file: IMG_0768.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1079 2024 1533 2044 1531 2151 1073 2130
+region_code_gt: nsw
+plate_number_gt: DYW57H
+plate_inverted_gt: false

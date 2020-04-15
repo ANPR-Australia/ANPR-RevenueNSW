@@ -1,0 +1,7 @@
+image_file: IMG_1768.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1392 1648 1608 1593 1623 1706 1410 1760
+region_code_gt: nsw
+plate_number_gt: CM53LN
+plate_inverted_gt: false

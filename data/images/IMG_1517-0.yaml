@@ -1,0 +1,7 @@
+image_file: IMG_1517.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1802 284 2656 268 2608 527 1790 551
+region_code_gt: nsw
+plate_number_gt: CMK36G
+plate_inverted_gt: false

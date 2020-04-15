@@ -1,0 +1,7 @@
+image_file: IMG_1234.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1926 1888 1940 2036 1524 2208 1501 2049
+region_code_gt: nsw
+plate_number_gt: YGW02W
+plate_inverted_gt: false

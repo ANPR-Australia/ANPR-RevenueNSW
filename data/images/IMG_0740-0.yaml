@@ -1,0 +1,7 @@
+image_file: IMG_0740.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2257 2026 2442 2014 2450 2079 2265 2087
+region_code_gt: nsw
+plate_number_gt: CU58PQ
+plate_inverted_gt: false

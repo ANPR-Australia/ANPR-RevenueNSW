@@ -1,0 +1,7 @@
+image_file: IMG_1202.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1197 1377 1568 1454 1557 1530 1193 1455
+region_code_gt: nsw
+plate_number_gt: CNE17U
+plate_inverted_gt: false

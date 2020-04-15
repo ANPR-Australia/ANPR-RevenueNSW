@@ -1,0 +1,7 @@
+image_file: IMG_1663.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 747 1490 1051 1539 1048 1611 748 1562
+region_code_gt: nsw
+plate_number_gt: DNU89D
+plate_inverted_gt: false

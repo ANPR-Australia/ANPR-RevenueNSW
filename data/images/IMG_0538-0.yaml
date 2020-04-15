@@ -1,0 +1,7 @@
+image_file: IMG_0538.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2026 2138 2181 2130 2190 2175 2036 2186
+region_code_gt: nsw
+plate_number_gt: YDP69D
+plate_inverted_gt: false

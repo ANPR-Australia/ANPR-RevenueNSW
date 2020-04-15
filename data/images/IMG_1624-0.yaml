@@ -1,0 +1,7 @@
+image_file: IMG_1624.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1690 1405 2072 1343 2065 1485 1696 1545
+region_code_gt: nsw
+plate_number_gt: CC52QB
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_0823.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1428 2057 1979 1974 1974 2086 1424 2169
+region_code_gt: nsw
+plate_number_gt: EAW01N
+plate_inverted_gt: false

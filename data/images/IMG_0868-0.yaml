@@ -1,0 +1,7 @@
+image_file: IMG_0868.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1568 1908 1815 1888 1823 1984 1582 2011
+region_code_gt: nsw
+plate_number_gt: CW18BE
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1559.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1657 1100 2009 1006 2026 1110 1676 1214
+region_code_gt: nsw
+plate_number_gt: BMN64T
+plate_inverted_gt: false

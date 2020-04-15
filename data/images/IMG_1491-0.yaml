@@ -1,0 +1,7 @@
+image_file: IMG_1491.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1795 1679 2307 1581 2327 1723 1809 1822
+region_code_gt: nsw
+plate_number_gt: DQR51P
+plate_inverted_gt: false

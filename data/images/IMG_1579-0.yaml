@@ -1,0 +1,7 @@
+image_file: IMG_1579.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 933 901 1175 883 1184 971 946 987
+region_code_gt: nsw
+plate_number_gt: XPZ950
+plate_inverted_gt: false

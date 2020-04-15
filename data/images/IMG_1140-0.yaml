@@ -1,0 +1,7 @@
+image_file: IMG_1140.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 660 1601 1080 1721 1073 1874 672 1740
+region_code_gt: nsw
+plate_number_gt: YHV01N
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_0838.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2078 2195 2076 2279 1743 2415 1730 2320
+region_code_gt: nsw
+plate_number_gt: DKI84U
+plate_inverted_gt: false

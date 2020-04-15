@@ -1,0 +1,7 @@
+image_file: IMG_0562.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2669 2415 2770 2399 2779 2436 2679 2450
+region_code_gt: nsw
+plate_number_gt: YJN04W
+plate_inverted_gt: false

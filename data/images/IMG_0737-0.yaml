@@ -1,0 +1,7 @@
+image_file: IMG_0737.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1571 2232 2140 2170 2134 2343 1571 2403
+region_code_gt: nsw
+plate_number_gt: AD47EJ
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1337.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 853 2049 1712 2258 1655 2498 822 2280
+region_code_gt: qld
+plate_number_gt: 675XSP
+plate_inverted_gt: false

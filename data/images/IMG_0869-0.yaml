@@ -1,0 +1,7 @@
+image_file: IMG_0869.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1220 1750 1489 1715 1503 1797 1234 1830
+region_code_gt: nsw
+plate_number_gt: DSN95H
+plate_inverted_gt: false

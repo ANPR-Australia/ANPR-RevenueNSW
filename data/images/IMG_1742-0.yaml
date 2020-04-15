@@ -1,0 +1,7 @@
+image_file: IMG_1742.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2235 1259 2799 1186 2795 1340 2242 1413
+region_code_gt: nsw
+plate_number_gt: NBR00G
+plate_inverted_gt: false

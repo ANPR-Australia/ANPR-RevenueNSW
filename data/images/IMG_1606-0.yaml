@@ -1,0 +1,7 @@
+image_file: IMG_1606.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1547 1259 1997 1204 2001 1342 1552 1399
+region_code_gt: nsw
+plate_number_gt: CWF50P
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1408.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1471 1959 2032 1894 2034 2027 1485 2111
+region_code_gt: nsw
+plate_number_gt: AKS60Q
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1608.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1717 1192 2220 1117 2222 1266 1730 1347
+region_code_gt: nsw
+plate_number_gt: YBV17P
+plate_inverted_gt: false

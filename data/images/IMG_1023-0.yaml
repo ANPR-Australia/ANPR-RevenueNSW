@@ -1,0 +1,7 @@
+image_file: IMG_1023.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 926 1400 1508 1297 1517 1483 954 1593
+region_code_gt: nsw
+plate_number_gt: BE22VS
+plate_inverted_gt: false

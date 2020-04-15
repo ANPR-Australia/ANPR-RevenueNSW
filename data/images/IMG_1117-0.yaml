@@ -1,0 +1,7 @@
+image_file: IMG_1117.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1679 1270 2104 1232 2110 1398 1702 1447
+region_code_gt: nsw
+plate_number_gt: BK57XY
+plate_inverted_gt: false

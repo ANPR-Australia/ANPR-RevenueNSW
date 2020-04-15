@@ -1,0 +1,7 @@
+image_file: IMG_1275.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1447 1194 2092 1139 2076 1312 1445 1383
+region_code_gt: nsw
+plate_number_gt: BCO47R
+plate_inverted_gt: false

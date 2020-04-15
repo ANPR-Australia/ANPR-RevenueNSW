@@ -1,0 +1,7 @@
+image_file: IMG_0990.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1706 1672 1750 1484 2415 1706 2350 1896
+region_code_gt: nsw
+plate_number_gt: DJG98G
+plate_inverted_gt: false

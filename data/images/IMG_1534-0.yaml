@@ -1,0 +1,7 @@
+image_file: IMG_1534.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1562 1156 2093 1087 2110 1240 1583 1320
+region_code_gt: nsw
+plate_number_gt: BFG62Z
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_0536.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2226 2480 2497 2448 2509 2516 2241 2550
+region_code_gt: nsw
+plate_number_gt: NXP99Y
+plate_inverted_gt: false

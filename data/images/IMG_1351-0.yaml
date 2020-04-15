@@ -1,0 +1,7 @@
+image_file: IMG_1351.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1930 1814 1937 1947 1243 2117 1220 1981
+region_code_gt: vic
+plate_number_gt: AYS
+plate_inverted_gt: false

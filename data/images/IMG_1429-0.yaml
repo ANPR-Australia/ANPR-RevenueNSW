@@ -1,0 +1,7 @@
+image_file: IMG_1429.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1463 1296 1860 1257 1869 1409 1474 1446
+region_code_gt: nsw
+plate_number_gt: SEU302
+plate_inverted_gt: false

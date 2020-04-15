@@ -1,0 +1,7 @@
+image_file: IMG_1330.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1191 1658 1894 1669 1888 1781 1195 1772
+region_code_gt: nsw
+plate_number_gt: ARH10C
+plate_inverted_gt: false

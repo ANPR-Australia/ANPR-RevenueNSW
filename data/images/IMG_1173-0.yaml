@@ -1,0 +1,7 @@
+image_file: IMG_1173.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 829 1678 1061 1697 1054 1766 822 1742
+region_code_gt: nsw
+plate_number_gt: YHL62Q
+plate_inverted_gt: false

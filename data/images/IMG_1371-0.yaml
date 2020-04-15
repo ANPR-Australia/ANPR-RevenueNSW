@@ -1,0 +1,7 @@
+image_file: IMG_1371.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2293 1662 2639 1633 2656 1733 2299 1765
+region_code_gt: nsw
+plate_number_gt: EBO16C
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1593.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1758 1338 2209 1282 2209 1443 1760 1499
+region_code_gt: nsw
+plate_number_gt: CL11KG
+plate_inverted_gt: false

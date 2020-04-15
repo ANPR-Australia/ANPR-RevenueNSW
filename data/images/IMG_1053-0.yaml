@@ -1,0 +1,7 @@
+image_file: IMG_1053.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1828 1897 2118 1861 2100 1979 1819 2021
+region_code_gt: nsw
+plate_number_gt: CA26JH
+plate_inverted_gt: false

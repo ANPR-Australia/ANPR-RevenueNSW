@@ -1,0 +1,7 @@
+image_file: IMG_1501.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1245 1880 2419 1948 2371 2200 1238 2118
+region_code_gt: nsw
+plate_number_gt: CTU83N
+plate_inverted_gt: false

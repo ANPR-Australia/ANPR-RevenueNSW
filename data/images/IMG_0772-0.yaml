@@ -1,0 +1,7 @@
+image_file: IMG_0772.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1835 2179 1852 2275 1369 2399 1358 2307
+region_code_gt: nsw
+plate_number_gt: DWQ25V
+plate_inverted_gt: false

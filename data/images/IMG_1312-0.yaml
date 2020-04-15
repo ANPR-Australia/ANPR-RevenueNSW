@@ -1,0 +1,7 @@
+image_file: IMG_1312.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 818 1514 1292 1588 1296 1767 834 1681
+region_code_gt: nsw
+plate_number_gt: AM04FE
+plate_inverted_gt: false

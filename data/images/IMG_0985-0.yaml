@@ -1,0 +1,7 @@
+image_file: IMG_0985.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1103 1703 2129 1787 2109 2083 1087 1963
+region_code_gt: nsw
+plate_number_gt: CJF48P
+plate_inverted_gt: false

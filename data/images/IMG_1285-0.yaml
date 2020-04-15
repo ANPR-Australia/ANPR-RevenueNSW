@@ -1,0 +1,7 @@
+image_file: IMG_1285.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1005 1356 1013 1128 1535 1526 1516 1752
+region_code_gt: vic
+plate_number_gt: 10E4ZR
+plate_inverted_gt: false

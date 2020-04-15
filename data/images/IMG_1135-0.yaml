@@ -1,0 +1,7 @@
+image_file: IMG_1135.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1499 2079 1924 2034 1931 2154 1506 2204
+region_code_gt: nsw
+plate_number_gt: DFO06Q
+plate_inverted_gt: false

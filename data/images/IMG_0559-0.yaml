@@ -1,0 +1,7 @@
+image_file: IMG_0559.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2153 2172 2304 2150 2324 2214 2171 2233
+region_code_gt: nsw
+plate_number_gt: BM67BX
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_0713.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1099 2482 1568 2500 1565 2669 1104 2638
+region_code_gt: nsw
+plate_number_gt: CW62PK
+plate_inverted_gt: false

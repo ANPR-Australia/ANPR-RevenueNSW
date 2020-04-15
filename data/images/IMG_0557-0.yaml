@@ -1,0 +1,7 @@
+image_file: IMG_0557.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2288 2334 2460 2317 2477 2374 2302 2392
+region_code_gt: nsw
+plate_number_gt: DYW35T
+plate_inverted_gt: false

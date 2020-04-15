@@ -1,0 +1,7 @@
+image_file: IMG_1125.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1611 1473 2179 1369 2183 1567 1616 1684
+region_code_gt: nsw
+plate_number_gt: BZG94Z
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_0794.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1930 1936 1932 1999 1736 2077 1733 2005
+region_code_gt: nsw
+plate_number_gt: EER48J
+plate_inverted_gt: false

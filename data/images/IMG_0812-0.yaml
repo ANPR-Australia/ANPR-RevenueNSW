@@ -1,0 +1,7 @@
+image_file: IMG_0812.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 915 2443 1530 2529 1524 2666 915 2560
+region_code_gt: nsw
+plate_number_gt: CTQ96T
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1082.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1900 1771 2180 1739 2182 1867 1907 1917
+region_code_gt: nsw
+plate_number_gt: QPZ818
+plate_inverted_gt: false
