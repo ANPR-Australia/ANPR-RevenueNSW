@@ -23,10 +23,18 @@ def run_experiments():
     config_file_name = config["DEFAULT"]["open_alpr_config_file_name"]
     calibration_files = config["DEFAULT"]["open_alpr_calibration_dir"]
     results_dir = config["DEFAULT"]["results"]
+    
+    dbSchema = config["DB"]["dbSchema"]
+    dbFile = config["DB"]["dbFile"]
+    dbOld = config["DB"]["dbOld"]
 
-    label_dict = utils.create_labeled_data(labeled_data_dir, labeled_data_output)
+    conn = utils.init_db(dbFile, dbOld, dbSchema)
 
-    untrained_results = test_untrained_uncalibrated_system(results_dir, config_file_name, test_data_dir, openalpr_runtime)
+    label_dict = utils.create_labeled_data(conn, labeled_data_dir, 
+            labeled_data_output)
+
+    untrained_results = test_untrained_uncalibrated_system(conn, results_dir, 
+            config_file_name, test_data_dir, openalpr_runtime)
     evaluationResults = {
                          "matches": 0, 
                          "errors": 0, 
@@ -50,7 +58,7 @@ def run_experiments():
                          }
 
     #print("%d percent of number plates detected correctly\n" % matches/len(evaluation_dict))
-    calibrated_results = test_untrained_calibrated_system(results_dir, config_file_name, 
+    calibrated_results = test_untrained_calibrated_system(conn, results_dir, config_file_name, 
             test_data_dir, openalpr_runtime, calibration_files)
     for camera in calibrated_results:
         (matches, errors, eval_dict) = evaluate_results(results_dir, 
@@ -62,6 +70,7 @@ def run_experiments():
         #evaluationResults["dicts"] = evaluationResults["dicts"].append(eval_dict)
 
     pprint.pprint(evaluationResults)
+    utils.close_db(conn)
 
 
 """
@@ -121,18 +130,21 @@ consistent with the trained system.
 Requires a file called openalpr.conf in the test_data_dir (top level). 
 This file should be empty
 """
-def test_untrained_uncalibrated_system(results_dir, config_file_name,test_data_dir ,openalpr_runtime):
+def test_untrained_uncalibrated_system(conn, results_dir, config_file_name,
+        test_data_dir ,openalpr_runtime):
     print("*******test_untrained_uncalibrated_system*****")
     test_name = "test_untrained_uncalibrated_system"
     results = {}
+    country_str = "au,auwide"
 
     loc_dirs = [f.path for f in os.scandir(test_data_dir) if f.is_dir()]
     for loc in loc_dirs:
         camera_dirs = [f.path for f in os.scandir(loc) if f.is_dir()]
         for cam in camera_dirs:
-            results[cam] = test_camera(results_dir, "test_untrained_calibrated_system", cam, 
+            results[cam] = test_camera(conn, country_str, results_dir, 
+                    "test_untrained_calibrated_system", cam, 
                         config_file_name, openalpr_runtime)
-
+        
     return results
 
 
@@ -143,19 +155,21 @@ If multiple directories for multiple cameras are present, it will
 traverse them and aggregate the results. This is how it behaves
 for the uncalibrated test.
 """
-def test_camera(results_dir, test_name, test_data_dir, config_file_name, openalpr_runtime, loc=None, cam=None, calibration_files=None): 
+def test_camera(conn, country_str, results_dir, test_name, test_data_dir, 
+        config_file_name, openalpr_runtime, loc=None, 
+        cam=None, calibration_files=None): 
     openalpr_conf = os.path.join(test_data_dir, config_file_name)
     results_file_name =  os.path.join(results_dir, test_name+".json")
     if loc:
-        openalpr_conf = os.path.join(calibration_files, loc.zfill(8)+"-"+cam+"-prewarp.conf")
-        results_file_name =  os.path.join(results_dir, test_name+"_"+loc+"_"+cam+".json")
+        openalpr_conf = os.path.join(calibration_files, 
+                loc.zfill(8)+"-"+cam+"-prewarp.conf")
+        results_file_name =  os.path.join(results_dir, 
+                test_name+"_"+loc+"_"+cam+".json")
 
     print(openalpr_conf)
     results = {}
-    res_out = open(results_file_name, "w") #open and truncate the file
-    res_out.write("[")
 
-    alpr = Alpr("au,auwide", openalpr_conf, openalpr_runtime)
+    alpr = Alpr(country_str, openalpr_conf, openalpr_runtime)
     if not alpr.is_loaded():
         print("Error loading OpenALPR")
         sys.exit(1)
@@ -163,12 +177,20 @@ def test_camera(results_dir, test_name, test_data_dir, config_file_name, openalp
     files = [f for f in glob.glob(test_data_dir + "/*.jpg", recursive=True)]
     results = {}
     for f in files:
-        res = alpr.recognize_file(f)
-        results[os.path.basename(f)] = res 
-        res_out.write(json.dumps(res, indent=4)) #for debugging only
-        res_out.write(",\n")
+        r = alpr.recognize_file(f)
+        filename = os.path.basename(f)
+        results[filename] = r
+        plate = None
+        confidence = None
+        try:
+            plate = r['results'][0]['plate']
+            confidence = r['results'][0]['confidence']
+        except:
+            print("No number plate detected in img %s\n" % filename)
+
+        utils.insert_result(conn, test_name, filename, country_str, config_file_name, plate, confidence, r)
+
     alpr.unload()
-    res_out.write("]")
 
     return results
 
@@ -178,14 +200,15 @@ represents one camera worth of files, it runs the test on those
 files using the config file for that particular camera at that location.
 data/test/location/camera/<image files>
 """
-def test_untrained_calibrated_system(results_dir, config_file_name,test_data_dir, openalpr_runtime, calibration_files):
+def test_untrained_calibrated_system(conn, results_dir, config_file_name,test_data_dir, openalpr_runtime, calibration_files):
     print("*****test_untrained_calibrated_system******")
     loc_dirs = [f.path for f in os.scandir(test_data_dir) if f.is_dir()]
+    country_str = "au,auwide"
     results = {}
     for loc in loc_dirs:
         camera_dirs = [f.path for f in os.scandir(loc) if f.is_dir()]
         for cam in camera_dirs:
-            results[cam] = test_camera(results_dir, "test_untrained_calibrated_system", cam, 
+            results[cam] = test_camera(conn, country_str, results_dir, "test_untrained_calibrated_system", cam, 
                         config_file_name, openalpr_runtime, os.path.basename(loc), os.path.basename(cam), calibration_files)
     #print("test_untrained_calib results:")
     #pprint.pprint(results)

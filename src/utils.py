@@ -96,16 +96,31 @@ def init_db(dbFile, dbOld, dbSchema):
 
     return conn
 
-
+def close_db(conn):
+    conn.close()
 
 def insert_label(conn, img_file, region_code, plate_no):
     c = conn.cursor()
     values = (img_file, region_code, plate_no)
-    c.execute('''INSERT INTO labels VALUES (?, ?, ?)''', values)
+    c.execute('''INSERT INTO labels (image_file_name, region_code, plate_number) VALUES (?, ?, ?)''', values)
     conn.commit()
 
 
+def insert_result(conn, test_name, img_file_name,
+        country_str, openalpr_conf_file, first_plate, confidence,
+        json_str):
+    c = conn.cursor()
+    if first_plate:
+        values = (img_file_name, test_name, country_str, openalpr_conf_file,
+                first_plate, confidence, str(json_str))
+        print(values)
+        c.execute('''INSERT INTO results (image_file_name, test_name, country_str, openalpr_conf_file, first_plate, confidence, json_str) VALUES (?, ?,?,?,?,?,?)''', values)
+    else:
+        values =  (img_file_name, test_name, country_str, openalpr_conf_file)
+        c.execute('''INSERT INTO results (image_file_name, test_name, country_str, openalpr_conf_file) VALUES (?,?,?,?)''', values)
 
+    conn.commit()
+        
 
 
 if __name__ == "__main__":
