@@ -12,7 +12,9 @@ python -m pip install --editable .
 
 ```
 
-For the purposes of pattern matching, the alpha-numeric formats and the corresponding alpr patterns are mentioned below for standard plates. These do not include any custom plates.
+For the purposes of pattern matching, the alpha-numeric formats and the
+corresponding alpr patterns are mentioned below for standard plates. These do
+not include any custom plates.
 
 New South Wales (Taken from: https://www.myplates.com.au/)
 
