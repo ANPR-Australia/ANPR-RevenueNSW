@@ -1,0 +1,7 @@
+image_file: IMG_2890.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2413 1627 2542 1631 2540 1672 2411 1671
+region_code_gt: nsw
+plate_number_gt: CQ28DU
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: _Q8A5044.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2849 1983 2993 2002 2992 2039 2846 2018
+region_code_gt: nsw
+plate_number_gt: BLB79F
+plate_inverted_gt: false

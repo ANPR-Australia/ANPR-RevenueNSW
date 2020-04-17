@@ -1,0 +1,7 @@
+image_file: 25d89342-c3f5-44fe-a9c9-84a74d93e154.JPG
+image_width: 1200
+image_height: 1600
+plate_corners_gt: 643 832 768 830 770 883 643 886
+region_code_gt: nsw
+plate_number_gt: BP71BF
+plate_inverted_gt: false

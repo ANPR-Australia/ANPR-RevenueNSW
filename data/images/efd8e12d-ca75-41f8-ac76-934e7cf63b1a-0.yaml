@@ -1,0 +1,7 @@
+image_file: efd8e12d-ca75-41f8-ac76-934e7cf63b1a.JPG
+image_width: 730
+image_height: 974
+plate_corners_gt: 360 487 645 509 628 563 352 547
+region_code_gt: nsw
+plate_number_gt: DZC56H
+plate_inverted_gt: false

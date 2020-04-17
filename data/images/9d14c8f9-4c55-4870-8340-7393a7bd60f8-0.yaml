@@ -1,0 +1,7 @@
+image_file: 9d14c8f9-4c55-4870-8340-7393a7bd60f8.JPG
+image_width: 1200
+image_height: 1600
+plate_corners_gt: 533 472 712 472 714 521 535 522
+region_code_gt: nsw
+plate_number_gt: CDR84G
+plate_inverted_gt: false

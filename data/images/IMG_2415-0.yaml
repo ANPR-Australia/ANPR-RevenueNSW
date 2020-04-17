@@ -1,0 +1,7 @@
+image_file: IMG_2415.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1249 1283 1463 1303 1456 1386 1250 1367
+region_code_gt: qld
+plate_number_gt: LJAIVA
+plate_inverted_gt: true

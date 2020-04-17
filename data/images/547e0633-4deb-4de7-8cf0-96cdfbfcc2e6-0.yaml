@@ -1,0 +1,7 @@
+image_file: 547e0633-4deb-4de7-8cf0-96cdfbfcc2e6.JPG
+image_width: 1200
+image_height: 1600
+plate_corners_gt: 806 495 949 495 953 539 809 539
+region_code_gt: nsw
+plate_number_gt: CNF58K
+plate_inverted_gt: false

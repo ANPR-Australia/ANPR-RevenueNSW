@@ -1,0 +1,7 @@
+image_file: IMG_20200415_154133.jpg
+image_width: 4032
+image_height: 3024
+plate_corners_gt: 1213 1236 3125 1264 3065 1821 1347 1758
+region_code_gt: nsw
+plate_number_gt: CR23RT
+plate_inverted_gt: false

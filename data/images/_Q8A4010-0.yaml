@@ -1,0 +1,7 @@
+image_file: _Q8A4010.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2906 1931 3047 1951 3044 1987 2903 1968
+region_code_gt: nsw
+plate_number_gt: YIV89D
+plate_inverted_gt: false

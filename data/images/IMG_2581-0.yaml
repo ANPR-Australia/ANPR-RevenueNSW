@@ -1,0 +1,7 @@
+image_file: IMG_2581.jpg
+image_width: 750
+image_height: 1334
+plate_corners_gt: 200 639 264 637 265 658 201 657
+region_code_gt: nsw
+plate_number_gt: EBY11V
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_2582.jpeg
+image_width: 750
+image_height: 1334
+plate_corners_gt: 248 749 301 752 300 775 248 772
+region_code_gt: nsw
+plate_number_gt: CK72OQ
+plate_inverted_gt: false

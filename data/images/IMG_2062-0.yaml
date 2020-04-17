@@ -1,0 +1,7 @@
+image_file: IMG_2062.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1390 956 1764 940 1770 1053 1394 1072
+region_code_gt: nsw
+plate_number_gt: DHP35U
+plate_inverted_gt: false

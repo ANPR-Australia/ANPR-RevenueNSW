@@ -1,0 +1,7 @@
+image_file: IMG_1950.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 965 1178 1376 1164 1379 1283 970 1296
+region_code_gt: nsw
+plate_number_gt: YBM98P
+plate_inverted_gt: false

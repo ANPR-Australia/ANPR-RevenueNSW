@@ -1,0 +1,7 @@
+image_file: _Q8A8856.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2920 2554 3069 2578 3064 2624 2915 2604
+region_code_gt: nsw
+plate_number_gt: CSJ09X
+plate_inverted_gt: false

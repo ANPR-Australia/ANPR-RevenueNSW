@@ -1,0 +1,7 @@
+image_file: IMG_2572.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 899 2314 1407 2342 1407 2457 903 2425
+region_code_gt: nsw
+plate_number_gt: BSK86H
+plate_inverted_gt: false

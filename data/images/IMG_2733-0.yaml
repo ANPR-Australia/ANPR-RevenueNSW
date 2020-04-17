@@ -1,0 +1,7 @@
+image_file: IMG_2733.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1214 1788 1731 1770 1745 1949 1220 1969
+region_code_gt: nsw
+plate_number_gt: BR38DQ
+plate_inverted_gt: false

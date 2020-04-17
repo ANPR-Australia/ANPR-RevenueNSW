@@ -1,0 +1,7 @@
+image_file: _Q8A3351.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 1663 2921 1805 2965 1798 3004 1658 2966
+region_code_gt: nsw
+plate_number_gt: DTI09T
+plate_inverted_gt: false

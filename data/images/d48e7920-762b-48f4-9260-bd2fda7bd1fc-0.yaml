@@ -1,0 +1,7 @@
+image_file: d48e7920-762b-48f4-9260-bd2fda7bd1fc.JPG
+image_width: 1200
+image_height: 1600
+plate_corners_gt: 503 526 673 537 663 598 496 583
+region_code_gt: nsw
+plate_number_gt: AM68PB
+plate_inverted_gt: false

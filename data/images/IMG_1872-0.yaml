@@ -1,0 +1,7 @@
+image_file: IMG_1872.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1054 1056 1785 1069 1789 1341 1052 1326
+region_code_gt: nsw
+plate_number_gt: BH82VK
+plate_inverted_gt: false

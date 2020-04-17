@@ -1,0 +1,7 @@
+image_file: IMG_2435.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1538 970 1923 934 1937 1052 1553 1094
+region_code_gt: nsw
+plate_number_gt: DWQ13K
+plate_inverted_gt: false

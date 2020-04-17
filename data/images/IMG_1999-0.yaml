@@ -1,0 +1,7 @@
+image_file: IMG_1999.jpg
+image_width: 872
+image_height: 1456
+plate_corners_gt: 313 794 437 776 438 813 317 834
+region_code_gt: nsw
+plate_number_gt: DWG51J
+plate_inverted_gt: false

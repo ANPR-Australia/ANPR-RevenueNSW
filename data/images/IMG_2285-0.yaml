@@ -1,0 +1,7 @@
+image_file: IMG_2285.jpg
+image_width: 1448
+image_height: 1931
+plate_corners_gt: 600 626 820 659 811 706 596 674
+region_code_gt: nsw
+plate_number_gt: NXQ87V
+plate_inverted_gt: false

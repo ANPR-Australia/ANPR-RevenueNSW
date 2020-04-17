@@ -1,0 +1,7 @@
+image_file: _Q8A9960.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 3018 2546 3107 2550 3106 2597 3015 2595
+region_code_gt: nsw
+plate_number_gt: GDM
+plate_inverted_gt: true

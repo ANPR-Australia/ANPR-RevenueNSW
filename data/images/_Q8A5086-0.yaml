@@ -1,0 +1,7 @@
+image_file: _Q8A5086.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2685 1345 2822 1349 2821 1393 2685 1391
+region_code_gt: nsw
+plate_number_gt: CW88BQ
+plate_inverted_gt: false

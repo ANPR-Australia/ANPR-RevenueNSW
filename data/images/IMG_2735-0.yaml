@@ -1,0 +1,7 @@
+image_file: IMG_2735.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1494 2489 2114 2466 2111 2595 1494 2617
+region_code_gt: nsw
+plate_number_gt: EAL13H
+plate_inverted_gt: false

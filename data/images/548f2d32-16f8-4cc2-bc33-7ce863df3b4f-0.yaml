@@ -1,0 +1,7 @@
+image_file: 548f2d32-16f8-4cc2-bc33-7ce863df3b4f.JPG
+image_width: 1200
+image_height: 1600
+plate_corners_gt: 532 850 767 858 763 903 531 896
+region_code_gt: nsw
+plate_number_gt: 92RAZA
+plate_inverted_gt: false

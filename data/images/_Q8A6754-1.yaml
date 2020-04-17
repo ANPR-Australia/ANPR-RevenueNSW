@@ -1,0 +1,7 @@
+image_file: _Q8A6754.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 1601 3248 1747 3294 1740 3350 1598 3303
+region_code_gt: nsw
+plate_number_gt: CS25EG
+plate_inverted_gt: false

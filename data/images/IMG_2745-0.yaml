@@ -1,0 +1,7 @@
+image_file: IMG_2745.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1059 2063 1743 2074 1739 2193 1068 2189
+region_code_gt: nsw
+plate_number_gt: MEGT92
+plate_inverted_gt: true

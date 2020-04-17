@@ -1,0 +1,7 @@
+image_file: IMG_1938.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2392 1404 2645 1355 2666 1458 2411 1515
+region_code_gt: nsw
+plate_number_gt: EAL08G
+plate_inverted_gt: false

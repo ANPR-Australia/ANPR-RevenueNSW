@@ -1,0 +1,7 @@
+image_file: 92dbd2bb-8048-40b3-914d-b8a484c5a4f0.JPG
+image_width: 1200
+image_height: 1600
+plate_corners_gt: 816 700 940 692 947 740 825 750
+region_code_gt: nsw
+plate_number_gt: BZ44NE
+plate_inverted_gt: false

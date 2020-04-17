@@ -1,0 +1,7 @@
+image_file: 27e1f933-fde2-48d9-b5c6-7b194b84de76.JPG
+image_width: 1200
+image_height: 1600
+plate_corners_gt: 505 1024 668 1025 669 1070 504 1069
+region_code_gt: nsw
+plate_number_gt: YBK31Z
+plate_inverted_gt: false

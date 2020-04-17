@@ -1,0 +1,7 @@
+image_file: _Q8A5580.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2785 1548 2924 1556 2925 1594 2785 1579
+region_code_gt: nsw
+plate_number_gt: CD73EB
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: _Q8A8231.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2255 3187 2411 3222 2404 3269 2250 3233
+region_code_gt: nsw
+plate_number_gt: YHK32Y
+plate_inverted_gt: false

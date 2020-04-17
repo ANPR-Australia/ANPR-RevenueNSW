@@ -1,0 +1,7 @@
+image_file: IMG_2251.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1232 736 1669 881 1594 1081 1173 923
+region_code_gt: nsw
+plate_number_gt: AG88VN
+plate_inverted_gt: false

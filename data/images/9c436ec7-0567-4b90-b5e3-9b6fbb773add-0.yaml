@@ -1,0 +1,7 @@
+image_file: 9c436ec7-0567-4b90-b5e3-9b6fbb773add.JPG
+image_width: 638
+image_height: 850
+plate_corners_gt: 382 270 495 264 495 303 383 311
+region_code_gt: nsw
+plate_number_gt: CW53KS
+plate_inverted_gt: false

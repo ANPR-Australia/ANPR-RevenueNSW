@@ -1,0 +1,7 @@
+image_file: _Q8A4326.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 3061 1579 3201 1590 3199 1629 3057 1616
+region_code_gt: nsw
+plate_number_gt: BEQ90H
+plate_inverted_gt: false

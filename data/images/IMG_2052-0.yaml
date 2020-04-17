@@ -1,0 +1,7 @@
+image_file: IMG_2052.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1637 1557 1745 1558 1746 1592 1638 1590
+region_code_gt: nsw
+plate_number_gt: CVD25B
+plate_inverted_gt: false

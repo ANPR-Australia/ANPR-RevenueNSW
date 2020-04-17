@@ -1,0 +1,7 @@
+image_file: IMG_2682.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 993 2125 1594 2146 1586 2299 990 2279
+region_code_gt: nsw
+plate_number_gt: CXE22T
+plate_inverted_gt: false

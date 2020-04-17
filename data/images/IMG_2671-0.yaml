@@ -1,0 +1,7 @@
+image_file: IMG_2671.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 750 2080 1450 2153 1433 2340 744 2251
+region_code_gt: nsw
+plate_number_gt: EGE88D
+plate_inverted_gt: false

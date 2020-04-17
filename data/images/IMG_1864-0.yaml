@@ -1,0 +1,7 @@
+image_file: IMG_1864.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1586 1331 2111 1256 2105 1450 1590 1526
+region_code_gt: nsw
+plate_number_gt: CB68VX
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1914.jpg
+image_width: 1370
+image_height: 1827
+plate_corners_gt: 252 1183 420 1176 426 1218 256 1222
+region_code_gt: nsw
+plate_number_gt: CZW78Z
+plate_inverted_gt: false

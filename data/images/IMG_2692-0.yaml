@@ -1,0 +1,7 @@
+image_file: IMG_2692.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 920 2102 1467 2116 1467 2217 918 2204
+region_code_gt: nsw
+plate_number_gt: ECK58V
+plate_inverted_gt: false

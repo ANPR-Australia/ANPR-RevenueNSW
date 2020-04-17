@@ -1,0 +1,7 @@
+image_file: b73d91fe-544e-4846-a78a-8d147b20b6f4.JPG
+image_width: 786
+image_height: 1048
+plate_corners_gt: 523 230 655 208 652 233 523 260
+region_code_gt: nsw
+plate_number_gt: DZE62A
+plate_inverted_gt: false

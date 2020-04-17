@@ -1,0 +1,7 @@
+image_file: IMG_2704.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 882 1831 1737 1875 1720 2115 871 2055
+region_code_gt: nsw
+plate_number_gt: BBQ33S
+plate_inverted_gt: false

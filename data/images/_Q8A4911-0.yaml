@@ -1,0 +1,7 @@
+image_file: _Q8A4911.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 3140 1523 3284 1537 3283 1577 3139 1562
+region_code_gt: nsw
+plate_number_gt: COH27C
+plate_inverted_gt: false

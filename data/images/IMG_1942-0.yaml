@@ -1,0 +1,7 @@
+image_file: IMG_1942.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1767 1453 2265 1334 2277 1503 1786 1623
+region_code_gt: nsw
+plate_number_gt: DMW25U
+plate_inverted_gt: false

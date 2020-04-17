@@ -1,0 +1,7 @@
+image_file: IMG_20200415_154438.jpg
+image_width: 4032
+image_height: 3024
+plate_corners_gt: 2318 2086 2378 2090 2379 2123 2322 2119
+region_code_gt: nsw
+plate_number_gt: CR07BJ
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_2301.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1531 768 1962 702 1972 840 1551 916
+region_code_gt: nsw
+plate_number_gt: DZD92W
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1945.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1896 926 2399 865 2411 1073 1916 1139
+region_code_gt: nsw
+plate_number_gt: CR99VR
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_20200415_154444.jpg
+image_width: 4032
+image_height: 3024
+plate_corners_gt: 930 1754 1003 1754 1003 1780 930 1779
+region_code_gt: nsw
+plate_number_gt: CN69YB
+plate_inverted_gt: false

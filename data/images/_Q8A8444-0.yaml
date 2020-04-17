@@ -1,0 +1,7 @@
+image_file: _Q8A8444.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2839 3010 3000 3035 2996 3075 2839 3056
+region_code_gt: nsw
+plate_number_gt: DHS98T
+plate_inverted_gt: false

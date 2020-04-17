@@ -1,0 +1,7 @@
+image_file: da28c9ce-a4f9-494e-8154-2537caa2ce96.JPG
+image_width: 1200
+image_height: 1600
+plate_corners_gt: 761 509 801 429 1017 535 975 615
+region_code_gt: qld
+plate_number_gt: 743ZFQ
+plate_inverted_gt: false

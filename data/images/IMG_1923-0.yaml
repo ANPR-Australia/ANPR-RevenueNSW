@@ -1,0 +1,7 @@
+image_file: IMG_1923.jpg
+image_width: 2086
+image_height: 2782
+plate_corners_gt: 1134 565 1296 547 1303 598 1141 619
+region_code_gt: nsw
+plate_number_gt: DCL22U
+plate_inverted_gt: false

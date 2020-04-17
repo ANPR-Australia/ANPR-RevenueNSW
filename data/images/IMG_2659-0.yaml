@@ -1,0 +1,7 @@
+image_file: IMG_2659.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 928 2503 1636 2554 1628 2694 927 2628
+region_code_gt: nsw
+plate_number_gt: DSD66K
+plate_inverted_gt: false

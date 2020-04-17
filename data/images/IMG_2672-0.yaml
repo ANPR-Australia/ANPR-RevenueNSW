@@ -1,0 +1,7 @@
+image_file: IMG_2672.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 891 2024 1102 2028 1102 2100 892 2098
+region_code_gt: nsw
+plate_number_gt: CN07UW
+plate_inverted_gt: false

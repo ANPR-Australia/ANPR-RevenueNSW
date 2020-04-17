@@ -1,0 +1,7 @@
+image_file: 75188461-b13b-497c-8060-69cd251ef2bf.JPG
+image_width: 1600
+image_height: 1200
+plate_corners_gt: 662 620 981 610 981 719 665 728
+region_code_gt: nsw
+plate_number_gt: CT07WZ
+plate_inverted_gt: false

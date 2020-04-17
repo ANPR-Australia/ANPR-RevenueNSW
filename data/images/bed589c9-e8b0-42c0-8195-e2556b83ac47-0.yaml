@@ -1,0 +1,7 @@
+image_file: bed589c9-e8b0-42c0-8195-e2556b83ac47.JPG
+image_width: 1200
+image_height: 1600
+plate_corners_gt: 480 1070 711 1072 707 1115 479 1113
+region_code_gt: nsw
+plate_number_gt: DZV45U
+plate_inverted_gt: false

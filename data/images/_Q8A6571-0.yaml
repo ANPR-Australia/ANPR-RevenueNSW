@@ -1,0 +1,7 @@
+image_file: _Q8A6571.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2510 2785 2663 2812 2658 2855 2507 2826
+region_code_gt: nsw
+plate_number_gt: CIX79A
+plate_inverted_gt: false

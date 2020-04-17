@@ -1,0 +1,7 @@
+image_file: IMG_1925.jpg
+image_width: 1725
+image_height: 2300
+plate_corners_gt: 1237 491 1426 476 1426 544 1243 559
+region_code_gt: nsw
+plate_number_gt: DVY96M
+plate_inverted_gt: false

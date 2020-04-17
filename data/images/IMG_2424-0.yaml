@@ -1,0 +1,7 @@
+image_file: IMG_2424.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1388 1013 1847 1005 1847 1142 1393 1157
+region_code_gt: nsw
+plate_number_gt: CPH08L
+plate_inverted_gt: false

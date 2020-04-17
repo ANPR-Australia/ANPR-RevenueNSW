@@ -1,0 +1,7 @@
+image_file: IMG_2738.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 828 2214 1388 2238 1386 2435 822 2406
+region_code_gt: nsw
+plate_number_gt: BX88YS
+plate_inverted_gt: false

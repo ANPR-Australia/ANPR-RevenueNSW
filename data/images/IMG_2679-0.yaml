@@ -1,0 +1,7 @@
+image_file: IMG_2679.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 844 2154 1413 2217 1403 2369 840 2306
+region_code_gt: nsw
+plate_number_gt: YDI88B
+plate_inverted_gt: false

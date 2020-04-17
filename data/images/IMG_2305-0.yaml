@@ -1,0 +1,7 @@
+image_file: IMG_2305.jpg
+image_width: 2158
+image_height: 2878
+plate_corners_gt: 1410 1093 1679 1080 1688 1164 1421 1180
+region_code_gt: nsw
+plate_number_gt: BKB51A
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1941.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1270 955 1931 968 1922 1157 1272 1147
+region_code_gt: nsw
+plate_number_gt: BJA34Q
+plate_inverted_gt: false

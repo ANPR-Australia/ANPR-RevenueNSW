@@ -1,0 +1,7 @@
+image_file: IMG_2171.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 18 893 600 939 606 1105 20 1056
+region_code_gt: nsw
+plate_number_gt: DPC33F
+plate_inverted_gt: false

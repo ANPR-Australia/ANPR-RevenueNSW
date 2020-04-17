@@ -1,0 +1,7 @@
+image_file: IMG_2896.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1016 2095 1133 2087 1133 2113 1017 2120
+region_code_gt: nsw
+plate_number_gt: DQZ46G
+plate_inverted_gt: false

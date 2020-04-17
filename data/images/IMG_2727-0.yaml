@@ -1,0 +1,7 @@
+image_file: IMG_2727.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 933 2412 1450 2475 1456 2585 932 2516
+region_code_gt: nsw
+plate_number_gt: CMT14L
+plate_inverted_gt: false

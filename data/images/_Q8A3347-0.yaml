@@ -1,0 +1,7 @@
+image_file: _Q8A3347.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 3085 1252 3230 1258 3228 1308 3084 1301
+region_code_gt: nsw
+plate_number_gt: RSG888
+plate_inverted_gt: true

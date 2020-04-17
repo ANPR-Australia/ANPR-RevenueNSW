@@ -1,0 +1,7 @@
+image_file: IMG_2687.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 573 2245 1177 2341 1177 2465 580 2368
+region_code_gt: nsw
+plate_number_gt: DKD68Y
+plate_inverted_gt: false

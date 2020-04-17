@@ -1,0 +1,7 @@
+image_file: _Q8A3722.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2241 2647 2398 2671 2395 2730 2240 2708
+region_code_gt: nsw
+plate_number_gt: CM22YO
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: 3ae7434c-4a58-41f5-9e64-ae421d9c0337.JPG
+image_width: 1600
+image_height: 1200
+plate_corners_gt: 736 528 958 540 953 619 733 606
+region_code_gt: nsw
+plate_number_gt: BR67KE
+plate_inverted_gt: false

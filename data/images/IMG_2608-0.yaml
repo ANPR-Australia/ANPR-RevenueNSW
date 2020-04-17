@@ -1,0 +1,7 @@
+image_file: IMG_2608.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1265 2603 1847 2581 1848 2700 1273 2725
+region_code_gt: nsw
+plate_number_gt: NVD333
+plate_inverted_gt: false

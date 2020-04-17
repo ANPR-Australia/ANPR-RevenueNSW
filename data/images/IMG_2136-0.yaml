@@ -1,0 +1,7 @@
+image_file: IMG_2136.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1809 893 2290 924 2281 1058 1798 1044
+region_code_gt: nsw
+plate_number_gt: DWL56Y
+plate_inverted_gt: false

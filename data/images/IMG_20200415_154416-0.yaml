@@ -1,0 +1,7 @@
+image_file: IMG_20200415_154416.jpg
+image_width: 4032
+image_height: 3024
+plate_corners_gt: 1835 1677 2852 1736 2825 2020 1837 1963
+region_code_gt: nsw
+plate_number_gt: CM16DX
+plate_inverted_gt: false

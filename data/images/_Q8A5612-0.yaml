@@ -1,0 +1,7 @@
+image_file: _Q8A5612.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2510 2462 2660 2499 2659 2542 2506 2504
+region_code_gt: nsw
+plate_number_gt: AAM76Z
+plate_inverted_gt: false

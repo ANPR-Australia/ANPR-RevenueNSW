@@ -1,0 +1,7 @@
+image_file: 97b5003e-e7f6-4c00-9a8b-573618b4a2eb.JPG
+image_width: 655
+image_height: 873
+plate_corners_gt: 393 604 641 630 641 675 393 652
+region_code_gt: nsw
+plate_number_gt: DPG60K
+plate_inverted_gt: false

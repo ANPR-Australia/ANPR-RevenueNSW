@@ -1,0 +1,7 @@
+image_file: IMG_2452.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1389 1292 1798 1251 1798 1373 1397 1418
+region_code_gt: nsw
+plate_number_gt: EGL79B
+plate_inverted_gt: false

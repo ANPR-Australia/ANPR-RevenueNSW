@@ -1,0 +1,7 @@
+image_file: cec7f166-f3f0-4a87-afbd-b6537dfa7f03.JPG
+image_width: 1200
+image_height: 1600
+plate_corners_gt: 760 598 914 596 919 673 764 676
+region_code_gt: nsw
+plate_number_gt: CA75MH
+plate_inverted_gt: false

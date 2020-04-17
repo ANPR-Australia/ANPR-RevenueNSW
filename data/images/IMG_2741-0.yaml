@@ -1,0 +1,7 @@
+image_file: IMG_2741.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 779 2329 1296 2391 1284 2566 774 2507
+region_code_gt: nsw
+plate_number_gt: AO43KW
+plate_inverted_gt: false

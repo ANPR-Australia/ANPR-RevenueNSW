@@ -1,0 +1,7 @@
+image_file: _Q8A8456.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2580 2970 2733 2999 2728 3042 2575 3012
+region_code_gt: nsw
+plate_number_gt: CMJ93U
+plate_inverted_gt: false

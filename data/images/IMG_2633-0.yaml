@@ -1,0 +1,7 @@
+image_file: IMG_2633.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1009 2470 1519 2489 1516 2579 1006 2562
+region_code_gt: nsw
+plate_number_gt: EAI38U
+plate_inverted_gt: false

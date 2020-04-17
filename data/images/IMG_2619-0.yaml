@@ -1,0 +1,7 @@
+image_file: IMG_2619.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1274 1888 1740 1880 1748 2008 1279 2020
+region_code_gt: nsw
+plate_number_gt: BPI07J
+plate_inverted_gt: false

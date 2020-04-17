@@ -1,0 +1,7 @@
+image_file: IMG_2333.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1020 973 1440 1033 1430 1119 1016 1065
+region_code_gt: nsw
+plate_number_gt: EDP13A
+plate_inverted_gt: false

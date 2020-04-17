@@ -1,0 +1,7 @@
+image_file: IMG_2350.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1621 1398 2057 1396 2028 1549 1600 1552
+region_code_gt: nsw
+plate_number_gt: HC1663
+plate_inverted_gt: false

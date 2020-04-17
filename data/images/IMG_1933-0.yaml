@@ -1,0 +1,7 @@
+image_file: IMG_1933.jpg
+image_width: 897
+image_height: 1196
+plate_corners_gt: 554 336 657 330 660 358 556 363
+region_code_gt: nsw
+plate_number_gt: BNX73X
+plate_inverted_gt: false

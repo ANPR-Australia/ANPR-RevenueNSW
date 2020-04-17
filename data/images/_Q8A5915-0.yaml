@@ -1,0 +1,7 @@
+image_file: _Q8A5915.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2974 1584 3122 1596 3119 1639 2971 1629
+region_code_gt: nsw
+plate_number_gt: APD64M
+plate_inverted_gt: false

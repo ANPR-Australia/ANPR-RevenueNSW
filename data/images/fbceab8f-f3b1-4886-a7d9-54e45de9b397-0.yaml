@@ -1,0 +1,7 @@
+image_file: fbceab8f-f3b1-4886-a7d9-54e45de9b397.JPG
+image_width: 1200
+image_height: 1600
+plate_corners_gt: 410 946 669 948 669 997 412 997
+region_code_gt: nsw
+plate_number_gt: 64ADKP
+plate_inverted_gt: true

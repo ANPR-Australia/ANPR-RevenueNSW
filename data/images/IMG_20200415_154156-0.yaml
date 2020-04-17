@@ -1,0 +1,7 @@
+image_file: IMG_20200415_154156.jpg
+image_width: 4032
+image_height: 3024
+plate_corners_gt: 1271 1404 3128 1202 3092 1712 1369 1903
+region_code_gt: nsw
+plate_number_gt: CN58YB
+plate_inverted_gt: false

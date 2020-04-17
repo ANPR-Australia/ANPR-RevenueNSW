@@ -1,0 +1,7 @@
+image_file: IMG_2386.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 692 905 1021 932 1006 1052 684 1021
+region_code_gt: nsw
+plate_number_gt: BDL71F
+plate_inverted_gt: false

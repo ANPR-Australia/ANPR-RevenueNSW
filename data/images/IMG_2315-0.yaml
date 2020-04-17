@@ -1,0 +1,7 @@
+image_file: IMG_2315.jpg
+image_width: 2276
+image_height: 3035
+plate_corners_gt: 138 1263 440 1314 461 1394 162 1340
+region_code_gt: nsw
+plate_number_gt: BDB42T
+plate_inverted_gt: false

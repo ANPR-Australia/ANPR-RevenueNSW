@@ -1,0 +1,7 @@
+image_file: IMG_2513.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1525 1417 1881 1384 1886 1515 1536 1554
+region_code_gt: nsw
+plate_number_gt: CQ74UC
+plate_inverted_gt: false

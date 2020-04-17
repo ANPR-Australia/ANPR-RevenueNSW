@@ -1,0 +1,7 @@
+image_file: _Q8A9820.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2852 1528 2979 1527 2978 1574 2850 1576
+region_code_gt: nsw
+plate_number_gt: BP80GG
+plate_inverted_gt: false

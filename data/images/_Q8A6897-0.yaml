@@ -1,0 +1,7 @@
+image_file: _Q8A6897.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2825 1859 2969 1883 2962 1929 2822 1906
+region_code_gt: nsw
+plate_number_gt: DBU65U
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1886.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 198 1174 675 1252 683 1357 211 1277
+region_code_gt: nsw
+plate_number_gt: AWH98Z
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: _Q8A4467.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 3160 1310 3297 1315 3296 1350 3158 1344
+region_code_gt: nsw
+plate_number_gt: DBK85B
+plate_inverted_gt: false

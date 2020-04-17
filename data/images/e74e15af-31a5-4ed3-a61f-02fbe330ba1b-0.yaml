@@ -1,0 +1,7 @@
+image_file: e74e15af-31a5-4ed3-a61f-02fbe330ba1b.JPG
+image_width: 1200
+image_height: 1600
+plate_corners_gt: 307 857 456 874 448 922 300 906
+region_code_gt: nsw
+plate_number_gt: EHU23L
+plate_inverted_gt: false

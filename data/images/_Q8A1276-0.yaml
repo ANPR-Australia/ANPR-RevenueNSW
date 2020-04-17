@@ -1,0 +1,7 @@
+image_file: _Q8A1276.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2127 819 2233 801 2234 830 2129 846
+region_code_gt: nsw
+plate_number_gt: EDZ31M
+plate_inverted_gt: false

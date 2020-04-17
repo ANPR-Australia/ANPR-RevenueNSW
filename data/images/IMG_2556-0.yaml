@@ -1,0 +1,7 @@
+image_file: IMG_2556.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1644 1307 1965 1280 1968 1414 1649 1441
+region_code_gt: nsw
+plate_number_gt: BT77SM
+plate_inverted_gt: false

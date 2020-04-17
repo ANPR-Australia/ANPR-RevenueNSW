@@ -1,0 +1,7 @@
+image_file: IMG_2577.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 897 1392 1455 1389 1455 1552 900 1546
+region_code_gt: nsw
+plate_number_gt: DBC91A
+plate_inverted_gt: false

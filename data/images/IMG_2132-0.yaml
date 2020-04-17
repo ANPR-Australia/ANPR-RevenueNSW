@@ -1,0 +1,7 @@
+image_file: IMG_2132.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1609 1406 1952 1409 1932 1522 1593 1530
+region_code_gt: nsw
+plate_number_gt: XLU284
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1843.jpg
+image_width: 1974
+image_height: 1848
+plate_corners_gt: 810 1579 1049 1571 1057 1650 816 1664
+region_code_gt: nsw
+plate_number_gt: CX39GB
+plate_inverted_gt: false

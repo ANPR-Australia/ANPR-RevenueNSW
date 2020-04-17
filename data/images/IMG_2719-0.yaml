@@ -1,0 +1,7 @@
+image_file: IMG_2719.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 659 2379 1432 2434 1419 2558 657 2504
+region_code_gt: nsw
+plate_number_gt: DLT05F
+plate_inverted_gt: false

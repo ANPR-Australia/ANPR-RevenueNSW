@@ -1,0 +1,7 @@
+image_file: IMG_2485.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 885 1154 1318 1227 1290 1366 868 1289
+region_code_gt: nsw
+plate_number_gt: DNB86G
+plate_inverted_gt: false

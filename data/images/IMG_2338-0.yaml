@@ -1,0 +1,7 @@
+image_file: IMG_2338.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 837 1247 845 1168 1227 1282 1222 1373
+region_code_gt: nsw
+plate_number_gt: CZP60K
+plate_inverted_gt: false

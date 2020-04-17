@@ -1,0 +1,7 @@
+image_file: IMG_2355.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1667 986 2130 949 2114 1051 1661 1090
+region_code_gt: nsw
+plate_number_gt: BBU54B
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: _Q8A4197.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 1929 2730 2081 2755 2079 2798 1925 2771
+region_code_gt: nsw
+plate_number_gt: MF155
+plate_inverted_gt: false

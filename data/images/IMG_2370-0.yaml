@@ -1,0 +1,7 @@
+image_file: IMG_2370.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 733 1182 928 1202 929 1283 734 1260
+region_code_gt: nsw
+plate_number_gt: YIT13J
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_2728.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1054 1849 1703 1839 1700 2006 1061 2022
+region_code_gt: nsw
+plate_number_gt: DZS02U
+plate_inverted_gt: false

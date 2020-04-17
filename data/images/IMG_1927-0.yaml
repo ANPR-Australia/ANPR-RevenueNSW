@@ -1,0 +1,7 @@
+image_file: IMG_1927.jpg
+image_width: 1253
+image_height: 1671
+plate_corners_gt: 649 417 791 414 793 462 650 465
+region_code_gt: nsw
+plate_number_gt: AYD44N
+plate_inverted_gt: false

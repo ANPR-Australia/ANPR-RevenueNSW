@@ -1,0 +1,7 @@
+image_file: IMG_2046.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1709 1158 2143 1111 2142 1240 1712 1302
+region_code_gt: nsw
+plate_number_gt: CQG93X
+plate_inverted_gt: false

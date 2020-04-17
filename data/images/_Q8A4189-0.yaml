@@ -1,0 +1,7 @@
+image_file: _Q8A4189.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2469 2252 2619 2276 2611 2322 2466 2292
+region_code_gt: nsw
+plate_number_gt: DXT01N
+plate_inverted_gt: false

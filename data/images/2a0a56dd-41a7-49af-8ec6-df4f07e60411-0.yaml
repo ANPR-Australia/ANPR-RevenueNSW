@@ -1,0 +1,7 @@
+image_file: 2a0a56dd-41a7-49af-8ec6-df4f07e60411.JPG
+image_width: 1600
+image_height: 1200
+plate_corners_gt: 707 712 993 722 990 774 708 764
+region_code_gt: nsw
+plate_number_gt: AGENCY
+plate_inverted_gt: true

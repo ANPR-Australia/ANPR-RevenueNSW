@@ -1,0 +1,7 @@
+image_file: IMG_2506.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1626 909 1969 896 1971 1001 1628 1020
+region_code_gt: nsw
+plate_number_gt: DNN72C
+plate_inverted_gt: false

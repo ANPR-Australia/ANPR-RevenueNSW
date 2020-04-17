@@ -1,0 +1,7 @@
+image_file: IMG_2602.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1197 1933 1674 1945 1673 2079 1193 2072
+region_code_gt: nsw
+plate_number_gt: EBR05K
+plate_inverted_gt: false

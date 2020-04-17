@@ -1,0 +1,7 @@
+image_file: IMG_1894.jpg
+image_width: 2253
+image_height: 2932
+plate_corners_gt: 1480 1251 1555 1253 1553 1284 1480 1280
+region_code_gt: nsw
+plate_number_gt: CE66KL
+plate_inverted_gt: false

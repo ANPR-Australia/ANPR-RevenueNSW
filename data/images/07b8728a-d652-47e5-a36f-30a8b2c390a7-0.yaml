@@ -1,0 +1,7 @@
+image_file: 07b8728a-d652-47e5-a36f-30a8b2c390a7.JPG
+image_width: 1600
+image_height: 1200
+plate_corners_gt: 515 816 980 835 976 919 516 896
+region_code_gt: nsw
+plate_number_gt: DJA49T
+plate_inverted_gt: false

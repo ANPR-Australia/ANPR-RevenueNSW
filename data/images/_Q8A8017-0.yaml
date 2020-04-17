@@ -1,0 +1,7 @@
+image_file: _Q8A8017.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2861 1552 3002 1551 3001 1594 2863 1589
+region_code_gt: nsw
+plate_number_gt: CSW37M
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_2230.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1581 766 1878 786 1875 877 1576 859
+region_code_gt: nsw
+plate_number_gt: WEL222
+plate_inverted_gt: true

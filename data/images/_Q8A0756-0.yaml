@@ -1,0 +1,7 @@
+image_file: _Q8A0756.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2476 978 2583 959 2586 1001 2477 1021
+region_code_gt: nsw
+plate_number_gt: BX08XQ
+plate_inverted_gt: false

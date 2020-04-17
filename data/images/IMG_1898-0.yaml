@@ -1,0 +1,7 @@
+image_file: IMG_1898.jpg
+image_width: 1541
+image_height: 1962
+plate_corners_gt: 233 1670 399 1698 390 1770 228 1737
+region_code_gt: nsw
+plate_number_gt: BFT70B
+plate_inverted_gt: false

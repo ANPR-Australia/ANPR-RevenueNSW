@@ -1,0 +1,7 @@
+image_file: IMG_20200415_154218.jpg
+image_width: 4032
+image_height: 3024
+plate_corners_gt: 1278 1285 3450 1226 3371 1908 1408 1877
+region_code_gt: nsw
+plate_number_gt: CR24RT
+plate_inverted_gt: false

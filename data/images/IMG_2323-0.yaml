@@ -1,0 +1,7 @@
+image_file: IMG_2323.jpg
+image_width: 1761
+image_height: 2348
+plate_corners_gt: 473 1048 779 1066 774 1137 473 1115
+region_code_gt: nsw
+plate_number_gt: DNR65H
+plate_inverted_gt: false

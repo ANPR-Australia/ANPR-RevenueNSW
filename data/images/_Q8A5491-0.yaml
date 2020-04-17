@@ -1,0 +1,7 @@
+image_file: _Q8A5491.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 3033 1572 3174 1582 3171 1622 3030 1610
+region_code_gt: nsw
+plate_number_gt: DPC16W
+plate_inverted_gt: false

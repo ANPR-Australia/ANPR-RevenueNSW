@@ -1,0 +1,7 @@
+image_file: IMG_20200415_154419.jpg
+image_width: 4032
+image_height: 3024
+plate_corners_gt: 989 1606 2004 1762 2033 2080 1068 1898
+region_code_gt: nsw
+plate_number_gt: CR19RT
+plate_inverted_gt: false

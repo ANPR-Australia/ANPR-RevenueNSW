@@ -1,0 +1,7 @@
+image_file: _Q8A8172.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2460 2671 2607 2684 2602 2730 2457 2718
+region_code_gt: nsw
+plate_number_gt: CVQ75T
+plate_inverted_gt: false

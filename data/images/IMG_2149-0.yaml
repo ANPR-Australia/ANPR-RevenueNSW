@@ -1,0 +1,7 @@
+image_file: IMG_2149.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1578 1031 1984 1027 1983 1141 1580 1157
+region_code_gt: nsw
+plate_number_gt: DJD63K
+plate_inverted_gt: false

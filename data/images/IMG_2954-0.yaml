@@ -1,0 +1,7 @@
+image_file: IMG_2954.jpg
+image_width: 932
+image_height: 1242
+plate_corners_gt: 571 259 702 259 705 301 576 306
+region_code_gt: nsw
+plate_number_gt: BB53WC
+plate_inverted_gt: false

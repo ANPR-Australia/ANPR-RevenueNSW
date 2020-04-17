@@ -1,0 +1,7 @@
+image_file: IMG_2388.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1736 1147 2204 1096 2193 1205 1734 1251
+region_code_gt: nsw
+plate_number_gt: UU9999
+plate_inverted_gt: false

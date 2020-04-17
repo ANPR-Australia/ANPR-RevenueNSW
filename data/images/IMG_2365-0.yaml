@@ -1,0 +1,7 @@
+image_file: IMG_2365.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1023 862 1361 934 1323 1065 1005 1001
+region_code_gt: nsw
+plate_number_gt: CU19PN
+plate_inverted_gt: false

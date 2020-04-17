@@ -1,0 +1,7 @@
+image_file: 5183d7df-b202-4cb5-a432-e85d8a58f653.JPG
+image_width: 1200
+image_height: 1600
+plate_corners_gt: 347 595 559 599 552 682 342 671
+region_code_gt: nsw
+plate_number_gt: BW56MO
+plate_inverted_gt: false

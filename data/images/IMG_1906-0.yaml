@@ -1,0 +1,7 @@
+image_file: IMG_1906.jpg
+image_width: 1470
+image_height: 1960
+plate_corners_gt: 662 1459 888 1448 891 1517 664 1529
+region_code_gt: nsw
+plate_number_gt: APO51Y
+plate_inverted_gt: false

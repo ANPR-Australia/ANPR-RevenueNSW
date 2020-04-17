@@ -1,0 +1,7 @@
+image_file: 69f26f2d-147c-4321-9a8e-b316e19342ab.JPG
+image_width: 590
+image_height: 787
+plate_corners_gt: 418 359 531 358 532 393 417 393
+region_code_gt: nsw
+plate_number_gt: DXC67G
+plate_inverted_gt: false

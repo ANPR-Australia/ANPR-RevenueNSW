@@ -1,0 +1,7 @@
+image_file: IMG_20200415_154346.jpg
+image_width: 4032
+image_height: 3024
+plate_corners_gt: 1668 1465 2587 1473 2566 1779 1666 1759
+region_code_gt: nsw
+plate_number_gt: CR22RT
+plate_inverted_gt: false

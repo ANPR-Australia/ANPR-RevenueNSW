@@ -1,0 +1,7 @@
+image_file: IMG_2225.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1309 945 1756 925 1761 1043 1317 1058
+region_code_gt: nsw
+plate_number_gt: DTZ74L
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_2003.jpg
+image_width: 1379
+image_height: 1858
+plate_corners_gt: 295 1753 437 1742 438 1815 292 1825
+region_code_gt: nsw
+plate_number_gt: CV16NF
+plate_inverted_gt: false

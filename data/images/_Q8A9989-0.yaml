@@ -1,0 +1,7 @@
+image_file: _Q8A9989.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2785 2960 2939 2980 2935 3023 2782 3000
+region_code_gt: nsw
+plate_number_gt: JAH168
+plate_inverted_gt: false

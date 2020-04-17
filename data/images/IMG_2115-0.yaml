@@ -1,0 +1,7 @@
+image_file: IMG_2115.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1309 1107 1879 1090 1874 1298 1317 1315
+region_code_gt: nsw
+plate_number_gt: XBV178
+plate_inverted_gt: false

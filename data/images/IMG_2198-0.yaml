@@ -1,0 +1,7 @@
+image_file: IMG_2198.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1822 1225 2235 1211 2232 1330 1819 1344
+region_code_gt: nsw
+plate_number_gt: CPA68Q
+plate_inverted_gt: false

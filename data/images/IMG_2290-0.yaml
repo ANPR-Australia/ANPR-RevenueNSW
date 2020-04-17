@@ -1,0 +1,7 @@
+image_file: IMG_2290.jpg
+image_width: 1238
+image_height: 1651
+plate_corners_gt: 493 427 612 454 608 491 489 463
+region_code_gt: nsw
+plate_number_gt: DVG62Z
+plate_inverted_gt: false

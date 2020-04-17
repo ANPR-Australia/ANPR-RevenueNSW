@@ -1,0 +1,7 @@
+image_file: IMG_2551.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1521 1809 1908 1761 1919 1884 1527 1937
+region_code_gt: nsw
+plate_number_gt: CNZ92Z
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_2410.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1179 1763 1380 1779 1381 1851 1186 1833
+region_code_gt: nsw
+plate_number_gt: BD17CT
+plate_inverted_gt: false

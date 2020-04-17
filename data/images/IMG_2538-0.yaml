@@ -1,0 +1,7 @@
+image_file: IMG_2538.jpg
+image_width: 2640
+image_height: 2034
+plate_corners_gt: 1271 1599 1419 1597 1414 1643 1269 1641
+region_code_gt: nsw
+plate_number_gt: EBP87D
+plate_inverted_gt: false

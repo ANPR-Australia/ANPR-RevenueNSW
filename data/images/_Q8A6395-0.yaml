@@ -1,0 +1,7 @@
+image_file: _Q8A6395.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2766 2526 2910 2560 2909 2605 2766 2569
+region_code_gt: nsw
+plate_number_gt: CED73D
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_2090.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1588 1392 2204 1329 2207 1511 1591 1582
+region_code_gt: nsw
+plate_number_gt: BZR68D
+plate_inverted_gt: false

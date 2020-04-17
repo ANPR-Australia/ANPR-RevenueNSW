@@ -1,0 +1,7 @@
+image_file: 5009fe45-5cd1-4447-800c-ee25fa8d066f.JPG
+image_width: 1200
+image_height: 1600
+plate_corners_gt: 110 612 186 614 188 644 114 641
+region_code_gt: nsw
+plate_number_gt: CU95GZ
+plate_inverted_gt: false

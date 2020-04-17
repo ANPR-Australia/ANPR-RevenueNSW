@@ -1,0 +1,7 @@
+image_file: IMG_2097.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1514 1361 1897 1336 1908 1451 1530 1480
+region_code_gt: nsw
+plate_number_gt: ALO72E
+plate_inverted_gt: false

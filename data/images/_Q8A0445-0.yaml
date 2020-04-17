@@ -1,0 +1,7 @@
+image_file: _Q8A0445.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2784 2361 2929 2375 2929 2415 2782 2402
+region_code_gt: nsw
+plate_number_gt: CYK97W
+plate_inverted_gt: false

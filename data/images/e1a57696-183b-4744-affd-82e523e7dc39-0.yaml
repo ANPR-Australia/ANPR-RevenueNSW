@@ -1,0 +1,7 @@
+image_file: e1a57696-183b-4744-affd-82e523e7dc39.JPG
+image_width: 1200
+image_height: 1600
+plate_corners_gt: 347 817 619 857 610 933 340 895
+region_code_gt: nsw
+plate_number_gt: CJJ57M
+plate_inverted_gt: false

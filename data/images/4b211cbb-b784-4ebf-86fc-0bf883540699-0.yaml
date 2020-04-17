@@ -1,0 +1,7 @@
+image_file: 4b211cbb-b784-4ebf-86fc-0bf883540699.JPG
+image_width: 1200
+image_height: 1600
+plate_corners_gt: 466 768 650 759 654 804 468 814
+region_code_gt: nsw
+plate_number_gt: CGZ64S
+plate_inverted_gt: false

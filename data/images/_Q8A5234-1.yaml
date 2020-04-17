@@ -1,0 +1,7 @@
+image_file: _Q8A5234.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 4878 2560 4884 2517 5015 2574 5004 2618
+region_code_gt: nsw
+plate_number_gt: DVZ71M
+plate_inverted_gt: false

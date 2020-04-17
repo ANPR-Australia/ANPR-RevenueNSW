@@ -1,0 +1,7 @@
+image_file: IMG_1961.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 976 1094 1723 1016 1714 1157 1005 1240
+region_code_gt: nsw
+plate_number_gt: AYL39H
+plate_inverted_gt: false

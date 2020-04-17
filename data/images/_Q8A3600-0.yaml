@@ -1,0 +1,7 @@
+image_file: _Q8A3600.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2650 1997 2798 2027 2793 2080 2647 2055
+region_code_gt: vic
+plate_number_gt: 1QT3EK
+plate_inverted_gt: false

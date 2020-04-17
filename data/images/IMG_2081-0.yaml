@@ -1,0 +1,7 @@
+image_file: IMG_2081.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1464 1100 1858 1069 1853 1214 1472 1253
+region_code_gt: nsw
+plate_number_gt: AO98UF
+plate_inverted_gt: false

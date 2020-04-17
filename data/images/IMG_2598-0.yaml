@@ -1,0 +1,7 @@
+image_file: IMG_2598.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1335 2369 1905 2342 1901 2481 1339 2511
+region_code_gt: nsw
+plate_number_gt: YHQ17B
+plate_inverted_gt: false

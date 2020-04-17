@@ -1,0 +1,7 @@
+image_file: e90603c2-1a75-4f0a-8ac0-8a94713bd0c3.JPG
+image_width: 1200
+image_height: 1600
+plate_corners_gt: 717 1071 898 1063 899 1130 717 1138
+region_code_gt: nsw
+plate_number_gt: CP85NN
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_2647.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 901 2528 1588 2643 1573 2787 899 2671
+region_code_gt: nsw
+plate_number_gt: 89TRAN
+plate_inverted_gt: false

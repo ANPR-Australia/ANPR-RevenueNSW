@@ -1,0 +1,7 @@
+image_file: _Q8A6425.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 3021 1041 3159 1041 3160 1084 3022 1083
+region_code_gt: nsw
+plate_number_gt: CP54JD
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_2270.jpg
+image_width: 1369
+image_height: 1825
+plate_corners_gt: 472 998 674 1000 674 1075 476 1073
+region_code_gt: nsw
+plate_number_gt: WWA333
+plate_inverted_gt: false

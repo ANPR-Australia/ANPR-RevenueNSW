@@ -1,0 +1,7 @@
+image_file: _Q8A4446.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 3045 1418 3187 1428 3185 1464 3045 1453
+region_code_gt: nsw
+plate_number_gt: TAY700
+plate_inverted_gt: true

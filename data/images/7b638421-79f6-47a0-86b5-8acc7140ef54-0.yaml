@@ -1,0 +1,7 @@
+image_file: 7b638421-79f6-47a0-86b5-8acc7140ef54.JPG
+image_width: 650
+image_height: 866
+plate_corners_gt: 299 411 498 412 497 452 299 450
+region_code_gt: nsw
+plate_number_gt: BKY38A
+plate_inverted_gt: false

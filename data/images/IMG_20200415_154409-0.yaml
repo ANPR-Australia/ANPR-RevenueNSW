@@ -1,0 +1,7 @@
+image_file: IMG_20200415_154409.jpg
+image_width: 4032
+image_height: 3024
+plate_corners_gt: 1603 1648 2852 1636 2782 1946 1619 1969
+region_code_gt: nsw
+plate_number_gt: CR16RT
+plate_inverted_gt: false

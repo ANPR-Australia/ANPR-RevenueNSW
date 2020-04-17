@@ -1,0 +1,7 @@
+image_file: IMG_2656.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 807 2151 1352 2222 1333 2404 786 2319
+region_code_gt: nsw
+plate_number_gt: CMT48W
+plate_inverted_gt: false

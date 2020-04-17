@@ -1,0 +1,7 @@
+image_file: IMG_2296.jpg
+image_width: 1835
+image_height: 2447
+plate_corners_gt: 515 1325 786 1368 781 1457 514 1414
+region_code_gt: nsw
+plate_number_gt: APC12N
+plate_inverted_gt: false

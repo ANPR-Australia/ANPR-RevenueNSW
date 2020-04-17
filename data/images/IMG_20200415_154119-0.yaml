@@ -1,0 +1,7 @@
+image_file: IMG_20200415_154119.jpg
+image_width: 4032
+image_height: 3024
+plate_corners_gt: 1325 1521 2546 1505 2554 1880 1381 1864
+region_code_gt: nsw
+plate_number_gt: CI40GQ
+plate_inverted_gt: false

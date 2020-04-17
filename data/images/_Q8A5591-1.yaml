@@ -1,0 +1,7 @@
+image_file: _Q8A5591.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 1438 3231 1441 3187 1582 3232 1579 3276
+region_code_gt: nsw
+plate_number_gt: CML62L
+plate_inverted_gt: false

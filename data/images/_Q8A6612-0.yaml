@@ -1,0 +1,7 @@
+image_file: _Q8A6612.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 3762 3183 3768 3141 3955 3233 3944 3278
+region_code_gt: nsw
+plate_number_gt: DKM777
+plate_inverted_gt: true

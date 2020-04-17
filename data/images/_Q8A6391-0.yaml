@@ -1,0 +1,7 @@
+image_file: _Q8A6391.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2978 1364 3119 1372 3118 1410 2975 1401
+region_code_gt: nsw
+plate_number_gt: CYQ57N
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: _Q8A6491.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2937 1747 3082 1761 3079 1800 2937 1785
+region_code_gt: nsw
+plate_number_gt: DLY06E
+plate_inverted_gt: false

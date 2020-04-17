@@ -1,0 +1,7 @@
+image_file: IMG_2570.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1159 2331 1853 2312 1853 2500 1164 2529
+region_code_gt: nsw
+plate_number_gt: YDM78L
+plate_inverted_gt: false

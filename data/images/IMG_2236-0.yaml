@@ -1,0 +1,7 @@
+image_file: IMG_2236.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1529 1057 1930 1042 1930 1149 1534 1167
+region_code_gt: nsw
+plate_number_gt: DCP19K
+plate_inverted_gt: false

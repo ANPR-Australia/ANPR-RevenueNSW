@@ -1,0 +1,7 @@
+image_file: IMG_2668.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 863 2358 1519 2446 1507 2576 853 2491
+region_code_gt: nsw
+plate_number_gt: CEJ97C
+plate_inverted_gt: false

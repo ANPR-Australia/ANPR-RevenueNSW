@@ -1,0 +1,7 @@
+image_file: IMG_2614.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1840 2655 2238 2610 2224 2684 1832 2740
+region_code_gt: nsw
+plate_number_gt: BTV53L
+plate_inverted_gt: false

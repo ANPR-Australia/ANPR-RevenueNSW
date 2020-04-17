@@ -1,0 +1,7 @@
+image_file: IMG_2603.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 906 1479 1393 1495 1388 1669 912 1660
+region_code_gt: nsw
+plate_number_gt: CJ49AM
+plate_inverted_gt: false

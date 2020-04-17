@@ -1,0 +1,7 @@
+image_file: IMG_2140.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1775 1353 2227 1300 2207 1435 1766 1489
+region_code_gt: nsw
+plate_number_gt: YGF03Y
+plate_inverted_gt: false

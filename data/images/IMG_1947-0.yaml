@@ -1,0 +1,7 @@
+image_file: IMG_1947.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2054 1295 2492 1244 2485 1387 2057 1432
+region_code_gt: nsw
+plate_number_gt: YIO77R
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_2590.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1044 2281 1544 2284 1545 2441 1042 2432
+region_code_gt: nsw
+plate_number_gt: CJ22UZ
+plate_inverted_gt: false

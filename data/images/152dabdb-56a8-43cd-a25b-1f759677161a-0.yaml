@@ -1,0 +1,7 @@
+image_file: 152dabdb-56a8-43cd-a25b-1f759677161a.JPG
+image_width: 1200
+image_height: 1600
+plate_corners_gt: 483 1131 679 1134 677 1177 482 1174
+region_code_gt: nsw
+plate_number_gt: BNO62A
+plate_inverted_gt: false

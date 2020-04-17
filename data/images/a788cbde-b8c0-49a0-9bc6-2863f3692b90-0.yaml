@@ -1,0 +1,7 @@
+image_file: a788cbde-b8c0-49a0-9bc6-2863f3692b90.JPG
+image_width: 1200
+image_height: 1600
+plate_corners_gt: 341 620 516 640 502 713 327 691
+region_code_gt: nsw
+plate_number_gt: BU33TS
+plate_inverted_gt: false

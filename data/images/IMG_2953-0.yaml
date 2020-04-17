@@ -1,0 +1,7 @@
+image_file: IMG_2953.jpg
+image_width: 931
+image_height: 1242
+plate_corners_gt: 580 287 698 282 700 314 582 320
+region_code_gt: nsw
+plate_number_gt: DNW68T
+plate_inverted_gt: false

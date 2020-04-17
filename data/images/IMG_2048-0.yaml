@@ -1,0 +1,7 @@
+image_file: IMG_2048.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1632 955 2253 936 2244 1086 1632 1103
+region_code_gt: nsw
+plate_number_gt: NCA62M
+plate_inverted_gt: false

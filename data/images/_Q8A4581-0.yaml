@@ -1,0 +1,7 @@
+image_file: _Q8A4581.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2775 2082 2922 2106 2916 2157 2771 2134
+region_code_gt: nsw
+plate_number_gt: HC4281
+plate_inverted_gt: true

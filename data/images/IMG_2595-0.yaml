@@ -1,0 +1,7 @@
+image_file: IMG_2595.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1272 2105 1616 2116 1616 2191 1273 2175
+region_code_gt: nsw
+plate_number_gt: DZP85C
+plate_inverted_gt: false

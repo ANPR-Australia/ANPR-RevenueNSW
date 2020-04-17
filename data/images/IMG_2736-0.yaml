@@ -1,0 +1,7 @@
+image_file: IMG_2736.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1041 2283 1548 2306 1544 2393 1041 2366
+region_code_gt: nsw
+plate_number_gt: EGK78R
+plate_inverted_gt: false

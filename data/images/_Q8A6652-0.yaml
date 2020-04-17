@@ -1,0 +1,7 @@
+image_file: _Q8A6652.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 3228 519 3354 511 3360 552 3231 564
+region_code_gt: nsw
+plate_number_gt: AG84XS
+plate_inverted_gt: false

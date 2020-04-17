@@ -1,0 +1,7 @@
+image_file: 791dfeee-df6b-47e7-a37c-91916dc5f784.JPG
+image_width: 1200
+image_height: 1600
+plate_corners_gt: 698 581 877 579 874 629 699 631
+region_code_gt: nsw
+plate_number_gt: YGC35J
+plate_inverted_gt: false

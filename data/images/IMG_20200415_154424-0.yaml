@@ -1,0 +1,7 @@
+image_file: IMG_20200415_154424.jpg
+image_width: 4032
+image_height: 3024
+plate_corners_gt: 1154 1714 2090 1893 2109 2187 1227 1973
+region_code_gt: nsw
+plate_number_gt: CN59YB
+plate_inverted_gt: false

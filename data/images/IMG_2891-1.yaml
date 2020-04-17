@@ -1,0 +1,7 @@
+image_file: IMG_2891.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2465 1904 2599 1896 2599 1924 2467 1929
+region_code_gt: nsw
+plate_number_gt: CHJ27R
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_2725.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 846 2355 1514 2456 1494 2575 842 2472
+region_code_gt: nsw
+plate_number_gt: DJQ59Y
+plate_inverted_gt: false

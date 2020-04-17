@@ -1,0 +1,7 @@
+image_file: _Q8A0129.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2935 2679 3082 2693 3079 2730 2933 2714
+region_code_gt: nsw
+plate_number_gt: DXZ27F
+plate_inverted_gt: false

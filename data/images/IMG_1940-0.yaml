@@ -1,0 +1,7 @@
+image_file: IMG_1940.jpg
+image_width: 1840
+image_height: 2454
+plate_corners_gt: 1148 442 1319 429 1325 478 1152 497
+region_code_gt: nsw
+plate_number_gt: CRK22K
+plate_inverted_gt: false

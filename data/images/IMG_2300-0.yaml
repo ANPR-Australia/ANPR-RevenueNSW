@@ -1,0 +1,7 @@
+image_file: IMG_2300.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1247 951 1698 904 1709 1042 1262 1086
+region_code_gt: nsw
+plate_number_gt: DZD93B
+plate_inverted_gt: false

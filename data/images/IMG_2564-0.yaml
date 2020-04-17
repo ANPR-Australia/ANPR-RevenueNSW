@@ -1,0 +1,7 @@
+image_file: IMG_2564.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1058 1499 1348 1501 1341 1590 1055 1582
+region_code_gt: nsw
+plate_number_gt: CMQ14P
+plate_inverted_gt: false

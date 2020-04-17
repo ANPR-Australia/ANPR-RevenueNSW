@@ -1,0 +1,7 @@
+image_file: _Q8A1277.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2203 3226 2419 3268 2412 3311 2200 3270
+region_code_gt: nsw
+plate_number_gt: NXJ24J
+plate_inverted_gt: false

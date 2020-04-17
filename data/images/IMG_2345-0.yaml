@@ -1,0 +1,7 @@
+image_file: IMG_2345.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1385 1611 1821 1528 1844 1657 1416 1754
+region_code_gt: nsw
+plate_number_gt: CTH44R
+plate_inverted_gt: false

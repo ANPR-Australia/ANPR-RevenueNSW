@@ -1,0 +1,7 @@
+image_file: IMG_2443.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1699 1249 2207 1213 2209 1368 1708 1406
+region_code_gt: nsw
+plate_number_gt: CVX42R
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: _Q8A3464.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2920 1474 3066 1489 3063 1538 2921 1524
+region_code_gt: nsw
+plate_number_gt: CA67XT
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_2508.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1363 1171 1753 1149 1760 1272 1369 1292
+region_code_gt: nsw
+plate_number_gt: BNB66E
+plate_inverted_gt: false

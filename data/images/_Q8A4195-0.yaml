@@ -1,0 +1,7 @@
+image_file: _Q8A4195.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 3015 1661 3161 1674 3158 1723 3015 1705
+region_code_gt: nsw
+plate_number_gt: CU29RZ
+plate_inverted_gt: false

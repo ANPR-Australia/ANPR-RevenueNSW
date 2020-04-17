@@ -1,0 +1,7 @@
+image_file: IMG_2678.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 751 2246 1391 2325 1387 2461 755 2378
+region_code_gt: nsw
+plate_number_gt: DJW04C
+plate_inverted_gt: false

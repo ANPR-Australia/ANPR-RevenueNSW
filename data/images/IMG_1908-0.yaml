@@ -1,0 +1,7 @@
+image_file: IMG_1908.jpg
+image_width: 974
+image_height: 1299
+plate_corners_gt: 561 1072 713 1070 720 1109 565 1114
+region_code_gt: nsw
+plate_number_gt: BGD54W
+plate_inverted_gt: false

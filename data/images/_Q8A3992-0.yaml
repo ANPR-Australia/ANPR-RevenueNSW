@@ -1,0 +1,7 @@
+image_file: _Q8A3992.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 3061 1773 3201 1784 3199 1822 3059 1809
+region_code_gt: nsw
+plate_number_gt: DQR61T
+plate_inverted_gt: false

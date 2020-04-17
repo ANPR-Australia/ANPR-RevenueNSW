@@ -1,0 +1,7 @@
+image_file: IMG_2061.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1355 1295 1740 1282 1746 1395 1366 1411
+region_code_gt: nsw
+plate_number_gt: BPI05D
+plate_inverted_gt: false

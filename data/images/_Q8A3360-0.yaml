@@ -1,0 +1,7 @@
+image_file: _Q8A3360.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2766 1171 2904 1175 2903 1213 2764 1207
+region_code_gt: nsw
+plate_number_gt: DLC75E
+plate_inverted_gt: false

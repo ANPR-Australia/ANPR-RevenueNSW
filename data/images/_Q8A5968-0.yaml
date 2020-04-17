@@ -1,0 +1,7 @@
+image_file: _Q8A5968.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2666 1866 2813 1879 2811 1925 2669 1911
+region_code_gt: nsw
+plate_number_gt: BS57QE
+plate_inverted_gt: false

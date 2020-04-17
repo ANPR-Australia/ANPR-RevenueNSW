@@ -1,0 +1,7 @@
+image_file: IMG_2516.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1461 1039 1993 990 2001 1148 1476 1205
+region_code_gt: nsw
+plate_number_gt: EEW80B
+plate_inverted_gt: false

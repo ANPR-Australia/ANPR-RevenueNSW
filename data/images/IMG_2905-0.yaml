@@ -1,0 +1,7 @@
+image_file: IMG_2905.jpg
+image_width: 1476
+image_height: 1968
+plate_corners_gt: 477 670 777 670 777 733 477 730
+region_code_gt: nsw
+plate_number_gt: DPJ52Y
+plate_inverted_gt: false

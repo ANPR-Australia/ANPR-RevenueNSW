@@ -1,0 +1,7 @@
+image_file: IMG_2192.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1481 1096 1828 1021 1800 1161 1470 1245
+region_code_gt: nsw
+plate_number_gt: CO73VT
+plate_inverted_gt: false

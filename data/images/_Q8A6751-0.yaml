@@ -1,0 +1,7 @@
+image_file: _Q8A6751.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2805 2007 2954 2029 2950 2081 2805 2051
+region_code_gt: nsw
+plate_number_gt: DLR86M
+plate_inverted_gt: false

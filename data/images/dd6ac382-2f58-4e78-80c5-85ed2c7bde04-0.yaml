@@ -1,0 +1,7 @@
+image_file: dd6ac382-2f58-4e78-80c5-85ed2c7bde04.JPG
+image_width: 1600
+image_height: 1200
+plate_corners_gt: 241 806 539 807 539 913 242 909
+region_code_gt: act
+plate_number_gt: YHR46L
+plate_inverted_gt: false

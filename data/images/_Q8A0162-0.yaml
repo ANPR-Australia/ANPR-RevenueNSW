@@ -1,0 +1,7 @@
+image_file: _Q8A0162.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2758 3004 2972 3034 2965 3078 2754 3044
+region_code_gt: nsw
+plate_number_gt: NCA45Y
+plate_inverted_gt: true

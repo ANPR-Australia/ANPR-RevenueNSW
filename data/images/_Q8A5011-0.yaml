@@ -1,0 +1,7 @@
+image_file: _Q8A5011.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2491 2415 2641 2447 2637 2498 2489 2470
+region_code_gt: nsw
+plate_number_gt: CIT72J
+plate_inverted_gt: false

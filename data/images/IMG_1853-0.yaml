@@ -1,0 +1,7 @@
+image_file: IMG_1853.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1649 911 2003 905 1987 1017 1637 1025
+region_code_gt: nsw
+plate_number_gt: DZR90S
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: _Q8A8201.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 3242 2317 3391 2341 3386 2387 3237 2362
+region_code_gt: nsw
+plate_number_gt: CHD06J
+plate_inverted_gt: false

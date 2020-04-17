@@ -1,0 +1,7 @@
+image_file: IMG_1931.jpg
+image_width: 604
+image_height: 805
+plate_corners_gt: 322 360 413 359 412 385 323 385
+region_code_gt: nsw
+plate_number_gt: YIC20Y
+plate_inverted_gt: false

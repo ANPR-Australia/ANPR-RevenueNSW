@@ -1,0 +1,7 @@
+image_file: IMG_2717.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 922 2281 1604 2381 1582 2565 903 2456
+region_code_gt: nsw
+plate_number_gt: DCR50L
+plate_inverted_gt: false

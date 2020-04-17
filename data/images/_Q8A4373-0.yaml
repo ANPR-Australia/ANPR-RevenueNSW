@@ -1,0 +1,7 @@
+image_file: _Q8A4373.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2875 1540 3017 1553 3015 1604 2871 1589
+region_code_gt: nsw
+plate_number_gt: SW9292
+plate_inverted_gt: false

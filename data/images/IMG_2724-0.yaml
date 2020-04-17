@@ -1,0 +1,7 @@
+image_file: IMG_2724.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1072 1777 1619 1807 1614 1965 1061 1928
+region_code_gt: nsw
+plate_number_gt: DYA47G
+plate_inverted_gt: false

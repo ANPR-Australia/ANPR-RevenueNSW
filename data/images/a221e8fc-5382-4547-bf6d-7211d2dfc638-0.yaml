@@ -1,0 +1,7 @@
+image_file: a221e8fc-5382-4547-bf6d-7211d2dfc638.JPG
+image_width: 519
+image_height: 692
+plate_corners_gt: 202 184 318 191 318 212 202 206
+region_code_gt: nsw
+plate_number_gt: EHD25J
+plate_inverted_gt: false

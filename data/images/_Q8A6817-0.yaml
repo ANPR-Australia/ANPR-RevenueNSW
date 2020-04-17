@@ -1,0 +1,7 @@
+image_file: _Q8A6817.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2833 1243 3031 1252 3031 1295 2834 1288
+region_code_gt: nsw
+plate_number_gt: NJA021
+plate_inverted_gt: false

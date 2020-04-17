@@ -1,0 +1,7 @@
+image_file: _Q8A4288.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 4615 2582 4621 2532 4751 2589 4746 2639
+region_code_gt: nsw
+plate_number_gt: CF41YF
+plate_inverted_gt: false

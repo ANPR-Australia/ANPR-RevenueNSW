@@ -1,0 +1,7 @@
+image_file: IMG_2127.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1015 1278 1379 1332 1373 1414 1018 1355
+region_code_gt: nsw
+plate_number_gt: AOU36J
+plate_inverted_gt: false

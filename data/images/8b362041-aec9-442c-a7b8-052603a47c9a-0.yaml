@@ -1,0 +1,7 @@
+image_file: 8b362041-aec9-442c-a7b8-052603a47c9a.JPG
+image_width: 1200
+image_height: 1600
+plate_corners_gt: 425 971 571 970 572 1008 426 1010
+region_code_gt: nsw
+plate_number_gt: MRN
+plate_inverted_gt: false

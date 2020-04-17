@@ -1,0 +1,7 @@
+image_file: IMG_2646.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 828 2506 840 2405 1435 2520 1421 2627
+region_code_gt: nsw
+plate_number_gt: DLF61Z
+plate_inverted_gt: false

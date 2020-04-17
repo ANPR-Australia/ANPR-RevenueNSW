@@ -1,0 +1,7 @@
+image_file: IMG_2548.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1716 1233 2164 1168 2166 1340 1728 1414
+region_code_gt: nsw
+plate_number_gt: CX27NH
+plate_inverted_gt: false

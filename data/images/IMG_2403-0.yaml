@@ -1,0 +1,7 @@
+image_file: IMG_2403.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1118 1513 1392 1516 1402 1575 1125 1571
+region_code_gt: nsw
+plate_number_gt: AKQ16Q
+plate_inverted_gt: false

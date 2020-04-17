@@ -1,0 +1,7 @@
+image_file: _Q8A5634.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2625 1832 2771 1845 2768 1892 2624 1876
+region_code_gt: nsw
+plate_number_gt: AO31DK
+plate_inverted_gt: false

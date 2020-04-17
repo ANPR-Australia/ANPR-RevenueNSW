@@ -1,0 +1,7 @@
+image_file: IMG_2545.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1603 1311 2081 1214 2109 1362 1636 1479
+region_code_gt: nsw
+plate_number_gt: BGA93G
+plate_inverted_gt: false

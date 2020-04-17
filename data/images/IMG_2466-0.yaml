@@ -1,0 +1,7 @@
+image_file: IMG_2466.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1239 998 1511 1007 1507 1094 1236 1078
+region_code_gt: nsw
+plate_number_gt: EED89E
+plate_inverted_gt: false

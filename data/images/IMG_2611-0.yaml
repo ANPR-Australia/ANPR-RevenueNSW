@@ -1,0 +1,7 @@
+image_file: IMG_2611.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 952 2251 1463 2294 1455 2410 944 2361
+region_code_gt: nsw
+plate_number_gt: CSE85W
+plate_inverted_gt: false

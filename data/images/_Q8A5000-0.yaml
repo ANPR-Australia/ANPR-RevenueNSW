@@ -1,0 +1,7 @@
+image_file: _Q8A5000.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 3080 2000 3223 2019 3222 2060 3077 2036
+region_code_gt: nsw
+plate_number_gt: DFA78E
+plate_inverted_gt: false

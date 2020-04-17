@@ -1,0 +1,7 @@
+image_file: IMG_1890.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 139 1352 601 1402 620 1570 162 1527
+region_code_gt: nsw
+plate_number_gt: BX43LN
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: _Q8A3597.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 3144 1878 3287 1891 3285 1936 3144 1919
+region_code_gt: nsw
+plate_number_gt: CF64XZ
+plate_inverted_gt: false

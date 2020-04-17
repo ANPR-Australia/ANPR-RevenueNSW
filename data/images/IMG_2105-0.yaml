@@ -1,0 +1,7 @@
+image_file: IMG_2105.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 999 1919 1136 1909 1141 1959 1003 1966
+region_code_gt: nsw
+plate_number_gt: DNK85S
+plate_inverted_gt: false

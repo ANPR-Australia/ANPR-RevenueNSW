@@ -1,0 +1,7 @@
+image_file: IMG_2313.jpg
+image_width: 1628
+image_height: 2171
+plate_corners_gt: 498 1158 803 1170 803 1238 501 1220
+region_code_gt: nsw
+plate_number_gt: CXK75D
+plate_inverted_gt: false

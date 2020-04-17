@@ -1,0 +1,7 @@
+image_file: IMG_1932.jpg
+image_width: 997
+image_height: 1329
+plate_corners_gt: 660 302 786 297 788 332 664 338
+region_code_gt: nsw
+plate_number_gt: BPV18D
+plate_inverted_gt: false

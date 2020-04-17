@@ -1,0 +1,7 @@
+image_file: _Q8A5516.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2410 2253 2566 2282 2557 2339 2406 2309
+region_code_gt: nsw
+plate_number_gt: AK84PN
+plate_inverted_gt: false

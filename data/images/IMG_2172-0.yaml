@@ -1,0 +1,7 @@
+image_file: IMG_2172.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 469 782 854 804 865 961 469 935
+region_code_gt: nsw
+plate_number_gt: BM40CB
+plate_inverted_gt: false

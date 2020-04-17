@@ -1,0 +1,7 @@
+image_file: IMG_1921.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1248 923 1726 948 1720 1038 1250 1013
+region_code_gt: nsw
+plate_number_gt: MM11NI
+plate_inverted_gt: true

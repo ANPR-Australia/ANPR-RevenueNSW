@@ -1,0 +1,7 @@
+image_file: IMG_2887.jpg
+image_width: 1595
+image_height: 2127
+plate_corners_gt: 768 1014 1046 1021 1041 1097 768 1095
+region_code_gt: nsw
+plate_number_gt: CQO32J
+plate_inverted_gt: false

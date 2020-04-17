@@ -1,0 +1,7 @@
+image_file: IMG_2167.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1611 1084 1943 1095 1942 1200 1614 1194
+region_code_gt: nsw
+plate_number_gt: GAM101
+plate_inverted_gt: false

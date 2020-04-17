@@ -1,0 +1,7 @@
+image_file: 6d5b7cfc-8594-4c65-8de9-bf5649f1ea26.JPG
+image_width: 1600
+image_height: 1200
+plate_corners_gt: 722 628 944 630 943 690 722 687
+region_code_gt: nsw
+plate_number_gt: 92SHAH
+plate_inverted_gt: false

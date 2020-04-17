@@ -1,0 +1,7 @@
+image_file: IMG_2041.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1619 1190 1977 1193 1973 1304 1613 1313
+region_code_gt: nsw
+plate_number_gt: DTQ42C
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_1909.jpg
+image_width: 1239
+image_height: 1652
+plate_corners_gt: 498 1206 738 1191 742 1273 504 1286
+region_code_gt: nsw
+plate_number_gt: AO95TL
+plate_inverted_gt: false

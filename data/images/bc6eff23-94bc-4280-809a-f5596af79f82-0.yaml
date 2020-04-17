@@ -1,0 +1,7 @@
+image_file: bc6eff23-94bc-4280-809a-f5596af79f82.JPG
+image_width: 1600
+image_height: 1200
+plate_corners_gt: 669 616 959 625 961 680 668 673
+region_code_gt: nsw
+plate_number_gt: CRL98S
+plate_inverted_gt: false

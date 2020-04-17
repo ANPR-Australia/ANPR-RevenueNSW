@@ -1,0 +1,7 @@
+image_file: _Q8A0363.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2607 2735 2753 2750 2752 2788 2605 2776
+region_code_gt: nsw
+plate_number_gt: OOO507
+plate_inverted_gt: false

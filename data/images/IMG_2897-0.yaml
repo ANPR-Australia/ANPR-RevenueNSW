@@ -1,0 +1,7 @@
+image_file: IMG_2897.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 975 2669 1333 2627 1339 2725 997 2761
+region_code_gt: nsw
+plate_number_gt: CRC51S
+plate_inverted_gt: false

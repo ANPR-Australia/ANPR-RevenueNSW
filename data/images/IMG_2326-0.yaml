@@ -1,0 +1,7 @@
+image_file: IMG_2326.jpg
+image_width: 1956
+image_height: 2609
+plate_corners_gt: 567 1187 799 1191 829 1268 594 1258
+region_code_gt: nsw
+plate_number_gt: 02428J
+plate_inverted_gt: false

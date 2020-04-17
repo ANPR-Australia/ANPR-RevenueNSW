@@ -1,0 +1,7 @@
+image_file: _Q8A6568.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2477 1886 2624 1911 2620 1949 2477 1923
+region_code_gt: nsw
+plate_number_gt: LEX41R
+plate_inverted_gt: true

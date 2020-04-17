@@ -1,0 +1,7 @@
+image_file: IMG_2948.jpg
+image_width: 941
+image_height: 1255
+plate_corners_gt: 591 295 706 294 709 323 595 325
+region_code_gt: nsw
+plate_number_gt: DCM02B
+plate_inverted_gt: false

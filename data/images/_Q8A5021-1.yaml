@@ -1,0 +1,7 @@
+image_file: _Q8A5021.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 1791 2832 1931 2870 1927 2925 1788 2884
+region_code_gt: nsw
+plate_number_gt: BT47RV
+plate_inverted_gt: false

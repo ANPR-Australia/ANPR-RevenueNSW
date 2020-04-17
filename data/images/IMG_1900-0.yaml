@@ -1,0 +1,7 @@
+image_file: IMG_1900.jpg
+image_width: 1696
+image_height: 2099
+plate_corners_gt: 192 1761 345 1770 339 1812 187 1805
+region_code_gt: nsw
+plate_number_gt: DWS39E
+plate_inverted_gt: false

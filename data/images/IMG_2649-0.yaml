@@ -1,0 +1,7 @@
+image_file: IMG_2649.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 640 2264 1125 2335 1124 2456 645 2384
+region_code_gt: nsw
+plate_number_gt: YIR02N
+plate_inverted_gt: false

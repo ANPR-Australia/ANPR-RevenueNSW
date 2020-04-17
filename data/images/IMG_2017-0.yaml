@@ -1,0 +1,7 @@
+image_file: IMG_2017.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1667 1438 2136 1380 2141 1559 1679 1644
+region_code_gt: nsw
+plate_number_gt: DTZ30P
+plate_inverted_gt: false

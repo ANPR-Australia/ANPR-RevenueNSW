@@ -1,0 +1,7 @@
+image_file: _Q8A4915.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2891 797 3027 792 3026 830 2892 836
+region_code_gt: nsw
+plate_number_gt: DWR92P
+plate_inverted_gt: false

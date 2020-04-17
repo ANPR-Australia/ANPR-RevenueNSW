@@ -1,0 +1,7 @@
+image_file: IMG_2227.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1408 1121 1725 1099 1717 1266 1411 1297
+region_code_gt: nsw
+plate_number_gt: MXM162
+plate_inverted_gt: false

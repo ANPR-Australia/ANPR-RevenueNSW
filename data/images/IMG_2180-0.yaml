@@ -1,0 +1,7 @@
+image_file: IMG_2180.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1431 1370 1964 1386 1938 1568 1420 1556
+region_code_gt: nsw
+plate_number_gt: ZFS227
+plate_inverted_gt: false

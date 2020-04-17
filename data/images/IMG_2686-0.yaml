@@ -1,0 +1,7 @@
+image_file: IMG_2686.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 745 2299 1397 2384 1387 2544 740 2461
+region_code_gt: nsw
+plate_number_gt: YHT21U
+plate_inverted_gt: false

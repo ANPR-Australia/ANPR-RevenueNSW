@@ -1,0 +1,7 @@
+image_file: IMG_2393.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1417 904 1719 847 1723 946 1427 1009
+region_code_gt: nsw
+plate_number_gt: CTX79U
+plate_inverted_gt: false

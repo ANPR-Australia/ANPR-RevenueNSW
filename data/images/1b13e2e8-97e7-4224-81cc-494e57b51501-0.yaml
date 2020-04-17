@@ -1,0 +1,7 @@
+image_file: 1b13e2e8-97e7-4224-81cc-494e57b51501.JPG
+image_width: 748
+image_height: 997
+plate_corners_gt: 316 151 438 154 438 195 316 193
+region_code_gt: nsw
+plate_number_gt: VZK861
+plate_inverted_gt: false

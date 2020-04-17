@@ -1,0 +1,7 @@
+image_file: IMG_2351.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2009 1279 2406 1243 2392 1335 2001 1374
+region_code_gt: nsw
+plate_number_gt: CMT04Z
+plate_inverted_gt: false

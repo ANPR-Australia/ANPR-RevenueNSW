@@ -1,0 +1,7 @@
+image_file: _Q8A8211.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 3128 2141 3279 2162 3273 2212 3126 2196
+region_code_gt: nsw
+plate_number_gt: CQ30DA
+plate_inverted_gt: false

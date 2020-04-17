@@ -1,0 +1,7 @@
+image_file: IMG_2145.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2188 902 2186 1002 1808 1140 1810 1030
+region_code_gt: nsw
+plate_number_gt: CJB96L
+plate_inverted_gt: false

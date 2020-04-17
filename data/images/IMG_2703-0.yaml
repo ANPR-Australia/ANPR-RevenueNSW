@@ -1,0 +1,7 @@
+image_file: IMG_2703.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1103 1647 1685 1645 1691 1804 1108 1814
+region_code_gt: nsw
+plate_number_gt: DVE09Z
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_2536.jpg
+image_width: 2500
+image_height: 2971
+plate_corners_gt: 1523 2417 1689 2408 1690 2464 1526 2469
+region_code_gt: nsw
+plate_number_gt: YIC84N
+plate_inverted_gt: false

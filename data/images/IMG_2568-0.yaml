@@ -1,0 +1,7 @@
+image_file: IMG_2568.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 696 2320 1232 2306 1231 2419 701 2430
+region_code_gt: nsw
+plate_number_gt: CYK89Q
+plate_inverted_gt: false

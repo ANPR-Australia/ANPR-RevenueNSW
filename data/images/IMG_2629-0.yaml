@@ -1,0 +1,7 @@
+image_file: IMG_2629.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1079 1882 1545 1885 1542 2049 1076 2043
+region_code_gt: nsw
+plate_number_gt: CM90NH
+plate_inverted_gt: false

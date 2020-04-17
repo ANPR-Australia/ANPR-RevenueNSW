@@ -1,0 +1,7 @@
+image_file: IMG_2527.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1308 1631 1703 1697 1702 1790 1311 1716
+region_code_gt: nsw
+plate_number_gt: BVR72M
+plate_inverted_gt: false

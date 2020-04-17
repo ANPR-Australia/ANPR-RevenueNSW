@@ -1,0 +1,7 @@
+image_file: _Q8A6409.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 2702 1635 2842 1648 2845 1690 2703 1673
+region_code_gt: nsw
+plate_number_gt: BPK11P
+plate_inverted_gt: false

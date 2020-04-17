@@ -1,0 +1,7 @@
+image_file: IMG_2047.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1368 1337 1704 1303 1708 1409 1373 1444
+region_code_gt: nsw
+plate_number_gt: CTG78S
+plate_inverted_gt: false

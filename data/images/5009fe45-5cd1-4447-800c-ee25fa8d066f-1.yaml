@@ -1,0 +1,7 @@
+image_file: 5009fe45-5cd1-4447-800c-ee25fa8d066f.JPG
+image_width: 1200
+image_height: 1600
+plate_corners_gt: 722 486 806 490 805 515 721 510
+region_code_gt: nsw
+plate_number_gt: YBQ81S
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_2107.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1463 1170 1763 1169 1763 1276 1467 1281
+region_code_gt: nsw
+plate_number_gt: CQ48VN
+plate_inverted_gt: false

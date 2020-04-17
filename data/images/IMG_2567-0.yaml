@@ -1,0 +1,7 @@
+image_file: IMG_2567.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1148 1898 1509 1898 1509 1972 1148 1971
+region_code_gt: nsw
+plate_number_gt: BSC71F
+plate_inverted_gt: false

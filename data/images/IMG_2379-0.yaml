@@ -1,0 +1,7 @@
+image_file: IMG_2379.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1114 939 1457 1022 1430 1128 1086 1048
+region_code_gt: nsw
+plate_number_gt: ATR87K
+plate_inverted_gt: false

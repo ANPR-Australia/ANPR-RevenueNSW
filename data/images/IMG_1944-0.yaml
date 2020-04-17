@@ -1,0 +1,7 @@
+image_file: IMG_1944.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 2012 878 2448 870 2433 995 2005 1020
+region_code_gt: nsw
+plate_number_gt: COS45E
+plate_inverted_gt: false

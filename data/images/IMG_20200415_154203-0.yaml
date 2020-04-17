@@ -1,0 +1,7 @@
+image_file: IMG_20200415_154203.jpg
+image_width: 4032
+image_height: 3024
+plate_corners_gt: 1160 1668 3269 1578 3175 2184 1229 2320
+region_code_gt: nsw
+plate_number_gt: CR15RT
+plate_inverted_gt: false

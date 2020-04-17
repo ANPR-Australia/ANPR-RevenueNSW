@@ -1,0 +1,7 @@
+image_file: IMG_2542.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1044 1263 1039 1169 1472 1291 1462 1401
+region_code_gt: nsw
+plate_number_gt: DCX97B
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: IMG_20200415_154125.jpg
+image_width: 4032
+image_height: 3024
+plate_corners_gt: 952 1327 2730 1293 2702 1778 1062 1847
+region_code_gt: nsw
+plate_number_gt: CR17RT
+plate_inverted_gt: false

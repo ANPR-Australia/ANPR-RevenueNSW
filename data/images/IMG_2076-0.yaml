@@ -1,0 +1,7 @@
+image_file: IMG_2076.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1673 1446 2084 1439 2061 1551 1661 1561
+region_code_gt: nsw
+plate_number_gt: DDT92N
+plate_inverted_gt: false

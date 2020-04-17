@@ -1,0 +1,7 @@
+image_file: IMG_2348.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1415 1410 1892 1268 1928 1433 1452 1597
+region_code_gt: nsw
+plate_number_gt: AHV78A
+plate_inverted_gt: false

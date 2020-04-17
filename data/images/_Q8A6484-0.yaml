@@ -1,0 +1,7 @@
+image_file: _Q8A6484.JPG
+image_width: 5472
+image_height: 3648
+plate_corners_gt: 3148 1604 3292 1609 3291 1645 3145 1646
+region_code_gt: nsw
+plate_number_gt: BSM28B
+plate_inverted_gt: false

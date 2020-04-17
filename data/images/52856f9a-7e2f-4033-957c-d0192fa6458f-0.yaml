@@ -1,0 +1,7 @@
+image_file: 52856f9a-7e2f-4033-957c-d0192fa6458f.JPG
+image_width: 1200
+image_height: 1600
+plate_corners_gt: 342 832 609 856 606 942 347 910
+region_code_gt: nsw
+plate_number_gt: CQ33XN
+plate_inverted_gt: false

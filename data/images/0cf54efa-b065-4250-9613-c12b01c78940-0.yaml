@@ -1,0 +1,7 @@
+image_file: 0cf54efa-b065-4250-9613-c12b01c78940.JPG
+image_width: 1200
+image_height: 1600
+plate_corners_gt: 460 1170 731 1169 731 1224 460 1223
+region_code_gt: nsw
+plate_number_gt: COG87U
+plate_inverted_gt: false

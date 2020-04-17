@@ -1,0 +1,7 @@
+image_file: IMG_2113.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1583 991 2060 966 2066 1169 1596 1210
+region_code_gt: nsw
+plate_number_gt: LALQLA
+plate_inverted_gt: false

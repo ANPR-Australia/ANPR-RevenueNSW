@@ -1,0 +1,7 @@
+image_file: IMG_2626.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 1147 2413 1576 2419 1579 2540 1143 2535
+region_code_gt: nsw
+plate_number_gt: BTM84L
+plate_inverted_gt: false

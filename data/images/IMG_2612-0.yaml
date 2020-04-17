@@ -1,0 +1,7 @@
+image_file: IMG_2612.jpeg
+image_width: 3024
+image_height: 4032
+plate_corners_gt: 767 2461 1395 2538 1388 2655 764 2579
+region_code_gt: nsw
+plate_number_gt: ECZ04G
+plate_inverted_gt: false
