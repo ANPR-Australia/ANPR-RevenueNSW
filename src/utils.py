@@ -5,7 +5,8 @@ import glob
 import sys
 import shutil
 import sqlite3
-
+import cv2
+import numpy as np
 
 """
 Filename is in the format of:
@@ -98,36 +99,49 @@ def crop_images(input_dir, out_dir):
 
     count = 1
     for yaml_file in yaml_files:
-        print("Processing: " + yaml_file + " (" + str(count) + "/" + str(len(yaml_files)) + ")")
-        yaml_path = os.path.join(input_dir, yaml_file)
-        yaml_without_ext = os.path.splitext(yaml_path)[0]
-        
-        yaml_obj = yaml.safe_load(stream)
-        
-        # Skip missing images
-        full_image_path = os.path.join(input_dir, yaml_obj['image_file'])
-        if not os.path.isfile(full_image_path):
-            print("Could not find image file %s, skipping" % (full_image_path))
-            continue
+        print(yaml_file)
+        with open(yaml_file, 'r') as stream:
+            try:
+                print("Processing: " + yaml_file + " (" + str(count) + "/" + str(len(yaml_files)) + ")")
+                yaml_path = os.path.join(input_dir, yaml_file)
+                yaml_without_ext = os.path.splitext(yaml_path)[0]
+                
+                yaml_obj = yaml.safe_load(stream)
+                
+                try:
+                    # Skip missing images
+                    plate_corners = yaml_obj['plate_corners_gt']
+                    full_image_path = os.path.join(input_dir, yaml_obj['image_file'])
+                except KeyError as e:
+                    print("Missing key in file: " + yaml_file + "\n" + str(e))
+                    sys.exit(1) ;
 
 
-        plate_corners = yaml_obj['plate_corners_gt']
-        cc = plate_corners.strip().split()
-        for i in range(0, len(cc)):
-            cc[i] = int(cc[i])
+                if not os.path.isfile(full_image_path):
+                    print("Could not find image file %s, skipping" % (full_image_path))
+                    continue
 
-        img = cv2.imread(full_image_path)
-        mask = np.zeros(img.shape[0:2], dtype=np.uint8)
-        points = np.array([[[cc[0],cc[1]],[cc[2], cc[3]], [cc[4],cc[5]], [cc[6],cc[7]]]])
 
-        cv2.drawContours(mask, [points], -1, (255,255,255), -1, cv2.LINE_AA)
+                cc = plate_corners.strip().split()
+                for i in range(0, len(cc)):
+                    cc[i] = int(cc[i])
 
-        res = cv2.bitwise_and(img,img,mask = mask)
-        rect = cv2.boundingRect(points) # returns (x,y,w,h) of the rect
-        cropped = res[rect[1]: rect[1] + rect[3], rect[0]: rect[0] + rect[2]]
-        out_crop_path = os.path.join(out_dir, os.path.basename(yaml_without_ext) + ".jpg")
-        cv2.imwrite(out_crop_path, cropped )
-        count += 1
+                img = cv2.imread(full_image_path)
+                mask = np.zeros(img.shape[0:2], dtype=np.uint8)
+                points = np.array([[[cc[0],cc[1]],[cc[2], cc[3]], [cc[4],cc[5]], [cc[6],cc[7]]]])
+
+                cv2.drawContours(mask, [points], -1, (255,255,255), -1, cv2.LINE_AA)
+
+                res = cv2.bitwise_and(img,img,mask = mask)
+                rect = cv2.boundingRect(points) # returns (x,y,w,h) of the rect
+                cropped = res[rect[1]: rect[1] + rect[3], rect[0]: rect[0] + rect[2]]
+                out_crop_path = os.path.join(out_dir, os.path.basename(yaml_without_ext) + ".jpg")
+                cv2.imwrite(out_crop_path, cropped )
+                count += 1
+            except  yaml.YAMLError as exc:
+                print(exc)
+                system.exit(1)
+
 
     print("%d Cropped images are located in %s" % (count-1, out_dir))
 
