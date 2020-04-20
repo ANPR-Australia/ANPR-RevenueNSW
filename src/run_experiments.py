@@ -20,7 +20,6 @@ def run_experiments():
 
     test_data_dir = prefix+config["DEFAULT"]["test_data_dir"]
     labeled_data_dir = prefix+config["DEFAULT"]["labeled_data_dir"]
-    labeled_data_output = prefix+config["DEFAULT"]["labeled_data_output"]
     config_file_name = config["DEFAULT"]["open_alpr_config_file_name"]
     calibration_files = prefix+config["DEFAULT"]["open_alpr_calibration_dir"]
     results_dir = prefix+config["DEFAULT"]["results"]
@@ -31,8 +30,7 @@ def run_experiments():
 
     conn = utils.init_db(dbFile, dbOld, dbSchema)
 
-    label_dict = utils.create_labeled_data(conn, labeled_data_dir, 
-            labeled_data_output)
+    label_dict = utils.create_labeled_data(conn, labeled_data_dir)
 
     untrained_results = test_untrained_uncalibrated_system(conn, results_dir, 
             config_file_name, test_data_dir, openalpr_runtime)

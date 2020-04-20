@@ -1,7 +1,6 @@
 [DEFAULT]
 prefix = /Users/sara/work/
 labeled_data_dir =ANPR-RevenueNSW/data/test
-labeled_data_output = ANPR-RevenueNSW/data/labeled_data.csv
 training_data_dir = ANPR-RevenueNSW/data/training
 test_data_dir = ANPR-RevenueNSW/data/test/
 open_alpr_runtime_data = ANPR-RevenueNSW/runtime_data
@@ -17,4 +16,4 @@ dbSchema = schema.sql
 
 [PLATE_CROPPER]
 input_dir = /tmp/pool
-output_dir = data/cropped_plates
+output_dir = ANPR-RevenueNSW/data/cropped_plates

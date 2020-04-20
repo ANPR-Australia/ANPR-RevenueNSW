@@ -45,7 +45,7 @@ def put_in_directories(pooled_data_dir, destination_dir, file_type):
 
 
 
-def create_labeled_data(conn, labeled_data_dir, labeled_data_output):
+def create_labeled_data(conn, labeled_data_dir ):
     label_dict = {}
     files = []
 
@@ -194,9 +194,8 @@ if __name__ == "__main__":
     config.read("config.py")
 
     labeled_data_dir = config["DEFAULT"]["labeled_data_dir"]
-    labeled_data_output = config["DEFAULT"]["labeled_data_output"]
     schema = config["DB"]["dbSchema"]
 
     conn = init_db("util_test.db", "util_test_old.db", schema)
 
-    print(create_labeled_data(conn, labeled_data_dir, labeled_data_output))
+    print(create_labeled_data(conn, labeled_data_dir))
