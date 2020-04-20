@@ -1,0 +1,7 @@
+image_file: bike_1233.jpeg
+image_width: 2048
+image_height: 1536
+plate_corners_gt: 201 365 1527 310 1591 1021 194 1103
+region_code_gt: nsw
+plate_number_gt: MWE23
+plate_inverted_gt: false
