@@ -1,0 +1,7 @@
+image_file: 4A7A7868.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 2238 1899 2368 1910 2367 1950 2237 1939
+region_code_gt: nsw
+plate_number_gt: BR91HW
+plate_inverted_gt: false

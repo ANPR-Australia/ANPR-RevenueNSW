@@ -1,0 +1,7 @@
+image_file: 4A7A6489.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 2292 1899 2472 1918 2469 1951 2290 1930
+region_code_gt: nsw
+plate_number_gt: NBZ19M
+plate_inverted_gt: true

@@ -1,0 +1,7 @@
+image_file: 4A7A6373.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 2334 1594 2460 1593 2459 1624 2333 1624
+region_code_gt: nsw
+plate_number_gt: EDG34P
+plate_inverted_gt: false

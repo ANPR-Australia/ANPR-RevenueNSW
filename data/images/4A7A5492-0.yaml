@@ -1,0 +1,7 @@
+image_file: 4A7A5492.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 1991 2293 2125 2307 2123 2340 1990 2325
+region_code_gt: nsw
+plate_number_gt: EEN48N
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: 4A7A6162.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 1507 456 1607 440 1609 479 1508 494
+region_code_gt: nsw
+plate_number_gt: BN90UI
+plate_inverted_gt: false

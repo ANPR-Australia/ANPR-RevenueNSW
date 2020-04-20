@@ -1,0 +1,7 @@
+image_file: 4A7A5988.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 2306 1688 2433 1691 2432 1725 2307 1722
+region_code_gt: nsw
+plate_number_gt: DND83N
+plate_inverted_gt: false

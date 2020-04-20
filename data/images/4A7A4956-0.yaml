@@ -1,0 +1,7 @@
+image_file: 4A7A4956.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 2118 2236 2249 2255 2247 2298 2116 2281
+region_code_gt: nsw
+plate_number_gt: CL20KG
+plate_inverted_gt: false

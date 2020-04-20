@@ -1,0 +1,7 @@
+image_file: 4A7A5442.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 1994 2124 2128 2142 2124 2188 1991 2169
+region_code_gt: nsw
+plate_number_gt: CN04KJ
+plate_inverted_gt: false

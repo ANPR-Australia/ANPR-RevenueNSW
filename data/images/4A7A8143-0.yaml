@@ -1,0 +1,7 @@
+image_file: 4A7A8143.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 2401 1880 2532 1884 2532 1917 2401 1912
+region_code_gt: nsw
+plate_number_gt: DXI88J
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: 4A7A6512.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 2335 1532 2515 1525 2514 1559 2337 1563
+region_code_gt: nsw
+plate_number_gt: NWR120
+plate_inverted_gt: true

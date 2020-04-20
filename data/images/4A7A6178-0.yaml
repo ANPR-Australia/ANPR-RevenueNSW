@@ -1,0 +1,7 @@
+image_file: 4A7A6178.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 2287 1856 2417 1857 2417 1891 2287 1890
+region_code_gt: nsw
+plate_number_gt: DXS20M
+plate_inverted_gt: false

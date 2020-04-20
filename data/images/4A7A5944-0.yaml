@@ -1,0 +1,7 @@
+image_file: 4A7A5944.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 2430 1821 2563 1823 2562 1858 2430 1856
+region_code_gt: nsw
+plate_number_gt: DH3838
+plate_inverted_gt: true

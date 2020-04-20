@@ -1,0 +1,7 @@
+image_file: 4A7A7206.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 1796 2359 1930 2383 1928 2421 1792 2397
+region_code_gt: nsw
+plate_number_gt: DFJ67D
+plate_inverted_gt: false

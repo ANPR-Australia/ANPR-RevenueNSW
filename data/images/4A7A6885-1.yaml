@@ -1,0 +1,7 @@
+image_file: 4A7A6885.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 1594 2906 1731 2932 1728 2966 1591 2941
+region_code_gt: nsw
+plate_number_gt: CDB24U
+plate_inverted_gt: false

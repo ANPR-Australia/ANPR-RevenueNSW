@@ -1,0 +1,7 @@
+image_file: 4A7A7408.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 2328 1895 2517 1908 2515 1946 2327 1934
+region_code_gt: nsw
+plate_number_gt: NBV75A
+plate_inverted_gt: true

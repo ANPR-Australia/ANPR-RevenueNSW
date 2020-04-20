@@ -1,0 +1,7 @@
+image_file: 4A7A7480.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 2586 1159 2703 1150 2704 1182 2587 1190
+region_code_gt: nsw
+plate_number_gt: BTM67F
+plate_inverted_gt: false

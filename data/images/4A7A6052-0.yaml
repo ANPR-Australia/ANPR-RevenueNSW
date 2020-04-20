@@ -1,0 +1,7 @@
+image_file: 4A7A6052.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 1975 2046 2109 2061 2106 2096 1973 2083
+region_code_gt: nsw
+plate_number_gt: DXM71R
+plate_inverted_gt: false

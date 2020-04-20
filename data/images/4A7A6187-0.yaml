@@ -1,0 +1,7 @@
+image_file: 4A7A6187.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 1998 2118 2130 2130 2130 2168 1997 2160
+region_code_gt: act
+plate_number_gt: YDU75M
+plate_inverted_gt: false

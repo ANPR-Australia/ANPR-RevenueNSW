@@ -1,0 +1,7 @@
+image_file: 4A7A7222.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 1920 2265 2054 2282 2052 2317 1919 2302
+region_code_gt: nsw
+plate_number_gt: DJV78R
+plate_inverted_gt: false

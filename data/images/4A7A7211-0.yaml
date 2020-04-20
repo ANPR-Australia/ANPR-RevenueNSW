@@ -1,0 +1,7 @@
+image_file: 4A7A7211.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 2225 2019 2357 2035 2356 2066 2224 2051
+region_code_gt: nsw
+plate_number_gt: CME39E
+plate_inverted_gt: false

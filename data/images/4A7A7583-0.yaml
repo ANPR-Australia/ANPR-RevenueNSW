@@ -1,0 +1,7 @@
+image_file: 4A7A7583.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 2188 1642 2318 1653 2315 1688 2186 1677
+region_code_gt: nsw
+plate_number_gt: DMP84V
+plate_inverted_gt: false

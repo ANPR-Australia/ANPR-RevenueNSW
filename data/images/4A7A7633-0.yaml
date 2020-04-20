@@ -1,0 +1,7 @@
+image_file: 4A7A7633.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 2417 1549 2541 1552 2541 1586 2417 1582
+region_code_gt: nsw
+plate_number_gt: DJL62E
+plate_inverted_gt: false

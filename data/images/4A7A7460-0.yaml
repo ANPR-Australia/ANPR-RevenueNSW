@@ -1,0 +1,7 @@
+image_file: 4A7A7460.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 2334 1981 2468 1990 2467 2023 2333 2012
+region_code_gt: nsw
+plate_number_gt: CPR59G
+plate_inverted_gt: false

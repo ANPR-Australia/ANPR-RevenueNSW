@@ -1,0 +1,7 @@
+image_file: 4A7A7115.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 2180 1599 2307 1603 2307 1643 2181 1636
+region_code_gt: nsw
+plate_number_gt: BV06VR
+plate_inverted_gt: false

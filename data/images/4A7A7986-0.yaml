@@ -1,0 +1,7 @@
+image_file: 4A7A7986.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 2151 1119 2266 1115 2267 1154 2151 1159
+region_code_gt: nsw
+plate_number_gt: CC2793
+plate_inverted_gt: false

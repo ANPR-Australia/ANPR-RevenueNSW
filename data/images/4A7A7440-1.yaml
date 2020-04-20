@@ -1,0 +1,7 @@
+image_file: 4A7A7440.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 1317 2900 1447 2933 1443 2969 1313 2935
+region_code_gt: nsw
+plate_number_gt: CIM16K
+plate_inverted_gt: false

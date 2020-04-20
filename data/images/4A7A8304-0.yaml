@@ -1,0 +1,7 @@
+image_file: 4A7A8304.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 2073 2158 2206 2173 2204 2209 2072 2193
+region_code_gt: nsw
+plate_number_gt: BML57J
+plate_inverted_gt: false

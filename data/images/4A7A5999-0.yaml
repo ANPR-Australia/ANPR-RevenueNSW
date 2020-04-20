@@ -1,0 +1,7 @@
+image_file: 4A7A5999.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 2233 1862 2365 1864 2364 1899 2233 1896
+region_code_gt: nsw
+plate_number_gt: CMT98Q
+plate_inverted_gt: false

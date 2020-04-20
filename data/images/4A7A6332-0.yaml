@@ -1,0 +1,7 @@
+image_file: 4A7A6332.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 1842 2207 1974 2223 1971 2256 1840 2241
+region_code_gt: nsw
+plate_number_gt: DLK80Y
+plate_inverted_gt: false

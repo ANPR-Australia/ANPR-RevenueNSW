@@ -1,0 +1,7 @@
+image_file: 4A7A7254.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 1978 2099 2108 2111 2108 2145 1976 2131
+region_code_gt: nsw
+plate_number_gt: DHS98T
+plate_inverted_gt: false

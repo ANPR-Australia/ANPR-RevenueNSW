@@ -1,0 +1,7 @@
+image_file: 4A7A6990.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 2076 2199 2209 2212 2207 2248 2075 2233
+region_code_gt: nsw
+plate_number_gt: DBE78K
+plate_inverted_gt: false

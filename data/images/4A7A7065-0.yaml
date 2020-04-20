@@ -1,0 +1,7 @@
+image_file: 4A7A7065.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 2099 960 2210 952 2209 988 2099 994
+region_code_gt: nsw
+plate_number_gt: BY58SP
+plate_inverted_gt: false

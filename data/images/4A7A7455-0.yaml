@@ -1,0 +1,7 @@
+image_file: 4A7A7455.jpeg
+image_width: 4464
+image_height: 2976
+plate_corners_gt: 1540 2714 1676 2745 1671 2782 1538 2753
+region_code_gt: nsw
+plate_number_gt: CZF85U
+plate_inverted_gt: false
