@@ -14,15 +14,16 @@ def run_experiments():
     config = configparser.ConfigParser()
     config.read("config.py")
 
-    openalpr_conf = config["DEFAULT"]["open_alpr_config"]
-    openalpr_runtime = config["DEFAULT"]["open_alpr_runtime_data"]
+    prefix = config["DEFAULT"]["prefix"]
 
-    test_data_dir = config["DEFAULT"]["test_data_dir"]
-    labeled_data_dir = config["DEFAULT"]["labeled_data_dir"]
-    labeled_data_output = config["DEFAULT"]["labeled_data_output"]
+    openalpr_runtime = prefix+config["DEFAULT"]["open_alpr_runtime_data"]
+
+    test_data_dir = prefix+config["DEFAULT"]["test_data_dir"]
+    labeled_data_dir = prefix+config["DEFAULT"]["labeled_data_dir"]
+    labeled_data_output = prefix+config["DEFAULT"]["labeled_data_output"]
     config_file_name = config["DEFAULT"]["open_alpr_config_file_name"]
-    calibration_files = config["DEFAULT"]["open_alpr_calibration_dir"]
-    results_dir = config["DEFAULT"]["results"]
+    calibration_files = prefix+config["DEFAULT"]["open_alpr_calibration_dir"]
+    results_dir = prefix+config["DEFAULT"]["results"]
     
     dbSchema = config["DB"]["dbSchema"]
     dbFile = config["DB"]["dbFile"]

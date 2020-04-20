@@ -104,10 +104,9 @@ how we're doing the training here.
 1. Run the first 2 experiments.
 
 1. Now you have to use your yaml files to crop the plates in order to train tesserect.
-
-	``` git clone https://github.com/sarafalamaki/train-detector.git ```
-	..and follow the instructions. I've raised a PR, but it hasn't been merged yet,
-	so please use my copy for the moment.
+	Edit ```src/config.py``` to point to a directory of images and yaml files, then
+	from the ```src``` directory, run:
+	```python plate_cropper.py```
 
 	This will get you a directory full of cropped numberplates that you can feed
 	into the next step.

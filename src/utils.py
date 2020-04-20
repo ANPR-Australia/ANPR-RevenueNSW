@@ -76,6 +76,62 @@ def create_labeled_data(conn, labeled_data_dir, labeled_data_output):
 
     return label_dict
 
+
+
+def crop_images(input_dir, out_dir):
+    """
+    Yaml files are generated using the plate_tagger utility in openALPR.
+    This function reads the yaml file, and crops the plate out of the image.
+    """
+
+    if not os.path.isdir(input_dir):
+        print("input_dir (%s) doesn't exist" % input_dir)
+        sys.exit(1)
+
+    if not os.path.isdir(out_dir):
+        os.makedirs(out_dir)
+
+    yaml_files = []
+
+    yaml_files = [f for f in glob.glob(input_dir + "/*.yaml", recursive=False)]
+    yaml_files.sort()
+
+    count = 1
+    for yaml_file in yaml_files:
+        print("Processing: " + yaml_file + " (" + str(count) + "/" + str(len(yaml_files)) + ")")
+        yaml_path = os.path.join(input_dir, yaml_file)
+        yaml_without_ext = os.path.splitext(yaml_path)[0]
+        
+        yaml_obj = yaml.safe_load(stream)
+        
+        # Skip missing images
+        full_image_path = os.path.join(input_dir, yaml_obj['image_file'])
+        if not os.path.isfile(full_image_path):
+            print("Could not find image file %s, skipping" % (full_image_path))
+            continue
+
+
+        plate_corners = yaml_obj['plate_corners_gt']
+        cc = plate_corners.strip().split()
+        for i in range(0, len(cc)):
+            cc[i] = int(cc[i])
+
+        img = cv2.imread(full_image_path)
+        mask = np.zeros(img.shape[0:2], dtype=np.uint8)
+        points = np.array([[[cc[0],cc[1]],[cc[2], cc[3]], [cc[4],cc[5]], [cc[6],cc[7]]]])
+
+        cv2.drawContours(mask, [points], -1, (255,255,255), -1, cv2.LINE_AA)
+
+        res = cv2.bitwise_and(img,img,mask = mask)
+        rect = cv2.boundingRect(points) # returns (x,y,w,h) of the rect
+        cropped = res[rect[1]: rect[1] + rect[3], rect[0]: rect[0] + rect[2]]
+        out_crop_path = os.path.join(out_dir, os.path.basename(yaml_without_ext) + ".jpg")
+        cv2.imwrite(out_crop_path, cropped )
+        count += 1
+
+    print("%d Cropped images are located in %s" % (count-1, out_dir))
+
+
 def init_db(dbFile, dbOld, dbSchema):
     """
     Truncates old database files, and loads the schema into
