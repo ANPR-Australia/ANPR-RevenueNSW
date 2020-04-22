@@ -27,3 +27,5 @@ CREATE TABLE IF NOT EXISTS "file_metadata"
 	camera_id TEXT NOT NULL
 );
 
+
+

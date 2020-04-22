@@ -46,7 +46,10 @@ def put_in_directories(pooled_data_dir, destination_dir, file_type):
 
 
 
-def create_labeled_data(conn, labeled_data_dir ):
+def create_labeled_data_from_rnsw_test_data(conn, labeled_data_dir ):
+    """
+    Read the labels from the yaml files into the DB.
+    """
     label_dict = {}
     files = []
 
@@ -77,7 +80,10 @@ def create_labeled_data(conn, labeled_data_dir ):
 
     return label_dict
 
-def create_labeled_data_cropped(conn, labeled_data_dir):
+def create_labeled_data_from_images(conn, labeled_data_dir):
+    """
+    Read the labels from the images dir, and write to the db
+    """
     label_dict = {}
     files = [f for f in glob.glob(labeled_data_dir + "/*.yaml", recursive=False)]
     for f in files:
@@ -229,6 +235,66 @@ def crop_images(input_dir, out_dir):
     print("%d Cropped images are located in %s" % (count-1, out_dir))
 
 
+def capture_visual_classification(classified_dir, rename_log):
+    """
+    If the cropped images were visually classified by a human, but their 
+    filenames are all messy, we can capture the classifications and link
+    them back to their original filename.
+
+    We should be able to get rid of the yucky rename stuff as soon as
+    we've got consistant directories in git. It's a very ugly hack, but it 
+    worked!
+    """
+    with open(rename_log, 'r') as stream:
+        try:
+            renames = yaml.safe_load(stream)
+        except  yaml.YAMLError as exc:
+            print(exc)
+            system.exit(1)
+
+
+
+    conn = init_db("classification.db","classification_old.db", "classification.sql")
+    classes = [f.path for f in os.scandir(classified_dir) if f.is_dir()]
+    for class_name in classes:
+        images = [f for f in glob.glob(class_name+ "/*.jpg", recursive=False)]
+        for image in images:
+            print(image)
+            split  = os.path.basename(image).split("-")
+            old_name = "-".join(split[:-1])
+            print(old_name)
+            new_name = renames[old_name]+".jpg"
+            
+            insert_classification(conn, new_name, os.path.basename(class_name))
+
+    close_db(conn)
+
+
+def split_into_dirs(classified_dir, original_dir):
+    """
+    Reads the sql database, and splits the files into directories
+    based on their classification. This can be used for training
+    the OCR system, or for evaluating OCR on cropped images. The filenames
+    being consistent means we can compare the metadata and see if our
+    OCR was successful.
+    """
+    conn = init_db("classification.db", None, "classification.sql")
+    rows = get_classifications(conn)
+    print(rows)
+    for (img, d) in rows:
+        path = os.path.join(classified_dir, d)
+        new_file = os.path.join(path, img)
+        old_file = os.path.join(original_dir, img)
+        if not os.path.exists(path):
+            os.makedirs(path)
+        shutil.copyfile(old_file, new_file)
+
+
+
+
+
+
+
 def init_db(dbFile, dbOld, dbSchema):
     """
     Truncates old database files, and loads the schema into
@@ -237,11 +303,13 @@ def init_db(dbFile, dbOld, dbSchema):
     #if there's already a file there, cp it before
     #truncating it to store new values
     if os.path.exists(dbFile):
-        print("Moving and truncating old database file")
-        shutil.copy(dbOld, dbFile)
-        f = open(dbFile, "a")
-        f.truncate(0)
-        f.close()
+        if dbOld:
+            #don't do it if there's no backup file
+            print("Moving and truncating old database file")
+            shutil.copy(dbOld, dbFile)
+            f = open(dbFile, "a")
+            f.truncate(0)
+            f.close()
     
     conn = sqlite3.connect(dbFile)
     with open(dbSchema) as fp:
@@ -252,6 +320,21 @@ def init_db(dbFile, dbOld, dbSchema):
 
 def close_db(conn):
     conn.close()
+
+
+def insert_classification(conn, name, class_name):
+    c = conn.cursor()
+    values = (name, class_name)
+    c.execute('''INSERT INTO classifications (image_file_name, classification) VALUES (?,?)''', values)
+    conn.commit()
+
+def get_classifications(conn):
+    c = conn.cursor()
+    c.execute("select * from classifications");
+    rows = c.fetchall()
+    return rows
+
+
 
 def insert_label(conn, img_file, region_code, plate_no):
     c = conn.cursor()
