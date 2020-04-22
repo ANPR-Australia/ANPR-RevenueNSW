@@ -77,6 +77,89 @@ def create_labeled_data(conn, labeled_data_dir ):
 
     return label_dict
 
+def create_labeled_data_cropped(conn, labeled_data_dir):
+    label_dict = {}
+    files = [f for f in glob.glob(labeled_data_dir + "/*.yaml", recursive=False)]
+    for f in files:
+        print(f)
+        with open(f, 'r') as stream:
+            try:
+                try:
+                    contents = yaml.safe_load(stream)
+                    img_file = contents['image_file']
+                    region_code = "NSW"
+                    plate_no = contents['plate_number_gt']
+                except KeyError as e:
+                    print("Missing key in file: " + f + "\n" + str(e))
+                    sys.exit(1) ;
+                print(img_file)
+                split_file = os.path.splitext(os.path.basename(f))
+                ext = os.path.splitext(img_file)[1]
+                image_file_name = split_file[0]+ext
+
+                insert_label(conn, image_file_name, region_code, plate_no)
+                #insert_metadata(conn, img_file)
+                label_dict[os.path.basename(img_file)] = (region_code, plate_no)
+            except yaml.YAMLError as exc:
+                print(exc)
+                system.exit(1)
+
+    return label_dict
+
+
+
+def rename_files(input_dir, out_dir):
+    """ This renames all the files and associated yaml files into 
+    more readable filenames, it also generates a mapping between old file
+    names and new file names so moved files can be renamed too.
+    """
+    yaml_files = [f for f in glob.glob(input_dir + "/*.yaml", recursive=False)]
+    yaml_files.sort()
+
+    log_path = os.path.join(out_dir, "log.txt")
+    logfile = open(log_path, "w")
+    log = {}
+
+    count = 1
+    for yaml_file in yaml_files:
+        print(yaml_file)
+        with open(yaml_file, 'r') as stream:
+            try:
+                print("Processing: " + yaml_file + " (" + str(count) + "/" + str(len(yaml_files)) + ")")
+                yaml_path = os.path.join(input_dir, yaml_file)
+                yaml_without_ext = os.path.splitext(yaml_path)[0]
+                
+                yaml_obj = yaml.safe_load(stream)
+                original_filename = yaml_obj['image_file']
+                plate_no = yaml_obj['plate_number_gt']
+
+                new_jpg_filename = plate_no+"_"+str(count)+".jpg"
+                yaml_obj['image_file'] = new_jpg_filename
+
+                new_yaml_filename = plate_no+"_"+str(count)+".yaml"
+
+                #now write the new files:
+                jpg_path = os.path.join(out_dir, new_jpg_filename)
+                yaml_path = os.path.join(out_dir, new_yaml_filename)
+                original_path = os.path.join(input_dir, original_filename)
+
+                log[original_filename]=new_jpg_filename
+
+                shutil.copyfile(original_path, jpg_path)
+                yf = open(yaml_path, "w")
+                yf.write(yaml.dump(yaml_obj))
+                
+                count = count+1
+
+            except  yaml.YAMLError as exc:
+                print(exc)
+                system.exit(1)
+
+
+    logfile.write(yaml.dump(log))
+
+
+
 
 
 def crop_images(input_dir, out_dir):

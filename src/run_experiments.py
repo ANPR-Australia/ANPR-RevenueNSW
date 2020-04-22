@@ -30,7 +30,12 @@ def run_experiments():
 
     conn = utils.init_db(dbFile, dbOld, dbSchema)
 
-    label_dict = utils.create_labeled_data(conn, labeled_data_dir)
+    label_dict = utils.create_labeled_data_cropped(conn, labeled_data_dir)
+    
+    cropped_results = test_cropped_number_plates(conn, results_dir, 
+            config_file_name, test_data_dir, openalpr_runtime)
+    print(cropped_results)
+
 
     untrained_results = test_untrained_uncalibrated_system(conn, results_dir, 
             config_file_name, test_data_dir, openalpr_runtime)
@@ -191,6 +196,19 @@ def test_camera(conn, country_str, results_dir, test_name, test_data_dir,
 
     alpr.unload()
 
+    return results
+
+def test_cropped_number_plates(conn, results_dir, config_file_name, test_data_dir ,openalpr_runtime):
+    print("*******test_cropped*****")
+    import pdb;pdb.set_trace()
+    test_name = "test_cropped_number_plates"
+    results = {}
+    country_str = "au"
+
+    results[test_data_dir] = test_camera(conn, country_str, results_dir, 
+                    "test_cropped", test_data_dir, 
+                        config_file_name, openalpr_runtime)
+        
     return results
 
 """
