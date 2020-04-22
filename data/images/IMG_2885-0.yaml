@@ -1,7 +1,0 @@
-image_file: IMG_2885.jpg
-image_width: 1802
-image_height: 2400
-plate_corners_gt: 1249 1691 1476 1670 1492 1741 1261 1769
-region_code_gt: nsw
-plate_number_gt: BPG20T
-plate_inverted_gt: false

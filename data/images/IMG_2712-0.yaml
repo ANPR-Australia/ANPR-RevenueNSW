@@ -1,7 +1,0 @@
-image_file: IMG_2712.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 853 2253 1717 2316 1691 2579 846 2514
-region_code_gt: nsw
-plate_number_gt: AUYRQ1
-plate_inverted_gt: false

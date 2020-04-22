@@ -1,0 +1,7 @@
+image_file: CZW78Z_1054.jpg
+image_height: 1827
+image_width: 1370
+plate_corners_gt: 252 1183 420 1176 426 1218 256 1222
+plate_inverted_gt: false
+plate_number_gt: CZW78Z
+region_code_gt: nsw

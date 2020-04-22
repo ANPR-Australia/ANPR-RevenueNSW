@@ -1,0 +1,7 @@
+image_file: BCS05V_396.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1395 1978 1669 1915 1685 2000 1410 2072
+plate_inverted_gt: false
+plate_number_gt: BCS05V
+region_code_gt: nsw

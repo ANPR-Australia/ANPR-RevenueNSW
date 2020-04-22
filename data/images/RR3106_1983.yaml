@@ -1,0 +1,7 @@
+image_file: RR3106_1983.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2902 1193 3055 1179 3059 1211 2904 1228
+plate_inverted_gt: true
+plate_number_gt: RR3106
+region_code_gt: nsw

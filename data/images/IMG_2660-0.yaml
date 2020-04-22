@@ -1,7 +1,0 @@
-image_file: IMG_2660.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 720 2584 1349 2644 1344 2773 727 2701
-region_code_gt: nsw
-plate_number_gt: DTJ48U
-plate_inverted_gt: false

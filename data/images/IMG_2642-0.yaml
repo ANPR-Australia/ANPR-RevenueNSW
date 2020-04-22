@@ -1,7 +1,0 @@
-image_file: IMG_2642.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1401 2111 1798 2098 1799 2189 1406 2195
-region_code_gt: nsw
-plate_number_gt: DBF54C
-plate_inverted_gt: false

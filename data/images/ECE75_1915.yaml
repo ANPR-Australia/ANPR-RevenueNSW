@@ -1,0 +1,7 @@
+image_file: ECE75_1915.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2540 2815 2612 2831 2603 2872 2531 2856
+plate_inverted_gt: false
+plate_number_gt: ECE75
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: BN39SC_1265.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1484 833 1809 822 1799 960 1474 966
+plate_inverted_gt: false
+plate_number_gt: BN39SC
+region_code_gt: nsw

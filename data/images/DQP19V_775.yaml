@@ -1,0 +1,7 @@
+image_file: DQP19V_775.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1694 1659 2188 1577 2184 1689 1693 1770
+plate_inverted_gt: false
+plate_number_gt: DQP19V
+region_code_gt: nsw

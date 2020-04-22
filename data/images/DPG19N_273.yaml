@@ -1,0 +1,7 @@
+image_file: DPG19N_273.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 957 2182 1506 2223 1504 2304 963 2269
+plate_inverted_gt: false
+plate_number_gt: DPG19N
+region_code_gt: nsw

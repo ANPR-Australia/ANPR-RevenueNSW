@@ -1,0 +1,7 @@
+image_file: EHJ17M_262.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1170 2607 1803 2594 1803 2725 1172 2740
+plate_inverted_gt: false
+plate_number_gt: EHJ17M
+region_code_gt: nsw

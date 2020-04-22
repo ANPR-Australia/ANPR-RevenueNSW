@@ -1,7 +1,0 @@
-image_file: IMG_1358.jpg
-image_width: 750
-image_height: 1334
-plate_corners_gt: 354 493 509 478 500 531 351 546
-region_code_gt: nsw
-plate_number_gt: BZ41SF
-plate_inverted_gt: false

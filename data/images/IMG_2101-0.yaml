@@ -1,7 +1,0 @@
-image_file: IMG_2101.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1070 1345 1538 1421 1526 1598 1075 1516
-region_code_gt: nsw
-plate_number_gt: YBG246
-plate_inverted_gt: false

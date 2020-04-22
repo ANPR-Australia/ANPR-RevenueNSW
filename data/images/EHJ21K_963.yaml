@@ -1,0 +1,7 @@
+image_file: EHJ21K_963.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 2227 1642 2683 1610 2675 1752 2222 1798
+plate_inverted_gt: false
+plate_number_gt: EHJ21K
+region_code_gt: nsw

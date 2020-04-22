@@ -1,0 +1,7 @@
+image_file: DVC59X_46.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2168 1999 2299 2013 2297 2049 2165 2034
+plate_inverted_gt: false
+plate_number_gt: DVC59X
+region_code_gt: nsw

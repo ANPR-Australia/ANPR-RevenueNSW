@@ -1,0 +1,7 @@
+image_file: DSN95H_378.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1220 1750 1489 1715 1503 1797 1234 1830
+plate_inverted_gt: false
+plate_number_gt: DSN95H
+region_code_gt: nsw

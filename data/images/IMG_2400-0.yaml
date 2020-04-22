@@ -1,7 +1,0 @@
-image_file: IMG_2400.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 778 1378 1073 1415 1073 1496 785 1446
-region_code_gt: nsw
-plate_number_gt: EAU92A
-plate_inverted_gt: false

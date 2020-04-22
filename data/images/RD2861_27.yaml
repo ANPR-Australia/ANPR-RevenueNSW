@@ -1,0 +1,7 @@
+image_file: RD2861_27.jpg
+image_height: 1600
+image_width: 1200
+plate_corners_gt: 405 631 549 633 541 693 400 689
+plate_inverted_gt: true
+plate_number_gt: RD2861
+region_code_gt: nsw

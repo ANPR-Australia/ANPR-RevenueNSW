@@ -1,0 +1,7 @@
+image_file: YRB201_1864.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2677 1883 2819 1900 2817 1948 2676 1931
+plate_inverted_gt: false
+plate_number_gt: YRB201
+region_code_gt: nsw

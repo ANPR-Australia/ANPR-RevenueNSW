@@ -1,0 +1,7 @@
+image_file: CET50T_1121.jpg
+image_height: 3024
+image_width: 4032
+plate_corners_gt: 1231 1720 2644 1864 2631 2093 1258 1925
+plate_inverted_gt: false
+plate_number_gt: CET50T
+region_code_gt: nsw

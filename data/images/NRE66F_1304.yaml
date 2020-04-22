@@ -1,0 +1,7 @@
+image_file: NRE66F_1304.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1031 697 1397 745 1386 826 1023 773
+plate_inverted_gt: false
+plate_number_gt: NRE66F
+region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: IMG_2600.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1602 2006 2160 1984 2163 2120 1602 2152
-region_code_gt: nsw
-plate_number_gt: EES82F
-plate_inverted_gt: false

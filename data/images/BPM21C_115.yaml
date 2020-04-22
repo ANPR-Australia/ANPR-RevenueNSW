@@ -1,0 +1,7 @@
+image_file: BPM21C_115.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2218 2266 2351 2278 2350 2311 2216 2299
+plate_inverted_gt: false
+plate_number_gt: BPM21C
+region_code_gt: nsw

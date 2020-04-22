@@ -1,0 +1,7 @@
+image_file: T509_78.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2106 2115 2236 2127 2236 2181 2103 2169
+plate_inverted_gt: true
+plate_number_gt: T509
+region_code_gt: nsw

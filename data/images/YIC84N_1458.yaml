@@ -1,0 +1,7 @@
+image_file: YIC84N_1458.jpg
+image_height: 2971
+image_width: 2500
+plate_corners_gt: 1523 2417 1689 2408 1690 2464 1526 2469
+plate_inverted_gt: false
+plate_number_gt: YIC84N
+region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: IMG_1219.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1597 1549 1927 1517 1930 1620 1605 1651
-region_code_gt: nsw
-plate_number_gt: CPH80A
-plate_inverted_gt: false

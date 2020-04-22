@@ -1,0 +1,7 @@
+image_file: ATW63U_786.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1021 1330 1675 1367 1666 1550 1009 1502
+plate_inverted_gt: false
+plate_number_gt: ATW63U
+region_code_gt: nsw

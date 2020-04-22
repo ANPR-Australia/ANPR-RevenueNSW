@@ -1,7 +1,0 @@
-image_file: IMG_1395.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1400 2088 2496 1990 2478 2290 1428 2387
-region_code_gt: nsw
-plate_number_gt: HE8886
-plate_inverted_gt: true

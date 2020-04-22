@@ -1,0 +1,7 @@
+image_file: DZW67Y_149.jpg
+image_height: 1600
+image_width: 1200
+plate_corners_gt: 452 1096 723 1121 719 1179 450 1144
+plate_inverted_gt: false
+plate_number_gt: DZW67Y
+region_code_gt: nsw

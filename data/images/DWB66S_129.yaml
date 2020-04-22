@@ -1,0 +1,7 @@
+image_file: DWB66S_129.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2518 1839 2648 1843 2646 1875 2517 1870
+plate_inverted_gt: false
+plate_number_gt: DWB66S
+region_code_gt: nsw

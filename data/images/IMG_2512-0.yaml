@@ -1,7 +1,0 @@
-image_file: IMG_2512.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1471 1172 2013 1136 2013 1295 1480 1325
-region_code_gt: nsw
-plate_number_gt: CXD14R
-plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: CSQ71T_1529.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1407 2234 1879 2253 1875 2342 1411 2328
+plate_inverted_gt: false
+plate_number_gt: CSQ71T
+region_code_gt: nsw

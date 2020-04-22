@@ -1,0 +1,7 @@
+image_file: EBU86C_359.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1473 1845 1859 1839 1859 1907 1475 1914
+plate_inverted_gt: false
+plate_number_gt: EBU86C
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: CU12PP_304.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1714 2380 2196 2229 2187 2411 1709 2579
+plate_inverted_gt: false
+plate_number_gt: CU12PP
+region_code_gt: nsw

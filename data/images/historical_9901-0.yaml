@@ -1,7 +1,0 @@
-image_file: historical_9901.jpeg
-image_width: 2048
-image_height: 1536
-plate_corners_gt: 319 472 1550 479 1519 925 342 925
-region_code_gt: nsw
-plate_number_gt: 86370H
-plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: WWA333_1301.jpg
+image_height: 1825
+image_width: 1369
+plate_corners_gt: 472 998 674 1000 674 1075 476 1073
+plate_inverted_gt: false
+plate_number_gt: WWA333
+region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: IMG_2375.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1160 1074 1425 1105 1414 1191 1153 1161
-region_code_gt: nsw
-plate_number_gt: DNV13E
-plate_inverted_gt: false

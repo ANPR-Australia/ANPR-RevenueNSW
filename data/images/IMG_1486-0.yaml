@@ -1,7 +1,0 @@
-image_file: IMG_1486.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 2040 1765 2508 1662 2507 1792 2043 1898
-region_code_gt: nsw
-plate_number_gt: AM568
-plate_inverted_gt: false

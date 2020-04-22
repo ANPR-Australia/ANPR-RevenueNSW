@@ -1,7 +1,0 @@
-image_file: IMG_1495.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1021 1330 1675 1367 1666 1550 1009 1502
-region_code_gt: nsw
-plate_number_gt: ATW63U
-plate_inverted_gt: false

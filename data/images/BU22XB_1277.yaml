@@ -1,0 +1,7 @@
+image_file: BU22XB_1277.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1579 850 1969 812 1983 966 1592 1012
+plate_inverted_gt: false
+plate_number_gt: BU22XB
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: EAI24K_771.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1856 2116 2348 2046 2343 2179 1861 2261
+plate_inverted_gt: false
+plate_number_gt: EAI24K
+region_code_gt: nsw

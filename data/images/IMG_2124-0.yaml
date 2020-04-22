@@ -1,7 +1,0 @@
-image_file: IMG_2124.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 602 1583 971 1636 967 1719 605 1659
-region_code_gt: nsw
-plate_number_gt: BMC25U
-plate_inverted_gt: false

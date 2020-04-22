@@ -1,0 +1,7 @@
+image_file: EDY59A_81.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2063 2345 2196 2364 2195 2396 2060 2379
+plate_inverted_gt: false
+plate_number_gt: EDY59A
+region_code_gt: nsw

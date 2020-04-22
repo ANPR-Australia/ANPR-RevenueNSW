@@ -1,0 +1,7 @@
+image_file: EDK96L_1863.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2393 2480 2541 2512 2532 2555 2389 2523
+plate_inverted_gt: false
+plate_number_gt: EDK96L
+region_code_gt: nsw

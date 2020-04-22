@@ -1,0 +1,7 @@
+image_file: BFT70B_1048.jpg
+image_height: 1962
+image_width: 1541
+plate_corners_gt: 233 1670 399 1698 390 1770 228 1737
+plate_inverted_gt: false
+plate_number_gt: BFT70B
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: VVP442_1357.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1075 1087 1404 1151 1379 1306 1053 1237
+plate_inverted_gt: false
+plate_number_gt: VVP442
+region_code_gt: nsw

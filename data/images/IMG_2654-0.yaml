@@ -1,7 +1,0 @@
-image_file: IMG_2654.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 929 1879 1605 1914 1599 2099 922 2068
-region_code_gt: nsw
-plate_number_gt: CIE30B
-plate_inverted_gt: false

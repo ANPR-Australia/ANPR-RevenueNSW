@@ -1,7 +1,0 @@
-image_file: IMG_1238.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1025 2166 1378 2274 1364 2426 1024 2317
-region_code_gt: nsw
-plate_number_gt: CQ48SF
-plate_inverted_gt: false

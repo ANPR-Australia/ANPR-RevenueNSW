@@ -1,0 +1,7 @@
+image_file: CJ97DK_2028.jpg
+image_height: 1600
+image_width: 1200
+plate_corners_gt: 587 432 673 399 679 437 596 470
+plate_inverted_gt: false
+plate_number_gt: CJ97DK
+region_code_gt: nsw

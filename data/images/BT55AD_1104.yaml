@@ -1,0 +1,7 @@
+image_file: BT55AD_1104.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1619 1364 2013 1320 2016 1469 1637 1521
+plate_inverted_gt: false
+plate_number_gt: BT55AD
+region_code_gt: nsw

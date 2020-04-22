@@ -1,7 +1,0 @@
-image_file: IMG_2010.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1619 1364 2013 1320 2016 1469 1637 1521
-region_code_gt: nsw
-plate_number_gt: BT55AD
-plate_inverted_gt: false

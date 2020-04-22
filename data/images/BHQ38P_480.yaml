@@ -1,0 +1,7 @@
+image_file: BHQ38P_480.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1340 2047 1644 1956 1655 2047 1358 2144
+plate_inverted_gt: false
+plate_number_gt: BHQ38P
+region_code_gt: nsw

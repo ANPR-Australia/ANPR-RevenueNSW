@@ -1,7 +1,0 @@
-image_file: IMG_1687.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1247 1745 1490 1684 1499 1772 1265 1843
-region_code_gt: nsw
-plate_number_gt: EAA64U
-plate_inverted_gt: false

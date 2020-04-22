@@ -1,7 +1,0 @@
-image_file: IMG_1455.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 2645 1264 2673 1450 1876 1704 1837 1507
-region_code_gt: nsw
-plate_number_gt: NXM49N
-plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: CPW93J_325.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1197 1849 1769 1738 1785 1853 1214 1976
+plate_inverted_gt: false
+plate_number_gt: CPW93J
+region_code_gt: nsw

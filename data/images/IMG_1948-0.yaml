@@ -1,7 +1,0 @@
-image_file: IMG_1948.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1706 999 2187 960 2187 1098 1715 1152
-region_code_gt: nsw
-plate_number_gt: DFP78B
-plate_inverted_gt: false

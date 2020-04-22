@@ -1,7 +1,0 @@
-image_file: IMG_1603.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1175 767 1486 737 1497 834 1189 868
-region_code_gt: nsw
-plate_number_gt: BXC95H
-plate_inverted_gt: true

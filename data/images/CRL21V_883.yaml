@@ -1,0 +1,7 @@
+image_file: CRL21V_883.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1930 1029 2494 966 2487 1140 1926 1191
+plate_inverted_gt: false
+plate_number_gt: CRL21V
+region_code_gt: nsw

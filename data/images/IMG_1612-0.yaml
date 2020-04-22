@@ -1,7 +1,0 @@
-image_file: IMG_1612.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1665 1118 2128 1089 2127 1219 1671 1256
-region_code_gt: nsw
-plate_number_gt: DHC28Y
-plate_inverted_gt: false

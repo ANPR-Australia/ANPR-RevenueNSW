@@ -1,0 +1,7 @@
+image_file: DHF83J_1804.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2707 1951 2850 1962 2850 2012 2705 1994
+plate_inverted_gt: false
+plate_number_gt: DHF83J
+region_code_gt: nsw

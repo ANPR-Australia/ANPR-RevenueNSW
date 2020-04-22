@@ -1,0 +1,7 @@
+image_file: MF155_1785.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 1929 2730 2081 2755 2079 2798 1925 2771
+plate_inverted_gt: false
+plate_number_gt: MF155
+region_code_gt: nsw

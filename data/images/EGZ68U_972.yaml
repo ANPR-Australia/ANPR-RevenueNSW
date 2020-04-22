@@ -1,0 +1,7 @@
+image_file: EGZ68U_972.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 692 1293 690 1169 1369 1345 1353 1484
+plate_inverted_gt: false
+plate_number_gt: EGZ68U
+region_code_gt: nsw

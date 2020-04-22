@@ -1,7 +1,0 @@
-image_file: IMG_2417.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1545 1303 2042 1257 2046 1403 1559 1450
-region_code_gt: nsw
-plate_number_gt: DJK22B
-plate_inverted_gt: false

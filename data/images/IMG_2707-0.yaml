@@ -1,7 +1,0 @@
-image_file: IMG_2707.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 999 2401 1600 2407 1600 2522 999 2506
-region_code_gt: nsw
-plate_number_gt: BVV39R
-plate_inverted_gt: false

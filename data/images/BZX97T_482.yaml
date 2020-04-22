@@ -1,0 +1,7 @@
+image_file: BZX97T_482.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1243 1052 1747 1025 1747 1121 1254 1152
+plate_inverted_gt: false
+plate_number_gt: BZX97T
+region_code_gt: nsw

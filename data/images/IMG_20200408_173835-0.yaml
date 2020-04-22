@@ -1,7 +1,0 @@
-image_file: IMG_20200408_173835.jpg
-image_width: 4032
-image_height: 3024
-plate_corners_gt: 1298 1221 2256 1273 2250 1480 1305 1424
-region_code_gt: nsw
-plate_number_gt: DH50T
-plate_inverted_gt: false

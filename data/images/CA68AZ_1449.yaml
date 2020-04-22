@@ -1,0 +1,7 @@
+image_file: CA68AZ_1449.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 841 1019 1173 1120 1171 1282 841 1164
+plate_inverted_gt: false
+plate_number_gt: CA68AZ
+region_code_gt: nsw

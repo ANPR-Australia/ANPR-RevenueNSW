@@ -1,7 +1,0 @@
-image_file: IMG_0987.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1173 1672 1837 1786 1811 1985 1158 1844
-region_code_gt: nsw
-plate_number_gt: EGI43Q
-plate_inverted_gt: false

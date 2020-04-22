@@ -1,7 +1,0 @@
-image_file: bike_1234.jpeg
-image_width: 2048
-image_height: 1536
-plate_corners_gt: 239 105 1854 172 1794 1021 229 957
-region_code_gt: nsw
-plate_number_gt: DBR74
-plate_inverted_gt: false

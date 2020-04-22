@@ -1,7 +1,0 @@
-image_file: IMG_2125.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 736 1040 1129 1099 1131 1202 739 1130
-region_code_gt: nsw
-plate_number_gt: EBP87D
-plate_inverted_gt: false

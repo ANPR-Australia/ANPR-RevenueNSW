@@ -1,0 +1,7 @@
+image_file: CC21VM_798.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1781 1354 2213 1304 2219 1483 1788 1541
+plate_inverted_gt: false
+plate_number_gt: CC21VM
+region_code_gt: nsw

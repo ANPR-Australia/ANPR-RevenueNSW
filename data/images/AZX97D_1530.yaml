@@ -1,0 +1,7 @@
+image_file: AZX97D_1530.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 681 2502 1168 2554 1168 2650 686 2598
+plate_inverted_gt: false
+plate_number_gt: AZX97D
+region_code_gt: nsw

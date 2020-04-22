@@ -1,0 +1,7 @@
+image_file: CC2876_126.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2411 1918 2540 1929 2539 1973 2409 1961
+plate_inverted_gt: false
+plate_number_gt: CC2876
+region_code_gt: nsw

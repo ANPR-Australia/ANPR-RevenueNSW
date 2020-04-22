@@ -1,0 +1,7 @@
+image_file: CVA67R_296.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1565 2074 1954 2049 1946 2136 1556 2161
+plate_inverted_gt: false
+plate_number_gt: CVA67R
+region_code_gt: nsw

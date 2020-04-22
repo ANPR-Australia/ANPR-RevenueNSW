@@ -1,0 +1,7 @@
+image_file: DWP80K_350.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1422 2405 1979 2325 1975 2412 1419 2489
+plate_inverted_gt: false
+plate_number_gt: DWP80K
+region_code_gt: nsw

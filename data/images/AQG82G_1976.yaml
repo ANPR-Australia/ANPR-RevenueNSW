@@ -1,0 +1,7 @@
+image_file: AQG82G_1976.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2717 2711 2872 2724 2870 2774 2717 2759
+plate_inverted_gt: false
+plate_number_gt: AQG82G
+region_code_gt: nsw

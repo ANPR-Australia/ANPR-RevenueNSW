@@ -1,7 +1,0 @@
-image_file: IMG_2951.jpg
-image_width: 691
-image_height: 921
-plate_corners_gt: 404 265 498 264 500 296 406 299
-region_code_gt: nsw
-plate_number_gt: JDK007
-plate_inverted_gt: true

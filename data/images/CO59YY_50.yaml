@@ -1,0 +1,7 @@
+image_file: CO59YY_50.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2364 1696 2492 1695 2493 1738 2365 1738
+plate_inverted_gt: false
+plate_number_gt: CO59YY
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: DSD04Y_646.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1349 988 1792 939 1799 1072 1362 1134
+plate_inverted_gt: false
+plate_number_gt: DSD04Y
+region_code_gt: nsw

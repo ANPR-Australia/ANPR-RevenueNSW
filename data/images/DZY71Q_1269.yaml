@@ -1,0 +1,7 @@
+image_file: DZY71Q_1269.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1437 789 1593 785 1594 822 1439 823
+plate_inverted_gt: false
+plate_number_gt: DZY71Q
+region_code_gt: nsw

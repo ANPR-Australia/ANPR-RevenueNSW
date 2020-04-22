@@ -1,0 +1,7 @@
+image_file: SFL147_663.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 973 966 1709 1120 1673 1454 952 1256
+plate_inverted_gt: false
+plate_number_gt: SFL147
+region_code_gt: nsw

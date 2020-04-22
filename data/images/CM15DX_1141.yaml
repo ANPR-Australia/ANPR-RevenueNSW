@@ -1,0 +1,7 @@
+image_file: CM15DX_1141.jpg
+image_height: 3024
+image_width: 4032
+plate_corners_gt: 106 927 3669 1286 3275 2150 282 1944
+plate_inverted_gt: false
+plate_number_gt: CM15DX
+region_code_gt: nsw

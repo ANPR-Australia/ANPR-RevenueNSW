@@ -1,7 +1,0 @@
-image_file: IMG_0706.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1365 2306 2093 2150 2083 2361 1379 2519
-region_code_gt: nsw
-plate_number_gt: CU72XC
-plate_inverted_gt: false

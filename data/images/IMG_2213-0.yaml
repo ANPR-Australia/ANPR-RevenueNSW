@@ -1,7 +1,0 @@
-image_file: IMG_2213.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1766 1146 2171 1127 2177 1252 1774 1279
-region_code_gt: nsw
-plate_number_gt: BSP50A
-plate_inverted_gt: false

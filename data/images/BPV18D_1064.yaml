@@ -1,0 +1,7 @@
+image_file: BPV18D_1064.jpg
+image_height: 1329
+image_width: 997
+plate_corners_gt: 660 302 786 297 788 332 664 338
+plate_inverted_gt: false
+plate_number_gt: BPV18D
+region_code_gt: nsw

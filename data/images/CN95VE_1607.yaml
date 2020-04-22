@@ -1,0 +1,6 @@
+image_file: CN95VE_1607.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1029 2157 1544 2176 1546 2351 1031 2337
+plate_inverted_gt: false
+plate_number_gt: CN95VE

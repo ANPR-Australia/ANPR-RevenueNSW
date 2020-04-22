@@ -1,0 +1,7 @@
+image_file: XLU284_1227.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1609 1406 1952 1409 1932 1522 1593 1530
+plate_inverted_gt: false
+plate_number_gt: XLU284
+region_code_gt: nsw

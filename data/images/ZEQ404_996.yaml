@@ -1,0 +1,7 @@
+image_file: ZEQ404_996.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1552 1069 1806 1057 1814 1157 1559 1181
+plate_inverted_gt: false
+plate_number_gt: ZEQ404
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: CTP76E_1985.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2724 2971 2875 2992 2870 3040 2720 3017
+plate_inverted_gt: false
+plate_number_gt: CTP76E
+region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: IMG_1533.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1571 1717 2077 1625 2094 1768 1585 1866
-region_code_gt: nsw
-plate_number_gt: BPM78P
-plate_inverted_gt: false

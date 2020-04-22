@@ -1,7 +1,0 @@
-image_file: IMG_2718.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 696 2283 1327 2360 1319 2469 692 2399
-region_code_gt: nsw
-plate_number_gt: DCS53X
-plate_inverted_gt: false

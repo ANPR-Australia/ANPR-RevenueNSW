@@ -1,0 +1,7 @@
+image_file: CR63PZ_929.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1541 1514 1923 1475 1925 1628 1550 1683
+plate_inverted_gt: false
+plate_number_gt: CR63PZ
+region_code_gt: nsw

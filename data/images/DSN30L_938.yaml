@@ -1,0 +1,7 @@
+image_file: DSN30L_938.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1442 1294 1940 1218 1913 1388 1442 1459
+plate_inverted_gt: false
+plate_number_gt: DSN30L
+region_code_gt: nsw

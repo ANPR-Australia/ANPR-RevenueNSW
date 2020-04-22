@@ -1,0 +1,7 @@
+image_file: CM11MJ_466.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 537 1230 1024 1275 1065 1433 573 1380
+plate_inverted_gt: false
+plate_number_gt: CM11MJ
+region_code_gt: nsw

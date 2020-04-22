@@ -1,7 +1,0 @@
-image_file: IMG_2926.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 942 2119 1400 2122 1408 2204 951 2205
-region_code_gt: nsw
-plate_number_gt: COT44G
-plate_inverted_gt: false

@@ -1,7 +1,0 @@
-image_file: IMG_2406.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1239 1192 1668 1211 1658 1341 1238 1328
-region_code_gt: nsw
-plate_number_gt: AOO97X
-plate_inverted_gt: false

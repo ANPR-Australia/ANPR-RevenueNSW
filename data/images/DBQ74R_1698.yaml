@@ -1,0 +1,7 @@
+image_file: DBQ74R_1698.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 3087 1539 3216 1529 3217 1566 3091 1576
+plate_inverted_gt: false
+plate_number_gt: DBQ74R
+region_code_gt: nsw

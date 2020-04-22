@@ -1,7 +1,0 @@
-image_file: IMG_1681.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1465 1500 1902 1374 1908 1528 1471 1665
-region_code_gt: nsw
-plate_number_gt: BSP79D
-plate_inverted_gt: false

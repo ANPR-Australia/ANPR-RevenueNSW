@@ -1,7 +1,0 @@
-image_file: IMG_1033.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1243 1052 1747 1025 1747 1121 1254 1152
-region_code_gt: nsw
-plate_number_gt: BZX97T
-plate_inverted_gt: false

@@ -1,7 +1,0 @@
-image_file: IMG_1955.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 676 396 1084 380 1097 483 692 487
-region_code_gt: nsw
-plate_number_gt: CHI08Y
-plate_inverted_gt: false

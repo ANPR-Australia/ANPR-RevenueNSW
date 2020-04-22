@@ -1,0 +1,7 @@
+image_file: YIH24G_860.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1507 1009 1964 950 1957 1083 1508 1149
+plate_inverted_gt: false
+plate_number_gt: YIH24G
+region_code_gt: nsw

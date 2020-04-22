@@ -1,0 +1,7 @@
+image_file: CJR98B_766.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1690 1802 2127 1734 2126 1853 1691 1919
+plate_inverted_gt: false
+plate_number_gt: CJR98B
+region_code_gt: nsw

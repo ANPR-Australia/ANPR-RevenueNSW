@@ -1,0 +1,7 @@
+image_file: BZ41SF_688.jpg
+image_height: 1334
+image_width: 750
+plate_corners_gt: 354 493 509 478 500 531 351 546
+plate_inverted_gt: false
+plate_number_gt: BZ41SF
+region_code_gt: nsw

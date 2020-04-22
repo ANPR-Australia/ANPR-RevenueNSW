@@ -1,0 +1,7 @@
+image_file: BW70QK_602.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 830 2124 1312 2170 1320 2335 838 2287
+plate_inverted_gt: false
+plate_number_gt: BW70QK
+region_code_gt: nsw

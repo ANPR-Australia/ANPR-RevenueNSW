@@ -1,0 +1,7 @@
+image_file: TAY024_1606.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1008 2442 1617 2461 1613 2596 1009 2579
+plate_inverted_gt: true
+plate_number_gt: TAY024
+region_code_gt: qld

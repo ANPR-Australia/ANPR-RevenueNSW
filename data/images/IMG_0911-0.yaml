@@ -1,7 +1,0 @@
-image_file: IMG_0911.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1207 1950 1641 1917 1647 2063 1219 2104
-region_code_gt: nsw
-plate_number_gt: BE54DS
-plate_inverted_gt: false

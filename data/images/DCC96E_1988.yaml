@@ -1,0 +1,7 @@
+image_file: DCC96E_1988.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2654 1296 2780 1287 2781 1323 2658 1332
+plate_inverted_gt: false
+plate_number_gt: DCC96E
+region_code_gt: nsw

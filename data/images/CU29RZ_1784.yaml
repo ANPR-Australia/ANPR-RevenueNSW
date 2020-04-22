@@ -1,0 +1,7 @@
+image_file: CU29RZ_1784.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 3027 1637 3170 1656 3170 1703 3026 1686
+plate_inverted_gt: false
+plate_number_gt: CU29RZ
+region_code_gt: nsw

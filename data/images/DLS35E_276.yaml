@@ -1,0 +1,7 @@
+image_file: DLS35E_276.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1102 2365 1449 2345 1445 2434 1110 2455
+plate_inverted_gt: false
+plate_number_gt: DLS35E
+region_code_gt: nsw

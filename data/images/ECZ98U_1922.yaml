@@ -1,0 +1,7 @@
+image_file: ECZ98U_1922.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2963 1406 3114 1413 3110 1457 2967 1455
+plate_inverted_gt: false
+plate_number_gt: ECZ98U
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: EDQ74D_1830.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2887 1984 3028 1998 3027 2044 2887 2023
+plate_inverted_gt: false
+plate_number_gt: EDQ74D
+region_code_gt: nsw

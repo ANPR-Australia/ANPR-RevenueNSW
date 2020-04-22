@@ -1,7 +1,0 @@
-image_file: IMG_1480.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1953 1234 2361 1171 2372 1288 1960 1362
-region_code_gt: nsw
-plate_number_gt: ARL96Y
-plate_inverted_gt: false

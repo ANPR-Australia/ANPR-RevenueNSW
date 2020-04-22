@@ -1,0 +1,7 @@
+image_file: BE85SH_994.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1389 1065 1668 1034 1674 1142 1400 1179
+plate_inverted_gt: false
+plate_number_gt: BE85SH
+region_code_gt: nsw

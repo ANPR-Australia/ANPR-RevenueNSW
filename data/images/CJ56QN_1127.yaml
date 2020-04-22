@@ -1,0 +1,7 @@
+image_file: CJ56QN_1127.jpg
+image_height: 3024
+image_width: 4032
+plate_corners_gt: 1612 1608 2262 1601 2271 1836 1620 1834
+plate_inverted_gt: false
+plate_number_gt: CJ56QN
+region_code_gt: nsw

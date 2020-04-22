@@ -1,0 +1,7 @@
+image_file: CMK05R_855.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1700 1859 2145 1745 2150 1891 1715 2011
+plate_inverted_gt: false
+plate_number_gt: CMK05R
+region_code_gt: nsw

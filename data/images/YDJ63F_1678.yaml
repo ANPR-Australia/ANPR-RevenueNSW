@@ -1,0 +1,7 @@
+image_file: YDJ63F_1678.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1506 2110 1894 2114 1898 2222 1503 2210
+plate_inverted_gt: false
+plate_number_gt: YDJ63F
+region_code_gt: nsw

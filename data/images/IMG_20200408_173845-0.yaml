@@ -1,7 +1,0 @@
-image_file: IMG_20200408_173845.jpg
-image_width: 4032
-image_height: 3024
-plate_corners_gt: 1252 1914 1969 1960 1955 2093 1256 2039
-region_code_gt: nsw
-plate_number_gt: BIW53N
-plate_inverted_gt: false

@@ -1,7 +1,0 @@
-image_file: IMG_1345.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1194 1426 1760 1327 1756 1513 1200 1612
-region_code_gt: nsw
-plate_number_gt: BT53QQ
-plate_inverted_gt: false

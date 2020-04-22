@@ -1,0 +1,7 @@
+image_file: CMY12D_886.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 2047 1132 2620 1085 2637 1255 2059 1304
+plate_inverted_gt: false
+plate_number_gt: CMY12D
+region_code_gt: nsw

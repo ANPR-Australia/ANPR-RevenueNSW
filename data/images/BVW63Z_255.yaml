@@ -1,0 +1,7 @@
+image_file: BVW63Z_255.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1169 2632 2019 2539 2041 2764 1191 2849
+plate_inverted_gt: false
+plate_number_gt: BVW63Z
+region_code_gt: nsw

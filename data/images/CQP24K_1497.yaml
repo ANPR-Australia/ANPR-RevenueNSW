@@ -1,0 +1,7 @@
+image_file: CQP24K_1497.jpg
+image_height: 1334
+image_width: 750
+plate_corners_gt: 241 514 306 513 306 532 242 533
+plate_inverted_gt: false
+plate_number_gt: CQP24K
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: BGD54W_1052.jpg
+image_height: 1299
+image_width: 974
+plate_corners_gt: 561 1072 713 1070 720 1109 565 1114
+plate_inverted_gt: false
+plate_number_gt: BGD54W
+region_code_gt: nsw

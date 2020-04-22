@@ -1,0 +1,7 @@
+image_file: APA14F_1853.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2271 2473 2423 2496 2419 2536 2268 2513
+plate_inverted_gt: false
+plate_number_gt: APA14F
+region_code_gt: nsw

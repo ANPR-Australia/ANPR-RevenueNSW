@@ -1,7 +1,0 @@
-image_file: IMG_2019.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1577 1484 1724 1482 1727 1526 1582 1533
-region_code_gt: nsw
-plate_number_gt: LL511
-plate_inverted_gt: false

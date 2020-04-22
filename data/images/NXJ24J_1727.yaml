@@ -1,0 +1,7 @@
+image_file: NXJ24J_1727.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2203 3226 2419 3268 2412 3311 2200 3270
+plate_inverted_gt: false
+plate_number_gt: NXJ24J
+region_code_gt: nsw

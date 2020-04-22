@@ -1,0 +1,7 @@
+image_file: NPJ88B_1978.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2831 2684 3037 2701 3033 2746 2829 2731
+plate_inverted_gt: false
+plate_number_gt: NPJ88B
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: AYS_682.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1930 1814 1937 1947 1243 2117 1220 1981
+plate_inverted_gt: false
+plate_number_gt: AYS
+region_code_gt: vic

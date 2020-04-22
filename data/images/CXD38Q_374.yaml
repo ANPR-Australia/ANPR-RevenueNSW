@@ -1,0 +1,7 @@
+image_file: CXD38Q_374.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1735 1623 1960 1574 1965 1653 1741 1702
+plate_inverted_gt: false
+plate_number_gt: CXD38Q
+region_code_gt: nsw

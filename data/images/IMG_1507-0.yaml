@@ -1,7 +1,0 @@
-image_file: IMG_1507.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1787 1487 2348 1401 2351 1552 1796 1648
-region_code_gt: nsw
-plate_number_gt: EAL42K
-plate_inverted_gt: false

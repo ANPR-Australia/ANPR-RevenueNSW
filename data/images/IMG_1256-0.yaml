@@ -1,7 +1,0 @@
-image_file: IMG_1256.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1629 1653 2263 1516 2250 1753 1662 1902
-region_code_gt: nsw
-plate_number_gt: CA48XP
-plate_inverted_gt: false

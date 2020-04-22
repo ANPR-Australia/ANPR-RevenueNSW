@@ -1,0 +1,7 @@
+image_file: CV89UR_82.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2196 2017 2326 2027 2324 2068 2196 2057
+plate_inverted_gt: false
+plate_number_gt: CV89UR
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: BPY05K_952.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 2222 1094 2584 1051 2585 1181 2219 1242
+plate_inverted_gt: false
+plate_number_gt: BPY05K
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: 01TBC_828.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1373 1428 1892 1407 1884 1517 1371 1538
+plate_inverted_gt: false
+plate_number_gt: 01TBC
+region_code_gt: nsw

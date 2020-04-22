@@ -1,7 +1,0 @@
-image_file: IMG_2232.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1366 1605 1727 1593 1734 1686 1373 1705
-region_code_gt: nsw
-plate_number_gt: WE222
-plate_inverted_gt: true

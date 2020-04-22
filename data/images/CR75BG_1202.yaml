@@ -1,0 +1,7 @@
+image_file: CR75BG_1202.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1617 1127 2058 1113 2052 1282 1620 1296
+plate_inverted_gt: false
+plate_number_gt: CR75BG
+region_code_gt: nsw

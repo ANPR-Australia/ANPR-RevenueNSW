@@ -1,7 +1,0 @@
-image_file: IMG_2680.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 795 2070 1369 2159 1376 2277 808 2185
-region_code_gt: nsw
-plate_number_gt: DVW25G
-plate_inverted_gt: false

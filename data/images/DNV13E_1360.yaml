@@ -1,0 +1,7 @@
+image_file: DNV13E_1360.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1160 1074 1425 1105 1414 1191 1153 1161
+plate_inverted_gt: false
+plate_number_gt: DNV13E
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: DWG52S_1921.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2873 1892 3019 1907 3019 1945 2874 1928
+plate_inverted_gt: false
+plate_number_gt: DWG52S
+region_code_gt: nsw

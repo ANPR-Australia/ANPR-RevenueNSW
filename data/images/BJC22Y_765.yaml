@@ -1,0 +1,7 @@
+image_file: BJC22Y_765.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1476 1512 1951 1467 1966 1602 1492 1645
+plate_inverted_gt: false
+plate_number_gt: BJC22Y
+region_code_gt: nsw

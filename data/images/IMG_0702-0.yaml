@@ -1,7 +1,0 @@
-image_file: IMG_0702.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1894 2158 1894 2294 1086 2431 1064 2306
-region_code_gt: nsw
-plate_number_gt: BFW93U
-plate_inverted_gt: false

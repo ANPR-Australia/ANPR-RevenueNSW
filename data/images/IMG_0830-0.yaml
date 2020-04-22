@@ -1,7 +1,0 @@
-image_file: IMG_0830.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 992 2226 996 2107 1637 2265 1633 2400
-region_code_gt: nsw
-plate_number_gt: DTQ
-plate_inverted_gt: true

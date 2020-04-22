@@ -1,0 +1,7 @@
+image_file: OZJ197_1427.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1049 1040 1405 1126 1398 1273 1042 1179
+plate_inverted_gt: false
+plate_number_gt: OZJ197
+region_code_gt: nsw

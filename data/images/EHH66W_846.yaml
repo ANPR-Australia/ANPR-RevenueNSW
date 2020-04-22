@@ -1,0 +1,7 @@
+image_file: EHH66W_846.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1825 1088 2337 1004 2355 1169 1853 1262
+plate_inverted_gt: false
+plate_number_gt: EHH66W
+region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: IMG_2676.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 850 2105 1519 2218 1507 2330 850 2218
-region_code_gt: nsw
-plate_number_gt: DFD61N
-plate_inverted_gt: false

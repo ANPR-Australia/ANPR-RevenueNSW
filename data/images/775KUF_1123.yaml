@@ -1,0 +1,7 @@
+image_file: 775KUF_1123.jpg
+image_height: 3024
+image_width: 4032
+plate_corners_gt: 1989 1413 2726 1398 2726 1645 1999 1669
+plate_inverted_gt: false
+plate_number_gt: 775KUF
+region_code_gt: qld

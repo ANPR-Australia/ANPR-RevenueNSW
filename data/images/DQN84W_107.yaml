@@ -1,0 +1,7 @@
+image_file: DQN84W_107.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2361 860 2468 847 2472 879 2364 890
+plate_inverted_gt: false
+plate_number_gt: DQN84W
+region_code_gt: nsw

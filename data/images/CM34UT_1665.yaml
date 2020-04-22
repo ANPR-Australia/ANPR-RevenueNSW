@@ -1,0 +1,7 @@
+image_file: CM34UT_1665.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1253 2113 1366 2104 1370 2146 1255 2155
+plate_inverted_gt: false
+plate_number_gt: CM34UT
+region_code_gt: nsw

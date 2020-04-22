@@ -1,7 +1,0 @@
-image_file: IMG_031.png
-image_width: 1983
-image_height: 1614
-plate_corners_gt: 761 928 1330 900 1331 1050 764 1073
-region_code_gt: nsw
-plate_number_gt: EBI35X
-plate_inverted_gt: false

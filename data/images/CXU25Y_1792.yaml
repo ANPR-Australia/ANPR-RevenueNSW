@@ -1,0 +1,7 @@
+image_file: CXU25Y_1792.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2748 1774 2892 1796 2893 1833 2749 1812
+plate_inverted_gt: false
+plate_number_gt: CXU25Y
+region_code_gt: nsw

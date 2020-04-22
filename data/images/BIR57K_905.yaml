@@ -1,0 +1,7 @@
+image_file: BIR57K_905.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 658 1406 1000 1475 1002 1540 662 1484
+plate_inverted_gt: false
+plate_number_gt: BIR57K
+region_code_gt: nsw

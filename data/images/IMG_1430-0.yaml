@@ -1,7 +1,0 @@
-image_file: IMG_1430.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 2204 979 2679 924 2680 1122 2211 1186
-region_code_gt: vic
-plate_number_gt: WOS101
-plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: YBX69D_95.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2096 2365 2233 2380 2230 2418 2095 2400
+plate_inverted_gt: false
+plate_number_gt: YBX69D
+region_code_gt: nsw

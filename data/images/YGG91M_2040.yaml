@@ -1,0 +1,7 @@
+image_file: YGG91M_2040.jpg
+image_height: 767
+image_width: 575
+plate_corners_gt: 436 214 522 210 523 243 436 244
+plate_inverted_gt: false
+plate_number_gt: YGG91M
+region_code_gt: nsw

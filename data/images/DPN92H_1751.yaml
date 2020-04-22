@@ -1,0 +1,7 @@
+image_file: DPN92H_1751.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2809 1231 2947 1235 2946 1274 2809 1270
+plate_inverted_gt: false
+plate_number_gt: DPN92H
+region_code_gt: nsw

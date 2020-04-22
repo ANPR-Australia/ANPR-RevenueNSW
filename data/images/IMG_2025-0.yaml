@@ -1,7 +1,0 @@
-image_file: IMG_2025.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1890 1459 2197 1412 2201 1527 1892 1586
-region_code_gt: nsw
-plate_number_gt: EDA05R
-plate_inverted_gt: false

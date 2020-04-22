@@ -1,0 +1,7 @@
+image_file: BCO92P_1289.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1223 635 1441 584 1469 670 1246 726
+plate_inverted_gt: false
+plate_number_gt: BCO92P
+region_code_gt: nsw

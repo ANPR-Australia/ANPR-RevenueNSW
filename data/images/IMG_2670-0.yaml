@@ -1,7 +1,0 @@
-image_file: IMG_2670.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 820 1724 1456 1789 1439 1963 808 1902
-region_code_gt: nsw
-plate_number_gt: CGM64D
-plate_inverted_gt: false

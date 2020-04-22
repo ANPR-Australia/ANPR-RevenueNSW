@@ -1,7 +1,0 @@
-image_file: IMG_2429.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1520 1147 2030 1061 2049 1234 1546 1353
-region_code_gt: nsw
-plate_number_gt: DTC58C
-plate_inverted_gt: false

@@ -1,7 +1,0 @@
-image_file: bike_historical_1231.jpeg
-image_width: 2048
-image_height: 1536
-plate_corners_gt: 80 454 1825 347 1822 1280 199 1333
-region_code_gt: nsw
-plate_number_gt: 4527J
-plate_inverted_gt: false

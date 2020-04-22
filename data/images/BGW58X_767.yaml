@@ -1,0 +1,7 @@
+image_file: BGW58X_767.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1588 1476 2083 1430 2089 1572 1589 1627
+plate_inverted_gt: false
+plate_number_gt: BGW58X
+region_code_gt: nsw

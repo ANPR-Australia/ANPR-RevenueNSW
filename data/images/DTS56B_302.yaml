@@ -1,0 +1,7 @@
+image_file: DTS56B_302.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1240 2045 1507 2062 1504 2111 1241 2095
+plate_inverted_gt: false
+plate_number_gt: DTS56B
+region_code_gt: nsw

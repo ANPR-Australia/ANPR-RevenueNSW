@@ -1,7 +1,0 @@
-image_file: IMG_1007.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 868 1441 1230 1522 1241 1618 878 1537
-region_code_gt: nsw
-plate_number_gt: AYH89C
-plate_inverted_gt: false

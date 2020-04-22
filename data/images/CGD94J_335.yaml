@@ -1,0 +1,7 @@
+image_file: CGD94J_335.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1083 2247 1610 2280 1607 2425 1083 2389
+plate_inverted_gt: false
+plate_number_gt: CGD94J
+region_code_gt: nsw

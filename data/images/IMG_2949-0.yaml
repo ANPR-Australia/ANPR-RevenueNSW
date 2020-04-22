@@ -1,7 +1,0 @@
-image_file: IMG_2949.jpg
-image_width: 779
-image_height: 1039
-plate_corners_gt: 489 302 598 304 600 334 492 335
-region_code_gt: nsw
-plate_number_gt: BLJ25T
-plate_inverted_gt: false

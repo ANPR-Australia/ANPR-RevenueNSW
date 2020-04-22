@@ -1,7 +1,0 @@
-image_file: IMG_2888.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1412 2162 1532 2162 1528 2193 1409 2195
-region_code_gt: nsw
-plate_number_gt: EBI77R
-plate_inverted_gt: false

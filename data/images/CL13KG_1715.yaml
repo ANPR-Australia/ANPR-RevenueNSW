@@ -1,0 +1,7 @@
+image_file: CL13KG_1715.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 1932 3548 2086 3581 2083 3637 1925 3609
+plate_inverted_gt: false
+plate_number_gt: CL13KG
+region_code_gt: nsw

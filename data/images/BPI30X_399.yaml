@@ -1,0 +1,7 @@
+image_file: BPI30X_399.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1443 1905 1747 1853 1756 1956 1455 2014
+plate_inverted_gt: false
+plate_number_gt: BPI30X
+region_code_gt: nsw

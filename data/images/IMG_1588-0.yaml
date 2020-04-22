@@ -1,7 +1,0 @@
-image_file: IMG_1588.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1782 1478 2206 1421 2214 1577 1797 1636
-region_code_gt: nsw
-plate_number_gt: AT02UR
-plate_inverted_gt: false

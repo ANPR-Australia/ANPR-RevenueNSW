@@ -1,7 +1,0 @@
-image_file: IMG_1461.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1604 1666 2100 1602 2093 1778 1609 1847
-region_code_gt: nsw
-plate_number_gt: XPZ893
-plate_inverted_gt: false

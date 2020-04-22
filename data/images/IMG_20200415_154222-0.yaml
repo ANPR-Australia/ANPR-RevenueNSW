@@ -1,7 +1,0 @@
-image_file: IMG_20200415_154222.jpg
-image_width: 4032
-image_height: 3024
-plate_corners_gt: 1180 1287 3025 1380 2975 1926 1251 1806
-region_code_gt: nsw
-plate_number_gt: CM05DX
-plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: DEB21C_1453.jpg
+image_height: 2145
+image_width: 2273
+plate_corners_gt: 1007 1822 1332 1805 1339 1895 1012 1910
+plate_inverted_gt: false
+plate_number_gt: DEB21C
+region_code_gt: nsw

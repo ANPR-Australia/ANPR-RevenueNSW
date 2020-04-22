@@ -1,0 +1,7 @@
+image_file: DJA96G_1989.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 3226 2660 3377 2672 3374 2719 3221 2708
+plate_inverted_gt: false
+plate_number_gt: DJA96G
+region_code_gt: nsw

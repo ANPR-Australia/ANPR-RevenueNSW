@@ -1,0 +1,7 @@
+image_file: 52YUYU_512.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1604 1671 2015 1587 2032 1717 1630 1817
+plate_inverted_gt: false
+plate_number_gt: 52YUYU
+region_code_gt: nsw

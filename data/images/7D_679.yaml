@@ -1,0 +1,7 @@
+image_file: 7D_679.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 794 1992 1690 1881 1696 2004 823 2098
+plate_inverted_gt: true
+plate_number_gt: 7D
+region_code_gt: nsw

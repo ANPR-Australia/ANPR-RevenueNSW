@@ -1,7 +1,0 @@
-image_file: IMG_2942.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1029 2047 1296 2050 1293 2129 1032 2126
-region_code_gt: nsw
-plate_number_gt: DJR52Y
-plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: DYD18D_1328.jpg
+image_height: 2208
+image_width: 1656
+plate_corners_gt: 573 1049 795 1040 803 1094 578 1097
+plate_inverted_gt: false
+plate_number_gt: DYD18D
+region_code_gt: nsw

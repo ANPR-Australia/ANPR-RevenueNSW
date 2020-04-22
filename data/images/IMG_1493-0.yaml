@@ -1,7 +1,0 @@
-image_file: IMG_1493.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 843 1370 1473 1427 1450 1657 834 1606
-region_code_gt: nsw
-plate_number_gt: CM24HZ
-plate_inverted_gt: false

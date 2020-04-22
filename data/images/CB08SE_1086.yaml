@@ -1,0 +1,7 @@
+image_file: CB08SE_1086.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 707 997 1384 1058 1386 1282 722 1226
+plate_inverted_gt: false
+plate_number_gt: CB08SE
+region_code_gt: nsw

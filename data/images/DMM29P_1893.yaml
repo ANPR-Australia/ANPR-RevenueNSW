@@ -1,0 +1,7 @@
+image_file: DMM29P_1893.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 3083 1740 3226 1755 3222 1798 3080 1782
+plate_inverted_gt: false
+plate_number_gt: DMM29P
+region_code_gt: nsw

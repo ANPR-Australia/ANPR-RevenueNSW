@@ -1,7 +1,0 @@
-image_file: IMG_1399.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1725 1286 2210 1222 2218 1370 1738 1444
-region_code_gt: nsw
-plate_number_gt: COO26Q
-plate_inverted_gt: false

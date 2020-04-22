@@ -1,7 +1,0 @@
-image_file: IMG_1245.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 874 1620 1727 1555 1746 1842 902 1909
-region_code_gt: nsw
-plate_number_gt: AF04KP
-plate_inverted_gt: false

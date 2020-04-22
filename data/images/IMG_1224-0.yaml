@@ -1,7 +1,0 @@
-image_file: IMG_1224.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1403 2545 1914 2414 1934 2567 1423 2699
-region_code_gt: nsw
-plate_number_gt: YGH97A
-plate_inverted_gt: false

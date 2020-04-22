@@ -1,0 +1,7 @@
+image_file: NCIP4_2003.jpg
+image_height: 1200
+image_width: 1600
+plate_corners_gt: 703 731 1003 760 998 815 704 789
+plate_inverted_gt: false
+plate_number_gt: NCIP4
+region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: IMG_2346.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1484 1139 1968 1125 1974 1267 1493 1286
-region_code_gt: nsw
-plate_number_gt: EAQ09N
-plate_inverted_gt: false

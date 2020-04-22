@@ -1,0 +1,7 @@
+image_file: CVZ86H_964.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 2271 2029 2669 1976 2666 2080 2264 2127
+plate_inverted_gt: false
+plate_number_gt: CVZ86H
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: CSN800_1809.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2482 2513 2632 2541 2627 2591 2477 2559
+plate_inverted_gt: false
+plate_number_gt: CSN800
+region_code_gt: nsw

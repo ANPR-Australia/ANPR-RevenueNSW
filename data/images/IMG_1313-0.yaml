@@ -1,7 +1,0 @@
-image_file: IMG_1313.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1050 1546 1043 1437 1538 1565 1538 1685
-region_code_gt: nsw
-plate_number_gt: EBC37H
-plate_inverted_gt: false

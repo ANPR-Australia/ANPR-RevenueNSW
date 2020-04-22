@@ -1,0 +1,7 @@
+image_file: DHK35N_1193.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1102 762 1493 779 1481 854 1108 839
+plate_inverted_gt: false
+plate_number_gt: DHK35N
+region_code_gt: nsw

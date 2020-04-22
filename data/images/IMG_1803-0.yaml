@@ -1,7 +1,0 @@
-image_file: IMG_1803.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1552 1069 1806 1057 1814 1157 1559 1181
-region_code_gt: nsw
-plate_number_gt: ZEQ404
-plate_inverted_gt: false

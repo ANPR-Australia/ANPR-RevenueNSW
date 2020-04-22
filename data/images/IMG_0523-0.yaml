@@ -1,7 +1,0 @@
-image_file: IMG_0523.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1551 2320 1656 2319 1659 2359 1555 2360
-region_code_gt: nsw
-plate_number_gt: CW83AL
-plate_inverted_gt: false

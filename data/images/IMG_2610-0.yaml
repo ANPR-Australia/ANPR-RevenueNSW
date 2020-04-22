@@ -1,7 +1,0 @@
-image_file: IMG_2610.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1082 1908 1551 1921 1549 2015 1082 2000
-region_code_gt: nsw
-plate_number_gt: EBR05K
-plate_inverted_gt: false

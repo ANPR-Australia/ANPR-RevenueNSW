@@ -1,0 +1,7 @@
+image_file: YHG06N_1576.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 771 2351 1325 2392 1317 2534 775 2489
+plate_inverted_gt: false
+plate_number_gt: YHG06N
+region_code_gt: nsw

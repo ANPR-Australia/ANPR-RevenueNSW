@@ -1,0 +1,7 @@
+image_file: CDB24U_84.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 1594 2906 1731 2932 1728 2966 1591 2941
+plate_inverted_gt: false
+plate_number_gt: CDB24U
+region_code_gt: nsw

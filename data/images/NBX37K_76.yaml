@@ -1,0 +1,7 @@
+image_file: NBX37K_76.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 1891 2374 2084 2401 2078 2441 1889 2411
+plate_inverted_gt: true
+plate_number_gt: NBX37K
+region_code_gt: nsw

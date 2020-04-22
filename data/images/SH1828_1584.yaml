@@ -1,0 +1,7 @@
+image_file: SH1828_1584.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1047 2252 1529 2287 1527 2383 1046 2350
+plate_inverted_gt: false
+plate_number_gt: SH1828
+region_code_gt: nsw

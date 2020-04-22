@@ -1,7 +1,0 @@
-image_file: IMG_1484.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1888 2081 2384 1944 2400 2093 1906 2236
-region_code_gt: nsw
-plate_number_gt: CWJ36M
-plate_inverted_gt: false

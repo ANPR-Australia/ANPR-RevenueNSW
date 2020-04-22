@@ -1,0 +1,7 @@
+image_file: ECW93C_698.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 2015 1872 2498 1835 2495 1966 2020 2008
+plate_inverted_gt: false
+plate_number_gt: ECW93C
+region_code_gt: nsw

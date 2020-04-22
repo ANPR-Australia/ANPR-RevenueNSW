@@ -1,0 +1,7 @@
+image_file: DTU46H_397.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1331 1545 1777 1494 1779 1628 1335 1695
+plate_inverted_gt: false
+plate_number_gt: DTU46H
+region_code_gt: nsw

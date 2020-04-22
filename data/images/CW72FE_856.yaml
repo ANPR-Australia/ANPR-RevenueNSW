@@ -1,0 +1,7 @@
+image_file: CW72FE_856.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1735 876 2168 846 2167 1005 1735 1046
+plate_inverted_gt: false
+plate_number_gt: CW72FE
+region_code_gt: nsw

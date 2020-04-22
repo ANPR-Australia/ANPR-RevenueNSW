@@ -1,7 +1,0 @@
-image_file: IMG_2377.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 939 1041 1113 1061 1106 1146 937 1121
-region_code_gt: nsw
-plate_number_gt: AP38MW
-plate_inverted_gt: false

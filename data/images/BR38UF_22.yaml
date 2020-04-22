@@ -1,0 +1,7 @@
+image_file: BR38UF_22.jpg
+image_height: 1200
+image_width: 1600
+plate_corners_gt: 680 699 877 700 876 766 680 767
+plate_inverted_gt: false
+plate_number_gt: BR38UF
+region_code_gt: nsw

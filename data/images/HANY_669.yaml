@@ -1,0 +1,7 @@
+image_file: HANY_669.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 591 1473 1402 1652 1368 1896 597 1727
+plate_inverted_gt: false
+plate_number_gt: HANY
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: CU72XC_261.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1365 2306 2093 2150 2083 2361 1379 2519
+plate_inverted_gt: false
+plate_number_gt: CU72XC
+region_code_gt: nsw

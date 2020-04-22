@@ -1,7 +1,0 @@
-image_file: IMG_1546.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1180 1485 1596 1462 1593 1590 1188 1614
-region_code_gt: nsw
-plate_number_gt: BV02NG
-plate_inverted_gt: false

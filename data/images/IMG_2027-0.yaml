@@ -1,7 +1,0 @@
-image_file: IMG_2027.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 2353 340 2875 333 2844 520 2321 551
-region_code_gt: nsw
-plate_number_gt: ECA95T
-plate_inverted_gt: false

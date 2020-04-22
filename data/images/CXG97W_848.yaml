@@ -1,0 +1,7 @@
+image_file: CXG97W_848.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1440 1411 1879 1361 1893 1481 1449 1550
+plate_inverted_gt: false
+plate_number_gt: CXG97W
+region_code_gt: nsw

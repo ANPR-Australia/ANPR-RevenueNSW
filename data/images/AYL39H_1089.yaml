@@ -1,0 +1,7 @@
+image_file: AYL39H_1089.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 976 1094 1723 1016 1714 1157 1005 1240
+plate_inverted_gt: false
+plate_number_gt: AYL39H
+region_code_gt: nsw

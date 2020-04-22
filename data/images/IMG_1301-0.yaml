@@ -1,7 +1,0 @@
-image_file: IMG_1301.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 276 1350 722 1518 702 1718 260 1545
-region_code_gt: nsw
-plate_number_gt: BV38UI
-plate_inverted_gt: false

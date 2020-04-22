@@ -1,0 +1,7 @@
+image_file: ZHW369_104.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2107 1278 2226 1273 2228 1312 2108 1317
+plate_inverted_gt: false
+plate_number_gt: ZHW369
+region_code_gt: nsw

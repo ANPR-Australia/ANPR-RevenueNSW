@@ -1,0 +1,7 @@
+image_file: DQT73M_231.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1722 2185 1849 2179 1858 2221 1728 2229
+plate_inverted_gt: false
+plate_number_gt: DQT73M
+region_code_gt: nsw

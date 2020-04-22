@@ -1,7 +1,0 @@
-image_file: IMG_1030.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1340 2047 1644 1956 1655 2047 1358 2144
-region_code_gt: nsw
-plate_number_gt: BHQ38P
-plate_inverted_gt: false

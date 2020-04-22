@@ -1,0 +1,7 @@
+image_file: ATY26D_1315.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1991 1241 2017 1385 1548 1631 1525 1487
+plate_inverted_gt: false
+plate_number_gt: ATY26D
+region_code_gt: nsw

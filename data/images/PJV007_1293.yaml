@@ -1,0 +1,7 @@
+image_file: PJV007_1293.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1475 1141 1892 1262 1859 1440 1447 1304
+plate_inverted_gt: false
+plate_number_gt: PJV007
+region_code_gt: nsw

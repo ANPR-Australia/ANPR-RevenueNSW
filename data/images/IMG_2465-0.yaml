@@ -1,7 +1,0 @@
-image_file: IMG_2465.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1017 1050 1284 1044 1284 1155 1018 1160
-region_code_gt: nsw
-plate_number_gt: AC96HC
-plate_inverted_gt: false

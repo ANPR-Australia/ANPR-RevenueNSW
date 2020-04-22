@@ -1,0 +1,7 @@
+image_file: EEC51D_794.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 825 1527 1746 1584 1728 1832 827 1761
+plate_inverted_gt: false
+plate_number_gt: EEC51D
+region_code_gt: nsw

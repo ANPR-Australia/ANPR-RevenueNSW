@@ -1,0 +1,7 @@
+image_file: ES1819_439.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1165 1568 1175 1412 1658 1574 1624 1728
+plate_inverted_gt: false
+plate_number_gt: ES1819
+region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: IMG_1605.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 2047 1132 2620 1085 2637 1255 2059 1304
-region_code_gt: nsw
-plate_number_gt: CMY12D
-plate_inverted_gt: false

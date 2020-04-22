@@ -1,7 +1,0 @@
-image_file: IMG_1836.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 873 2273 1841 2419 1816 2602 867 2444
-region_code_gt: nsw
-plate_number_gt: DNN54T
-plate_inverted_gt: false

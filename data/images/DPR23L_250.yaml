@@ -1,0 +1,7 @@
+image_file: DPR23L_250.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 879 2829 1593 2923 1588 3047 870 2947
+plate_inverted_gt: false
+plate_number_gt: DPR23L
+region_code_gt: nsw

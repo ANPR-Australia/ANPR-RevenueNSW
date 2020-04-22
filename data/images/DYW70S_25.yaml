@@ -1,0 +1,7 @@
+image_file: DYW70S_25.jpg
+image_height: 1200
+image_width: 1600
+plate_corners_gt: 740 843 1061 825 1054 878 744 900
+plate_inverted_gt: false
+plate_number_gt: DYW70S
+region_code_gt: nsw

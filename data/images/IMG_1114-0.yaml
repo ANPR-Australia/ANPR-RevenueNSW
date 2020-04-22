@@ -1,7 +1,0 @@
-image_file: IMG_1114.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 2204 828 2964 710 2899 942 2168 1057
-region_code_gt: nsw
-plate_number_gt: TOK18A
-plate_inverted_gt: false

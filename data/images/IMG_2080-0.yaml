@@ -1,7 +1,0 @@
-image_file: IMG_2080.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1613 1043 2014 1023 2018 1151 1617 1175
-region_code_gt: nsw
-plate_number_gt: CIH95R
-plate_inverted_gt: false

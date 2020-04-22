@@ -1,0 +1,7 @@
+image_file: BY79ET_422.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 839 1982 1177 2021 1181 2146 844 2102
+plate_inverted_gt: false
+plate_number_gt: BY79ET
+region_code_gt: nsw

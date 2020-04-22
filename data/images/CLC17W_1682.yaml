@@ -1,0 +1,7 @@
+image_file: CLC17W_1682.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1742 1843 2417 1841 2429 1989 1748 1989
+plate_inverted_gt: true
+plate_number_gt: CLC17W
+region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: IMG_2297.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1056 1204 1621 1189 1620 1341 1066 1353
-region_code_gt: nsw
-plate_number_gt: DLJ03X
-plate_inverted_gt: false

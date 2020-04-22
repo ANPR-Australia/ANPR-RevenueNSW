@@ -1,0 +1,7 @@
+image_file: BTV53L_1527.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1840 2655 2238 2610 2224 2684 1832 2740
+plate_inverted_gt: false
+plate_number_gt: BTV53L
+region_code_gt: nsw

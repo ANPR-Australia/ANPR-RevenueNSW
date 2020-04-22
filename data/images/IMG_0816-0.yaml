@@ -1,7 +1,0 @@
-image_file: IMG_0816.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 999 2549 1636 2524 1637 2654 1008 2666
-region_code_gt: nsw
-plate_number_gt: ALA71B
-plate_inverted_gt: false

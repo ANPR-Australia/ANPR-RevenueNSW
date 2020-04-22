@@ -1,0 +1,7 @@
+image_file: CA3388_1583.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1110 2027 1736 2043 1723 2165 1119 2148
+plate_inverted_gt: true
+plate_number_gt: CA3388
+region_code_gt: nsw

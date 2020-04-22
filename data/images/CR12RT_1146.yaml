@@ -1,0 +1,7 @@
+image_file: CR12RT_1146.jpg
+image_height: 3024
+image_width: 4032
+plate_corners_gt: 1433 1542 2629 1564 2616 1958 1448 1923
+plate_inverted_gt: false
+plate_number_gt: CR12RT
+region_code_gt: nsw

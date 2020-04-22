@@ -1,0 +1,7 @@
+image_file: CI67HQ_1171.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1570 696 1865 690 1868 811 1576 826
+plate_inverted_gt: false
+plate_number_gt: CI67HQ
+region_code_gt: nsw

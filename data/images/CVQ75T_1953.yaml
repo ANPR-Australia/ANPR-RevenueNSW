@@ -1,0 +1,7 @@
+image_file: CVQ75T_1953.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2460 2671 2607 2684 2602 2730 2457 2718
+plate_inverted_gt: false
+plate_number_gt: CVQ75T
+region_code_gt: nsw

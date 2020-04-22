@@ -1,0 +1,7 @@
+image_file: CK37KZ_833.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 2194 1419 2766 1335 2770 1551 2203 1661
+plate_inverted_gt: false
+plate_number_gt: CK37KZ
+region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: IMG_2206.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1961 1176 2063 1192 2058 1232 1954 1217
-region_code_gt: nsw
-plate_number_gt: CN63BO
-plate_inverted_gt: false

@@ -1,7 +1,0 @@
-image_file: 330a692e-5011-41fb-84cc-d5783800b2bf.JPG
-image_width: 1600
-image_height: 1200
-plate_corners_gt: 465 676 724 694 717 790 464 770
-region_code_gt: nsw
-plate_number_gt: CV19VV
-plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: DJD63K_1185.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 730 1423 1101 1490 1091 1582 733 1507
+plate_inverted_gt: false
+plate_number_gt: DJD63K
+region_code_gt: nsw

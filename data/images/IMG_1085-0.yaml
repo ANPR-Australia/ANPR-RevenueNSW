@@ -1,7 +1,0 @@
-image_file: IMG_1085.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1815 1559 2223 1452 2230 1589 1822 1706
-region_code_gt: nsw
-plate_number_gt: DXL80B
-plate_inverted_gt: false

@@ -1,7 +1,0 @@
-image_file: IMG_1472.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1588 1476 2083 1430 2089 1572 1589 1627
-region_code_gt: nsw
-plate_number_gt: BGW58X
-plate_inverted_gt: false

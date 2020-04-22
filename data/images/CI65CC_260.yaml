@@ -1,0 +1,7 @@
+image_file: CI65CC_260.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1048 2595 1862 2810 1840 3061 1043 2838
+plate_inverted_gt: false
+plate_number_gt: CI65CC
+region_code_gt: nsw

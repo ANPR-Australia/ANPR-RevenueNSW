@@ -1,0 +1,7 @@
+image_file: CKA29W_1928.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2733 1964 2943 1990 2939 2034 2729 2005
+plate_inverted_gt: true
+plate_number_gt: CKA29W
+region_code_gt: nsw

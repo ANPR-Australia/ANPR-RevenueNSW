@@ -1,0 +1,7 @@
+image_file: ATX96G_594.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1651 1476 2393 1432 2391 1666 1663 1717
+plate_inverted_gt: false
+plate_number_gt: ATX96G
+region_code_gt: nsw

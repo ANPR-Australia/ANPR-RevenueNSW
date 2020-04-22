@@ -1,0 +1,7 @@
+image_file: DFJ67D_99.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 1796 2359 1930 2383 1928 2421 1792 2397
+plate_inverted_gt: false
+plate_number_gt: DFJ67D
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: ACG02B_1820.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2709 1438 2852 1443 2850 1487 2709 1475
+plate_inverted_gt: false
+plate_number_gt: ACG02B
+region_code_gt: nsw

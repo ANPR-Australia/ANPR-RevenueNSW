@@ -1,7 +1,0 @@
-image_file: IMG_1025.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 914 1540 1328 1575 1332 1655 921 1614
-region_code_gt: nsw
-plate_number_gt: CQL96J
-plate_inverted_gt: false

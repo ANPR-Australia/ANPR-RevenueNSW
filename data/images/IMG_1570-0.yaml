@@ -1,7 +1,0 @@
-image_file: IMG_1570.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1700 1859 2145 1745 2150 1891 1715 2011
-region_code_gt: nsw
-plate_number_gt: CMK05R
-plate_inverted_gt: false

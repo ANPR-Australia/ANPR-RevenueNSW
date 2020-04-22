@@ -1,0 +1,7 @@
+image_file: DXS93C_1852.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2978 1434 3119 1436 3118 1474 2980 1469
+plate_inverted_gt: false
+plate_number_gt: DXS93C
+region_code_gt: nsw

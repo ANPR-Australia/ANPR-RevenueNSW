@@ -1,7 +1,0 @@
-image_file: IMG_1223.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1275 854 1760 854 1765 1047 1287 1069
-region_code_gt: nsw
-plate_number_gt: BU36RZ
-plate_inverted_gt: false

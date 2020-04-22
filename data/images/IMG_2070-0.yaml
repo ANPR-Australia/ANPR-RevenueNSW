@@ -1,7 +1,0 @@
-image_file: IMG_2070.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1165 734 1523 750 1522 854 1161 838
-region_code_gt: nsw
-plate_number_gt: YHA64V
-plate_inverted_gt: false

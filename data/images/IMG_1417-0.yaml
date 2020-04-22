@@ -1,7 +1,0 @@
-image_file: IMG_1417.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1195 1381 2041 1296 2041 1526 1210 1620
-region_code_gt: nsw
-plate_number_gt: CWU58R
-plate_inverted_gt: false

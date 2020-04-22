@@ -1,0 +1,7 @@
+image_file: CGF90T_750.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 832 1724 836 1616 1376 1728 1372 1846
+plate_inverted_gt: false
+plate_number_gt: CGF90T
+region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: IMG_2425.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1425 1248 1822 1220 1819 1336 1425 1368
-region_code_gt: nsw
-plate_number_gt: DFY51L
-plate_inverted_gt: false

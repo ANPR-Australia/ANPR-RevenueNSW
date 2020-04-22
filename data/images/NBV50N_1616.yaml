@@ -1,0 +1,7 @@
+image_file: NBV50N_1616.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 2611 2521 2611 2627 2219 2773 2216 2657
+plate_inverted_gt: true
+plate_number_gt: NBV50N
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: YHR44T_1429.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1029 1135 1360 1227 1361 1360 1033 1270
+plate_inverted_gt: false
+plate_number_gt: YHR44T
+region_code_gt: act

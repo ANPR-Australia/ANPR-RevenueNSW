@@ -1,0 +1,7 @@
+image_file: BM94ET_263.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 819 2791 1512 2757 1519 2967 841 2984
+plate_inverted_gt: false
+plate_number_gt: BM94ET
+region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: IMG_1027.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1530 1856 1867 1794 1892 1929 1549 1986
-region_code_gt: nsw
-plate_number_gt: AT57PK
-plate_inverted_gt: false

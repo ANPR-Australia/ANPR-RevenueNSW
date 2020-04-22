@@ -1,7 +1,0 @@
-image_file: IMG_2153.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1206 1188 1576 1179 1578 1281 1205 1292
-region_code_gt: nsw
-plate_number_gt: BTR16N
-plate_inverted_gt: false

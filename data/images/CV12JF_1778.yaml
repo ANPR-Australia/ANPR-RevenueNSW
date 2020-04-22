@@ -1,0 +1,7 @@
+image_file: CV12JF_1778.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 3169 1734 3314 1749 3310 1802 3167 1786
+plate_inverted_gt: false
+plate_number_gt: CV12JF
+region_code_gt: nsw

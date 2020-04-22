@@ -1,0 +1,7 @@
+image_file: DQA71Z_1490.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 942 1412 1513 1416 1516 1564 944 1552
+plate_inverted_gt: false
+plate_number_gt: DQA71Z
+region_code_gt: nsw

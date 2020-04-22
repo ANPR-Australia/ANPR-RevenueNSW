@@ -1,7 +1,0 @@
-image_file: IMG_1902.jpg
-image_width: 1326
-image_height: 1859
-plate_corners_gt: 419 1564 591 1544 593 1597 417 1612
-region_code_gt: nsw
-plate_number_gt: AEH29J
-plate_inverted_gt: false

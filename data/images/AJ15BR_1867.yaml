@@ -1,0 +1,7 @@
+image_file: AJ15BR_1867.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2973 1245 3112 1255 3110 1304 2972 1297
+plate_inverted_gt: false
+plate_number_gt: AJ15BR
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: YIV09F_1551.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1214 1652 1683 1676 1677 1811 1211 1793
+plate_inverted_gt: false
+plate_number_gt: YIV09F
+region_code_gt: nsw

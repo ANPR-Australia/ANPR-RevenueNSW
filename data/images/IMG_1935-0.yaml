@@ -1,7 +1,0 @@
-image_file: IMG_1935.jpg
-image_width: 1226
-image_height: 1635
-plate_corners_gt: 675 464 817 461 822 501 678 504
-region_code_gt: nsw
-plate_number_gt: BZB04B
-plate_inverted_gt: false

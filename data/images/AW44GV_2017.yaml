@@ -1,0 +1,7 @@
+image_file: AW44GV_2017.jpg
+image_height: 1600
+image_width: 1600
+plate_corners_gt: 671 903 983 911 978 1020 669 1006
+plate_inverted_gt: false
+plate_number_gt: AW44GV
+region_code_gt: nsw

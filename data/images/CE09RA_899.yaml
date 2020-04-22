@@ -1,0 +1,7 @@
+image_file: CE09RA_899.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1730 1480 2081 1439 2087 1570 1740 1615
+plate_inverted_gt: false
+plate_number_gt: CE09RA
+region_code_gt: nsw

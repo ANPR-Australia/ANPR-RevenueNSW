@@ -1,7 +1,0 @@
-image_file: IMG_0808.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1110 1732 1750 1806 1725 1972 1107 1902
-region_code_gt: nsw
-plate_number_gt: EEC20R
-plate_inverted_gt: false

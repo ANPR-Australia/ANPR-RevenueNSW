@@ -1,0 +1,7 @@
+image_file: BIW53N_1114.jpg
+image_height: 3024
+image_width: 4032
+plate_corners_gt: 1252 1914 1969 1960 1955 2093 1256 2039
+plate_inverted_gt: false
+plate_number_gt: BIW53N
+region_code_gt: nsw

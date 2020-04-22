@@ -1,0 +1,7 @@
+image_file: 1PU5BE_1478.jpg
+image_height: 2294
+image_width: 1521
+plate_corners_gt: 745 1719 1011 1703 1022 1794 752 1810
+plate_inverted_gt: false
+plate_number_gt: 1PU5BE
+region_code_gt: vic

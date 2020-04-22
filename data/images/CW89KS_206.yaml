@@ -1,0 +1,7 @@
+image_file: CW89KS_206.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 2128 2769 2295 2741 2311 2815 2149 2844
+plate_inverted_gt: false
+plate_number_gt: CW89KS
+region_code_gt: nsw

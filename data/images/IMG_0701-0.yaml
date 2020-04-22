@@ -1,7 +1,0 @@
-image_file: IMG_0701.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 921 2072 1708 1921 1741 2116 963 2267
-region_code_gt: nsw
-plate_number_gt: EB716P
-plate_inverted_gt: false

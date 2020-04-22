@@ -1,7 +1,0 @@
-image_file: IMG_1664.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 594 1288 870 1336 877 1447 601 1395
-region_code_gt: nsw
-plate_number_gt: CG35JJ
-plate_inverted_gt: false

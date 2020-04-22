@@ -1,0 +1,7 @@
+image_file: YHL76E_2000.jpg
+image_height: 1600
+image_width: 1200
+plate_corners_gt: 384 536 564 537 560 590 381 589
+plate_inverted_gt: false
+plate_number_gt: YHL76E
+region_code_gt: nsw

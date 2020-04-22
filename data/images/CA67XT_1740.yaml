@@ -1,0 +1,7 @@
+image_file: CA67XT_1740.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2920 1474 3066 1489 3063 1538 2921 1524
+plate_inverted_gt: false
+plate_number_gt: CA67XT
+region_code_gt: nsw

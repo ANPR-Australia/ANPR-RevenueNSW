@@ -1,7 +1,0 @@
-image_file: IMG_2625.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1268 2278 1828 2305 1823 2407 1266 2375
-region_code_gt: nsw
-plate_number_gt: DWV41B
-plate_inverted_gt: false

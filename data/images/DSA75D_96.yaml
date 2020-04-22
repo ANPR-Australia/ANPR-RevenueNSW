@@ -1,0 +1,7 @@
+image_file: DSA75D_96.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2165 1939 2292 1950 2290 1983 2163 1971
+plate_inverted_gt: false
+plate_number_gt: DSA75D
+region_code_gt: nsw

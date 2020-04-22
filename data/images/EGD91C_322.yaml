@@ -1,0 +1,7 @@
+image_file: EGD91C_322.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1267 2518 1721 2520 1721 2600 1269 2596
+plate_inverted_gt: false
+plate_number_gt: EGD91C
+region_code_gt: nsw

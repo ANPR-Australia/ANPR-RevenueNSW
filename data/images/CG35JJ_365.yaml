@@ -1,0 +1,7 @@
+image_file: CG35JJ_365.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 578 1160 926 1199 942 1332 603 1294
+plate_inverted_gt: false
+plate_number_gt: CG35JJ
+region_code_gt: nsw

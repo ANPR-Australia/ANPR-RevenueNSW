@@ -1,7 +1,0 @@
-image_file: IMG_2303.jpg
-image_width: 1634
-image_height: 2178
-plate_corners_gt: 999 799 1224 766 1235 877 1008 907
-region_code_gt: nsw
-plate_number_gt: AT03LC
-plate_inverted_gt: false

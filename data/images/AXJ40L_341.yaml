@@ -1,0 +1,7 @@
+image_file: AXJ40L_341.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1464 2433 1468 2309 2275 2479 2229 2611
+plate_inverted_gt: false
+plate_number_gt: AXJ40L
+region_code_gt: nsw

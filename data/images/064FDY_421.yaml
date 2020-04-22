@@ -1,0 +1,7 @@
+image_file: 064FDY_421.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 802 2134 1202 2197 1244 2346 839 2272
+plate_inverted_gt: false
+plate_number_gt: 064FDY
+region_code_gt: qld

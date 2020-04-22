@@ -1,0 +1,7 @@
+image_file: AZ71HN_2007.jpg
+image_height: 1155
+image_width: 867
+plate_corners_gt: 322 716 565 715 563 802 321 792
+plate_inverted_gt: false
+plate_number_gt: AZ71HN
+region_code_gt: nsw

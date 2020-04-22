@@ -1,0 +1,7 @@
+image_file: XFJ918_138.jpg
+image_height: 1600
+image_width: 1600
+plate_corners_gt: 678 836 1015 849 1014 975 676 959
+plate_inverted_gt: false
+plate_number_gt: XFJ918
+region_code_gt: nsw

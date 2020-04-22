@@ -1,0 +1,7 @@
+image_file: DJA01A_1433.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1408 1113 1697 1086 1707 1173 1417 1199
+plate_inverted_gt: false
+plate_number_gt: DJA01A
+region_code_gt: nsw

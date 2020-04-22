@@ -1,7 +1,0 @@
-image_file: IMG_1340.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 601 1689 618 1439 1558 1729 1498 2005
-region_code_gt: nsw
-plate_number_gt: 80KYLE
-plate_inverted_gt: false

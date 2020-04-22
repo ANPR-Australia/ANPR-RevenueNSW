@@ -1,0 +1,7 @@
+image_file: 02RAVS_1999.jpg
+image_height: 1600
+image_width: 1200
+plate_corners_gt: 399 656 558 653 561 697 401 697
+plate_inverted_gt: true
+plate_number_gt: 02RAVS
+region_code_gt: nsw

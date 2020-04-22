@@ -1,0 +1,7 @@
+image_file: EK2998_907.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1001 1648 2065 1879 2028 2125 1001 1917
+plate_inverted_gt: false
+plate_number_gt: EK2998
+region_code_gt: nsw

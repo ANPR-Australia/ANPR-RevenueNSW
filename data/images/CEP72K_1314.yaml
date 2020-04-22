@@ -1,0 +1,7 @@
+image_file: CEP72K_1314.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1409 868 1975 821 1985 996 1424 1046
+plate_inverted_gt: false
+plate_number_gt: CEP72K
+region_code_gt: nsw

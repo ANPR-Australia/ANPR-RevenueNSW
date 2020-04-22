@@ -1,7 +1,0 @@
-image_file: IMG_2714.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 2380 2528 2382 2680 1848 2870 1839 2696
-region_code_gt: nsw
-plate_number_gt: WERONE
-plate_inverted_gt: false

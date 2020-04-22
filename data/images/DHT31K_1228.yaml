@@ -1,0 +1,7 @@
+image_file: DHT31K_1228.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1404 1018 1561 1010 1564 1062 1406 1068
+plate_inverted_gt: false
+plate_number_gt: DHT31K
+region_code_gt: nsw

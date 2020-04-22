@@ -1,0 +1,7 @@
+image_file: YJN20Q_5.jpg
+image_height: 1600
+image_width: 1200
+plate_corners_gt: 587 813 886 803 895 885 591 898
+plate_inverted_gt: false
+plate_number_gt: YJN20Q
+region_code_gt: nsw

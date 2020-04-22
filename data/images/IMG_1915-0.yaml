@@ -1,7 +1,0 @@
-image_file: IMG_1915.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1892 799 2083 809 2077 853 1890 842
-region_code_gt: nsw
-plate_number_gt: MGA190
-plate_inverted_gt: false

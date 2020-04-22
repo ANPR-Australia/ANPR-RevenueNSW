@@ -1,0 +1,7 @@
+image_file: BZR68D_1206.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1588 1392 2204 1329 2207 1511 1591 1582
+plate_inverted_gt: false
+plate_number_gt: BZR68D
+region_code_gt: nsw

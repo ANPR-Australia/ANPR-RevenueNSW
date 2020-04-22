@@ -1,0 +1,7 @@
+image_file: CNE25G_29.jpg
+image_height: 1600
+image_width: 1600
+plate_corners_gt: 659 758 969 769 967 852 658 834
+plate_inverted_gt: false
+plate_number_gt: CNE25G
+region_code_gt: nsw

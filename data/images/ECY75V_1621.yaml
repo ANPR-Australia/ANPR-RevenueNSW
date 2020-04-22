@@ -1,0 +1,7 @@
+image_file: ECY75V_1621.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 735 2244 1442 2287 1436 2428 729 2385
+plate_inverted_gt: false
+plate_number_gt: ECY75V
+region_code_gt: nsw

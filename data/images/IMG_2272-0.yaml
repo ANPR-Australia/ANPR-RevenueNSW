@@ -1,7 +1,0 @@
-image_file: IMG_2272.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1005 1138 1359 1189 1349 1342 999 1278
-region_code_gt: nsw
-plate_number_gt: BZ78XS
-plate_inverted_gt: false

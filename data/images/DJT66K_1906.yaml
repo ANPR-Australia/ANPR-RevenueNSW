@@ -1,0 +1,7 @@
+image_file: DJT66K_1906.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2141 2758 2146 2719 2285 2758 2280 2800
+plate_inverted_gt: false
+plate_number_gt: DJT66K
+region_code_gt: nsw

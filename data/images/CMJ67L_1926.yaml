@@ -1,0 +1,7 @@
+image_file: CMJ67L_1926.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2396 2753 2550 2781 2546 2824 2393 2795
+plate_inverted_gt: false
+plate_number_gt: CMJ67L
+region_code_gt: nsw

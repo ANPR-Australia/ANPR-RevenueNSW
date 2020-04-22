@@ -1,0 +1,7 @@
+image_file: YDE16Q_295.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 756 1939 1512 1928 1515 2140 765 2135
+plate_inverted_gt: false
+plate_number_gt: YDE16Q
+region_code_gt: nsw

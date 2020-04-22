@@ -1,7 +1,0 @@
-image_file: IMG_2261.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 893 1057 1210 1116 1201 1253 893 1186
-region_code_gt: nsw
-plate_number_gt: CI87HW
-plate_inverted_gt: false

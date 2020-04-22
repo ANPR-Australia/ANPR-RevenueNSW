@@ -1,7 +1,0 @@
-image_file: IMG_1353.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1127 1859 1847 1726 1839 1863 1132 1990
-region_code_gt: nsw
-plate_number_gt: EGR30M
-plate_inverted_gt: false

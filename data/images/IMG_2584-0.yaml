@@ -1,7 +1,0 @@
-image_file: IMG_2584.jpeg
-image_width: 750
-image_height: 1334
-plate_corners_gt: 267 987 342 984 340 1006 265 1008
-region_code_gt: nsw
-plate_number_gt: CXA70P
-plate_inverted_gt: false

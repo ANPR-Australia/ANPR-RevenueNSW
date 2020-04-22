@@ -1,7 +1,0 @@
-image_file: IMG_2208.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1740 628 1878 624 1879 663 1739 664
-region_code_gt: nsw
-plate_number_gt: JVBANK
-plate_inverted_gt: true

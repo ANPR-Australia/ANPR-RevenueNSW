@@ -1,7 +1,0 @@
-image_file: IMG_1860.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 2052 1242 2519 1172 2525 1350 2064 1434
-region_code_gt: nsw
-plate_number_gt: ECN50V
-plate_inverted_gt: false

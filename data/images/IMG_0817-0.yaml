@@ -1,7 +1,0 @@
-image_file: IMG_0817.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 970 2842 1702 2816 1712 2939 974 2971
-region_code_gt: nsw
-plate_number_gt: A8888A
-plate_inverted_gt: false

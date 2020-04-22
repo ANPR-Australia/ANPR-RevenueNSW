@@ -1,7 +1,0 @@
-image_file: IMG_1415.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1844 2046 2319 1905 2303 2070 1844 2227
-region_code_gt: nsw
-plate_number_gt: BR96TK
-plate_inverted_gt: false

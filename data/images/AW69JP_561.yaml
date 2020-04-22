@@ -1,0 +1,7 @@
+image_file: AW69JP_561.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 844 1393 1201 1485 1199 1649 846 1556
+plate_inverted_gt: false
+plate_number_gt: AW69JP
+region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: IMG_2402.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 877 1088 1224 1120 1229 1196 882 1161
-region_code_gt: nsw
-plate_number_gt: CMM89S
-plate_inverted_gt: false

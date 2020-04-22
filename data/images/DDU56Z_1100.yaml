@@ -1,0 +1,7 @@
+image_file: DDU56Z_1100.jpg
+image_height: 1782
+image_width: 1336
+plate_corners_gt: 448 1571 569 1550 573 1595 449 1618
+plate_inverted_gt: false
+plate_number_gt: DDU56Z
+region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: IMG_2322.jpg
-image_width: 1656
-image_height: 2208
-plate_corners_gt: 573 1049 795 1040 803 1094 578 1097
-region_code_gt: nsw
-plate_number_gt: DYD18D
-plate_inverted_gt: false

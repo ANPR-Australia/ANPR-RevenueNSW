@@ -1,0 +1,7 @@
+image_file: CXC95A_680.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1624 1973 1645 2113 777 2304 742 2175
+plate_inverted_gt: false
+plate_number_gt: CXC95A
+region_code_gt: nsw

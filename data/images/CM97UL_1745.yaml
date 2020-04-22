@@ -1,0 +1,7 @@
+image_file: CM97UL_1745.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2035 2883 2185 2919 2185 2975 2034 2938
+plate_inverted_gt: false
+plate_number_gt: CM97UL
+region_code_gt: nsw

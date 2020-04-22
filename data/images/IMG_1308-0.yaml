@@ -1,7 +1,0 @@
-image_file: IMG_1308.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1596 1785 2018 1683 2010 1868 1588 1989
-region_code_gt: nsw
-plate_number_gt: CN54KI
-plate_inverted_gt: false

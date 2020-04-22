@@ -1,0 +1,7 @@
+image_file: EDZ31M_53.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2130 1403 2254 1401 2254 1426 2130 1428
+plate_inverted_gt: false
+plate_number_gt: EDZ31M
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: KA96TE_625.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1345 1000 1677 899 1711 1030 1383 1147
+plate_inverted_gt: false
+plate_number_gt: KA96TE
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: CJU77Z_185.jpg
+image_height: 2149
+image_width: 2408
+plate_corners_gt: 911 1331 1576 1343 1576 1455 909 1446
+plate_inverted_gt: false
+plate_number_gt: CJU77Z
+region_code_gt: nsw

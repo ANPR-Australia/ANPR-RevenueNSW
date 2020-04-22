@@ -1,0 +1,7 @@
+image_file: EBS61T_476.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 985 1396 962 1251 1733 1417 1721 1555
+plate_inverted_gt: false
+plate_number_gt: EBS61T
+region_code_gt: nsw

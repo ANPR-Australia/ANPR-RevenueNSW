@@ -1,0 +1,7 @@
+image_file: AOU36J_1224.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1015 1278 1379 1332 1373 1414 1018 1355
+plate_inverted_gt: false
+plate_number_gt: AOU36J
+region_code_gt: nsw

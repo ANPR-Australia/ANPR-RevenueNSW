@@ -1,0 +1,7 @@
+image_file: CJ74FM_97.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2188 2070 2321 2084 2320 2129 2187 2114
+plate_inverted_gt: false
+plate_number_gt: CJ74FM
+region_code_gt: nsw

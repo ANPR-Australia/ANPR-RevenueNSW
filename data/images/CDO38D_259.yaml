@@ -1,0 +1,7 @@
+image_file: CDO38D_259.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 534 2284 532 2141 1160 2356 1154 2520
+plate_inverted_gt: false
+plate_number_gt: CDO38D
+region_code_gt: nsw

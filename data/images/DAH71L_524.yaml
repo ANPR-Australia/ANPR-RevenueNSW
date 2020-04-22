@@ -1,0 +1,7 @@
+image_file: DAH71L_524.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1834 1956 1864 2102 1456 2281 1426 2120
+plate_inverted_gt: false
+plate_number_gt: DAH71L
+region_code_gt: nsw

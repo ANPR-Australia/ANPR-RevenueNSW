@@ -1,0 +1,7 @@
+image_file: CTY73D_1082.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1607 754 1940 720 1955 834 1616 872
+plate_inverted_gt: false
+plate_number_gt: CTY73D
+region_code_gt: nsw

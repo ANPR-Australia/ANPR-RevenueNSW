@@ -1,0 +1,7 @@
+image_file: DW003K_1011.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 804 1967 806 1863 1435 1971 1414 2071
+plate_inverted_gt: false
+plate_number_gt: DW003K
+region_code_gt: nsw

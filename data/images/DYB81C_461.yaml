@@ -1,0 +1,7 @@
+image_file: DYB81C_461.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 792 1004 1281 1104 1295 1224 804 1119
+plate_inverted_gt: false
+plate_number_gt: DYB81C
+region_code_gt: nsw

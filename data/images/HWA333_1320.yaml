@@ -1,0 +1,7 @@
+image_file: HWA333_1320.jpg
+image_height: 3227
+image_width: 2420
+plate_corners_gt: 1594 1173 1923 1144 1923 1259 1597 1288
+plate_inverted_gt: false
+plate_number_gt: HWA333
+region_code_gt: nsw

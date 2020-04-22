@@ -1,0 +1,7 @@
+image_file: EBS01Y_1754.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2474 2433 2623 2466 2614 2506 2469 2477
+plate_inverted_gt: false
+plate_number_gt: EBS01Y
+region_code_gt: nsw

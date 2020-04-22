@@ -1,0 +1,7 @@
+image_file: CYF74X_380.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1526 2306 1725 2256 1731 2329 1528 2386
+plate_inverted_gt: false
+plate_number_gt: CYF74X
+region_code_gt: nsw

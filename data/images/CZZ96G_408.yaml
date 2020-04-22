@@ -1,0 +1,7 @@
+image_file: CZZ96G_408.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1352 2220 1615 2179 1626 2265 1357 2311
+plate_inverted_gt: false
+plate_number_gt: CZZ96G
+region_code_gt: nsw

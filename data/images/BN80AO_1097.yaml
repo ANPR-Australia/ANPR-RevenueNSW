@@ -1,0 +1,7 @@
+image_file: BN80AO_1097.jpg
+image_height: 1853
+image_width: 1390
+plate_corners_gt: 357 1575 617 1572 617 1660 361 1668
+plate_inverted_gt: false
+plate_number_gt: BN80AO
+region_code_gt: nsw

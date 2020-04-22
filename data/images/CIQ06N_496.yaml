@@ -1,0 +1,7 @@
+image_file: CIQ06N_496.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1380 2028 1855 1958 1853 2064 1382 2140
+plate_inverted_gt: false
+plate_number_gt: CIQ06N
+region_code_gt: nsw

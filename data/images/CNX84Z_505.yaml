@@ -1,0 +1,7 @@
+image_file: CNX84Z_505.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 946 1836 968 1714 1420 1903 1398 2032
+plate_inverted_gt: false
+plate_number_gt: CNX84Z
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: XSU359_218.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 2007 2261 2148 2253 2157 2307 2017 2318
+plate_inverted_gt: false
+plate_number_gt: XSU359
+region_code_gt: nsw

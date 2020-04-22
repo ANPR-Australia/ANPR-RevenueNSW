@@ -1,0 +1,7 @@
+image_file: DVL93A_1992.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2881 2735 3027 2750 3025 2790 2880 2776
+plate_inverted_gt: false
+plate_number_gt: DVL93A
+region_code_gt: nsw

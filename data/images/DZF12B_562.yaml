@@ -1,0 +1,7 @@
+image_file: DZF12B_562.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 701 1384 1058 1423 1063 1505 710 1466
+plate_inverted_gt: false
+plate_number_gt: DZF12B
+region_code_gt: nsw

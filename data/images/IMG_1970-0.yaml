@@ -1,7 +1,0 @@
-image_file: IMG_1970.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1897 420 2357 390 2367 542 1916 578
-region_code_gt: nsw
-plate_number_gt: DJQ14N
-plate_inverted_gt: false

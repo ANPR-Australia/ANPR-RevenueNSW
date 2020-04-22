@@ -1,0 +1,7 @@
+image_file: SEV99A_1874.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2806 1794 2950 1803 2950 1847 2807 1836
+plate_inverted_gt: true
+plate_number_gt: SEV99A
+region_code_gt: nsw

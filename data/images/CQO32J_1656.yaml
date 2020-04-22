@@ -1,0 +1,7 @@
+image_file: CQO32J_1656.jpg
+image_height: 2127
+image_width: 1595
+plate_corners_gt: 768 1014 1046 1021 1041 1097 768 1095
+plate_inverted_gt: false
+plate_number_gt: CQO32J
+region_code_gt: nsw

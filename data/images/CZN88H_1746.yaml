@@ -1,0 +1,7 @@
+image_file: CZN88H_1746.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 3065 1485 3201 1497 3199 1528 3064 1516
+plate_inverted_gt: false
+plate_number_gt: CZN88H
+region_code_gt: nsw

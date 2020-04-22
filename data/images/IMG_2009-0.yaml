@@ -1,7 +1,0 @@
-image_file: IMG_2009.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1059 793 1950 1052 1869 1341 1015 1064
-region_code_gt: nsw
-plate_number_gt: DEB21C
-plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: DMZ53J_619.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1692 1781 2329 1790 2317 1948 1687 1955
+plate_inverted_gt: false
+plate_number_gt: DMZ53J
+region_code_gt: nsw

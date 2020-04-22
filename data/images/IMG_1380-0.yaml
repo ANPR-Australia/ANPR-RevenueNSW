@@ -1,7 +1,0 @@
-image_file: IMG_1380.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1758 2106 2247 2095 2241 2238 1751 2240
-region_code_gt: nsw
-plate_number_gt: EHK48N
-plate_inverted_gt: false

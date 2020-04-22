@@ -1,0 +1,7 @@
+image_file: YBK46Z_1894.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2845 1989 2986 2000 2985 2041 2843 2020
+plate_inverted_gt: false
+plate_number_gt: YBK46Z
+region_code_gt: nsw

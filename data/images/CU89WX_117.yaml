@@ -1,0 +1,7 @@
+image_file: CU89WX_117.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2133 1909 2262 1915 2259 1957 2132 1951
+plate_inverted_gt: false
+plate_number_gt: CU89WX
+region_code_gt: nsw

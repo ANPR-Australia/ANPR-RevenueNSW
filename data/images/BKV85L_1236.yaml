@@ -1,0 +1,7 @@
+image_file: BKV85L_1236.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1834 1006 2171 1001 2154 1116 1828 1123
+plate_inverted_gt: false
+plate_number_gt: BKV85L
+region_code_gt: nsw

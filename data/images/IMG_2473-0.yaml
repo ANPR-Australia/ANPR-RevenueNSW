@@ -1,7 +1,0 @@
-image_file: IMG_2473.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1085 1290 1468 1318 1459 1428 1080 1399
-region_code_gt: nsw
-plate_number_gt: YGC03V
-plate_inverted_gt: false

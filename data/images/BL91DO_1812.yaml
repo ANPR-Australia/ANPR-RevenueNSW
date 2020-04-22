@@ -1,0 +1,7 @@
+image_file: BL91DO_1812.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 1895 2886 2041 2927 2034 2984 1888 2940
+plate_inverted_gt: false
+plate_number_gt: BL91DO
+region_code_gt: nsw

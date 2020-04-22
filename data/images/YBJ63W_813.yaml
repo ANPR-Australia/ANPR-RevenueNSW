@@ -1,0 +1,7 @@
+image_file: YBJ63W_813.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1808 1561 2216 1501 2222 1626 1821 1696
+plate_inverted_gt: false
+plate_number_gt: YBJ63W
+region_code_gt: nsw

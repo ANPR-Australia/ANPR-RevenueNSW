@@ -1,0 +1,7 @@
+image_file: YID11Y_1605.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1073 2316 1695 2361 1680 2519 1071 2471
+plate_inverted_gt: false
+plate_number_gt: YID11Y
+region_code_gt: nsw

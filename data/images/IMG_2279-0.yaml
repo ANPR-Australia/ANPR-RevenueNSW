@@ -1,7 +1,0 @@
-image_file: IMG_2279.jpg
-image_width: 995
-image_height: 1326
-plate_corners_gt: 313 612 454 604 456 635 317 641
-region_code_gt: nsw
-plate_number_gt: DDD53U
-plate_inverted_gt: false

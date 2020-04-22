@@ -1,0 +1,7 @@
+image_file: ECD58V_1631.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1180 1957 1683 1962 1680 2103 1180 2097
+plate_inverted_gt: false
+plate_number_gt: ECD58V
+region_code_gt: nsw

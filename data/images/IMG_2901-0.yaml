@@ -1,7 +1,0 @@
-image_file: IMG_2901.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1402 2339 1693 2347 1695 2441 1407 2432
-region_code_gt: nsw
-plate_number_gt: NF1964
-plate_inverted_gt: false

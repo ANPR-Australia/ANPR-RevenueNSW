@@ -1,0 +1,7 @@
+image_file: DDK32M_33.jpg
+image_height: 1200
+image_width: 1600
+plate_corners_gt: 723 589 915 589 916 643 721 642
+plate_inverted_gt: false
+plate_number_gt: DDK32M
+region_code_gt: nsw

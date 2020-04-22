@@ -1,7 +1,0 @@
-image_file: IMG_1046.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1849 2125 2118 2020 2121 2161 1857 2273
-region_code_gt: nsw
-plate_number_gt: CH99RH
-plate_inverted_gt: false

@@ -1,7 +1,0 @@
-image_file: IMG_1286.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1111 857 1409 832 1415 920 1124 947
-region_code_gt: nsw
-plate_number_gt: ECU67E
-plate_inverted_gt: false

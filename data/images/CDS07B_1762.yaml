@@ -1,0 +1,7 @@
+image_file: CDS07B_1762.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2653 1698 2801 1714 2800 1753 2656 1739
+plate_inverted_gt: false
+plate_number_gt: CDS07B
+region_code_gt: nsw

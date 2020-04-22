@@ -1,7 +1,0 @@
-image_file: IMG_0763.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1240 2045 1507 2062 1504 2111 1241 2095
-region_code_gt: nsw
-plate_number_gt: DTS56B
-plate_inverted_gt: false

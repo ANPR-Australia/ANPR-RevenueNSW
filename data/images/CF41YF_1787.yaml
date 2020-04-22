@@ -1,0 +1,7 @@
+image_file: CF41YF_1787.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 4615 2582 4621 2532 4751 2589 4746 2639
+plate_inverted_gt: false
+plate_number_gt: CF41YF
+region_code_gt: nsw

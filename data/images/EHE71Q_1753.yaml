@@ -1,0 +1,7 @@
+image_file: EHE71Q_1753.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2784 391 2906 378 2908 418 2783 429
+plate_inverted_gt: false
+plate_number_gt: EHE71Q
+region_code_gt: nsw

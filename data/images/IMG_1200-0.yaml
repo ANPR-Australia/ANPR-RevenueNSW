@@ -1,7 +1,0 @@
-image_file: IMG_1200.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1597 1770 2056 1612 2100 1818 1662 1999
-region_code_gt: nsw
-plate_number_gt: BR73EU
-plate_inverted_gt: false

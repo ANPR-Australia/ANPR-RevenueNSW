@@ -1,0 +1,7 @@
+image_file: CJ03BI_980.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1542 968 1879 933 1896 1086 1552 1110
+plate_inverted_gt: false
+plate_number_gt: CJ03BI
+region_code_gt: nsw

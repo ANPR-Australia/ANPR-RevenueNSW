@@ -1,0 +1,7 @@
+image_file: BWE26F_382.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1332 2110 1701 2029 1737 2135 1363 2222
+plate_inverted_gt: false
+plate_number_gt: BWE26F
+region_code_gt: nsw

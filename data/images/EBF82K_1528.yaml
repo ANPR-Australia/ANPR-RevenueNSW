@@ -1,0 +1,7 @@
+image_file: EBF82K_1528.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1157 2153 1638 2159 1634 2247 1159 2241
+plate_inverted_gt: false
+plate_number_gt: EBF82K
+region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: IMG_2032.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1408 1488 1758 1486 1763 1586 1408 1588
-region_code_gt: nsw
-plate_number_gt: EGA08X
-plate_inverted_gt: false

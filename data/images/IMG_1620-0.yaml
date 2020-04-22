@@ -1,7 +1,0 @@
-image_file: IMG_1620.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1701 1267 2210 1210 2215 1352 1711 1410
-region_code_gt: nsw
-plate_number_gt: BPG32A
-plate_inverted_gt: false

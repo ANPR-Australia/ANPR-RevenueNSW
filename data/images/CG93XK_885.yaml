@@ -1,0 +1,7 @@
+image_file: CG93XK_885.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1671 900 2062 879 2063 1052 1670 1082
+plate_inverted_gt: false
+plate_number_gt: CG93XK
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: CIY46H_1663.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 21 1967 136 1959 137 1994 26 2004
+plate_inverted_gt: false
+plate_number_gt: CIY46H
+region_code_gt: nsw

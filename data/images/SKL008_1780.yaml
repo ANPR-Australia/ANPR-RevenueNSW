@@ -1,0 +1,7 @@
+image_file: SKL008_1780.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 3047 2032 3195 2062 3189 2102 3044 2076
+plate_inverted_gt: false
+plate_number_gt: SKL008
+region_code_gt: nsw

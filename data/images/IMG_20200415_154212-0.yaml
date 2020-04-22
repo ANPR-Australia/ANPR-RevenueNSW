@@ -1,7 +1,0 @@
-image_file: IMG_20200415_154212.jpg
-image_width: 4032
-image_height: 3024
-plate_corners_gt: 1372 1650 2809 1508 2799 1920 1461 2036
-region_code_gt: nsw
-plate_number_gt: CR08RT
-plate_inverted_gt: false

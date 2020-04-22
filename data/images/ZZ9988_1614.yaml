@@ -1,0 +1,7 @@
+image_file: ZZ9988_1614.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 667 2282 1500 2398 1479 2565 667 2439
+plate_inverted_gt: false
+plate_number_gt: ZZ9988
+region_code_gt: nsw

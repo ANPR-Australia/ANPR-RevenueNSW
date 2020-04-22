@@ -1,7 +1,0 @@
-image_file: IMG_2604.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1220 2232 1739 2244 1735 2348 1219 2339
-region_code_gt: nsw
-plate_number_gt: DHQ17H
-plate_inverted_gt: false

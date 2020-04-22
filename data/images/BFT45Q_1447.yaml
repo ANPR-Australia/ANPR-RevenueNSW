@@ -1,0 +1,7 @@
+image_file: BFT45Q_1447.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1222 1698 1636 1714 1622 1794 1221 1779
+plate_inverted_gt: false
+plate_number_gt: BFT45Q
+region_code_gt: nsw

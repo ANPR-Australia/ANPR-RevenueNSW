@@ -1,7 +1,0 @@
-image_file: IMG_1806.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1606 1213 1863 1192 1868 1271 1613 1297
-region_code_gt: nsw
-plate_number_gt: BTI48P
-plate_inverted_gt: false

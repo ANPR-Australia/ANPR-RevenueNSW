@@ -1,0 +1,7 @@
+image_file: BWK56A_319.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1119 2047 1664 2053 1667 2162 1130 2155
+plate_inverted_gt: false
+plate_number_gt: BWK56A
+region_code_gt: nsw

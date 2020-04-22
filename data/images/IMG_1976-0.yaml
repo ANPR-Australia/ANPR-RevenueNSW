@@ -1,7 +1,0 @@
-image_file: IMG_1976.jpg
-image_width: 1390
-image_height: 1853
-plate_corners_gt: 357 1575 617 1572 617 1660 361 1668
-region_code_gt: nsw
-plate_number_gt: BN80AO
-plate_inverted_gt: false

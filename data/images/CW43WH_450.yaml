@@ -1,0 +1,7 @@
+image_file: CW43WH_450.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1233 1874 1227 1661 1940 1948 1909 2170
+plate_inverted_gt: false
+plate_number_gt: CW43WH
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: BWJ14N_565.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 896 1393 1217 1438 1225 1507 899 1462
+plate_inverted_gt: false
+plate_number_gt: BWJ14N
+region_code_gt: nsw

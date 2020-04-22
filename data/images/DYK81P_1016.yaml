@@ -1,0 +1,7 @@
+image_file: DYK81P_1016.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 621 2180 1746 2368 1718 2577 626 2391
+plate_inverted_gt: false
+plate_number_gt: DYK81P
+region_code_gt: nsw

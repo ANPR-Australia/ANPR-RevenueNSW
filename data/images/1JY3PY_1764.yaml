@@ -1,0 +1,7 @@
+image_file: 1JY3PY_1764.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 1824 2793 1965 2837 1962 2890 1820 2846
+plate_inverted_gt: false
+plate_number_gt: 1JY3PY
+region_code_gt: vic

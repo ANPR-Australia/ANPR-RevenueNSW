@@ -1,7 +1,0 @@
-image_file: IMG_1531.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1551 1521 2123 1455 2108 1617 1550 1684
-region_code_gt: nsw
-plate_number_gt: ASM71C
-plate_inverted_gt: false

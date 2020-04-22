@@ -1,0 +1,7 @@
+image_file: CQZ76U_1810.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2584 1588 2728 1600 2725 1636 2582 1624
+plate_inverted_gt: false
+plate_number_gt: CQZ76U
+region_code_gt: nsw

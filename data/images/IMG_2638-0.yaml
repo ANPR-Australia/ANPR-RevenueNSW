@@ -1,7 +1,0 @@
-image_file: IMG_2638.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1192 1897 1810 1928 1799 2158 1180 2123
-region_code_gt: nsw
-plate_number_gt: CU40EH
-plate_inverted_gt: false

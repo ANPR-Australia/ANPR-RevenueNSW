@@ -1,0 +1,7 @@
+image_file: CZU07S_128.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2015 1187 2133 1183 2133 1215 2017 1219
+plate_inverted_gt: false
+plate_number_gt: CZU07S
+region_code_gt: nsw

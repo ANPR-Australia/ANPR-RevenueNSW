@@ -1,0 +1,7 @@
+image_file: BIA77T_1399.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1645 1402 2079 1354 2086 1479 1654 1536
+plate_inverted_gt: false
+plate_number_gt: BIA77T
+region_code_gt: nsw

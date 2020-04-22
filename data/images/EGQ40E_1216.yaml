@@ -1,0 +1,7 @@
+image_file: EGQ40E_1216.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 2065 1367 2630 1258 2606 1431 2054 1542
+plate_inverted_gt: false
+plate_number_gt: EGQ40E
+region_code_gt: nsw

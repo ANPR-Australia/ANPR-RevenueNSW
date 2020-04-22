@@ -1,0 +1,7 @@
+image_file: BCA78C_1477.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1059 1282 1431 1335 1423 1416 1053 1362
+plate_inverted_gt: false
+plate_number_gt: BCA78C
+region_code_gt: nsw

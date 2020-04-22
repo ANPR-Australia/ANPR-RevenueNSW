@@ -1,7 +1,0 @@
-image_file: IMG_1622.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1730 1480 2081 1439 2087 1570 1740 1615
-region_code_gt: nsw
-plate_number_gt: CE09RA
-plate_inverted_gt: false

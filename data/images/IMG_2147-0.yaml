@@ -1,7 +1,0 @@
-image_file: IMG_2147.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1834 1006 2171 1001 2154 1116 1828 1123
-region_code_gt: nsw
-plate_number_gt: BKV85L
-plate_inverted_gt: false

@@ -1,7 +1,0 @@
-image_file: IMG_0787.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1011 2306 1651 2335 1648 2446 1019 2416
-region_code_gt: nsw
-plate_number_gt: DNN54S
-plate_inverted_gt: false

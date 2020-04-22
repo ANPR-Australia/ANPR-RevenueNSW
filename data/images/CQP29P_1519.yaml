@@ -1,0 +1,7 @@
+image_file: CQP29P_1519.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1506 2648 2106 2610 2102 2729 1507 2768
+plate_inverted_gt: false
+plate_number_gt: CQP29P
+region_code_gt: nsw

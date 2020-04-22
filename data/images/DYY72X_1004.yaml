@@ -1,0 +1,7 @@
+image_file: DYY72X_1004.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1300 2813 2078 2808 2076 2929 1312 2932
+plate_inverted_gt: false
+plate_number_gt: DYY72X
+region_code_gt: nsw

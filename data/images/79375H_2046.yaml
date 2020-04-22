@@ -1,0 +1,7 @@
+image_file: 79375H_2046.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 908 1320 1139 1383 1146 1468 919 1411
+plate_inverted_gt: false
+plate_number_gt: 79375H
+region_code_gt: nsw

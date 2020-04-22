@@ -1,0 +1,7 @@
+image_file: DNY87S_1502.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1423 2389 1960 2381 1952 2484 1424 2490
+plate_inverted_gt: false
+plate_number_gt: DNY87S
+region_code_gt: nsw

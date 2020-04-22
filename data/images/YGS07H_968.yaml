@@ -1,0 +1,7 @@
+image_file: YGS07H_968.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1136 901 1749 1065 1698 1251 1102 1079
+plate_inverted_gt: false
+plate_number_gt: YGS07H
+region_code_gt: nsw

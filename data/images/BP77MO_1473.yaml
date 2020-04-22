@@ -1,0 +1,7 @@
+image_file: BP77MO_1473.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1742 1416 2126 1361 2139 1515 1759 1578
+plate_inverted_gt: false
+plate_number_gt: BP77MO
+region_code_gt: nsw

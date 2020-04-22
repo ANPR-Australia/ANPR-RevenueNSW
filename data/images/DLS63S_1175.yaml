@@ -1,0 +1,7 @@
+image_file: DLS63S_1175.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1457 1334 1761 1338 1762 1428 1457 1430
+plate_inverted_gt: false
+plate_number_gt: DLS63S
+region_code_gt: nsw

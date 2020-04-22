@@ -1,0 +1,7 @@
+image_file: CP21VN_976.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1158 1069 1476 1058 1483 1177 1165 1194
+plate_inverted_gt: false
+plate_number_gt: CP21VN
+region_code_gt: nsw

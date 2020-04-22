@@ -1,0 +1,7 @@
+image_file: DXD01U_1714.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2572 1498 2700 1494 2698 1532 2572 1534
+plate_inverted_gt: false
+plate_number_gt: DXD01U
+region_code_gt: nsw

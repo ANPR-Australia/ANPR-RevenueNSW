@@ -1,7 +1,0 @@
-image_file: IMG_1553.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1705 1164 2260 1104 2258 1331 1719 1403
-region_code_gt: nsw
-plate_number_gt: CV89JM
-plate_inverted_gt: false

@@ -1,7 +1,0 @@
-image_file: IMG_1675.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1399 1292 1717 1267 1722 1370 1400 1390
-region_code_gt: nsw
-plate_number_gt: CMC93G
-plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: BB91WX_112.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2140 2526 2273 2547 2269 2594 2135 2569
+plate_inverted_gt: false
+plate_number_gt: BB91WX
+region_code_gt: nsw

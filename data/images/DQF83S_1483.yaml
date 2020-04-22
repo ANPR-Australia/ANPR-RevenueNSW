@@ -1,0 +1,7 @@
+image_file: DQF83S_1483.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 598 2234 1127 2221 1131 2336 602 2358
+plate_inverted_gt: false
+plate_number_gt: DQF83S
+region_code_gt: nsw

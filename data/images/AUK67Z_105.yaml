@@ -1,0 +1,7 @@
+image_file: AUK67Z_105.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2273 1489 2399 1493 2398 1523 2274 1517
+plate_inverted_gt: false
+plate_number_gt: AUK67Z
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: HI11IH_1003.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1233 2041 1969 2019 1974 2233 1250 2253
+plate_inverted_gt: false
+plate_number_gt: HI11IH
+region_code_gt: nsw

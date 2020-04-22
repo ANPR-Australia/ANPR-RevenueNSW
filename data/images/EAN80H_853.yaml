@@ -1,0 +1,7 @@
+image_file: EAN80H_853.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1290 1711 1909 1635 1913 1800 1304 1879
+plate_inverted_gt: false
+plate_number_gt: EAN80H
+region_code_gt: nsw

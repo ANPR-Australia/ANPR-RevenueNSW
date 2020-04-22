@@ -1,0 +1,7 @@
+image_file: ASA65Q_1331.jpg
+image_height: 2160
+image_width: 1620
+plate_corners_gt: 386 918 646 959 634 1034 380 987
+plate_inverted_gt: false
+plate_number_gt: ASA65Q
+region_code_gt: nsw

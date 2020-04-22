@@ -1,0 +1,7 @@
+image_file: BIZ84L_467.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 678 1876 1127 1937 1137 2045 686 1965
+plate_inverted_gt: false
+plate_number_gt: BIZ84L
+region_code_gt: nsw

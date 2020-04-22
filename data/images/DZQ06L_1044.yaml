@@ -1,0 +1,7 @@
+image_file: DZQ06L_1044.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 286 1024 729 1083 738 1192 291 1132
+plate_inverted_gt: false
+plate_number_gt: DZQ06L
+region_code_gt: nsw

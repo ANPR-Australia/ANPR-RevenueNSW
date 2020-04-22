@@ -1,0 +1,7 @@
+image_file: DPC49A_788.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1078 1310 1943 1399 1903 1608 1082 1504
+plate_inverted_gt: false
+plate_number_gt: DPC49A
+region_code_gt: nsw

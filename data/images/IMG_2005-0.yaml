@@ -1,7 +1,0 @@
-image_file: IMG_2005.jpg
-image_width: 1649
-image_height: 2526
-plate_corners_gt: 288 2041 431 2032 429 2106 289 2117
-region_code_gt: nsw
-plate_number_gt: CR67HQ
-plate_inverted_gt: false

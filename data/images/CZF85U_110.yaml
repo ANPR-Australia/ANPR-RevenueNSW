@@ -1,0 +1,7 @@
+image_file: CZF85U_110.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 1540 2714 1676 2745 1671 2782 1538 2753
+plate_inverted_gt: false
+plate_number_gt: CZF85U
+region_code_gt: nsw

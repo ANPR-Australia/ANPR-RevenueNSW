@@ -1,7 +1,0 @@
-image_file: IMG_20200415_154138.jpg
-image_width: 4032
-image_height: 3024
-plate_corners_gt: 743 1459 2493 1734 2441 2219 844 1944
-region_code_gt: nsw
-plate_number_gt: CN60YB
-plate_inverted_gt: false

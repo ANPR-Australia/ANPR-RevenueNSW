@@ -1,0 +1,7 @@
+image_file: DLX58E_1125.jpg
+image_height: 3024
+image_width: 4032
+plate_corners_gt: 1773 2066 2585 2107 2571 2242 1775 2197
+plate_inverted_gt: false
+plate_number_gt: DLX58E
+region_code_gt: nsw

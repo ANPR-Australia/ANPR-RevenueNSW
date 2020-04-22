@@ -1,0 +1,7 @@
+image_file: ECD08C_852.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1647 1412 2084 1334 2096 1467 1662 1543
+plate_inverted_gt: false
+plate_number_gt: ECD08C
+region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: IMG_1292.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1250 1598 1598 1581 1597 1710 1233 1745
-region_code_gt: nsw
-plate_number_gt: WJR817
-plate_inverted_gt: false

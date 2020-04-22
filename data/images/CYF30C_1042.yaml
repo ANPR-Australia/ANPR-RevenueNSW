@@ -1,0 +1,7 @@
+image_file: CYF30C_1042.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 370 586 814 633 822 749 382 700
+plate_inverted_gt: false
+plate_number_gt: CYF30C
+region_code_gt: nsw

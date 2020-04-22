@@ -1,0 +1,7 @@
+image_file: YIG92Z_948.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 2373 1652 2658 1624 2665 1710 2379 1738
+plate_inverted_gt: false
+plate_number_gt: YIG92Z
+region_code_gt: nsw

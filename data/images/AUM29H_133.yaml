@@ -1,0 +1,7 @@
+image_file: AUM29H_133.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2265 1629 2395 1635 2394 1669 2264 1665
+plate_inverted_gt: false
+plate_number_gt: AUM29H
+region_code_gt: nsw

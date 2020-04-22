@@ -1,7 +1,0 @@
-image_file: IMG_1132.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1485 1484 1966 1447 1973 1594 1499 1639
-region_code_gt: nsw
-plate_number_gt: AMX36N
-plate_inverted_gt: false

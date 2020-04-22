@@ -1,0 +1,7 @@
+image_file: ZIL684_1116.jpg
+image_height: 3024
+image_width: 4032
+plate_corners_gt: 976 1615 2074 1629 2072 1985 1014 1959
+plate_inverted_gt: false
+plate_number_gt: ZIL684
+region_code_gt: nsw

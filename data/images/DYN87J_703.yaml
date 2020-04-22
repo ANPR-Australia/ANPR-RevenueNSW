@@ -1,0 +1,7 @@
+image_file: DYN87J_703.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 835 1864 1190 1909 1192 2001 843 1940
+plate_inverted_gt: false
+plate_number_gt: DYN87J
+region_code_gt: nsw

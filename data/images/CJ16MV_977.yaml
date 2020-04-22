@@ -1,0 +1,7 @@
+image_file: CJ16MV_977.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1813 519 2108 512 2109 625 1818 639
+plate_inverted_gt: false
+plate_number_gt: CJ16MV
+region_code_gt: nsw

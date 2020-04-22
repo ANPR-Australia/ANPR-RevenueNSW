@@ -1,7 +1,0 @@
-image_file: IMG_1150.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1407 1542 1590 1547 1588 1596 1405 1590
-region_code_gt: nsw
-plate_number_gt: CMH13F
-plate_inverted_gt: false

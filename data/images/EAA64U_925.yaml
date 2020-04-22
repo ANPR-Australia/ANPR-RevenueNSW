@@ -1,0 +1,7 @@
+image_file: EAA64U_925.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1247 1745 1490 1684 1499 1772 1265 1843
+plate_inverted_gt: false
+plate_number_gt: EAA64U
+region_code_gt: nsw

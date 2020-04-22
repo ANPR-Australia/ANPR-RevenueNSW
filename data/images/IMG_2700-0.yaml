@@ -1,7 +1,0 @@
-image_file: IMG_2700.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1211 2171 1742 2166 1742 2263 1212 2272
-region_code_gt: nsw
-plate_number_gt: CZN19Y
-plate_inverted_gt: false

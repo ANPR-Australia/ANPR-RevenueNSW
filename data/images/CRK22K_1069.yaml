@@ -1,0 +1,7 @@
+image_file: CRK22K_1069.jpg
+image_height: 2454
+image_width: 1840
+plate_corners_gt: 1148 442 1319 429 1325 478 1152 497
+plate_inverted_gt: false
+plate_number_gt: CRK22K
+region_code_gt: nsw

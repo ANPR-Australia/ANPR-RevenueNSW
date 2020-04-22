@@ -1,7 +1,0 @@
-image_file: b8bafa92-f046-499a-aaa6-ad971c35f925.JPG
-image_width: 1600
-image_height: 1200
-plate_corners_gt: 703 731 1003 760 998 815 704 789
-region_code_gt: nsw
-plate_number_gt: NCIP4
-plate_inverted_gt: false

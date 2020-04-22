@@ -1,7 +1,0 @@
-image_file: IMG_2238.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1638 772 2162 773 2148 930 1632 928
-region_code_gt: nsw
-plate_number_gt: DVB66S
-plate_inverted_gt: false

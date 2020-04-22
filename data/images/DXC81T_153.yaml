@@ -1,0 +1,7 @@
+image_file: DXC81T_153.jpg
+image_height: 909
+image_width: 682
+plate_corners_gt: 297 496 568 491 568 539 298 544
+plate_inverted_gt: false
+plate_number_gt: DXC81T
+region_code_gt: nsw

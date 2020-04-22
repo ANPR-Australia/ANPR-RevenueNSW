@@ -1,7 +1,0 @@
-image_file: IMG_20200415_154444.jpg
-image_width: 4032
-image_height: 3024
-plate_corners_gt: 2812 1868 2921 1870 2924 1904 2811 1907
-region_code_gt: nsw
-plate_number_gt: CM16DX
-plate_inverted_gt: false

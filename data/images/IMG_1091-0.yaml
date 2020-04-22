@@ -1,7 +1,0 @@
-image_file: IMG_1091.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1593 2104 2159 1968 2161 2142 1601 2261
-region_code_gt: nsw
-plate_number_gt: DDG07L
-plate_inverted_gt: false

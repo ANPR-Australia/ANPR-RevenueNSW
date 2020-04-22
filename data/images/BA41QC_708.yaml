@@ -1,0 +1,7 @@
+image_file: BA41QC_708.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1183 1523 1709 1432 1702 1614 1197 1707
+plate_inverted_gt: false
+plate_number_gt: BA41QC
+region_code_gt: nsw

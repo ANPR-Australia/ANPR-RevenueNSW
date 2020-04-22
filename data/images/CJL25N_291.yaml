@@ -1,0 +1,7 @@
+image_file: CJL25N_291.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1108 2416 1568 2484 1568 2567 1108 2498
+plate_inverted_gt: false
+plate_number_gt: CJL25N
+region_code_gt: nsw

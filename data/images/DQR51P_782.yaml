@@ -1,0 +1,7 @@
+image_file: DQR51P_782.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1795 1679 2307 1581 2327 1723 1809 1822
+plate_inverted_gt: false
+plate_number_gt: DQR51P
+region_code_gt: nsw

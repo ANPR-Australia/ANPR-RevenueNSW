@@ -1,0 +1,7 @@
+image_file: S332BHT_277.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1030 2103 1490 2125 1482 2284 1022 2261
+plate_inverted_gt: false
+plate_number_gt: S332BHT
+region_code_gt: sa

@@ -1,0 +1,7 @@
+image_file: APF95Z_789.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1339 1972 1641 1957 1639 2025 1339 2041
+plate_inverted_gt: false
+plate_number_gt: APF95Z
+region_code_gt: nsw

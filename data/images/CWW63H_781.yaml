@@ -1,0 +1,7 @@
+image_file: CWW63H_781.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1627 1836 2054 1767 2065 1886 1633 1956
+plate_inverted_gt: false
+plate_number_gt: CWW63H
+region_code_gt: nsw

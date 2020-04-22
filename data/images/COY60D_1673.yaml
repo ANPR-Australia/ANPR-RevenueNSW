@@ -1,0 +1,7 @@
+image_file: COY60D_1673.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 771 2244 1094 2229 1097 2304 774 2309
+plate_inverted_gt: false
+plate_number_gt: COY60D
+region_code_gt: nsw

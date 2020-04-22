@@ -1,0 +1,7 @@
+image_file: MIE51R_1365.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 645 1350 649 1254 1083 1389 1076 1501
+plate_inverted_gt: false
+plate_number_gt: MIE51R
+region_code_gt: nsw

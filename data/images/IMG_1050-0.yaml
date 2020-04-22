@@ -1,7 +1,0 @@
-image_file: IMG_1050.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1705 1727 2108 1647 2114 1760 1698 1843
-region_code_gt: nsw
-plate_number_gt: DYV40C
-plate_inverted_gt: false

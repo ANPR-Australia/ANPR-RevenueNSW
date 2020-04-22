@@ -1,7 +1,0 @@
-image_file: IMG_1350.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1428 1870 2046 1663 2068 1872 1466 2083
-region_code_gt: nsw
-plate_number_gt: CG58MO
-plate_inverted_gt: false

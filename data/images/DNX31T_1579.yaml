@@ -1,0 +1,7 @@
+image_file: DNX31T_1579.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 938 2210 1485 2246 1479 2351 937 2320
+plate_inverted_gt: false
+plate_number_gt: DNX31T
+region_code_gt: nsw

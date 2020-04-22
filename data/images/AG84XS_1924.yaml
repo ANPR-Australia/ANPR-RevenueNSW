@@ -1,0 +1,7 @@
+image_file: AG84XS_1924.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2932 1871 3076 1893 3071 1941 2927 1921
+plate_inverted_gt: false
+plate_number_gt: AG84XS
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: EGA08X_1172.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1408 1488 1758 1486 1763 1586 1408 1588
+plate_inverted_gt: false
+plate_number_gt: EGA08X
+region_code_gt: nsw

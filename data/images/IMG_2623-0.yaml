@@ -1,7 +1,0 @@
-image_file: IMG_2623.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 890 2337 1478 2380 1479 2493 894 2448
-region_code_gt: nsw
-plate_number_gt: EGL90A
-plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: CR57RQ_412.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1808 1540 2074 1537 2077 1654 1812 1664
+plate_inverted_gt: false
+plate_number_gt: CR57RQ
+region_code_gt: nsw

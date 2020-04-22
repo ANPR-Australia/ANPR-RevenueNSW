@@ -1,0 +1,7 @@
+image_file: CPG75U_629.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 687 1337 1093 1395 1104 1484 699 1423
+plate_inverted_gt: false
+plate_number_gt: CPG75U
+region_code_gt: nsw

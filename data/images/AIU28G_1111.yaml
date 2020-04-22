@@ -1,0 +1,7 @@
+image_file: AIU28G_1111.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1400 1751 1869 1708 1869 1834 1404 1884
+plate_inverted_gt: false
+plate_number_gt: AIU28G
+region_code_gt: nsw

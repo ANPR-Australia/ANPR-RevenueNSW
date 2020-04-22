@@ -1,0 +1,7 @@
+image_file: EAU92A_1375.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 778 1378 1073 1415 1073 1496 785 1446
+plate_inverted_gt: false
+plate_number_gt: EAU92A
+region_code_gt: nsw

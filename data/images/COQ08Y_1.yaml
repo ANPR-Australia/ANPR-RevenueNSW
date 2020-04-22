@@ -1,0 +1,7 @@
+image_file: COQ08Y_1.jpg
+image_height: 994
+image_width: 746
+plate_corners_gt: 435 210 580 215 582 256 436 252
+plate_inverted_gt: false
+plate_number_gt: COQ08Y
+region_code_gt: nsw

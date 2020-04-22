@@ -1,0 +1,7 @@
+image_file: CR72RR_413.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1577 1796 1822 1784 1822 1892 1578 1908
+plate_inverted_gt: false
+plate_number_gt: CR72RR
+region_code_gt: nsw

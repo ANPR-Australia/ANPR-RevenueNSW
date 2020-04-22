@@ -1,0 +1,7 @@
+image_file: EGA28K_1721.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2845 1992 2983 1996 2983 2035 2844 2032
+plate_inverted_gt: false
+plate_number_gt: EGA28K
+region_code_gt: nsw

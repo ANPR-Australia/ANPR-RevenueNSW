@@ -1,0 +1,7 @@
+image_file: CT85LM_1425.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1588 1071 1754 1074 1751 1138 1585 1131
+plate_inverted_gt: false
+plate_number_gt: CT85LM
+region_code_gt: nsw

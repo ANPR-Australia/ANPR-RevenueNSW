@@ -1,0 +1,7 @@
+image_file: CN54KI_644.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1596 1785 2018 1683 2010 1868 1588 1989
+plate_inverted_gt: false
+plate_number_gt: CN54KI
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: CT43HQ_1934.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 1839 3042 1989 3076 1985 3134 1836 3098
+plate_inverted_gt: false
+plate_number_gt: CT43HQ
+region_code_gt: nsw

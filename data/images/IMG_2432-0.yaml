@@ -1,7 +1,0 @@
-image_file: IMG_2432.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1432 996 2039 939 2039 1159 1448 1226
-region_code_gt: nsw
-plate_number_gt: CI80HT
-plate_inverted_gt: false

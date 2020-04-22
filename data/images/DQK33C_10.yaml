@@ -1,0 +1,7 @@
+image_file: DQK33C_10.jpg
+image_height: 1200
+image_width: 1600
+plate_corners_gt: 820 705 1012 713 1011 762 820 757
+plate_inverted_gt: false
+plate_number_gt: DQK33C
+region_code_gt: nsw

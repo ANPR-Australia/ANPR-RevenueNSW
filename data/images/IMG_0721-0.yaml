@@ -1,7 +1,0 @@
-image_file: IMG_0721.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1245 2052 1587 2046 1588 2103 1249 2110
-region_code_gt: nsw
-plate_number_gt: EBZ66W
-plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: AM568_779.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 2040 1765 2508 1662 2507 1792 2043 1898
+plate_inverted_gt: false
+plate_number_gt: AM568
+region_code_gt: nsw

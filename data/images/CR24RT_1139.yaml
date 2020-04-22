@@ -1,0 +1,7 @@
+image_file: CR24RT_1139.jpg
+image_height: 3024
+image_width: 4032
+plate_corners_gt: 1278 1285 3450 1226 3371 1908 1408 1877
+plate_inverted_gt: false
+plate_number_gt: CR24RT
+region_code_gt: nsw

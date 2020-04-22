@@ -1,0 +1,7 @@
+image_file: NOP123_1946.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2786 2457 2991 2474 2991 2518 2784 2498
+plate_inverted_gt: true
+plate_number_gt: NOP123
+region_code_gt: nsw

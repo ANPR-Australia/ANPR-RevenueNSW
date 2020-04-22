@@ -1,0 +1,7 @@
+image_file: DSK88J_1303.jpg
+image_height: 1500
+image_width: 1125
+plate_corners_gt: 332 501 477 502 475 550 332 544
+plate_inverted_gt: false
+plate_number_gt: DSK88J
+region_code_gt: nsw

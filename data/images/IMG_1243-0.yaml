@@ -1,7 +1,0 @@
-image_file: IMG_1243.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 675 1054 738 1224 336 1440 237 1265
-region_code_gt: nsw
-plate_number_gt: CC36JK
-plate_inverted_gt: false

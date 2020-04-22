@@ -1,0 +1,7 @@
+image_file: BSO88G_1520.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1391 3011 1953 3001 1953 3114 1391 3131
+plate_inverted_gt: false
+plate_number_gt: BSO88G
+region_code_gt: nsw

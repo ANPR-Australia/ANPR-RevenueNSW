@@ -1,0 +1,7 @@
+image_file: BV06VR_93.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2180 1599 2307 1603 2307 1643 2181 1636
+plate_inverted_gt: false
+plate_number_gt: BV06VR
+region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: IMG_1550.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1607 2080 2101 1976 2118 2111 1627 2221
-region_code_gt: nsw
-plate_number_gt: DCM20F
-plate_inverted_gt: false

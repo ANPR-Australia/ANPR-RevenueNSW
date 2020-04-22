@@ -1,0 +1,7 @@
+image_file: BJB67D_1117.jpg
+image_height: 3024
+image_width: 4032
+plate_corners_gt: 1203 1612 2798 1772 2769 2086 1225 1882
+plate_inverted_gt: false
+plate_number_gt: BJB67D
+region_code_gt: nsw

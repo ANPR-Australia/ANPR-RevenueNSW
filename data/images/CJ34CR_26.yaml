@@ -1,0 +1,7 @@
+image_file: CJ34CR_26.jpg
+image_height: 1600
+image_width: 1200
+plate_corners_gt: 376 743 697 785 687 898 373 851
+plate_inverted_gt: false
+plate_number_gt: CJ34CR
+region_code_gt: nsw

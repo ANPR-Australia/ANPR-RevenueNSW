@@ -1,0 +1,7 @@
+image_file: AKO16Q_1106.jpg
+image_height: 2711
+image_width: 2033
+plate_corners_gt: 1204 846 1499 855 1499 938 1204 927
+plate_inverted_gt: false
+plate_number_gt: AKO16Q
+region_code_gt: nsw

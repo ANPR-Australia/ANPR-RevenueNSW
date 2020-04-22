@@ -1,0 +1,7 @@
+image_file: EEN47Z_1701.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2982 1478 3104 1468 3110 1502 2984 1513
+plate_inverted_gt: false
+plate_number_gt: EEN47Z
+region_code_gt: nsw

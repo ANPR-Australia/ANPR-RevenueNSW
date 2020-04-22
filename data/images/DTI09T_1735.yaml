@@ -1,0 +1,7 @@
+image_file: DTI09T_1735.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 1663 2921 1805 2965 1798 3004 1658 2966
+plate_inverted_gt: false
+plate_number_gt: DTI09T
+region_code_gt: nsw

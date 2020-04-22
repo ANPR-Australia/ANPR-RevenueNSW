@@ -1,0 +1,7 @@
+image_file: CX71LG_1494.jpg
+image_height: 1101
+image_width: 1671
+plate_corners_gt: 411 622 586 634 565 710 397 694
+plate_inverted_gt: false
+plate_number_gt: CX71LG
+region_code_gt: nsw

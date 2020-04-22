@@ -1,7 +1,0 @@
-image_file: IMG_2215.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1969 1028 2599 918 2571 1123 1965 1253
-region_code_gt: nsw
-plate_number_gt: CXF19U
-plate_inverted_gt: false

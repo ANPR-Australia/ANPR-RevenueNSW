@@ -1,0 +1,7 @@
+image_file: CT86LL_2042.jpg
+image_height: 962
+image_width: 722
+plate_corners_gt: 315 355 527 354 528 431 314 427
+plate_inverted_gt: false
+plate_number_gt: CT86LL
+region_code_gt: nsw

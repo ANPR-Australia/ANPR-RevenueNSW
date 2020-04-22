@@ -1,7 +1,0 @@
-image_file: IMG_2911.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1038 1745 1355 1738 1353 1827 1038 1830
-region_code_gt: nsw
-plate_number_gt: BPD33T
-plate_inverted_gt: false

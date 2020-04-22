@@ -1,0 +1,7 @@
+image_file: EDG72A_1505.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 840 2234 1426 2310 1419 2422 840 2345
+plate_inverted_gt: false
+plate_number_gt: EDG72A
+region_code_gt: nsw

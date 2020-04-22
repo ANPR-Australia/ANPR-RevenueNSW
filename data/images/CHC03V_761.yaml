@@ -1,0 +1,7 @@
+image_file: CHC03V_761.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 2066 1527 2575 1462 2582 1606 2073 1671
+plate_inverted_gt: false
+plate_number_gt: CHC03V
+region_code_gt: nsw

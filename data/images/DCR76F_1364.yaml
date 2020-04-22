@@ -1,0 +1,7 @@
+image_file: DCR76F_1364.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 669 1922 674 1767 1442 2075 1419 2233
+plate_inverted_gt: false
+plate_number_gt: DCR76F
+region_code_gt: nsw

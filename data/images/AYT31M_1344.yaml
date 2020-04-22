@@ -1,0 +1,7 @@
+image_file: AYT31M_1344.jpg
+image_height: 1718
+image_width: 1289
+plate_corners_gt: 722 593 868 562 878 607 734 639
+plate_inverted_gt: false
+plate_number_gt: AYT31M
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: BK73ZD_944.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1744 1175 2042 1162 2049 1285 1751 1304
+plate_inverted_gt: false
+plate_number_gt: BK73ZD
+region_code_gt: nsw

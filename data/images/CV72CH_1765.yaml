@@ -1,0 +1,7 @@
+image_file: CV72CH_1765.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 3566 1174 3701 1166 3701 1214 3568 1223
+plate_inverted_gt: false
+plate_number_gt: CV72CH
+region_code_gt: nsw

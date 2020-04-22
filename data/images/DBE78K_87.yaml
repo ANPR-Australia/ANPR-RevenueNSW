@@ -1,0 +1,7 @@
+image_file: DBE78K_87.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2076 2199 2209 2212 2207 2248 2075 2233
+plate_inverted_gt: false
+plate_number_gt: DBE78K
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: DKZ74D_1987.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2611 2634 2754 2651 2752 2696 2608 2678
+plate_inverted_gt: false
+plate_number_gt: DKZ74D
+region_code_gt: nsw

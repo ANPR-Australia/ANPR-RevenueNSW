@@ -1,0 +1,7 @@
+image_file: DJE83V_687.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1913 1649 1911 1789 1243 1918 1230 1796
+plate_inverted_gt: false
+plate_number_gt: DJE83V
+region_code_gt: nsw

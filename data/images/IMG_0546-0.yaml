@@ -1,7 +1,0 @@
-image_file: IMG_0546.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 2048 2415 2192 2394 2208 2443 2060 2463
-region_code_gt: nsw
-plate_number_gt: DJF37A
-plate_inverted_gt: false

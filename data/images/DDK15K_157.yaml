@@ -1,0 +1,7 @@
+image_file: DDK15K_157.jpg
+image_height: 773
+image_width: 580
+plate_corners_gt: 254 137 357 137 361 167 255 169
+plate_inverted_gt: false
+plate_number_gt: DDK15K
+region_code_gt: nsw

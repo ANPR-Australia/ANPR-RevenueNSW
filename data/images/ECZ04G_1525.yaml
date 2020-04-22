@@ -1,0 +1,7 @@
+image_file: ECZ04G_1525.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 767 2461 1395 2538 1388 2655 764 2579
+plate_inverted_gt: false
+plate_number_gt: ECZ04G
+region_code_gt: nsw

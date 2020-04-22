@@ -1,0 +1,7 @@
+image_file: AL066M_1412.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1557 1276 1994 1253 1993 1389 1562 1424
+plate_inverted_gt: false
+plate_number_gt: AL066M
+region_code_gt: nsw

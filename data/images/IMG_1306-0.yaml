@@ -1,7 +1,0 @@
-image_file: IMG_1306.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1493 1687 2027 1606 2066 1813 1539 1916
-region_code_gt: nsw
-plate_number_gt: AE64HQ
-plate_inverted_gt: false

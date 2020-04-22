@@ -1,0 +1,7 @@
+image_file: BE46HB_1866.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2373 2453 2530 2482 2521 2551 2365 2517
+plate_inverted_gt: false
+plate_number_gt: BE46HB
+region_code_gt: nsw

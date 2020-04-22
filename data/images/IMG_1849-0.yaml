@@ -1,7 +1,0 @@
-image_file: IMG_1849.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1940 1511 2367 1462 2377 1605 1950 1640
-region_code_gt: nsw
-plate_number_gt: DPS96R
-plate_inverted_gt: false

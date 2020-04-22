@@ -1,0 +1,7 @@
+image_file: AJ68MW_2038.jpg
+image_height: 1200
+image_width: 1600
+plate_corners_gt: 765 600 1031 617 1024 714 758 691
+plate_inverted_gt: false
+plate_number_gt: AJ68MW
+region_code_gt: nsw

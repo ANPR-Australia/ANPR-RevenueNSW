@@ -1,7 +1,0 @@
-image_file: IMG_1215.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1267 2196 1659 2156 1661 2316 1269 2364
-region_code_gt: nsw
-plate_number_gt: CE17CP
-plate_inverted_gt: false

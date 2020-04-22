@@ -1,7 +1,0 @@
-image_file: IMG_2438.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1645 1402 2079 1354 2086 1479 1654 1536
-region_code_gt: nsw
-plate_number_gt: BIA77T
-plate_inverted_gt: false

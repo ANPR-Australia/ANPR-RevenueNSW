@@ -1,0 +1,7 @@
+image_file: EDL02B_1897.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 3114 739 3244 731 3244 770 3114 776
+plate_inverted_gt: false
+plate_number_gt: EDL02B
+region_code_gt: nsw

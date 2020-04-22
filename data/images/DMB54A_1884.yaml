@@ -1,0 +1,7 @@
+image_file: DMB54A_1884.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 1716 3004 1863 3047 1857 3095 1712 3050
+plate_inverted_gt: false
+plate_number_gt: DMB54A
+region_code_gt: nsw

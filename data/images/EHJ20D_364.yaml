@@ -1,0 +1,7 @@
+image_file: EHJ20D_364.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 464 1067 774 1072 780 1163 478 1153
+plate_inverted_gt: false
+plate_number_gt: EHJ20D
+region_code_gt: nsw

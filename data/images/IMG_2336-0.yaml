@@ -1,7 +1,0 @@
-image_file: IMG_2336.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1026 1210 1399 1318 1371 1437 1000 1325
-region_code_gt: nsw
-plate_number_gt: CVB87B
-plate_inverted_gt: false

@@ -1,7 +1,0 @@
-image_file: IMG_1542.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1373 1428 1892 1407 1884 1517 1371 1538
-region_code_gt: nsw
-plate_number_gt: 01TBC
-plate_inverted_gt: false

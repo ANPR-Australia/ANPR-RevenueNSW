@@ -1,0 +1,7 @@
+image_file: CZY85L_1652.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 857 2495 1508 2569 1499 2708 847 2618
+plate_inverted_gt: false
+plate_number_gt: CZY85L
+region_code_gt: nsw

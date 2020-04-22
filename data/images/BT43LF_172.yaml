@@ -1,0 +1,7 @@
+image_file: BT43LF_172.jpg
+image_height: 1600
+image_width: 1200
+plate_corners_gt: 528 619 692 609 699 667 536 679
+plate_inverted_gt: false
+plate_number_gt: BT43LF
+region_code_gt: nsw

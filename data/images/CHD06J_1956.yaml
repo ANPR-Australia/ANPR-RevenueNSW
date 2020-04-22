@@ -1,0 +1,7 @@
+image_file: CHD06J_1956.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 3450 1770 3597 1777 3597 1818 3452 1812
+plate_inverted_gt: false
+plate_number_gt: CHD06J
+region_code_gt: nsw

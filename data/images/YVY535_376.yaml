@@ -1,0 +1,7 @@
+image_file: YVY535_376.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1528 2126 1787 2102 1787 2209 1534 2244
+plate_inverted_gt: false
+plate_number_gt: YVY535
+region_code_gt: nsw

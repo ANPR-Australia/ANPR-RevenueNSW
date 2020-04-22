@@ -1,0 +1,7 @@
+image_file: MM11NI_1058.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1248 923 1726 948 1720 1038 1250 1013
+plate_inverted_gt: true
+plate_number_gt: MM11NI
+region_code_gt: nsw

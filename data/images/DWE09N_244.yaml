@@ -1,0 +1,7 @@
+image_file: DWE09N_244.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 987 1951 1970 1985 1965 2250 992 2188
+plate_inverted_gt: false
+plate_number_gt: DWE09N
+region_code_gt: nsw

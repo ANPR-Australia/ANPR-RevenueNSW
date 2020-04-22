@@ -1,0 +1,7 @@
+image_file: CU40EH_1549.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1192 1897 1810 1928 1799 2158 1180 2123
+plate_inverted_gt: false
+plate_number_gt: CU40EH
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: CU11VR_19.jpg
+image_height: 1600
+image_width: 1200
+plate_corners_gt: 622 609 755 607 761 652 628 655
+plate_inverted_gt: false
+plate_number_gt: CU11VR
+region_code_gt: nsw

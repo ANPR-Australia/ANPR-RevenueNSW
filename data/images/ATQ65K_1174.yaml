@@ -1,0 +1,7 @@
+image_file: ATQ65K_1174.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 2032 1093 2475 1099 2457 1259 2016 1247
+plate_inverted_gt: false
+plate_number_gt: ATQ65K
+region_code_gt: nsw

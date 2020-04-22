@@ -1,0 +1,7 @@
+image_file: CL24MY_1263.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1809 1041 2286 1036 2288 1212 1810 1223
+plate_inverted_gt: false
+plate_number_gt: CL24MY
+region_code_gt: nsw

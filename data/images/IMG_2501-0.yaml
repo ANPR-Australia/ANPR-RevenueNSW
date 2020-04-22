@@ -1,7 +1,0 @@
-image_file: IMG_2501.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1578 1382 1892 1355 1902 1490 1592 1524
-region_code_gt: nsw
-plate_number_gt: KR003
-plate_inverted_gt: true

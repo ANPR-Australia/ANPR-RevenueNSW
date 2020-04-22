@@ -1,0 +1,7 @@
+image_file: YHK32Y_1959.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2255 3187 2411 3222 2404 3269 2250 3233
+plate_inverted_gt: false
+plate_number_gt: YHK32Y
+region_code_gt: nsw

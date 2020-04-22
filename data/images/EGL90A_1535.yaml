@@ -1,0 +1,7 @@
+image_file: EGL90A_1535.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 890 2337 1478 2380 1479 2493 894 2448
+plate_inverted_gt: false
+plate_number_gt: EGL90A
+region_code_gt: nsw

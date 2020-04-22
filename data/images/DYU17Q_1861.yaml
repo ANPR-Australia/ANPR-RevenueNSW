@@ -1,0 +1,7 @@
+image_file: DYU17Q_1861.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2341 2541 2491 2568 2490 2608 2339 2579
+plate_inverted_gt: false
+plate_number_gt: DYU17Q
+region_code_gt: nsw

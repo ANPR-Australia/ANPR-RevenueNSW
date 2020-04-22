@@ -1,0 +1,7 @@
+image_file: DJQ45P_31.jpg
+image_height: 1600
+image_width: 1200
+plate_corners_gt: 654 390 824 390 823 437 655 435
+plate_inverted_gt: false
+plate_number_gt: DJQ45P
+region_code_gt: nsw

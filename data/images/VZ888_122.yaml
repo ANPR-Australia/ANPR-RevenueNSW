@@ -1,0 +1,7 @@
+image_file: VZ888_122.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 1924 806 2032 797 2031 826 1925 836
+plate_inverted_gt: false
+plate_number_gt: VZ888
+region_code_gt: nsw

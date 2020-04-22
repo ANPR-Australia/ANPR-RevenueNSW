@@ -1,0 +1,7 @@
+image_file: CEP41Z_849.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1082 741 1772 710 1780 894 1093 927
+plate_inverted_gt: false
+plate_number_gt: CEP41Z
+region_code_gt: nsw

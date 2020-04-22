@@ -1,0 +1,7 @@
+image_file: YDU75M_70.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 1998 2118 2130 2130 2130 2168 1997 2160
+plate_inverted_gt: false
+plate_number_gt: YDU75M
+region_code_gt: act

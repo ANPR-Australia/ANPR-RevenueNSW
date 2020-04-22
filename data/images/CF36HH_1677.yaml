@@ -1,0 +1,7 @@
+image_file: CF36HH_1677.jpg
+image_height: 2158
+image_width: 1619
+plate_corners_gt: 860 687 1139 690 1138 790 862 781
+plate_inverted_gt: false
+plate_number_gt: CF36HH
+region_code_gt: nsw

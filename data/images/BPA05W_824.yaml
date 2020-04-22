@@ -1,0 +1,7 @@
+image_file: BPA05W_824.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1724 2070 2135 2005 2159 2134 1742 2198
+plate_inverted_gt: false
+plate_number_gt: BPA05W
+region_code_gt: nsw

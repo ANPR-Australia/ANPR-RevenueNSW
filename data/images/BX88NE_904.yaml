@@ -1,0 +1,7 @@
+image_file: BX88NE_904.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1374 1349 1782 1255 1804 1431 1405 1528
+plate_inverted_gt: false
+plate_number_gt: BX88NE
+region_code_gt: nsw

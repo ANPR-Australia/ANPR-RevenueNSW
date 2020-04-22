@@ -1,7 +1,0 @@
-image_file: IMG_1319.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1048 1589 1747 1527 1747 1673 1066 1736
-region_code_gt: nsw
-plate_number_gt: BDN12F
-plate_inverted_gt: false

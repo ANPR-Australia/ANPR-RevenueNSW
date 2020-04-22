@@ -1,0 +1,7 @@
+image_file: CN72YB_1137.jpg
+image_height: 3024
+image_width: 4032
+plate_corners_gt: 530 887 3391 1097 3058 1742 689 1614
+plate_inverted_gt: false
+plate_number_gt: CN72YB
+region_code_gt: nsw

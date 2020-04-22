@@ -1,7 +1,0 @@
-image_file: IMG_1476.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1856 2116 2348 2046 2343 2179 1861 2261
-region_code_gt: nsw
-plate_number_gt: EAI24K
-plate_inverted_gt: false

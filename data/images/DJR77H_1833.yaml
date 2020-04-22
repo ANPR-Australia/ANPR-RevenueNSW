@@ -1,0 +1,7 @@
+image_file: DJR77H_1833.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 3121 862 3253 863 3253 904 3123 904
+plate_inverted_gt: false
+plate_number_gt: DJR77H
+region_code_gt: nsw

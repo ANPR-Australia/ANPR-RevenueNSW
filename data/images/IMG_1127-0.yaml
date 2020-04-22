@@ -1,7 +1,0 @@
-image_file: IMG_1127.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1798 1762 2216 1696 2225 1831 1803 1909
-region_code_gt: nsw
-plate_number_gt: BLW28N
-plate_inverted_gt: false

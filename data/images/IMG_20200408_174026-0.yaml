@@ -1,7 +1,0 @@
-image_file: IMG_20200408_174026.jpg
-image_width: 4032
-image_height: 3024
-plate_corners_gt: 1741 1949 2467 1928 2481 2123 1748 2147
-region_code_gt: nsw
-plate_number_gt: ECM75L
-plate_inverted_gt: false

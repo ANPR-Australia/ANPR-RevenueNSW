@@ -1,7 +1,0 @@
-image_file: IMG_0885.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1591 1596 1895 1544 1903 1642 1601 1706
-region_code_gt: nsw
-plate_number_gt: TDD400
-plate_inverted_gt: true

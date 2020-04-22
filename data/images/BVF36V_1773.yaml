@@ -1,0 +1,7 @@
+image_file: BVF36V_1773.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2420 2496 2567 2531 2563 2577 2414 2542
+plate_inverted_gt: false
+plate_number_gt: BVF36V
+region_code_gt: nsw

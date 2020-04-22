@@ -1,7 +1,0 @@
-image_file: IMG_1036.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1228 1481 1535 1486 1535 1606 1226 1603
-region_code_gt: nsw
-plate_number_gt: AQ84ZA
-plate_inverted_gt: false

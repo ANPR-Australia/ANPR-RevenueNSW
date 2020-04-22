@@ -1,0 +1,7 @@
+image_file: EBK56D_1789.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2797 1894 2939 1919 2937 1961 2792 1936
+plate_inverted_gt: false
+plate_number_gt: EBK56D
+region_code_gt: nsw

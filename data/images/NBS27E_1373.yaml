@@ -1,0 +1,7 @@
+image_file: NBS27E_1373.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 855 1050 1938 944 1961 1153 884 1276
+plate_inverted_gt: true
+plate_number_gt: NBS27E
+region_code_gt: nsw

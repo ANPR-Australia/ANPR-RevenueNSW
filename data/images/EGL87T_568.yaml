@@ -1,0 +1,7 @@
+image_file: EGL87T_568.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 855 1715 852 1622 1267 1727 1264 1832
+plate_inverted_gt: false
+plate_number_gt: EGL87T
+region_code_gt: nsw

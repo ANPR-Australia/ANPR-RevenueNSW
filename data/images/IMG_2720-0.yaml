@@ -1,7 +1,0 @@
-image_file: IMG_2720.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 960 2232 1562 2249 1546 2404 955 2381
-region_code_gt: nsw
-plate_number_gt: YIL51V
-plate_inverted_gt: false

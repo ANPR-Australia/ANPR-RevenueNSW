@@ -1,7 +1,0 @@
-image_file: IMG_2456.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1149 1174 1516 1167 1523 1310 1158 1325
-region_code_gt: nsw
-plate_number_gt: AL52NZ
-plate_inverted_gt: false

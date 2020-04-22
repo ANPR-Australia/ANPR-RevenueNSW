@@ -1,0 +1,7 @@
+image_file: CQO09K_1028.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1736 1423 2198 1370 2202 1512 1746 1580
+plate_inverted_gt: false
+plate_number_gt: CQO09K
+region_code_gt: nsw

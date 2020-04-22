@@ -1,0 +1,7 @@
+image_file: BPD33T_1674.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1038 1745 1355 1738 1353 1827 1038 1830
+plate_inverted_gt: false
+plate_number_gt: BPD33T
+region_code_gt: nsw

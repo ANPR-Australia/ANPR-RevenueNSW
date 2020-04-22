@@ -1,7 +1,0 @@
-image_file: IMG_1014.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1062 809 1367 824 1378 927 1080 916
-region_code_gt: nsw
-plate_number_gt: VXM443
-plate_inverted_gt: false

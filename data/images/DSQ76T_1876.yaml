@@ -1,0 +1,7 @@
+image_file: DSQ76T_1876.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2454 2002 2603 2019 2601 2056 2453 2041
+plate_inverted_gt: false
+plate_number_gt: DSQ76T
+region_code_gt: nsw

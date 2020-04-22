@@ -1,0 +1,7 @@
+image_file: BE35CD_417.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1327 1729 1894 1658 1873 1847 1335 1938
+plate_inverted_gt: false
+plate_number_gt: BE35CD
+region_code_gt: nsw

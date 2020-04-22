@@ -1,0 +1,7 @@
+image_file: A8888A_347.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 970 2842 1702 2816 1712 2939 974 2971
+plate_inverted_gt: false
+plate_number_gt: A8888A
+region_code_gt: nsw

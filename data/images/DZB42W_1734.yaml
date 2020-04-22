@@ -1,0 +1,7 @@
+image_file: DZB42W_1734.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2972 1289 3111 1300 3109 1334 2970 1324
+plate_inverted_gt: false
+plate_number_gt: DZB42W
+region_code_gt: nsw

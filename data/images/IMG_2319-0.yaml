@@ -1,7 +1,0 @@
-image_file: IMG_2319.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 671 940 914 986 912 1055 675 1005
-region_code_gt: nsw
-plate_number_gt: CPH04C
-plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: cm38vj_595.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1317 1583 1795 1524 1798 1710 1328 1781
+plate_inverted_gt: false
+plate_number_gt: cm38vj
+region_code_gt: nsw

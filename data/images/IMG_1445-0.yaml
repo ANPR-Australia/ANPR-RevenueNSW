@@ -1,7 +1,0 @@
-image_file: IMG_1445.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1615 1516 2000 1442 1997 1582 1620 1658
-region_code_gt: nsw
-plate_number_gt: CRF43P
-plate_inverted_gt: false

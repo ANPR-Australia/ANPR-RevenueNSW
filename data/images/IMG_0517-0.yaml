@@ -1,7 +1,0 @@
-image_file: IMG_0517.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1265 2097 1369 2105 1363 2141 1261 2134
-region_code_gt: nsw
-plate_number_gt: BV85AJ
-plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: CHD80R_1763.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 3117 1715 3262 1724 3259 1765 3115 1757
+plate_inverted_gt: false
+plate_number_gt: CHD80R
+region_code_gt: nsw

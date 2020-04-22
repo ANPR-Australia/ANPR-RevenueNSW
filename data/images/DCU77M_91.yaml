@@ -1,0 +1,7 @@
+image_file: DCU77M_91.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2221 1312 2344 1312 2345 1345 2221 1345
+plate_inverted_gt: false
+plate_number_gt: DCU77M
+region_code_gt: nsw

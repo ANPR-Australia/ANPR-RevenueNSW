@@ -1,0 +1,7 @@
+image_file: EGT62U_1613.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1012 2204 1636 2215 1632 2325 1007 2324
+plate_inverted_gt: false
+plate_number_gt: EGT62U
+region_code_gt: nsw

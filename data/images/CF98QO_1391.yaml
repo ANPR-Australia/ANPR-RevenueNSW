@@ -1,0 +1,7 @@
+image_file: CF98QO_1391.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1360 870 1760 838 1764 1003 1376 1042
+plate_inverted_gt: false
+plate_number_gt: CF98QO
+region_code_gt: nsw

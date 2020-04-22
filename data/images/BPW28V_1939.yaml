@@ -1,0 +1,7 @@
+image_file: BPW28V_1939.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 3028 1585 3169 1594 3166 1632 3026 1621
+plate_inverted_gt: false
+plate_number_gt: BPW28V
+region_code_gt: nsw

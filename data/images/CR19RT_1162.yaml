@@ -1,0 +1,7 @@
+image_file: CR19RT_1162.jpg
+image_height: 3024
+image_width: 4032
+plate_corners_gt: 3163 1834 3235 1845 3235 1877 3162 1868
+plate_inverted_gt: false
+plate_number_gt: CR19RT
+region_code_gt: nsw

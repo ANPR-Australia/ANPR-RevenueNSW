@@ -1,7 +1,0 @@
-image_file: IMG_2591.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 986 2308 1618 2386 1614 2511 978 2435
-region_code_gt: nsw
-plate_number_gt: EDB17N
-plate_inverted_gt: false

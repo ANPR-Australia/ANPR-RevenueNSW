@@ -1,7 +1,0 @@
-image_file: IMG_2314.jpg
-image_width: 1669
-image_height: 2225
-plate_corners_gt: 535 1136 831 1153 837 1220 541 1199
-region_code_gt: nsw
-plate_number_gt: CSN34R
-plate_inverted_gt: false

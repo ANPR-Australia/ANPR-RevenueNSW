@@ -1,0 +1,7 @@
+image_file: CVV89Y_1798.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 1876 3223 1880 3184 2025 3230 2018 3272
+plate_inverted_gt: false
+plate_number_gt: CVV89Y
+region_code_gt: nsw

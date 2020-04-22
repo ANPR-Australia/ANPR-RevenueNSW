@@ -1,0 +1,7 @@
+image_file: DWS39E_1049.jpg
+image_height: 2099
+image_width: 1696
+plate_corners_gt: 192 1761 345 1770 339 1812 187 1805
+plate_inverted_gt: false
+plate_number_gt: DWS39E
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: YJK80G_23.jpg
+image_height: 1600
+image_width: 1200
+plate_corners_gt: 426 508 658 535 651 601 425 571
+plate_inverted_gt: false
+plate_number_gt: YJK80G
+region_code_gt: nsw

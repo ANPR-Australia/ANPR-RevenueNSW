@@ -1,0 +1,7 @@
+image_file: BV61QV_1624.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1139 2307 1804 2303 1781 2514 1132 2524
+plate_inverted_gt: false
+plate_number_gt: BV61QV
+region_code_gt: nsw

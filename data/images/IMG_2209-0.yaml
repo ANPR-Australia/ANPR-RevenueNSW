@@ -1,7 +1,0 @@
-image_file: IMG_2209.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1448 720 1827 710 1835 833 1454 837
-region_code_gt: nsw
-plate_number_gt: ECA07U
-plate_inverted_gt: false

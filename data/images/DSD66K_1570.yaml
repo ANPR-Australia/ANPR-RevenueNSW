@@ -1,0 +1,7 @@
+image_file: DSD66K_1570.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 928 2503 1636 2554 1628 2694 927 2628
+plate_inverted_gt: false
+plate_number_gt: DSD66K
+region_code_gt: nsw

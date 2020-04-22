@@ -1,7 +1,0 @@
-image_file: IMG_1370.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 2047 1596 2260 1589 2261 1643 2051 1650
-region_code_gt: nsw
-plate_number_gt: 00JJC
-plate_inverted_gt: false

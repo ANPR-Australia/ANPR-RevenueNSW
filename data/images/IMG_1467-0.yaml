@@ -1,7 +1,0 @@
-image_file: IMG_1467.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 2343 918 2735 898 2739 1005 2350 1032
-region_code_gt: nsw
-plate_number_gt: BLQ30P
-plate_inverted_gt: false

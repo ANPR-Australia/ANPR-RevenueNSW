@@ -1,7 +1,0 @@
-image_file: a2abab12-0616-44e0-873f-c5c0a04d5ce1.JPG
-image_width: 1200
-image_height: 1600
-plate_corners_gt: 384 536 564 537 560 590 381 589
-region_code_gt: nsw
-plate_number_gt: YHL76E
-plate_inverted_gt: false

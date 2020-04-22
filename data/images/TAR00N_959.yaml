@@ -1,0 +1,7 @@
+image_file: TAR00N_959.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1838 1579 2287 1518 2289 1662 1840 1738
+plate_inverted_gt: false
+plate_number_gt: TAR00N
+region_code_gt: nsw

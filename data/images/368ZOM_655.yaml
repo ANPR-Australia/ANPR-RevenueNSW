@@ -1,0 +1,7 @@
+image_file: 368ZOM_655.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 863 1022 1387 1155 1395 1340 891 1199
+plate_inverted_gt: false
+plate_number_gt: 368ZOM
+region_code_gt: qld

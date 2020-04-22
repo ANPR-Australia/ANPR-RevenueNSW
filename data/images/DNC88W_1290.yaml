@@ -1,0 +1,7 @@
+image_file: DNC88W_1290.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 930 1302 1373 1238 1397 1372 959 1441
+plate_inverted_gt: false
+plate_number_gt: DNC88W
+region_code_gt: nsw

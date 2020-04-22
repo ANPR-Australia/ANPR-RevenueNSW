@@ -1,0 +1,7 @@
+image_file: NXM49N_752.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 2645 1264 2673 1450 1876 1704 1837 1507
+plate_inverted_gt: false
+plate_number_gt: NXM49N
+region_code_gt: nsw

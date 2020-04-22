@@ -1,0 +1,7 @@
+image_file: DVA87B_391.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1712 1935 2080 1879 2073 1983 1709 2046
+plate_inverted_gt: false
+plate_number_gt: DVA87B
+region_code_gt: nsw

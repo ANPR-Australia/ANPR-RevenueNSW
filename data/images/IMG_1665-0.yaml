@@ -1,7 +1,0 @@
-image_file: IMG_1665.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1002 1583 1013 1493 1315 1591 1303 1688
-region_code_gt: nsw
-plate_number_gt: DPJ49N
-plate_inverted_gt: false

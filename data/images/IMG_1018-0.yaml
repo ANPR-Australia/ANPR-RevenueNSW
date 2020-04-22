@@ -1,7 +1,0 @@
-image_file: IMG_1018.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 780 1940 1189 2018 1187 2125 783 2038
-region_code_gt: nsw
-plate_number_gt: 03ROBT
-plate_inverted_gt: false

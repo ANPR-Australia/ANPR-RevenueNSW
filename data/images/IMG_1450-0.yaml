@@ -1,7 +1,0 @@
-image_file: IMG_1450.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1085 1429 2393 1491 2317 1983 1091 1915
-region_code_gt: nsw
-plate_number_gt: BB2214
-plate_inverted_gt: false

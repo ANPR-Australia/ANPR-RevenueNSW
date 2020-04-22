@@ -1,0 +1,7 @@
+image_file: CM16DX_1161.jpg
+image_height: 3024
+image_width: 4032
+plate_corners_gt: 2812 1868 2921 1870 2924 1904 2811 1907
+plate_inverted_gt: false
+plate_number_gt: CM16DX
+region_code_gt: nsw

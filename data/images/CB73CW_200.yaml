@@ -1,0 +1,7 @@
+image_file: CB73CW_200.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 2198 2398 2370 2388 2385 2458 2211 2466
+plate_inverted_gt: false
+plate_number_gt: CB73CW
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: EBI35X_188.jpg
+image_height: 1614
+image_width: 1983
+plate_corners_gt: 761 928 1330 900 1331 1050 764 1073
+plate_inverted_gt: false
+plate_number_gt: EBI35X
+region_code_gt: nsw

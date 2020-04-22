@@ -1,0 +1,7 @@
+image_file: CT79KG_589.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1223 2217 1682 2185 1685 2340 1233 2372
+plate_inverted_gt: false
+plate_number_gt: CT79KG
+region_code_gt: nsw

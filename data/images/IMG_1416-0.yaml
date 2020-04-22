@@ -1,7 +1,0 @@
-image_file: IMG_1416.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1783 1104 2338 1078 2347 1233 1788 1261
-region_code_gt: nsw
-plate_number_gt: CJU95W
-plate_inverted_gt: false

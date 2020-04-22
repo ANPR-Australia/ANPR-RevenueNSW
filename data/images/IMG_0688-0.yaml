@@ -1,7 +1,0 @@
-image_file: IMG_0688.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 967 2353 2161 2227 2176 2439 1014 2573
-region_code_gt: nsw
-plate_number_gt: EDA03T
-plate_inverted_gt: false

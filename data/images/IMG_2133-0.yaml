@@ -1,7 +1,0 @@
-image_file: IMG_2133.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1404 1018 1561 1010 1564 1062 1406 1068
-region_code_gt: nsw
-plate_number_gt: DHT31K
-plate_inverted_gt: false

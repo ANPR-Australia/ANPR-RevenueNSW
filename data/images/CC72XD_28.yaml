@@ -1,0 +1,7 @@
+image_file: CC72XD_28.jpg
+image_height: 1600
+image_width: 1200
+plate_corners_gt: 484 1110 727 1111 727 1193 488 1193
+plate_inverted_gt: false
+plate_number_gt: CC72XD
+region_code_gt: nsw

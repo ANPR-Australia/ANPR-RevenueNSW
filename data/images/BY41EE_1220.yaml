@@ -1,0 +1,7 @@
+image_file: BY41EE_1220.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1615 1203 2023 1193 2027 1348 1620 1365
+plate_inverted_gt: false
+plate_number_gt: BY41EE
+region_code_gt: nsw

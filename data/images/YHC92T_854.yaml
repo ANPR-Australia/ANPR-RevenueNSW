@@ -1,0 +1,7 @@
+image_file: YHC92T_854.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 2166 1212 2673 1128 2681 1292 2170 1370
+plate_inverted_gt: false
+plate_number_gt: YHC92T
+region_code_gt: nsw

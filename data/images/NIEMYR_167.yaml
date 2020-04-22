@@ -1,0 +1,7 @@
+image_file: NIEMYR_167.jpg
+image_height: 831
+image_width: 623
+plate_corners_gt: 248 418 541 423 544 518 250 519
+plate_inverted_gt: false
+plate_number_gt: NIEMYR
+region_code_gt: nsw

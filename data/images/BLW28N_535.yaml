@@ -1,0 +1,7 @@
+image_file: BLW28N_535.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1798 1762 2216 1696 2225 1831 1803 1909
+plate_inverted_gt: false
+plate_number_gt: BLW28N
+region_code_gt: nsw

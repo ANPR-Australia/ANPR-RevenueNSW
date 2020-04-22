@@ -1,0 +1,7 @@
+image_file: CXA70P_1498.jpg
+image_height: 1334
+image_width: 750
+plate_corners_gt: 267 987 342 984 340 1006 265 1008
+plate_inverted_gt: false
+plate_number_gt: CXA70P
+region_code_gt: nsw

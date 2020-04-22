@@ -1,0 +1,7 @@
+image_file: BA99XX_44.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2130 2105 2265 2121 2262 2166 2128 2152
+plate_inverted_gt: false
+plate_number_gt: BA99XX
+region_code_gt: nsw

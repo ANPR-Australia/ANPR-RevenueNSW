@@ -1,7 +1,0 @@
-image_file: IMG_1112.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1679 1726 2137 1668 2145 1792 1688 1847
-region_code_gt: nsw
-plate_number_gt: CZR84V
-plate_inverted_gt: false

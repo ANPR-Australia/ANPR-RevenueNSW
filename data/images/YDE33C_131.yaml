@@ -1,0 +1,7 @@
+image_file: YDE33C_131.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2169 2057 2301 2073 2296 2106 2167 2092
+plate_inverted_gt: false
+plate_number_gt: YDE33C
+region_code_gt: nsw

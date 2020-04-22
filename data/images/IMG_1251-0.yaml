@@ -1,7 +1,0 @@
-image_file: IMG_1251.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1482 1429 1936 1402 1918 1550 1481 1583
-region_code_gt: nsw
-plate_number_gt: CTC86V
-plate_inverted_gt: false

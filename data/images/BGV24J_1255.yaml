@@ -1,0 +1,7 @@
+image_file: BGV24J_1255.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1488 1037 1813 1048 1805 1160 1484 1155
+plate_inverted_gt: false
+plate_number_gt: BGV24J
+region_code_gt: nsw

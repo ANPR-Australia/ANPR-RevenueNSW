@@ -1,7 +1,0 @@
-image_file: IMG_1001.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 540 688 902 746 909 839 548 787
-region_code_gt: nsw
-plate_number_gt: DKB57M
-plate_inverted_gt: false

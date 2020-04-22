@@ -1,0 +1,7 @@
+image_file: BP89VF_1124.jpg
+image_height: 3024
+image_width: 4032
+plate_corners_gt: 1413 1987 2343 2016 2341 2279 1447 2219
+plate_inverted_gt: false
+plate_number_gt: BP89VF
+region_code_gt: nsw

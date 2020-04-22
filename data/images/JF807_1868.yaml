@@ -1,0 +1,7 @@
+image_file: JF807_1868.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2867 2069 2989 2086 2986 2138 2862 2117
+plate_inverted_gt: true
+plate_number_gt: JF807
+region_code_gt: nsw

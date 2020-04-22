@@ -1,0 +1,7 @@
+image_file: CWP91A_189.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1093 2220 1212 2224 1205 2256 1089 2254
+plate_inverted_gt: false
+plate_number_gt: CWP91A
+region_code_gt: nsw

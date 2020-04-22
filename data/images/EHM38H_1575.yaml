@@ -1,0 +1,7 @@
+image_file: EHM38H_1575.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1203 2056 1727 2063 1724 2174 1202 2172
+plate_inverted_gt: false
+plate_number_gt: EHM38H
+region_code_gt: nsw

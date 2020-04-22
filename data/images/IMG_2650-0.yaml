@@ -1,7 +1,0 @@
-image_file: IMG_2650.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 764 2369 1296 2452 1281 2564 756 2487
-region_code_gt: nsw
-plate_number_gt: ANC67R
-plate_inverted_gt: false

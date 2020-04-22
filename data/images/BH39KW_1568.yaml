@@ -1,0 +1,7 @@
+image_file: BH39KW_1568.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1135 2088 2086 2085 2084 2414 1138 2427
+plate_inverted_gt: false
+plate_number_gt: BH39KW
+region_code_gt: nsw

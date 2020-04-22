@@ -1,7 +1,0 @@
-image_file: IMG_1168.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1216 1728 1495 1601 1521 1729 1246 1864
-region_code_gt: nsw
-plate_number_gt: CT59CV
-plate_inverted_gt: false

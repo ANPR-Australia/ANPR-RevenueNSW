@@ -1,7 +1,0 @@
-image_file: IMG_0889.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1576 2303 1592 2449 1166 2634 1147 2468
-region_code_gt: nsw
-plate_number_gt: BMS09A
-plate_inverted_gt: false

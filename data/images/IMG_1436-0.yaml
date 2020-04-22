@@ -1,7 +1,0 @@
-image_file: IMG_1436.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1522 1368 2052 1289 2063 1441 1539 1527
-region_code_gt: nsw
-plate_number_gt: CHD91H
-plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: DFY75B_567.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 963 1777 1347 1811 1354 1892 970 1852
+plate_inverted_gt: false
+plate_number_gt: DFY75B
+region_code_gt: nsw

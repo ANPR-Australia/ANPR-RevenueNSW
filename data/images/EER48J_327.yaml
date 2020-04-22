@@ -1,0 +1,7 @@
+image_file: EER48J_327.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1930 1936 1932 1999 1736 2077 1733 2005
+plate_inverted_gt: false
+plate_number_gt: EER48J
+region_code_gt: nsw

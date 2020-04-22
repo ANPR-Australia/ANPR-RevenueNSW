@@ -1,0 +1,7 @@
+image_file: AAM76Z_1859.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2510 2462 2660 2499 2659 2542 2506 2504
+plate_inverted_gt: false
+plate_number_gt: AAM76Z
+region_code_gt: nsw

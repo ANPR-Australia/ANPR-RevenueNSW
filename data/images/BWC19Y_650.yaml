@@ -1,0 +1,7 @@
+image_file: BWC19Y_650.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 962 1243 1671 1310 1664 1434 969 1374
+plate_inverted_gt: false
+plate_number_gt: BWC19Y
+region_code_gt: nsw

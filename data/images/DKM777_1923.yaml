@@ -1,0 +1,7 @@
+image_file: DKM777_1923.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 3762 3183 3768 3141 3955 3233 3944 3278
+plate_inverted_gt: true
+plate_number_gt: DKM777
+region_code_gt: nsw

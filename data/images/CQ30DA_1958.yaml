@@ -1,0 +1,7 @@
+image_file: CQ30DA_1958.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 3128 2141 3279 2162 3273 2212 3126 2196
+plate_inverted_gt: false
+plate_number_gt: CQ30DA
+region_code_gt: nsw

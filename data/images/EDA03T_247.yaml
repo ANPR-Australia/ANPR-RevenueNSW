@@ -1,0 +1,7 @@
+image_file: EDA03T_247.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 967 2353 2161 2227 2176 2439 1014 2573
+plate_inverted_gt: false
+plate_number_gt: EDA03T
+region_code_gt: nsw

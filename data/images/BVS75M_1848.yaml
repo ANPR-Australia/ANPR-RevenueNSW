@@ -1,0 +1,7 @@
+image_file: BVS75M_1848.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2980 914 3122 916 3118 954 2983 953
+plate_inverted_gt: false
+plate_number_gt: BVS75M
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: YDW38L_1672.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 776 1995 1101 1992 1104 2074 780 2078
+plate_inverted_gt: false
+plate_number_gt: YDW38L
+region_code_gt: nsw

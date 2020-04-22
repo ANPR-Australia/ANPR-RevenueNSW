@@ -1,0 +1,7 @@
+image_file: CW70YH_506.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1075 2228 1735 2127 1756 2358 1096 2471
+plate_inverted_gt: false
+plate_number_gt: CW70YH
+region_code_gt: nsw

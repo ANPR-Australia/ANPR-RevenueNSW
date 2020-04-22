@@ -1,7 +1,0 @@
-image_file: IMG_1029.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1388 1694 1717 1591 1750 1739 1427 1875
-region_code_gt: nsw
-plate_number_gt: CV37AN
-plate_inverted_gt: false

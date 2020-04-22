@@ -1,7 +1,0 @@
-image_file: IMG_2607.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1391 3011 1953 3001 1953 3114 1391 3131
-region_code_gt: nsw
-plate_number_gt: BSO88G
-plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: 836XXO_1842.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 1487 3403 1634 3458 1637 3515 1490 3459
+plate_inverted_gt: false
+plate_number_gt: 836XXO
+region_code_gt: nsw

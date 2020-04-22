@@ -1,0 +1,7 @@
+image_file: BCZ33J_546.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1146 902 1851 840 1872 1027 1170 1107
+plate_inverted_gt: false
+plate_number_gt: BCZ33J
+region_code_gt: nsw

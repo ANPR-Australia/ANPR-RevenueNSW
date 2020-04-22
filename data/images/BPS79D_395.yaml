@@ -1,0 +1,7 @@
+image_file: BPS79D_395.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1526 1966 1822 1894 1830 1999 1531 2080
+plate_inverted_gt: false
+plate_number_gt: BPS79D
+region_code_gt: nsw

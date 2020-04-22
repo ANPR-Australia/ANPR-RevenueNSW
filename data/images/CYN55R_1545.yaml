@@ -1,0 +1,7 @@
+image_file: CYN55R_1545.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1107 2362 1656 2387 1656 2495 1103 2466
+plate_inverted_gt: false
+plate_number_gt: CYN55R
+region_code_gt: nsw

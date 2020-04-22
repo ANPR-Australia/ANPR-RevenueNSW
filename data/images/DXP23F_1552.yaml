@@ -1,0 +1,7 @@
+image_file: DXP23F_1552.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1328 2545 1866 2518 1865 2634 1328 2648
+plate_inverted_gt: false
+plate_number_gt: DXP23F
+region_code_gt: nsw

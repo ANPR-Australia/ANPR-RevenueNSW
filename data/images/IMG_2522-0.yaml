@@ -1,7 +1,0 @@
-image_file: IMG_2522.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1222 1698 1636 1714 1622 1794 1221 1779
-region_code_gt: nsw
-plate_number_gt: BFT45Q
-plate_inverted_gt: false

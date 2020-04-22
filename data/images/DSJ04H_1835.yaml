@@ -1,0 +1,7 @@
+image_file: DSJ04H_1835.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 3238 1598 3379 1598 3380 1626 3240 1625
+plate_inverted_gt: false
+plate_number_gt: DSJ04H
+region_code_gt: nsw

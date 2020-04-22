@@ -1,0 +1,7 @@
+image_file: SD0305_1710.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2625 2375 2772 2390 2769 2433 2624 2424
+plate_inverted_gt: true
+plate_number_gt: SD0305
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: DJN87Z_1376.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1094 1289 1372 1308 1372 1372 1099 1348
+plate_inverted_gt: false
+plate_number_gt: DJN87Z
+region_code_gt: nsw

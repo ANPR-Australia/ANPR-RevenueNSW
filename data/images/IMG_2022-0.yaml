@@ -1,7 +1,0 @@
-image_file: IMG_2022.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1905 1269 1905 1367 1516 1497 1514 1400
-region_code_gt: nsw
-plate_number_gt: DXR71K
-plate_inverted_gt: false

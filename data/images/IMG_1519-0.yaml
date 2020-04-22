@@ -1,7 +1,0 @@
-image_file: IMG_1519.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1586 1309 2111 1274 2111 1469 1591 1518
-region_code_gt: nsw
-plate_number_gt: BN88AP
-plate_inverted_gt: false

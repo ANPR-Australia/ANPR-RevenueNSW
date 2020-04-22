@@ -1,7 +1,0 @@
-image_file: IMG_2490.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1029 1135 1360 1227 1361 1360 1033 1270
-region_code_gt: act
-plate_number_gt: YHR44T
-plate_inverted_gt: false

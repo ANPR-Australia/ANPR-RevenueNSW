@@ -1,7 +1,0 @@
-image_file: IMG_0909.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1538 1998 1805 1979 1808 2075 1537 2100
-region_code_gt: nsw
-plate_number_gt: CTA14C
-plate_inverted_gt: false

@@ -1,7 +1,0 @@
-image_file: IMG_1321.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 789 1515 1228 1559 1236 1717 809 1662
-region_code_gt: nsw
-plate_number_gt: CC19RT
-plate_inverted_gt: false

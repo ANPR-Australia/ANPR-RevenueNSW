@@ -1,0 +1,7 @@
+image_file: BTI43V_9.jpg
+image_height: 1600
+image_width: 1600
+plate_corners_gt: 578 796 942 794 942 893 579 895
+plate_inverted_gt: false
+plate_number_gt: BTI43V
+region_code_gt: nsw

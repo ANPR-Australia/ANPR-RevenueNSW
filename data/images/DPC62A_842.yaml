@@ -1,0 +1,7 @@
+image_file: DPC62A_842.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 2166 363 2764 346 2760 550 2166 594
+plate_inverted_gt: false
+plate_number_gt: DPC62A
+region_code_gt: nsw

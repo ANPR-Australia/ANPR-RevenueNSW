@@ -1,0 +1,7 @@
+image_file: DH50T_1113.jpg
+image_height: 3024
+image_width: 4032
+plate_corners_gt: 1298 1221 2256 1273 2250 1480 1305 1424
+plate_inverted_gt: false
+plate_number_gt: DH50T
+region_code_gt: nsw

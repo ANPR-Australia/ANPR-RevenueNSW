@@ -1,0 +1,7 @@
+image_file: ARQ67J_830.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 2274 1038 2836 954 2838 1127 2291 1225
+plate_inverted_gt: false
+plate_number_gt: ARQ67J
+region_code_gt: nsw

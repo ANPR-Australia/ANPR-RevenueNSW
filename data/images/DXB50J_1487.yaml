@@ -1,0 +1,7 @@
+image_file: DXB50J_1487.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 559 1763 1066 1797 1059 1900 559 1864
+plate_inverted_gt: false
+plate_number_gt: DXB50J
+region_code_gt: nsw

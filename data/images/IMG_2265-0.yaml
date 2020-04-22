@@ -1,7 +1,0 @@
-image_file: IMG_2265.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1304 852 1626 891 1613 989 1296 945
-region_code_gt: nsw
-plate_number_gt: DFD45A
-plate_inverted_gt: false

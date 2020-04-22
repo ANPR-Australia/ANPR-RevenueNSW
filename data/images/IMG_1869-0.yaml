@@ -1,7 +1,0 @@
-image_file: IMG_1869.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1065 1650 1903 1787 1882 1937 1061 1794
-region_code_gt: nsw
-plate_number_gt: DKS87R
-plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: CN59YB_1153.jpg
+image_height: 3024
+image_width: 4032
+plate_corners_gt: 1154 1714 2090 1893 2109 2187 1227 1973
+plate_inverted_gt: false
+plate_number_gt: CN59YB
+region_code_gt: nsw

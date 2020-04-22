@@ -1,0 +1,7 @@
+image_file: WJR817_636.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1250 1598 1598 1581 1597 1710 1233 1745
+plate_inverted_gt: false
+plate_number_gt: WJR817
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: BH98WS_444.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1518 1376 1970 1498 1943 1669 1505 1540
+plate_inverted_gt: false
+plate_number_gt: BH98WS
+region_code_gt: nsw

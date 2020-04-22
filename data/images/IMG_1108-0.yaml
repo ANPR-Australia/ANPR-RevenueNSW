@@ -1,7 +1,0 @@
-image_file: IMG_1108.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1789 1253 2178 1202 2199 1389 1818 1462
-region_code_gt: nsw
-plate_number_gt: MB229
-plate_inverted_gt: true

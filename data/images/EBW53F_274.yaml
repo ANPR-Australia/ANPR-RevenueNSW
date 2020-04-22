@@ -1,0 +1,7 @@
+image_file: EBW53F_274.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1216 2306 1519 2306 1522 2363 1223 2357
+plate_inverted_gt: false
+plate_number_gt: EBW53F
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: MF155_1840.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2787 1956 2936 1973 2932 2014 2786 1994
+plate_inverted_gt: false
+plate_number_gt: MF155
+region_code_gt: nsw

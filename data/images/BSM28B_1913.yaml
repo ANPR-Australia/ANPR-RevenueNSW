@@ -1,0 +1,7 @@
+image_file: BSM28B_1913.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 3148 1604 3292 1609 3291 1645 3145 1646
+plate_inverted_gt: false
+plate_number_gt: BSM28B
+region_code_gt: nsw

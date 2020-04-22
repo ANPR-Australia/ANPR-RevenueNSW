@@ -1,0 +1,7 @@
+image_file: BST66N_927.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 982 1836 1206 1811 1203 1882 978 1910
+plate_inverted_gt: false
+plate_number_gt: BST66N
+region_code_gt: nsw

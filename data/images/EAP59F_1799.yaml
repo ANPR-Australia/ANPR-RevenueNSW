@@ -1,0 +1,7 @@
+image_file: EAP59F_1799.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 3130 813 3256 810 3257 843 3130 847
+plate_inverted_gt: false
+plate_number_gt: EAP59F
+region_code_gt: nsw

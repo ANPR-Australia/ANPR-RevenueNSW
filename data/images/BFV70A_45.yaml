@@ -1,0 +1,7 @@
+image_file: BFV70A_45.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2206 1947 2335 1955 2335 1985 2203 1979
+plate_inverted_gt: false
+plate_number_gt: BFV70A
+region_code_gt: nsw

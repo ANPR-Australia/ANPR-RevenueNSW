@@ -1,0 +1,7 @@
+image_file: RUGGEX_334.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1309 1806 1577 1812 1576 1904 1308 1895
+plate_inverted_gt: false
+plate_number_gt: RUGGEX
+region_code_gt: nsw

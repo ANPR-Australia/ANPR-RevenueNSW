@@ -1,0 +1,7 @@
+image_file: DBU13X_1002.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1596 999 1848 988 1858 1065 1606 1082
+plate_inverted_gt: false
+plate_number_gt: DBU13X
+region_code_gt: nsw

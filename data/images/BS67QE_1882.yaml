@@ -1,0 +1,7 @@
+image_file: BS67QE_1882.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2671 1853 2816 1868 2813 1918 2672 1902
+plate_inverted_gt: false
+plate_number_gt: BS67QE
+region_code_gt: nsw

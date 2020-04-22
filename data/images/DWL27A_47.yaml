@@ -1,0 +1,7 @@
+image_file: DWL27A_47.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 1840 2516 1973 2540 1971 2578 1837 2555
+plate_inverted_gt: false
+plate_number_gt: DWL27A
+region_code_gt: nsw

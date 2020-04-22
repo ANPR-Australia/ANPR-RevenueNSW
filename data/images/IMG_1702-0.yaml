@@ -1,7 +1,0 @@
-image_file: IMG_1702.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1679 2012 2001 1962 2010 2057 1690 2110
-region_code_gt: nsw
-plate_number_gt: COM34P
-plate_inverted_gt: false

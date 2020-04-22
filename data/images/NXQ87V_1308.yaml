@@ -1,0 +1,7 @@
+image_file: NXQ87V_1308.jpg
+image_height: 1931
+image_width: 1448
+plate_corners_gt: 600 626 820 659 811 706 596 674
+plate_inverted_gt: false
+plate_number_gt: NXQ87V
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: CM98BZ_196.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 2414 2343 2564 2332 2577 2395 2423 2405
+plate_inverted_gt: false
+plate_number_gt: CM98BZ
+region_code_gt: nsw

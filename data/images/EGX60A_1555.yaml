@@ -1,0 +1,7 @@
+image_file: EGX60A_1555.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1109 2437 1583 2459 1576 2553 1107 2527
+plate_inverted_gt: false
+plate_number_gt: EGX60A
+region_code_gt: nsw

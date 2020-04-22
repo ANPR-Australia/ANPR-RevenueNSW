@@ -1,7 +1,0 @@
-image_file: IMG_1334.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 600 1854 611 1689 1618 2019 1559 2181
-region_code_gt: nsw
-plate_number_gt: BGZ41G
-plate_inverted_gt: false

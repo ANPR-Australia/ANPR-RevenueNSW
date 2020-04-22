@@ -1,0 +1,7 @@
+image_file: BJ73DK_1457.jpg
+image_height: 1946
+image_width: 2257
+plate_corners_gt: 494 1683 692 1651 690 1737 498 1766
+plate_inverted_gt: false
+plate_number_gt: BJ73DK
+region_code_gt: nsw

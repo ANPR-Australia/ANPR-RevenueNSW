@@ -1,7 +1,0 @@
-image_file: IMG_1513.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1424 1232 2102 1187 2101 1312 1432 1366
-region_code_gt: nsw
-plate_number_gt: NBR98K
-plate_inverted_gt: false

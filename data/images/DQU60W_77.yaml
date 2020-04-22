@@ -1,0 +1,7 @@
+image_file: DQU60W_77.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2144 2115 2276 2124 2276 2157 2143 2147
+plate_inverted_gt: false
+plate_number_gt: DQU60W
+region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: IMG_2480.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 798 1385 1096 1430 1097 1576 805 1523
-region_code_gt: nsw
-plate_number_gt: AU37MJ
-plate_inverted_gt: false

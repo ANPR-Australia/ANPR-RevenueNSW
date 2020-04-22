@@ -1,0 +1,7 @@
+image_file: DSS91D_124.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2158 2082 2294 2097 2291 2129 2158 2115
+plate_inverted_gt: false
+plate_number_gt: DSS91D
+region_code_gt: nsw

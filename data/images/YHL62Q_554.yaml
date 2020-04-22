@@ -1,0 +1,7 @@
+image_file: YHL62Q_554.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 829 1678 1061 1697 1054 1766 822 1742
+plate_inverted_gt: false
+plate_number_gt: YHL62Q
+region_code_gt: nsw

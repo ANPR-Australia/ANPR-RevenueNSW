@@ -1,7 +1,0 @@
-image_file: IMG_2729.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1067 2082 1716 2138 1714 2257 1067 2194
-region_code_gt: nsw
-plate_number_gt: DPA18N
-plate_inverted_gt: false

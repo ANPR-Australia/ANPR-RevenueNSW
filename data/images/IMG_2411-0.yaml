@@ -1,7 +1,0 @@
-image_file: IMG_2411.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1457 1170 1975 1056 2005 1254 1512 1389
-region_code_gt: nsw
-plate_number_gt: ATY27Y
-plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: DBR74_2012.jpg
+image_height: 1536
+image_width: 2048
+plate_corners_gt: 239 105 1854 172 1794 1021 229 957
+plate_inverted_gt: false
+plate_number_gt: DBR74
+region_code_gt: nsw

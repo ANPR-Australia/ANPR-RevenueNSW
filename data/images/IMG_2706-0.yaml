@@ -1,7 +1,0 @@
-image_file: IMG_2706.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 667 2282 1500 2398 1479 2565 667 2439
-region_code_gt: nsw
-plate_number_gt: ZZ9988
-plate_inverted_gt: false

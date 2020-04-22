@@ -1,0 +1,7 @@
+image_file: 786WKT_1865.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 1468 3393 1611 3439 1606 3501 1458 3453
+plate_inverted_gt: false
+plate_number_gt: 786WKT
+region_code_gt: qld

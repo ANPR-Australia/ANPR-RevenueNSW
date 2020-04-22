@@ -1,7 +1,0 @@
-image_file: IMG_20200415_154358.jpg
-image_width: 4032
-image_height: 3024
-plate_corners_gt: 1433 1542 2629 1564 2616 1958 1448 1923
-region_code_gt: nsw
-plate_number_gt: CR12RT
-plate_inverted_gt: false

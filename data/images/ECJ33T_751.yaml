@@ -1,0 +1,7 @@
+image_file: ECJ33T_751.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 763 1328 1922 1603 1838 1921 733 1619
+plate_inverted_gt: false
+plate_number_gt: ECJ33T
+region_code_gt: nsw

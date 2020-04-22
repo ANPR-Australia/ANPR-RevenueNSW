@@ -1,0 +1,7 @@
+image_file: BB95BY_1201.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1929 672 2348 663 2328 840 1921 862
+plate_inverted_gt: false
+plate_number_gt: BB95BY
+region_code_gt: nsw

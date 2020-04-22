@@ -1,0 +1,7 @@
+image_file: ECH39T_1573.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 889 2422 1492 2443 1484 2561 891 2543
+plate_inverted_gt: false
+plate_number_gt: ECH39T
+region_code_gt: nsw

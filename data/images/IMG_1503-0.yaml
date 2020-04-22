@@ -1,7 +1,0 @@
-image_file: IMG_1503.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1070 1485 1628 1506 1619 1690 1071 1663
-region_code_gt: nsw
-plate_number_gt: AT01QF
-plate_inverted_gt: false

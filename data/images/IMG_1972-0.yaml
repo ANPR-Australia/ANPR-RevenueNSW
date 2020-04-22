@@ -1,7 +1,0 @@
-image_file: IMG_1972.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1578 1284 2066 1210 2073 1392 1595 1463
-region_code_gt: nsw
-plate_number_gt: CK23VN
-plate_inverted_gt: false

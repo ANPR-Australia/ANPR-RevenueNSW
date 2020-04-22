@@ -1,0 +1,7 @@
+image_file: BX08XQ_1713.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2476 978 2583 959 2586 1001 2477 1021
+plate_inverted_gt: false
+plate_number_gt: BX08XQ
+region_code_gt: nsw

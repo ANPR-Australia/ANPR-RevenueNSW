@@ -1,0 +1,7 @@
+image_file: 66LUK_186.jpg
+image_height: 1999
+image_width: 2176
+plate_corners_gt: 972 808 1434 811 1440 984 978 987
+plate_inverted_gt: true
+plate_number_gt: 66LUK
+region_code_gt: nsw

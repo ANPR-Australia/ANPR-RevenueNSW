@@ -1,7 +1,0 @@
-image_file: bike_1231.jpg
-image_width: 2048
-image_height: 1536
-plate_corners_gt: 463 315 1934 225 1931 1145 425 1004
-region_code_gt: nsw
-plate_number_gt: BCP40
-plate_inverted_gt: false

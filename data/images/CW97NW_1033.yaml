@@ -1,0 +1,7 @@
+image_file: CW97NW_1033.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1332 966 1793 927 1809 1105 1353 1150
+plate_inverted_gt: false
+plate_number_gt: CW97NW
+region_code_gt: nsw

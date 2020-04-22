@@ -1,0 +1,7 @@
+image_file: GL329_1725.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2963 2480 3089 2496 3087 2545 2960 2529
+plate_inverted_gt: true
+plate_number_gt: GL329
+region_code_gt: nsw

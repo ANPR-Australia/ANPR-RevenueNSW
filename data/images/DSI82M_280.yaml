@@ -1,0 +1,7 @@
+image_file: DSI82M_280.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1061 2466 1071 2360 1708 2466 1706 2591
+plate_inverted_gt: false
+plate_number_gt: DSI82M
+region_code_gt: nsw

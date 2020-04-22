@@ -1,0 +1,7 @@
+image_file: COS45E_1073.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 2012 878 2448 870 2433 995 2005 1020
+plate_inverted_gt: false
+plate_number_gt: COS45E
+region_code_gt: nsw

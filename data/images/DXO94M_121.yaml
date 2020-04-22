@@ -1,0 +1,7 @@
+image_file: DXO94M_121.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 1776 2737 1914 2764 1908 2800 1774 2769
+plate_inverted_gt: false
+plate_number_gt: DXO94M
+region_code_gt: nsw

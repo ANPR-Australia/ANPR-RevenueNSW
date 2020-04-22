@@ -1,7 +1,0 @@
-image_file: IMG_2585.jpeg
-image_width: 750
-image_height: 1334
-plate_corners_gt: 253 1039 327 1041 326 1063 251 1061
-region_code_gt: nsw
-plate_number_gt: CXP98L
-plate_inverted_gt: false

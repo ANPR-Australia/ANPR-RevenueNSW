@@ -1,7 +1,0 @@
-image_file: IMG_0707.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1170 2607 1803 2594 1803 2725 1172 2740
-region_code_gt: nsw
-plate_number_gt: EHJ17M
-plate_inverted_gt: false

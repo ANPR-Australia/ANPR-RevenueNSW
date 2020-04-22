@@ -1,7 +1,0 @@
-image_file: IMG_1410.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1189 1290 1721 1237 1729 1396 1204 1438
-region_code_gt: nsw
-plate_number_gt: AKF57A
-plate_inverted_gt: false

@@ -1,7 +1,0 @@
-image_file: IMG_1442.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 479 3283 790 3287 787 3400 480 3395
-region_code_gt: nsw
-plate_number_gt: CI48XM
-plate_inverted_gt: false

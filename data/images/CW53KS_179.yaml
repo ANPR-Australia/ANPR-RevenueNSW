@@ -1,0 +1,7 @@
+image_file: CW53KS_179.jpg
+image_height: 850
+image_width: 638
+plate_corners_gt: 382 270 495 264 495 303 383 311
+plate_inverted_gt: false
+plate_number_gt: CW53KS
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: EEI74K_960.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1835 1463 2192 1440 2192 1555 1836 1581
+plate_inverted_gt: false
+plate_number_gt: EEI74K
+region_code_gt: nsw

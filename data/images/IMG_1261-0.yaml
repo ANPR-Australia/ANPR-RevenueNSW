@@ -1,7 +1,0 @@
-image_file: IMG_1261.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1250 1734 1432 1744 1432 1799 1251 1791
-region_code_gt: nsw
-plate_number_gt: DTB90U
-plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: CR17RT_1129.jpg
+image_height: 3024
+image_width: 4032
+plate_corners_gt: 952 1327 2730 1293 2702 1778 1062 1847
+plate_inverted_gt: false
+plate_number_gt: CR17RT
+region_code_gt: nsw

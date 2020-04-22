@@ -1,0 +1,7 @@
+image_file: EAW01N_351.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1428 2057 1979 1974 1974 2086 1424 2169
+plate_inverted_gt: false
+plate_number_gt: EAW01N
+region_code_gt: nsw

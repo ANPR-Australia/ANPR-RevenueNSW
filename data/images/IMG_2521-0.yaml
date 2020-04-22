@@ -1,7 +1,0 @@
-image_file: IMG_2521.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 887 1386 1322 1428 1314 1514 890 1465
-region_code_gt: nsw
-plate_number_gt: DQP56G
-plate_inverted_gt: false

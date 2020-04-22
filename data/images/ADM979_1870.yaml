@@ -1,0 +1,7 @@
+image_file: ADM979_1870.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 1832 2938 1836 2901 1982 2941 1977 2980
+plate_inverted_gt: true
+plate_number_gt: ADM979
+region_code_gt: nsw

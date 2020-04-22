@@ -1,0 +1,7 @@
+image_file: AQ84ZA_483.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1228 1481 1535 1486 1535 1606 1226 1603
+plate_inverted_gt: false
+plate_number_gt: AQ84ZA
+region_code_gt: nsw

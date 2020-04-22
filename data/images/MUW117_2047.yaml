@@ -1,0 +1,7 @@
+image_file: MUW117_2047.jpg
+image_height: 785
+image_width: 589
+plate_corners_gt: 292 286 381 283 383 326 292 332
+plate_inverted_gt: false
+plate_number_gt: MUW117
+region_code_gt: nsw

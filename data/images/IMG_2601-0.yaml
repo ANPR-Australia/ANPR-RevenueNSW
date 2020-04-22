@@ -1,7 +1,0 @@
-image_file: IMG_2601.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1527 1652 2110 1617 2126 1782 1539 1822
-region_code_gt: nsw
-plate_number_gt: BVZ80T
-plate_inverted_gt: false

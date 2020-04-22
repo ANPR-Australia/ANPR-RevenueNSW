@@ -1,7 +1,0 @@
-image_file: IMG_0918.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1627 1816 1888 1797 1894 1883 1631 1903
-region_code_gt: nsw
-plate_number_gt: CPU78H
-plate_inverted_gt: false

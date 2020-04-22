@@ -1,0 +1,7 @@
+image_file: AZM76H_65.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2058 1587 2186 1591 2187 1628 2057 1627
+plate_inverted_gt: false
+plate_number_gt: AZM76H
+region_code_gt: nsw

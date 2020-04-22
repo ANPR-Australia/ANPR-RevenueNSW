@@ -1,0 +1,7 @@
+image_file: BSU08W_1087.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 986 699 1391 766 1385 858 988 787
+plate_inverted_gt: false
+plate_number_gt: BSU08W
+region_code_gt: nsw

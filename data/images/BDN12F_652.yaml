@@ -1,0 +1,7 @@
+image_file: BDN12F_652.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1048 1589 1747 1527 1747 1673 1066 1736
+plate_inverted_gt: false
+plate_number_gt: BDN12F
+region_code_gt: nsw

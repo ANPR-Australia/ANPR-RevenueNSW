@@ -1,7 +1,0 @@
-image_file: IMG_2353.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1750 1034 2176 1039 2164 1130 1740 1128
-region_code_gt: nsw
-plate_number_gt: CWN85R
-plate_inverted_gt: false

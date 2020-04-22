@@ -1,0 +1,7 @@
+image_file: COZ78P_725.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 801 1132 1076 1139 1077 1219 801 1211
+plate_inverted_gt: false
+plate_number_gt: COZ78P
+region_code_gt: nsw

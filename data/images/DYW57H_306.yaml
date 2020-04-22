@@ -1,0 +1,7 @@
+image_file: DYW57H_306.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1079 2024 1533 2044 1531 2151 1073 2130
+plate_inverted_gt: false
+plate_number_gt: DYW57H
+region_code_gt: nsw

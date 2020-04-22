@@ -1,7 +1,0 @@
-image_file: IMG_0905.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1443 1905 1747 1853 1756 1956 1455 2014
-region_code_gt: nsw
-plate_number_gt: BPI30X
-plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: CEL47C_831.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1930 1389 2548 1288 2550 1481 1944 1603
+plate_inverted_gt: false
+plate_number_gt: CEL47C
+region_code_gt: nsw

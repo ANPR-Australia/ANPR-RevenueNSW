@@ -1,0 +1,7 @@
+image_file: BTG62N_202.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 2483 2320 2573 2317 2579 2348 2488 2353
+plate_inverted_gt: false
+plate_number_gt: BTG62N
+region_code_gt: nsw

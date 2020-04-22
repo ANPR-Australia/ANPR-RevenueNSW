@@ -1,0 +1,7 @@
+image_file: DWG51J_563.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 926 1831 1256 1802 1267 1897 938 1934
+plate_inverted_gt: false
+plate_number_gt: DWG51J
+region_code_gt: nsw

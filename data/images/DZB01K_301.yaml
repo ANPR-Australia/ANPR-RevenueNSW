@@ -1,0 +1,7 @@
+image_file: DZB01K_301.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1532 2333 2044 2252 2037 2360 1539 2431
+plate_inverted_gt: false
+plate_number_gt: DZB01K
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: NXA57M_1818.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2960 1594 3164 1623 3158 1661 2957 1640
+plate_inverted_gt: false
+plate_number_gt: NXA57M
+region_code_gt: nsw

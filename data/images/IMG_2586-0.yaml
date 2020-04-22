@@ -1,7 +1,0 @@
-image_file: IMG_2586.jpg
-image_width: 750
-image_height: 1334
-plate_corners_gt: 415 963 553 966 553 1010 415 1005
-region_code_gt: nsw
-plate_number_gt: APO51Y
-plate_inverted_gt: false

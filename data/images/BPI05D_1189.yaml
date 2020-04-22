@@ -1,0 +1,7 @@
+image_file: BPI05D_1189.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1355 1295 1740 1282 1746 1395 1366 1411
+plate_inverted_gt: false
+plate_number_gt: BPI05D
+region_code_gt: nsw

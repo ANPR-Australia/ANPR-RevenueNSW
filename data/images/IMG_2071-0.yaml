@@ -1,7 +1,0 @@
-image_file: IMG_2071.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1493 1143 1819 1129 1826 1228 1499 1242
-region_code_gt: nsw
-plate_number_gt: CTN61L
-plate_inverted_gt: false

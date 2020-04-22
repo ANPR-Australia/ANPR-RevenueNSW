@@ -1,0 +1,7 @@
+image_file: CX97ML_1465.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1703 1641 2073 1581 2086 1725 1714 1786
+plate_inverted_gt: false
+plate_number_gt: CX97ML
+region_code_gt: nsw

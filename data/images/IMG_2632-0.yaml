@@ -1,7 +1,0 @@
-image_file: IMG_2632.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1071 2345 1542 2384 1540 2467 1069 2441
-region_code_gt: nsw
-plate_number_gt: EAH96N
-plate_inverted_gt: false

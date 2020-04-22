@@ -1,7 +1,0 @@
-image_file: IMG_1229.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1498 1781 1998 1649 2010 1863 1524 1995
-region_code_gt: nsw
-plate_number_gt: CB34DQ
-plate_inverted_gt: false

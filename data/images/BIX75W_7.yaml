@@ -1,0 +1,7 @@
+image_file: BIX75W_7.jpg
+image_height: 1600
+image_width: 1200
+plate_corners_gt: 610 600 747 595 746 627 612 631
+plate_inverted_gt: false
+plate_number_gt: BIX75W
+region_code_gt: nsw

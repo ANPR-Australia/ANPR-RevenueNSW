@@ -1,0 +1,7 @@
+image_file: CQY96P_1267.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1452 1575 1920 1505 1943 1632 1468 1709
+plate_inverted_gt: false
+plate_number_gt: CQY96P
+region_code_gt: nsw

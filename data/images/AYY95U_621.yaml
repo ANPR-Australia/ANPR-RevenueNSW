@@ -1,0 +1,7 @@
+image_file: AYY95U_621.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1685 1473 2055 1408 2064 1549 1688 1600
+plate_inverted_gt: false
+plate_number_gt: AYY95U
+region_code_gt: nsw

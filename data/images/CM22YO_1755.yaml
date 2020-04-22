@@ -1,0 +1,7 @@
+image_file: CM22YO_1755.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2241 2647 2398 2671 2395 2730 2240 2708
+plate_inverted_gt: false
+plate_number_gt: CM22YO
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: EHL66L_453.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1194 1922 1246 1715 1952 2004 1895 2212
+plate_inverted_gt: false
+plate_number_gt: EHL66L
+region_code_gt: nsw

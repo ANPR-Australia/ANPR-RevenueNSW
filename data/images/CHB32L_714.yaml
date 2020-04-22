@@ -1,0 +1,7 @@
+image_file: CHB32L_714.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1644 1621 2031 1580 2041 1696 1648 1738
+plate_inverted_gt: false
+plate_number_gt: CHB32L
+region_code_gt: nsw

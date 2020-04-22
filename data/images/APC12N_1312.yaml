@@ -1,0 +1,7 @@
+image_file: APC12N_1312.jpg
+image_height: 2447
+image_width: 1835
+plate_corners_gt: 515 1325 786 1368 781 1457 514 1414
+plate_inverted_gt: false
+plate_number_gt: APC12N
+region_code_gt: nsw

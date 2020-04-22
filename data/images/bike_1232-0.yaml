@@ -1,7 +1,0 @@
-image_file: bike_1232.jpeg
-image_width: 2048
-image_height: 1536
-plate_corners_gt: 416 391 1526 311 1526 923 479 998
-region_code_gt: nsw
-plate_number_gt: LAA37
-plate_inverted_gt: false

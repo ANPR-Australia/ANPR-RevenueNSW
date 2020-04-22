@@ -1,0 +1,7 @@
+image_file: CQU28V_1305.jpg
+image_height: 1850
+image_width: 1388
+plate_corners_gt: 538 754 756 749 753 822 537 819
+plate_inverted_gt: false
+plate_number_gt: CQU28V
+region_code_gt: nsw

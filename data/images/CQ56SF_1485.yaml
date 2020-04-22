@@ -1,0 +1,7 @@
+image_file: CQ56SF_1485.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 921 2502 1564 2466 1571 2686 928 2714
+plate_inverted_gt: false
+plate_number_gt: CQ56SF
+region_code_gt: nsw

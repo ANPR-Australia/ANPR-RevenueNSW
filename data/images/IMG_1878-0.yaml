@@ -1,7 +1,0 @@
-image_file: IMG_1878.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 569 752 1041 760 1039 912 573 892
-region_code_gt: nsw
-plate_number_gt: EGI43G
-plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: CM01NX_142.jpg
+image_height: 1134
+image_width: 850
+plate_corners_gt: 203 744 574 745 571 860 209 858
+plate_inverted_gt: false
+plate_number_gt: CM01NX
+region_code_gt: nsw

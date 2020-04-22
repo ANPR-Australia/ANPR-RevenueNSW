@@ -1,0 +1,7 @@
+image_file: DXD01V_169.jpg
+image_height: 1200
+image_width: 1600
+plate_corners_gt: 616 502 883 506 880 579 610 572
+plate_inverted_gt: false
+plate_number_gt: DXD01V
+region_code_gt: nsw

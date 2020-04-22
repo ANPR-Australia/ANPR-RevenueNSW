@@ -1,0 +1,7 @@
+image_file: YHA50A_1880.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 3395 1390 3536 1407 3532 1445 3396 1430
+plate_inverted_gt: false
+plate_number_gt: YHA50A
+region_code_gt: nsw

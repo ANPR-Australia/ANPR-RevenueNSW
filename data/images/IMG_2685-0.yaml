@@ -1,7 +1,0 @@
-image_file: IMG_2685.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 575 2342 1251 2423 1238 2568 581 2474
-region_code_gt: nsw
-plate_number_gt: BNU17H
-plate_inverted_gt: false

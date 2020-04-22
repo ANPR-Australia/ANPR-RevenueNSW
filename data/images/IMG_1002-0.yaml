@@ -1,7 +1,0 @@
-image_file: IMG_1002.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 792 1004 1281 1104 1295 1224 804 1119
-region_code_gt: nsw
-plate_number_gt: DYB81C
-plate_inverted_gt: false

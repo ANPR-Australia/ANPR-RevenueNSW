@@ -1,7 +1,0 @@
-image_file: IMG_2349.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1566 1086 2037 1070 2035 1203 1569 1218
-region_code_gt: nsw
-plate_number_gt: DBU56R
-plate_inverted_gt: false

@@ -1,7 +1,0 @@
-image_file: IMG_2255.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 261 1060 561 1090 570 1184 266 1136
-region_code_gt: nsw
-plate_number_gt: UBA00T
-plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: YUQ254_891.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1415 1406 1832 1370 1833 1534 1426 1571
+plate_inverted_gt: false
+plate_number_gt: YUQ254
+region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: 7e2713b3-39f9-4480-8a08-4401124f7d26.JPG
-image_width: 900
-image_height: 1200
-plate_corners_gt: 342 513 780 518 780 606 341 597
-region_code_gt: nsw
-plate_number_gt: CKA15T
-plate_inverted_gt: true

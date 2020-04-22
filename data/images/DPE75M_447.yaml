@@ -1,0 +1,7 @@
+image_file: DPE75M_447.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1007 1323 1712 1430 1684 1604 1005 1509
+plate_inverted_gt: false
+plate_number_gt: DPE75M
+region_code_gt: nsw

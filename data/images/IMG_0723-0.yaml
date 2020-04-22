@@ -1,7 +1,0 @@
-image_file: IMG_0723.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 957 2182 1506 2223 1504 2304 963 2269
-region_code_gt: nsw
-plate_number_gt: DPG19N
-plate_inverted_gt: false

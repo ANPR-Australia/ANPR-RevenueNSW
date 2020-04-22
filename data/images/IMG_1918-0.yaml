@@ -1,7 +1,0 @@
-image_file: IMG_1918.jpg
-image_width: 902
-image_height: 1202
-plate_corners_gt: 396 612 472 615 471 643 398 639
-region_code_gt: nsw
-plate_number_gt: BU38AF
-plate_inverted_gt: false

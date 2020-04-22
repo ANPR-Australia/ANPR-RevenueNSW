@@ -1,0 +1,7 @@
+image_file: DJP01D_178.jpg
+image_height: 1231
+image_width: 923
+plate_corners_gt: 70 443 371 441 378 512 75 517
+plate_inverted_gt: false
+plate_number_gt: DJP01D
+region_code_gt: nsw

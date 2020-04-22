@@ -1,0 +1,7 @@
+image_file: AMG45P_993.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1389 1083 1657 1051 1668 1139 1397 1171
+plate_inverted_gt: false
+plate_number_gt: AMG45P
+region_code_gt: nsw

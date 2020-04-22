@@ -1,7 +1,0 @@
-image_file: IMG_2329.jpg
-image_width: 1620
-image_height: 2160
-plate_corners_gt: 386 918 646 959 634 1034 380 987
-region_code_gt: nsw
-plate_number_gt: ASA65Q
-plate_inverted_gt: false

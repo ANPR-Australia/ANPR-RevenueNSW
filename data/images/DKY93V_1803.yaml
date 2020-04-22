@@ -1,0 +1,7 @@
+image_file: DKY93V_1803.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2925 1753 3070 1772 3069 1811 2921 1794
+plate_inverted_gt: false
+plate_number_gt: DKY93V
+region_code_gt: nsw

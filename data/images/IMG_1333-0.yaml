@@ -1,7 +1,0 @@
-image_file: IMG_1333.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 853 1938 874 1755 1689 2046 1635 2228
-region_code_gt: nsw
-plate_number_gt: 014STI
-plate_inverted_gt: false

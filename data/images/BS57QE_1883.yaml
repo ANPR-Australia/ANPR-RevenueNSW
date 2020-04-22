@@ -1,0 +1,7 @@
+image_file: BS57QE_1883.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2666 1866 2813 1879 2811 1925 2669 1911
+plate_inverted_gt: false
+plate_number_gt: BS57QE
+region_code_gt: nsw

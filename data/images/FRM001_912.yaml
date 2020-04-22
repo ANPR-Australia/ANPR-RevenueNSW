@@ -1,0 +1,7 @@
+image_file: FRM001_912.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1039 1787 1263 1802 1262 1857 1037 1837
+plate_inverted_gt: false
+plate_number_gt: FRM001
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: DZI76R_265.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 818 2824 1539 2876 1531 2998 823 2937
+plate_inverted_gt: false
+plate_number_gt: DZI76R
+region_code_gt: nsw

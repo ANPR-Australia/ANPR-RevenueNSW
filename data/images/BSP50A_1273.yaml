@@ -1,0 +1,7 @@
+image_file: BSP50A_1273.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1766 1146 2171 1127 2177 1252 1774 1279
+plate_inverted_gt: false
+plate_number_gt: BSP50A
+region_code_gt: nsw

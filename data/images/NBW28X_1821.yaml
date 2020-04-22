@@ -1,0 +1,7 @@
+image_file: NBW28X_1821.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2277 2253 2486 2301 2484 2345 2279 2301
+plate_inverted_gt: true
+plate_number_gt: NBW28X
+region_code_gt: nsw

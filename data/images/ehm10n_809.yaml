@@ -1,0 +1,7 @@
+image_file: ehm10n_809.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1847 2082 2377 1983 2374 2128 1853 2235
+plate_inverted_gt: false
+plate_number_gt: ehm10n
+region_code_gt: nsw

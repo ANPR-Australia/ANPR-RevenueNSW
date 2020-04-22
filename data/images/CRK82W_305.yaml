@@ -1,0 +1,7 @@
+image_file: CRK82W_305.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 2206 2048 2204 2149 1689 2270 1680 2166
+plate_inverted_gt: false
+plate_number_gt: CRK82W
+region_code_gt: nsw

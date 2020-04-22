@@ -1,0 +1,7 @@
+image_file: CYL78F_1947.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2470 2940 2615 2962 2616 3007 2466 2980
+plate_inverted_gt: false
+plate_number_gt: CYL78F
+region_code_gt: nsw

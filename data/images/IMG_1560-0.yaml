@@ -1,7 +1,0 @@
-image_file: IMG_1560.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1652 270 2003 240 2005 350 1658 383
-region_code_gt: nsw
-plate_number_gt: YGJ11K
-plate_inverted_gt: false

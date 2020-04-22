@@ -1,0 +1,7 @@
+image_file: EBK58B_67.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2089 1449 2210 1450 2211 1482 2089 1482
+plate_inverted_gt: false
+plate_number_gt: EBK58B
+region_code_gt: nsw

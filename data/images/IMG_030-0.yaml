@@ -1,7 +1,0 @@
-image_file: IMG_030.png
-image_width: 2247
-image_height: 2384
-plate_corners_gt: 719 1773 1366 1782 1363 1979 730 1973
-region_code_gt: nsw
-plate_number_gt: LAKI
-plate_inverted_gt: false

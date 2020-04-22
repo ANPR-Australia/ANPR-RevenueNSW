@@ -1,7 +1,0 @@
-image_file: IMG_2701.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 948 2572 1660 2569 1662 2801 953 2802
-region_code_gt: nsw
-plate_number_gt: BG17RD
-plate_inverted_gt: false

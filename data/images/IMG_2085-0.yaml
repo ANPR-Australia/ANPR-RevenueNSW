@@ -1,7 +1,0 @@
-image_file: IMG_2085.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1352 1181 1814 1147 1820 1291 1361 1326
-region_code_gt: nsw
-plate_number_gt: CTO79G
-plate_inverted_gt: false

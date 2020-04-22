@@ -1,0 +1,7 @@
+image_file: DTV76J_1401.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1655 927 2200 866 2215 1032 1672 1105
+plate_inverted_gt: false
+plate_number_gt: DTV76J
+region_code_gt: nsw

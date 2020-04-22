@@ -1,0 +1,7 @@
+image_file: CI48XM_742.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 479 3283 790 3287 787 3400 480 3395
+plate_inverted_gt: false
+plate_number_gt: CI48XM
+region_code_gt: nsw

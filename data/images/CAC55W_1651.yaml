@@ -1,0 +1,7 @@
+image_file: CAC55W_1651.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 806 2199 1564 2254 1566 2421 810 2365
+plate_inverted_gt: false
+plate_number_gt: CAC55W
+region_code_gt: nsw

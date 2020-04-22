@@ -1,0 +1,7 @@
+image_file: AZ83SK_1041.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 154 1311 642 1374 655 1541 195 1478
+plate_inverted_gt: false
+plate_number_gt: AZ83SK
+region_code_gt: nsw

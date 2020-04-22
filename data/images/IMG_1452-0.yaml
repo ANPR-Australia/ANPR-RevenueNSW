@@ -1,7 +1,0 @@
-image_file: IMG_1452.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 832 1724 836 1616 1376 1728 1372 1846
-region_code_gt: nsw
-plate_number_gt: CGF90T
-plate_inverted_gt: false

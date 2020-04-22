@@ -1,0 +1,7 @@
+image_file: DBK85B_1795.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 3160 1310 3297 1315 3296 1350 3158 1344
+plate_inverted_gt: false
+plate_number_gt: DBK85B
+region_code_gt: nsw

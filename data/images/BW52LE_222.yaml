@@ -1,0 +1,7 @@
+image_file: BW52LE_222.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 2240 2336 2408 2312 2428 2395 2249 2410
+plate_inverted_gt: false
+plate_number_gt: BW52LE
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: DQT59Z_804.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1698 842 2245 822 2243 983 1703 1004
+plate_inverted_gt: false
+plate_number_gt: DQT59Z
+region_code_gt: nsw

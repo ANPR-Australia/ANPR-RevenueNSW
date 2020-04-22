@@ -1,7 +1,0 @@
-image_file: IMG_0828.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 902 1761 1924 1814 1910 2013 909 1953
-region_code_gt: nsw
-plate_number_gt: 92ROW
-plate_inverted_gt: true

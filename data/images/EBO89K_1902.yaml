@@ -1,0 +1,7 @@
+image_file: EBO89K_1902.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2989 1737 3133 1756 3130 1791 2988 1776
+plate_inverted_gt: false
+plate_number_gt: EBO89K
+region_code_gt: nsw

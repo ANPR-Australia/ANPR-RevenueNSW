@@ -1,0 +1,7 @@
+image_file: EBN18H_1932.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 3111 1789 3259 1806 3257 1849 3109 1831
+plate_inverted_gt: false
+plate_number_gt: EBN18H
+region_code_gt: nsw

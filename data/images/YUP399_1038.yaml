@@ -1,0 +1,7 @@
+image_file: YUP399_1038.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 982 1197 1413 1242 1398 1434 974 1372
+plate_inverted_gt: false
+plate_number_gt: YUP399
+region_code_gt: nsw

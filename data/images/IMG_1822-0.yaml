@@ -1,7 +1,0 @@
-image_file: IMG_1822.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1233 2041 1969 2019 1974 2233 1250 2253
-region_code_gt: nsw
-plate_number_gt: HI11IH
-plate_inverted_gt: false

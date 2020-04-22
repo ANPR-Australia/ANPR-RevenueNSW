@@ -1,7 +1,0 @@
-image_file: IMG_0805.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1269 2195 1809 2110 1813 2245 1286 2324
-region_code_gt: qld
-plate_number_gt: YDO83S
-plate_inverted_gt: false

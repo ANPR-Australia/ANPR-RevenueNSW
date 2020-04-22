@@ -1,0 +1,7 @@
+image_file: AF03LS_21.jpg
+image_height: 1038
+image_width: 778
+plate_corners_gt: 291 520 534 517 537 599 295 599
+plate_inverted_gt: false
+plate_number_gt: AF03LS
+region_code_gt: nsw

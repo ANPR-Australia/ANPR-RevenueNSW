@@ -1,0 +1,7 @@
+image_file: DJQ59Y_1633.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 846 2355 1514 2456 1494 2575 842 2472
+plate_inverted_gt: false
+plate_number_gt: DJQ59Y
+region_code_gt: nsw

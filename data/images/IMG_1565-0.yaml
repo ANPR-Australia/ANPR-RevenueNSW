@@ -1,7 +1,0 @@
-image_file: IMG_1565.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1714 1123 2183 1084 2171 1251 1723 1309
-region_code_gt: nsw
-plate_number_gt: USV719
-plate_inverted_gt: false

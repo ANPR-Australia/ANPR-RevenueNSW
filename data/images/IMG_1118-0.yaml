@@ -1,7 +1,0 @@
-image_file: IMG_1118.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1587 1249 2035 1194 2060 1332 1597 1390
-region_code_gt: nsw
-plate_number_gt: BNL94R
-plate_inverted_gt: false

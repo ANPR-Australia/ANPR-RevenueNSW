@@ -1,7 +1,0 @@
-image_file: IMG_0524.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 2415 2342 2567 2334 2575 2399 2427 2407
-region_code_gt: nsw
-plate_number_gt: CM98BZ
-plate_inverted_gt: false

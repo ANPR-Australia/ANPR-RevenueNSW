@@ -1,0 +1,7 @@
+image_file: CS73TD_2034.jpg
+image_height: 1600
+image_width: 1200
+plate_corners_gt: 544 936 687 924 702 989 557 1004
+plate_inverted_gt: false
+plate_number_gt: CS73TD
+region_code_gt: nsw

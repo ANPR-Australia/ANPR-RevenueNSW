@@ -1,0 +1,7 @@
+image_file: BSY29L_148.jpg
+image_height: 705
+image_width: 529
+plate_corners_gt: 126 275 126 243 231 278 225 316
+plate_inverted_gt: false
+plate_number_gt: BSY29L
+region_code_gt: nsw

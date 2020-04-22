@@ -1,7 +1,0 @@
-image_file: IMG_2476.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 832 855 833 780 1082 867 1080 942
-region_code_gt: nsw
-plate_number_gt: CNF30N
-plate_inverted_gt: false

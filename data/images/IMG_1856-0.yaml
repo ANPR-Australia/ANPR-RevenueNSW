@@ -1,7 +1,0 @@
-image_file: IMG_1856.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 2034 1416 2556 1380 2546 1549 2031 1593
-region_code_gt: nsw
-plate_number_gt: EAL55M
-plate_inverted_gt: false

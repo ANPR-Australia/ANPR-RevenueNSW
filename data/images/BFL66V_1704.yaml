@@ -1,0 +1,7 @@
+image_file: BFL66V_1704.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2671 2593 2820 2605 2818 2648 2668 2635
+plate_inverted_gt: false
+plate_number_gt: BFL66V
+region_code_gt: nsw

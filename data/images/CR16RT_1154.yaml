@@ -1,0 +1,7 @@
+image_file: CR16RT_1154.jpg
+image_height: 3024
+image_width: 4032
+plate_corners_gt: 3621 2118 3757 2123 3764 2173 3628 2167
+plate_inverted_gt: false
+plate_number_gt: CR16RT
+region_code_gt: nsw

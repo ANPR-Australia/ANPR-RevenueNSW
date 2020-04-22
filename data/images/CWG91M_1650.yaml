@@ -1,0 +1,7 @@
+image_file: CWG91M_1650.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 843 2399 1453 2511 1445 2634 834 2522
+plate_inverted_gt: false
+plate_number_gt: CWG91M
+region_code_gt: nsw

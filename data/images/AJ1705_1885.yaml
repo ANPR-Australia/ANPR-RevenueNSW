@@ -1,0 +1,7 @@
+image_file: AJ1705_1885.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 3086 660 3213 653 3210 693 3088 698
+plate_inverted_gt: false
+plate_number_gt: AJ1705
+region_code_gt: nsw

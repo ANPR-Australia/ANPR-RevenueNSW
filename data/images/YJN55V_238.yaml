@@ -1,0 +1,7 @@
+image_file: YJN55V_238.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1129 2047 1956 2038 1943 2211 1140 2225
+plate_inverted_gt: false
+plate_number_gt: YJN55V
+region_code_gt: nsw

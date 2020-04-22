@@ -1,0 +1,7 @@
+image_file: CIX79A_1919.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2510 2785 2663 2812 2658 2855 2507 2826
+plate_inverted_gt: false
+plate_number_gt: CIX79A
+region_code_gt: nsw

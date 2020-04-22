@@ -1,0 +1,7 @@
+image_file: CQO87P_1661.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1119 2038 1372 2023 1377 2094 1123 2107
+plate_inverted_gt: false
+plate_number_gt: CQO87P
+region_code_gt: nsw

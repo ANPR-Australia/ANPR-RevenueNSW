@@ -1,0 +1,7 @@
+image_file: BZJ40M_1707.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2609 1795 2747 1795 2747 1836 2609 1836
+plate_inverted_gt: false
+plate_number_gt: BZJ40M
+region_code_gt: nsw

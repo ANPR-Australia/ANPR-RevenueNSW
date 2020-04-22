@@ -1,0 +1,7 @@
+image_file: AU37MJ_1423.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 798 1385 1096 1430 1097 1576 805 1523
+plate_inverted_gt: false
+plate_number_gt: AU37MJ
+region_code_gt: nsw

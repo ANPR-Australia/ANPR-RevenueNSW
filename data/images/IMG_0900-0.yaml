@@ -1,7 +1,0 @@
-image_file: IMG_0900.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1507 1672 1629 1668 1633 1711 1509 1716
-region_code_gt: nsw
-plate_number_gt: WXX722
-plate_inverted_gt: false

@@ -1,7 +1,0 @@
-image_file: IMG_1432.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1698 1221 2246 1152 2251 1303 1702 1383
-region_code_gt: nsw
-plate_number_gt: EGF06B
-plate_inverted_gt: false

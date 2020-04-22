@@ -1,7 +1,0 @@
-image_file: IMG_20200415_154444.jpg
-image_width: 4032
-image_height: 3024
-plate_corners_gt: 188 1830 313 1831 315 1869 188 1870
-region_code_gt: nsw
-plate_number_gt: CT93WC
-plate_inverted_gt: false

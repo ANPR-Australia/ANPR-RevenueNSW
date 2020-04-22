@@ -1,0 +1,7 @@
+image_file: DNR65H_1329.jpg
+image_height: 2348
+image_width: 1761
+plate_corners_gt: 473 1048 779 1066 774 1137 473 1115
+plate_inverted_gt: false
+plate_number_gt: DNR65H
+region_code_gt: nsw

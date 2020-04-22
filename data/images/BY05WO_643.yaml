@@ -1,0 +1,7 @@
+image_file: BY05WO_643.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1321 1434 1738 1388 1740 1552 1342 1613
+plate_inverted_gt: false
+plate_number_gt: BY05WO
+region_code_gt: nsw

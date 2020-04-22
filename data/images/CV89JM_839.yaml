@@ -1,0 +1,7 @@
+image_file: CV89JM_839.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1705 1164 2260 1104 2258 1331 1719 1403
+plate_inverted_gt: false
+plate_number_gt: CV89JM
+region_code_gt: nsw

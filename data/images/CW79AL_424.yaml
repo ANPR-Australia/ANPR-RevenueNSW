@@ -1,0 +1,7 @@
+image_file: CW79AL_424.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1136 1930 1360 1945 1360 2033 1143 2013
+plate_inverted_gt: false
+plate_number_gt: CW79AL
+region_code_gt: nsw

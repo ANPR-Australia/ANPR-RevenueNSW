@@ -1,7 +1,0 @@
-image_file: IMG_1207.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1930 1126 2361 1115 2360 1268 1937 1296
-region_code_gt: nsw
-plate_number_gt: DDB37W
-plate_inverted_gt: false

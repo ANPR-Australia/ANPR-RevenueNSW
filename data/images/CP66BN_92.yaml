@@ -1,0 +1,7 @@
+image_file: CP66BN_92.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 1830 1998 1960 2010 1957 2056 1829 2042
+plate_inverted_gt: false
+plate_number_gt: CP66BN
+region_code_gt: nsw

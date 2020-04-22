@@ -1,0 +1,7 @@
+image_file: CW18BE_377.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1568 1908 1815 1888 1823 1984 1582 2011
+plate_inverted_gt: false
+plate_number_gt: CW18BE
+region_code_gt: nsw

@@ -1,0 +1,7 @@
+image_file: DBY26G_694.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1721 1322 2168 1244 2180 1378 1739 1456
+plate_inverted_gt: false
+plate_number_gt: DBY26G
+region_code_gt: nsw

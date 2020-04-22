@@ -1,7 +1,0 @@
-image_file: IMG_2018.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1400 1751 1869 1708 1869 1834 1404 1884
-region_code_gt: nsw
-plate_number_gt: AIU28G
-plate_inverted_gt: false

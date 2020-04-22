@@ -1,0 +1,7 @@
+image_file: ECR52F_316.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1238 2488 1751 2444 1744 2540 1233 2580
+plate_inverted_gt: false
+plate_number_gt: ECR52F
+region_code_gt: nsw

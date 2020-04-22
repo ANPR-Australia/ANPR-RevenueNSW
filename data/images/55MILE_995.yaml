@@ -1,0 +1,7 @@
+image_file: 55MILE_995.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1616 1162 1872 1108 1892 1190 1634 1244
+plate_inverted_gt: false
+plate_number_gt: 55MILE
+region_code_gt: nsw

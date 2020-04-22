@@ -1,0 +1,7 @@
+image_file: 1HX2ZX_1562.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 829 2450 1383 2482 1374 2674 829 2632
+plate_inverted_gt: false
+plate_number_gt: 1HX2ZX
+region_code_gt: vic

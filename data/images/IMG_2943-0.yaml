@@ -1,7 +1,0 @@
-image_file: IMG_2943.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1742 1843 2417 1841 2429 1989 1748 1989
-region_code_gt: nsw
-plate_number_gt: CLC17W
-plate_inverted_gt: true

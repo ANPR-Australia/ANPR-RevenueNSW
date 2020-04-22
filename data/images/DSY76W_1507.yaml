@@ -1,0 +1,7 @@
+image_file: DSY76W_1507.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1236 2312 1795 2324 1786 2407 1229 2393
+plate_inverted_gt: false
+plate_number_gt: DSY76W
+region_code_gt: nsw

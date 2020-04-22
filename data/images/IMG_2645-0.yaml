@@ -1,7 +1,0 @@
-image_file: IMG_2645.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 976 2460 1558 2542 1550 2633 970 2564
-region_code_gt: nsw
-plate_number_gt: DDG89Z
-plate_inverted_gt: false

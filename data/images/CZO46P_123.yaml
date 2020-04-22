@@ -1,0 +1,7 @@
+image_file: CZO46P_123.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 1748 1110 1864 1100 1863 1130 1749 1138
+plate_inverted_gt: false
+plate_number_gt: CZO46P
+region_code_gt: nsw

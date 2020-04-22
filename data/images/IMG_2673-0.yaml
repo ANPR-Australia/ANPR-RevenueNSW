@@ -1,7 +1,0 @@
-image_file: IMG_2673.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1110 2027 1736 2043 1723 2165 1119 2148
-region_code_gt: nsw
-plate_number_gt: CA3388
-plate_inverted_gt: true

@@ -1,7 +1,0 @@
-image_file: IMG_2532.jpg
-image_width: 2240
-image_height: 2072
-plate_corners_gt: 859 1481 1037 1487 1028 1543 850 1534
-region_code_gt: nsw
-plate_number_gt: BZB04B
-plate_inverted_gt: false

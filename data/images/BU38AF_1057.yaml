@@ -1,0 +1,7 @@
+image_file: BU38AF_1057.jpg
+image_height: 1202
+image_width: 902
+plate_corners_gt: 396 612 472 615 471 643 398 639
+plate_inverted_gt: false
+plate_number_gt: BU38AF
+region_code_gt: nsw

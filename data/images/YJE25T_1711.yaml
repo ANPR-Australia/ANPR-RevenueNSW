@@ -1,0 +1,7 @@
+image_file: YJE25T_1711.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2412 2561 2556 2580 2554 2624 2409 2607
+plate_inverted_gt: false
+plate_number_gt: YJE25T
+region_code_gt: nsw

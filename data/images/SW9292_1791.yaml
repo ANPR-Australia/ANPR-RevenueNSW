@@ -1,0 +1,7 @@
+image_file: SW9292_1791.jpg
+image_height: 3648
+image_width: 5472
+plate_corners_gt: 2875 1540 3017 1553 3015 1604 2871 1589
+plate_inverted_gt: false
+plate_number_gt: SW9292
+region_code_gt: nsw

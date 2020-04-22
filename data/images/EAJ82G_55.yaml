@@ -1,0 +1,7 @@
+image_file: EAJ82G_55.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2193 2085 2324 2095 2322 2130 2194 2120
+plate_inverted_gt: false
+plate_number_gt: EAJ82G
+region_code_gt: nsw

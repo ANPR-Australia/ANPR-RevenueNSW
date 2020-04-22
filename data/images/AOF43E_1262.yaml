@@ -1,0 +1,7 @@
+image_file: AOF43E_1262.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1884 913 2344 893 2342 1039 1887 1065
+plate_inverted_gt: false
+plate_number_gt: AOF43E
+region_code_gt: nsw

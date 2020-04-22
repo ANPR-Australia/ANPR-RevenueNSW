@@ -1,0 +1,7 @@
+image_file: CSX63W_338.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1362 2243 1847 2247 1849 2343 1361 2339
+plate_inverted_gt: false
+plate_number_gt: CSX63W
+region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: IMG_1346.jpeg
-image_width: 3024
-image_height: 4032
-plate_corners_gt: 1089 1709 1128 1488 2028 1720 1968 1950
-region_code_gt: nsw
-plate_number_gt: ALN48F
-plate_inverted_gt: false

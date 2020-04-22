@@ -1,0 +1,7 @@
+image_file: DXY18R_51.jpg
+image_height: 2976
+image_width: 4464
+plate_corners_gt: 2286 1480 2410 1478 2411 1510 2287 1511
+plate_inverted_gt: false
+plate_number_gt: DXY18R
+region_code_gt: nsw

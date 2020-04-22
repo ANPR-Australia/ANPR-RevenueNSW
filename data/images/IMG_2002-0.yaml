@@ -1,7 +1,0 @@
-image_file: IMG_2002.jpg
-image_width: 1336
-image_height: 1782
-plate_corners_gt: 448 1571 569 1550 573 1595 449 1618
-region_code_gt: nsw
-plate_number_gt: DDU56Z
-plate_inverted_gt: false

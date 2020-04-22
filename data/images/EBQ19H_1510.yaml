@@ -1,0 +1,7 @@
+image_file: EBQ19H_1510.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1270 1633 1660 1617 1670 1727 1278 1739
+plate_inverted_gt: false
+plate_number_gt: EBQ19H
+region_code_gt: nsw

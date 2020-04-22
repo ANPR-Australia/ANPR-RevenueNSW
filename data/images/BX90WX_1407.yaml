@@ -1,0 +1,7 @@
+image_file: BX90WX_1407.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 1814 1275 2125 1269 2134 1384 1824 1390
+plate_inverted_gt: false
+plate_number_gt: BX90WX
+region_code_gt: nsw

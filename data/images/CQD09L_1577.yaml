@@ -1,0 +1,7 @@
+image_file: CQD09L_1577.jpg
+image_height: 4032
+image_width: 3024
+plate_corners_gt: 819 2303 1395 2364 1387 2471 817 2413
+plate_inverted_gt: false
+plate_number_gt: CQD09L
+region_code_gt: nsw
