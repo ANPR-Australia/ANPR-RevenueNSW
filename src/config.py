@@ -15,5 +15,5 @@ dbSchema = schema.sql
 
 
 [PLATE_CROPPER]
-input_dir = ANPR-RevenueNSW/data/images
+input_dir = ANPR-RevenueNSW/data/training_rnsw
 output_dir = ANPR-RevenueNSW/data/cropped_plates
