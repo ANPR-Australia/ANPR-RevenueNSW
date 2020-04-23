@@ -6,6 +6,7 @@ import sys
 import shutil
 import sqlite3
 import cv2
+import prespective
 import numpy as np
 
 """
@@ -188,10 +189,19 @@ def crop_images(input_dir, out_dir):
 
     count = 1
     for yaml_file in yaml_files:
+        print("Processing: " + yaml_file + " (" + str(count) + "/" + str(len(yaml_files)) + ")")
         print(yaml_file)
+        crop_image(input_dir, out_dir, yaml_file)
+        count = count+1
+       
+
+    print("%d Cropped images are located in %s" % (count-1, out_dir))
+
+
+
+def crop_image(input_dir, out_dir, yaml_file):
         with open(yaml_file, 'r') as stream:
             try:
-                print("Processing: " + yaml_file + " (" + str(count) + "/" + str(len(yaml_files)) + ")")
                 yaml_path = os.path.join(input_dir, yaml_file)
                 yaml_without_ext = os.path.splitext(yaml_path)[0]
                 
@@ -201,6 +211,7 @@ def crop_images(input_dir, out_dir):
                     # Skip missing images
                     plate_corners = yaml_obj['plate_corners_gt']
                     full_image_path = os.path.join(input_dir, yaml_obj['image_file'])
+                    print(full_image_path)
                 except KeyError as e:
                     print("Missing key in file: " + yaml_file + "\n" + str(e))
                     sys.exit(1) ;
@@ -208,7 +219,7 @@ def crop_images(input_dir, out_dir):
 
                 if not os.path.isfile(full_image_path):
                     print("Could not find image file %s, skipping" % (full_image_path))
-                    continue
+                    return
 
 
                 cc = plate_corners.strip().split()
@@ -216,23 +227,15 @@ def crop_images(input_dir, out_dir):
                     cc[i] = int(cc[i])
 
                 img = cv2.imread(full_image_path)
-                mask = np.zeros(img.shape[0:2], dtype=np.uint8)
-                points = np.array([[[cc[0],cc[1]],[cc[2], cc[3]], [cc[4],cc[5]], [cc[6],cc[7]]]])
-
-                cv2.drawContours(mask, [points], -1, (255,255,255), -1, cv2.LINE_AA)
-
-                res = cv2.bitwise_and(img,img,mask = mask)
-                rect = cv2.boundingRect(points) # returns (x,y,w,h) of the rect
-                cropped = res[rect[1]: rect[1] + rect[3], rect[0]: rect[0] + rect[2]]
+                points = np.array([(cc[0], cc[1]), (cc[2], cc[3]), (cc[4], cc[5]), (cc[6], cc[7])])
+                cropped = prespective.four_point_transform(img, points)
                 out_crop_path = os.path.join(out_dir, os.path.basename(yaml_without_ext) + ".jpg")
-                cv2.imwrite(out_crop_path, cropped )
-                count += 1
+                print(out_crop_path)
+                cv2.imwrite(out_crop_path, cropped)
             except  yaml.YAMLError as exc:
                 print(exc)
                 system.exit(1)
 
-
-    print("%d Cropped images are located in %s" % (count-1, out_dir))
 
 
 def capture_visual_classification(classified_dir, rename_log):
@@ -252,8 +255,6 @@ def capture_visual_classification(classified_dir, rename_log):
             print(exc)
             system.exit(1)
 
-
-
     conn = init_db("classification.db","classification_old.db", "classification.sql")
     classes = [f.path for f in os.scandir(classified_dir) if f.is_dir()]
     for class_name in classes:
@@ -270,28 +271,33 @@ def capture_visual_classification(classified_dir, rename_log):
     close_db(conn)
 
 
-def split_into_dirs(classified_dir, original_dir):
+def split_into_dirs(classified_dir, original_dir, yaml_dir=None):
     """
     Reads the sql database, and splits the files into directories
     based on their classification. This can be used for training
     the OCR system, or for evaluating OCR on cropped images. The filenames
     being consistent means we can compare the metadata and see if our
     OCR was successful.
+
+    Specify a dir with yaml files in it if you want the numberplates
+    cropped as well.
     """
     conn = init_db("classification.db", None, "classification.sql")
     rows = get_classifications(conn)
-    print(rows)
     for (img, d) in rows:
         path = os.path.join(classified_dir, d)
         new_file = os.path.join(path, img)
         old_file = os.path.join(original_dir, img)
         if not os.path.exists(path):
             os.makedirs(path)
-        shutil.copyfile(old_file, new_file)
+        if yaml_dir:
+            (fn, ext) = os.path.splitext(img)
+            yaml_file = os.path.join(yaml_dir, fn+".yaml")
 
-
-
-
+            crop_image(original_dir, path, yaml_file)
+        else:
+            shutil.copyfile(old_file, new_file)
+            
 
 
 
