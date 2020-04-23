@@ -88,7 +88,6 @@ def create_labeled_data_from_images(conn, labeled_data_dir):
     label_dict = {}
     files = [f for f in glob.glob(labeled_data_dir + "/*.yaml", recursive=False)]
     for f in files:
-        print(f)
         with open(f, 'r') as stream:
             try:
                 try:
@@ -129,7 +128,6 @@ def rename_files(input_dir, out_dir):
 
     count = 1
     for yaml_file in yaml_files:
-        print(yaml_file)
         with open(yaml_file, 'r') as stream:
             try:
                 print("Processing: " + yaml_file + " (" + str(count) + "/" + str(len(yaml_files)) + ")")
@@ -190,7 +188,6 @@ def crop_images(input_dir, out_dir):
     count = 1
     for yaml_file in yaml_files:
         print("Processing: " + yaml_file + " (" + str(count) + "/" + str(len(yaml_files)) + ")")
-        print(yaml_file)
         crop_image(input_dir, out_dir, yaml_file)
         count = count+1
        
@@ -211,7 +208,6 @@ def crop_image(input_dir, out_dir, yaml_file):
                     # Skip missing images
                     plate_corners = yaml_obj['plate_corners_gt']
                     full_image_path = os.path.join(input_dir, yaml_obj['image_file'])
-                    print(full_image_path)
                 except KeyError as e:
                     print("Missing key in file: " + yaml_file + "\n" + str(e))
                     sys.exit(1) ;

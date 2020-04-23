@@ -108,9 +108,39 @@ how we're doing the training here.
 	from the ```src``` directory, run:
 	```python plate_cropper.py```
 
-	This will get you a directory full of cropped numberplates that you can feed
-	into the next step.
+	This will separate out the plates into directories based on fonts they use. It
+        will also crop and rotate the plates, so they're facing the camera.
 
+1. It's time to train your OCR engine! You'll make a different OCR font sheet for each
+   font. You'll need to clone the train-ocr repo:
+
+   ```
+   git clone git@github.com:ANPR-Australia/train-ocr.git
+   ```
+   You then need to convert the images from jpg into png in each directory.
+   ```
+   mogrify -format png *jpg     
+   for f in `ls`; do mv $f ns$f ; done 
+   ```
+   Then you need to run:
+   ```openalpr-utils-classifychars [country] [input image directory] [empty output directory]```
+   to create character tiles for each letter in each plate. If a letter is unclear, just press
+   space to skip it. Detailed instructions for this tool are in the README in the repo above.
+
+   Now you have to combine all the chars you generated into a tiff file and a box file:
+   ```
+   openalpr-utils-prepcharsfortraining <output directory from above>
+   ```
+
+   Finally, you need to run ```train.py``` provided in the above repo to do the training. You'll
+   need to first install tesseract training tools. To do so, clone the tesseract repo from github,
+   and:
+   ```
+	export PKG_CONFIG_PATH=\\n$(brew --prefix)/lib/pkgconfig:\\n$(brew --prefix)/opt/libarchive/lib/pkgconfig:\\n$(brew --prefix)/opt/icu4c/lib/pkgconfig:\\n$(brew --prefix)/opt/libffi/lib/pkgconfig
+	./configure
+	make training
+	sudo make  training-install
+   ```
 
 
 
