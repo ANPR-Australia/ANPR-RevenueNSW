@@ -35,7 +35,7 @@ def run_experiments():
     cropped_results = test_cropped_number_plates(conn, results_dir, 
             config_file_name, test_data_dir, openalpr_runtime)
     print(cropped_results)
-
+    """
 
     label_dict = utils.create_labeled_data_from_rnsw_test_data(conn, test_data_dir)
     
@@ -76,6 +76,7 @@ def run_experiments():
         #evaluationResults["dicts"] = evaluationResults["dicts"].append(eval_dict)
 
     pprint.pprint(evaluationResults)
+    """
     utils.close_db(conn)
 
 

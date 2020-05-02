@@ -2,7 +2,7 @@
 prefix = /Users/sara/work/
 labeled_data_dir =ANPR-RevenueNSW/data/images
 training_data_dir = ANPR-RevenueNSW/data/training
-test_data_dir = ANPR-RevenueNSW/data/categorised_by_fonts/standard_yellow
+test_data_dir = ANPR-RevenueNSW/data/images
 
 open_alpr_runtime_data = ANPR-RevenueNSW/runtime_data
 open_alpr_calibration_dir = ANPR-RevenueNSW/data/calibration
@@ -18,3 +18,14 @@ dbSchema = schema.sql
 [PLATE_CROPPER]
 input_dir = ANPR-RevenueNSW/data/images
 output_dir = ANPR-RevenueNSW/data/cropped_plates
+classified_dir = ANPR-RevenueNSW/data/cropped_plates/classified
+
+[YOLO]
+input_image_dir = ANPR-RevenueNSW/data/images
+darknet_model_dir = ANPR-RevenueNSW/data/darknet_data
+confidence = 0.5
+threshold = 0.3
+
+
+
+

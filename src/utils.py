@@ -98,7 +98,6 @@ def create_labeled_data_from_images(conn, labeled_data_dir):
                 except KeyError as e:
                     print("Missing key in file: " + f + "\n" + str(e))
                     sys.exit(1) ;
-                print(img_file)
                 split_file = os.path.splitext(os.path.basename(f))
                 ext = os.path.splitext(img_file)[1]
                 image_file_name = split_file[0]+ext
