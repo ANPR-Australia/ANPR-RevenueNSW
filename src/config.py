@@ -25,6 +25,7 @@ input_image_dir = ANPR-RevenueNSW/data/images
 darknet_model_dir = ANPR-RevenueNSW/data/darknet_data
 confidence = 0.5
 threshold = 0.3
+error_log = ANPR-RevenueNSW/src/yolo_error.log
 
 
 

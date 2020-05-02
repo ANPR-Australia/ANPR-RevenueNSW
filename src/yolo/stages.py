@@ -23,9 +23,11 @@ def main():
     detector_path = prefix+config["YOLO"]["darknet_model_dir"]
     confidence = float(config["YOLO"]["confidence"])
     threshold = float(config["YOLO"]["threshold"])
-    pipeline(image_dir, detector_path, confidence, threshold)
+    error_log_file = prefix+config["YOLO"]["error_log"]
+    error_log = open(error_log_file, "w+")
+    pipeline(image_dir, detector_path, confidence, threshold, error_log)
 
-def pipeline(image_dir, detector_path, confidence, threshold):
+def pipeline(image_dir, detector_path, confidence, threshold, error_log):
     (vd_net, vd_labels) = setup_detector(detector_path, "vehicle-detection")
     (lpd_net, lpd_labels) = setup_detector(detector_path, "lp-detection-layout-classification")
     (lpr_net, lpr_labels) = setup_detector(detector_path, "lp-recognition")
@@ -35,38 +37,39 @@ def pipeline(image_dir, detector_path, confidence, threshold):
         print(img)
         # load our input image and grab its spatial dimensions
         image = cv2.imread(img)
-        if empty_image(image):
+        if empty_image(image, img, error_log):
             continue
         image_name = os.path.splitext(os.path.basename(img))[0]
-        (boxes, confidences, classIDs, vehicles) = run_object_detector(image, vd_net, vd_labels, confidence, threshold, image_name)
+        (boxes, confidences, classIDs, vehicles) = run_object_detector(image, vd_net, vd_labels, confidence, threshold, image_name, (448,288))
         #cv2.imshow("Image", image)
         #cv2.waitKey(0)
 
         for (vehicle, v_name) in vehicles:
-             if empty_image(vehicle):
+             if empty_image(vehicle, "vehicle"+v_name, error_log):
                  continue
-             (boxes, confidences, classIDs, lps) = run_object_detector(vehicle, lpd_net, lpd_labels, confidence, threshold, v_name)
+             (boxes, confidences, classIDs, lps) = run_object_detector(vehicle, lpd_net, lpd_labels, confidence, 0.1, v_name)
              #cv2.imshow("vehicle", vehicle)
              #cv2.waitKey(0)
 
              for (lp, lp_name) in lps:
-                if empty_image(lp):
+                if empty_image(lp, "plate"+lp_name, error_log):
                     continue
-                (boxes, confidences, classIDs, plate_contents) = run_object_detector(lp, lpr_net, lpr_labels, confidence, threshold, lp_name)
+                (boxes, confidences, classIDs, plate_contents) = run_object_detector(lp, lpr_net, lpr_labels, confidence, 0.5, lp_name, (352,128))
                 count = 0
                 for i in classIDs:
                     #import pdb; pdb.set_trace()
                     text = "{}: {:.4f}".format(lpr_labels[i], confidences[count])
-                    print(text)
+                    #print(text)
                     count = count+1
                 #cv2.imshow("plate", lp)
                 cv2.imwrite("plate"+lp_name+".jpg", lp)
                 #cv2.waitKey(0)
 
-def empty_image(image):
+def empty_image(image, s, error_log):
     (H, W) = image.shape[:2]
     if W<=0 or H<=0:
-        print("W or H <=0")
+        error_log.write(s+"W or H <=0\n")
+        print(s+"W or H <=0\n")
         return True
     return False
 
@@ -87,10 +90,8 @@ def setup_detector(detector_path, detector_name):
     
     return (net, labels)
 
-def run_object_detector(image, net, labels, min_confidence, threshold, image_name):
+def run_object_detector(image, net, labels, min_confidence, threshold, image_name, size=(416, 416)):
     (H, W) = image.shape[:2]
-    if W<=0 or H<=0:
-        print("W or H <=0")
 
     # determine only the *output* layer names that we need from YOLO
     ln = net.getLayerNames()
@@ -103,8 +104,7 @@ def run_object_detector(image, net, labels, min_confidence, threshold, image_nam
     
     #cv2.imshow("original_img", image)
     #cv2.waitKey(0)
-    #blob = cv2.dnn.blobFromImage(image, 1 / 255.0, (416, 416),
-    blob = cv2.dnn.blobFromImage(image, 1 / 255.0, (448, 288),
+    blob = cv2.dnn.blobFromImage(image, 1 / 255.0, size,
             swapRB=True, crop=False)
     net.setInput(blob)
     start = time.time()
