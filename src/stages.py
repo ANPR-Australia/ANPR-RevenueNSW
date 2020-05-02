@@ -8,11 +8,11 @@ import time
 import cv2
 import os
 import glob
+import utils
 
 
-DEBUG = False
 
-def main():
+def setup_yolo(conn=None):
     import configparser
     config = configparser.ConfigParser()
     config.read("config.py") 
@@ -25,9 +25,9 @@ def main():
     threshold = float(config["YOLO"]["threshold"])
     error_log_file = prefix+config["YOLO"]["error_log"]
     error_log = open(error_log_file, "w+")
-    pipeline(image_dir, detector_path, confidence, threshold, error_log)
+    pipeline(image_dir, detector_path, confidence, threshold, error_log, conn)
 
-def pipeline(image_dir, detector_path, confidence, threshold, error_log):
+def pipeline(image_dir, detector_path, confidence, threshold, error_log, conn=None):
     (vd_net, vd_labels) = setup_detector(detector_path, "vehicle-detection")
     (lpd_net, lpd_labels) = setup_detector(detector_path, "lp-detection-layout-classification")
     (lpr_net, lpr_labels) = setup_detector(detector_path, "lp-recognition")
@@ -48,6 +48,7 @@ def pipeline(image_dir, detector_path, confidence, threshold, error_log):
              if empty_image(vehicle, "vehicle"+v_name, error_log):
                  #here we could continue the pipeline with image, assuming the reason it can't find the vehicle is
                  #because we're zoomed in too much.. worth testing this idea.
+                 utils.insert_result(conn, "yolo", os.path.basename(img), "au", "no_vehicle_detected", None, -1, "")
                  continue
              (boxes, confidences, classIDs, lps) = run_object_detector(vehicle, lpd_net, lpd_labels, confidence, 0.1, v_name)
              #cv2.imshow("vehicle", vehicle)
@@ -55,11 +56,14 @@ def pipeline(image_dir, detector_path, confidence, threshold, error_log):
 
              for (lp, lp_name) in lps:
                 if empty_image(lp, "plate"+lp_name, error_log):
+                    utils.insert_result(conn, "yolo", os.path.basename(img), "au", "no_lp_detected", None, -1, "")
                     continue
                 (boxes, confidences, classIDs, plate_contents) = run_object_detector(lp, lpr_net, lpr_labels, confidence, 0.5, lp_name, (352,128))
                 #sort the characters based on x value, then join them all up into a numberplate
                 number_plate= "".join([lpr_labels[bc[1]] for bc in sorted(zip(boxes, classIDs), key=get_x)])
                 print(number_plate)
+                if conn:
+                    utils.insert_result(conn, "yolo", os.path.basename(img), "au", "no-config", number_plate, -1, "")
                 cv2.imwrite("plate_"+lp_name+".jpg", lp)
 
 def empty_image(image, s, error_log):
@@ -179,19 +183,10 @@ def run_object_detector(image, net, labels, min_confidence, threshold, image_nam
                             0.5, color, 2)
                     vname = image_name + "_" + str(i) + "_" + str(classIDs[i]) + "_" + str(confidences[i])
                     cropped = image[y:y+h, x:x+w]
-                    
-                    if DEBUG:
-                        #cv2.imshow("original_img", image)
-                        #cv2.waitKey(0)
-                        filename = vname + ".jpg"
-                        #cv2.imshow(vname, cropped)
-                        #cv2.waitKey(0)
-                        cv2.imwrite(filename, cropped)
-
                     cropped_images.append((cropped, vname))
 
     # show the output image
     return (boxes, confidences, classIDs, cropped_images)
 
 if __name__ == "__main__":
-    main()
+    setup_yolo()
