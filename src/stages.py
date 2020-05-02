@@ -38,24 +38,29 @@ def pipeline(image_dir, detector_path, confidence, threshold, error_log, conn=No
         # load our input image and grab its spatial dimensions
         image = cv2.imread(img)
         if empty_image(image, img, error_log):
+            utils.insert_result(conn, "yolo", os.path.basename(img), "au", "empty_image", None, -1, "")
             continue
         image_name = os.path.splitext(os.path.basename(img))[0]
         (boxes, confidences, classIDs, vehicles) = run_object_detector(image, vd_net, vd_labels, confidence, threshold, image_name, (448,288))
         #cv2.imshow("Image", image)
         #cv2.waitKey(0)
+        if len(vehicles) == 0:
+            utils.insert_result(conn, "yolo", os.path.basename(img), "au", "no_vehicle_detected", None, -1, "")
+
 
         for (vehicle, v_name) in vehicles:
-             if empty_image(vehicle, "vehicle"+v_name, error_log):
+             if empty_image(vehicle, "vehicle_"+v_name, error_log):
                  #here we could continue the pipeline with image, assuming the reason it can't find the vehicle is
                  #because we're zoomed in too much.. worth testing this idea.
                  utils.insert_result(conn, "yolo", os.path.basename(img), "au", "no_vehicle_detected", None, -1, "")
+                 #(boxes, confidences, classIDs, lps) = run_object_detector(image, lpd_net, lpd_labels, confidence, 0.1, v_name)
                  continue
              (boxes, confidences, classIDs, lps) = run_object_detector(vehicle, lpd_net, lpd_labels, confidence, 0.1, v_name)
              #cv2.imshow("vehicle", vehicle)
              #cv2.waitKey(0)
 
              for (lp, lp_name) in lps:
-                if empty_image(lp, "plate"+lp_name, error_log):
+                if empty_image(lp, "plate_"+lp_name, error_log):
                     utils.insert_result(conn, "yolo", os.path.basename(img), "au", "no_lp_detected", None, -1, "")
                     continue
                 (boxes, confidences, classIDs, plate_contents) = run_object_detector(lp, lpr_net, lpr_labels, confidence, 0.5, lp_name, (352,128))
@@ -69,8 +74,11 @@ def pipeline(image_dir, detector_path, confidence, threshold, error_log, conn=No
 def empty_image(image, s, error_log):
     (H, W) = image.shape[:2]
     if W<=0 or H<=0:
-        error_log.write(s+"W or H <=0\n")
-        print(s+"W or H <=0\n")
+        #import pdb;pdb.set_trace()
+        ps = "{sfile} width={W} height={H}\n"
+        formatted_str = ps.format(sfile=s, W=W, H=H)
+        error_log.write(formatted_str)
+        print(formatted_str)
         return True
     return False
 
