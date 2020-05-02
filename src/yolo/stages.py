@@ -46,6 +46,8 @@ def pipeline(image_dir, detector_path, confidence, threshold, error_log):
 
         for (vehicle, v_name) in vehicles:
              if empty_image(vehicle, "vehicle"+v_name, error_log):
+                 #here we could continue the pipeline with image, assuming the reason it can't find the vehicle is
+                 #because we're zoomed in too much.. worth testing this idea.
                  continue
              (boxes, confidences, classIDs, lps) = run_object_detector(vehicle, lpd_net, lpd_labels, confidence, 0.1, v_name)
              #cv2.imshow("vehicle", vehicle)
@@ -55,15 +57,10 @@ def pipeline(image_dir, detector_path, confidence, threshold, error_log):
                 if empty_image(lp, "plate"+lp_name, error_log):
                     continue
                 (boxes, confidences, classIDs, plate_contents) = run_object_detector(lp, lpr_net, lpr_labels, confidence, 0.5, lp_name, (352,128))
-                count = 0
-                for i in classIDs:
-                    #import pdb; pdb.set_trace()
-                    text = "{}: {:.4f}".format(lpr_labels[i], confidences[count])
-                    #print(text)
-                    count = count+1
-                #cv2.imshow("plate", lp)
-                cv2.imwrite("plate"+lp_name+".jpg", lp)
-                #cv2.waitKey(0)
+                #sort the characters based on x value, then join them all up into a numberplate
+                number_plate= "".join([lpr_labels[bc[1]] for bc in sorted(zip(boxes, classIDs), key=get_x)])
+                print(number_plate)
+                cv2.imwrite("plate_"+lp_name+".jpg", lp)
 
 def empty_image(image, s, error_log):
     (H, W) = image.shape[:2]
@@ -73,7 +70,8 @@ def empty_image(image, s, error_log):
         return True
     return False
 
-
+def get_x(box):
+    return box[0]
 
 def setup_detector(detector_path, detector_name):
     # load the COCO class labels our YOLO model was trained on
