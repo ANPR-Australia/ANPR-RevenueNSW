@@ -23,53 +23,77 @@ def setup_yolo(conn=None):
     detector_path = prefix+config["YOLO"]["darknet_model_dir"]
     confidence = float(config["YOLO"]["confidence"])
     threshold = float(config["YOLO"]["threshold"])
+
+    error_dir = prefix+config["YOLO"]["error_images"]
+    np_dir = prefix+config["YOLO"]["number_plates"]
+    vehicle_dir = prefix+config["YOLO"]["vehicles"]
+
+    make_paths([error_dir, np_dir, vehicle_dir])
+
     error_log_file = prefix+config["YOLO"]["error_log"]
     error_log = open(error_log_file, "w+")
-    pipeline(image_dir, detector_path, confidence, threshold, error_log, conn)
+    pipeline(image_dir, detector_path, confidence, threshold, error_log, error_dir, np_dir, vehicle_dir, conn)
 
-def pipeline(image_dir, detector_path, confidence, threshold, error_log, conn=None):
+def make_paths(path_list):
+    for p in path_list:
+        if not os.path.exists(p):
+            os.makedirs(p)
+
+def pipeline(image_dir, detector_path, confidence, threshold, error_log, error_dir, np_dir, vehicle_dir, conn=None):
     (vd_net, vd_labels) = setup_detector(detector_path, "vehicle-detection")
     (lpd_net, lpd_labels) = setup_detector(detector_path, "lp-detection-layout-classification")
     (lpr_net, lpr_labels) = setup_detector(detector_path, "lp-recognition")
 
     images = [f for f in glob.glob(image_dir + "/*.jpg")]
     for img in images:
+        image_fname = os.path.basename(img)
+        image_name = os.path.splitext(image_fname)[0]
         print(img)
         # load our input image and grab its spatial dimensions
         image = cv2.imread(img)
         if empty_image(image, img, error_log):
-            utils.insert_result(conn, "yolo", os.path.basename(img), "au", "empty_image", None, -1, "")
+            utils.insert_result(conn, "yolo", image_fname, "au", "empty_image", None, -1, "")
             continue
-        image_name = os.path.splitext(os.path.basename(img))[0]
         (boxes, confidences, classIDs, vehicles) = run_object_detector(image, vd_net, vd_labels, confidence, threshold, image_name, (448,288))
         #cv2.imshow("Image", image)
         #cv2.waitKey(0)
         if len(vehicles) == 0:
-            utils.insert_result(conn, "yolo", os.path.basename(img), "au", "no_vehicle_detected", None, -1, "")
+            utils.insert_result(conn, "yolo", image_fname, "au", "no_vehicle_detected", None, -1, "")
+            cv2.imwrite(os.path.join(error_dir, image_fname), image)
 
 
         for (vehicle, v_name) in vehicles:
              if empty_image(vehicle, "vehicle_"+v_name, error_log):
                  #here we could continue the pipeline with image, assuming the reason it can't find the vehicle is
                  #because we're zoomed in too much.. worth testing this idea.
-                 utils.insert_result(conn, "yolo", os.path.basename(img), "au", "no_vehicle_detected", None, -1, "")
+                 utils.insert_result(conn, "yolo", os.path.basename(img), "au", "malformed_vehicle_detected", None, -1, "")
                  #(boxes, confidences, classIDs, lps) = run_object_detector(image, lpd_net, lpd_labels, confidence, 0.1, v_name)
+                 cv2.imwrite(os.path.join(error_dir, image_fname), image)
                  continue
+             cv2.imwrite(os.path.join(vehicle_dir, image_fname), vehicle)
              (boxes, confidences, classIDs, lps) = run_object_detector(vehicle, lpd_net, lpd_labels, confidence, 0.1, v_name)
              #cv2.imshow("vehicle", vehicle)
              #cv2.waitKey(0)
 
+             if len(lps) == 0:
+                    utils.insert_result(conn, "yolo", image_fname, "au", "no_lp_detected", None, -1, "")
+                    cv2.imwrite(os.path.join(error_dir, image_fname), vehicle)
              for (lp, lp_name) in lps:
                 if empty_image(lp, "plate_"+lp_name, error_log):
-                    utils.insert_result(conn, "yolo", os.path.basename(img), "au", "no_lp_detected", None, -1, "")
+                    utils.insert_result(conn, "yolo", image_fname, "au", "malformed_lp_detected", None, -1, "")
+                    cv2.imwrite(os.path.join(error_dir, image_fname), vehicle)
                     continue
                 (boxes, confidences, classIDs, plate_contents) = run_object_detector(lp, lpr_net, lpr_labels, confidence, 0.5, lp_name, (352,128))
+                if len(plate_contents) == 0:
+                    utils.insert_result(conn, "yolo", image_fname, "au", "no_characters_recognised", number_plate, -1, "")
+                    cv2.imwrite(os.path.join(error_dir, image_fname), lp)
+
                 #sort the characters based on x value, then join them all up into a numberplate
                 number_plate= "".join([lpr_labels[bc[1]] for bc in sorted(zip(boxes, classIDs), key=get_x)])
                 print(number_plate)
                 if conn:
-                    utils.insert_result(conn, "yolo", os.path.basename(img), "au", "no-config", number_plate, -1, "")
-                cv2.imwrite("plate_"+lp_name+".jpg", lp)
+                    utils.insert_result(conn, "yolo", image_fname, "au", "number_plate_recognised", number_plate, -1, "")
+                cv2.imwrite(os.path.join(np_dir, image_fname), lp)
 
 def empty_image(image, s, error_log):
     (H, W) = image.shape[:2]
