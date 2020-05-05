@@ -31,11 +31,14 @@ def run_experiments():
 
     conn = utils.init_db(dbFile, dbOld, dbSchema)
 
-    label_dict = utils.create_labeled_data_from_images(conn, labeled_data_dir)
+    #label_dict = utils.create_labeled_data_from_images(conn, labeled_data_dir)
+    import pdb; pdb.set_trace()
+    
+    label_dict = utils.create_labeled_data_from_rnsw_test_data(conn, test_data_dir)
 
     yolo.setup_yolo(conn)
-    
     """
+    
     cropped_results = test_cropped_number_plates(conn, results_dir, 
             config_file_name, test_data_dir, openalpr_runtime)
     print(cropped_results)

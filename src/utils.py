@@ -53,13 +53,15 @@ def create_labeled_data_from_rnsw_test_data(conn, labeled_data_dir ):
     """
     label_dict = {}
     files = []
-
+    """
     loc_dirs = [f.path for f in os.scandir(labeled_data_dir) if f.is_dir()]
     for loc in loc_dirs:
         camera_dirs = [f.path for f in os.scandir(loc) if f.is_dir()]
         for cam in camera_dirs:
             new_files = [f for f in glob.glob(cam + "/*.yaml", recursive=False)]
             files = files + new_files
+    """
+    files = [f for f in glob.glob(labeled_data_dir + "/*.yaml", recursive=False)]
 
     for f in files:
         with open(f, 'r') as stream:

@@ -56,8 +56,6 @@ def pipeline(image_dir, detector_path, confidence, threshold, error_log, error_d
             utils.insert_result(conn, "yolo", image_fname, "au", "empty_image", None, -1, "")
             continue
         (boxes, confidences, classIDs, vehicles) = run_object_detector(image, vd_net, vd_labels, confidence, threshold, image_name, (448,288))
-        #cv2.imshow("Image", image)
-        #cv2.waitKey(0)
         if len(boxes) == 0:
             utils.insert_result(conn, "yolo", image_fname, "au", "no_vehicle_detected_vehicle_net", None, -1, "")
             cv2.imwrite(os.path.join(error_dir, image_fname), image)
