@@ -371,6 +371,43 @@ def insert_result(conn, test_name, img_file_name,
     conn.commit()
         
 
+def replace_all(replacements, string):
+    for a, b in replacements:
+        string = string.replace(a, b)
+    return string
+
+def results_by_incident(conn):
+    c = conn.cursor()
+    c.execute (
+        """
+         SELECT file_metadata.image_file_name, file_metadata.location_id, file_metadata.incident_id, openalpr_conf_file, results.first_plate, labels.plate_number 
+         FROM labels 
+         INNER JOIN results on results.image_file_name = labels.image_file_name 
+         INNER JOIN file_metadata on file_metadata.image_file_name = results.image_file_name 
+         WHERE openalpr_conf_file = "number_plate_recognised"
+         GROUP BY location_id, incident_id
+         ORDER BY file_metadata.location_id;
+         """
+     )
+    rows = c.fetchall()
+    same_count = 0
+    replace_same_count = 0
+    for res in rows:
+        print(res)
+        numberplate = res[5]
+        result = res[4]
+        replacements = [('0', 'O'), ('1', 'I'), ('B', '8'), ('G', '6')]
+        if result == numberplate:
+            same_count = same_count+1
+
+        if replace_all(replacements, result) == replace_all(replacements, numberplate):
+            replace_same_count = replace_same_count+1
+
+    result = "same: {same_count}/{total} numberplates the same\n"
+    print(result.format(same_count=same_count, total=len(rows)))
+    
+    result = "subs: {replace_same_count}/{total} numberplates the same\n"
+    print(result.format(replace_same_count=replace_same_count, total=len(rows)))
 
 if __name__ == "__main__":
     config = configparser.ConfigParser()

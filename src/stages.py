@@ -214,7 +214,8 @@ def run_object_detector(image, net, labels, min_confidence, threshold, image_nam
                     # draw a bounding box rectangle and label on the image
                     color = [int(c) for c in COLORS[classIDs[i]]]
                     cv2.rectangle(image, (x, y), (x + w, y + h), color, 2)
-                    text = "{}: {:.4f}".format(labels[classIDs[i]], confidences[i])
+                    #text = "{}: {:.4f}".format(labels[classIDs[i]], confidences[i])
+                    text = "{}".format(labels[classIDs[i]])
                     cv2.putText(image, text, (x, y - 5), cv2.FONT_HERSHEY_SIMPLEX,
                             0.5, color, 2)
                     vname = image_name + "_" + str(i) + "_" + str(classIDs[i]) + "_" + str(confidences[i])
