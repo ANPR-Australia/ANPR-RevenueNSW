@@ -29,6 +29,7 @@ error_log = ANPR-RevenueNSW/src/yolo_error.log
 error_images = ANPR-RevenueNSW/data/yolo_error_images
 number_plates = ANPR-RevenueNSW/data/yolo_numberplates
 vehicles = ANPR-RevenueNSW/data/yolo_vehicles
+all_images = ANPR-RevenueNSW/data/yolo_all
 
 
 

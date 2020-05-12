@@ -27,25 +27,27 @@ def setup_yolo(conn=None):
     error_dir = prefix+config["YOLO"]["error_images"]
     np_dir = prefix+config["YOLO"]["number_plates"]
     vehicle_dir = prefix+config["YOLO"]["vehicles"]
+    all_dir = prefix+config["YOLO"]["all_images"]
 
-    make_paths([error_dir, np_dir, vehicle_dir])
+    make_paths([error_dir, np_dir, vehicle_dir, all_dir])
 
     error_log_file = prefix+config["YOLO"]["error_log"]
     error_log = open(error_log_file, "w+")
-    pipeline(image_dir, detector_path, confidence, threshold, error_log, error_dir, np_dir, vehicle_dir, conn)
+    pipeline(image_dir, detector_path, confidence, threshold, error_log, error_dir, np_dir, vehicle_dir, all_dir, conn)
 
 def make_paths(path_list):
     for p in path_list:
         if not os.path.exists(p):
             os.makedirs(p)
 
-def pipeline(image_dir, detector_path, confidence, threshold, error_log, error_dir, np_dir, vehicle_dir, conn=None):
+def pipeline(image_dir, detector_path, confidence, threshold, error_log, error_dir, np_dir, vehicle_dir, all_dir, conn=None):
     (vd_net, vd_labels) = setup_detector(detector_path, "vehicle-detection")
     (lpd_net, lpd_labels) = setup_detector(detector_path, "lp-detection-layout-classification")
     (lpr_net, lpr_labels) = setup_detector(detector_path, "lp-recognition")
     (yolov3_net, yolov3_labels) = setup_detector(detector_path, "yolov3")
 
     images = [f for f in glob.glob(image_dir + "/*.jpg")]
+    images.sort()
     for img in images:
         image_fname = os.path.basename(img)
         image_name = os.path.splitext(image_fname)[0]
@@ -55,38 +57,45 @@ def pipeline(image_dir, detector_path, confidence, threshold, error_log, error_d
         if empty_image(image, img, error_log):
             utils.insert_result(conn, "yolo", image_fname, "au", "empty_image", None, -1, "")
             continue
-        (boxes, confidences, classIDs, vehicles) = run_object_detector(image, vd_net, vd_labels, confidence, threshold, image_name, (448,288))
-        if len(boxes) == 0:
+        (boxes, confidences, classIDs, vehicles) = run_object_detector("vd", image, vd_net, vd_labels, confidence, threshold, image_name, (448,288))
+        if len(classIDs) == 0:
             utils.insert_result(conn, "yolo", image_fname, "au", "no_vehicle_detected_vehicle_net", None, -1, "")
-            cv2.imwrite(os.path.join(error_dir, image_fname), image)
             #try it with yolov3
-            (boxes, confidences, classIDs, vehicles) = run_object_detector(image, yolov3_net, yolov3_labels, confidence, threshold, image_name, (448,288))
-            if len(boxes) == 0:
+            (boxes, confidences, classIDs, candidates) = run_object_detector("yolov3", image, yolov3_net, yolov3_labels, confidence, threshold, image_name, (448,288))
+            vehicles = []
+            for cl, ve in zip(classIDs, candidates):
+                if cl in [2,3,7,8,5,6]: #coco classIDs for car, motorbike, truck, boat, bus, train
+                    vehicles.append(ve)
+                else:
+                    print("other classID:")
+                    print(cl)
+            if len(classIDs) == 0:
                 utils.insert_result(conn, "yolo", image_fname, "au", "no_vehicle_detected_yolov3_net", None, -1, "")
+                cv2.imwrite(os.path.join(error_dir, image_fname), image)
 
         for (vehicle, v_name) in vehicles:
-             if empty_image(vehicle, "vehicle_"+v_name, error_log):
+             if empty_image(vehicle, "vehicle_of_"+str(len(vehicles))+"_"+v_name, error_log):
                  #here we could continue the pipeline with image, assuming the reason it can't find the vehicle is
                  #because we're zoomed in too much.. worth testing this idea.
-                 utils.insert_result(conn, "yolo", os.path.basename(img), "au", "malformed_vehicle_detected", None, -1, "")
+                 utils.insert_result(conn, "yolo", os.path.basename(img), "au", "malformed_vehicle_detected", None, len(vehicles), "")
                  #(boxes, confidences, classIDs, lps) = run_object_detector(image, lpd_net, lpd_labels, confidence, 0.1, v_name)
                  cv2.imwrite(os.path.join(error_dir, image_fname), image)
-                 continue
+                 vehicle = image #EXPERIMENTAL
              cv2.imwrite(os.path.join(vehicle_dir, image_fname), vehicle)
-             (boxes, confidences, classIDs, lps) = run_object_detector(vehicle, lpd_net, lpd_labels, confidence, 0.1, v_name)
+             (boxes, confidences, classIDs, lps) = run_object_detector("lpd", vehicle, lpd_net, lpd_labels, confidence, 0.1, v_name)
              #cv2.imshow("vehicle", vehicle)
              #cv2.waitKey(0)
 
-             if len(boxes) == 0:
+             if len(classIDs) == 0:
                     utils.insert_result(conn, "yolo", image_fname, "au", "no_lp_detected", None, -1, "")
                     cv2.imwrite(os.path.join(error_dir, image_fname), vehicle)
              for (lp, lp_name) in lps:
                 if empty_image(lp, "plate_"+lp_name, error_log):
-                    utils.insert_result(conn, "yolo", image_fname, "au", "malformed_lp_detected", None, -1, "")
+                    utils.insert_result(conn, "yolo", image_fname, "au", "malformed_lp_detected", None, len(lps), "")
                     cv2.imwrite(os.path.join(error_dir, image_fname), vehicle)
-                    continue
-                (boxes, confidences, classIDs, plate_contents) = run_object_detector(lp, lpr_net, lpr_labels, confidence, 0.5, lp_name, (352,128))
-                if len(boxes) == 0:
+                    lp = vehicle #EXPERIMENTAL
+                (boxes, confidences, classIDs, plate_contents) = run_object_detector("lpr", lp, lpr_net, lpr_labels, confidence, 0.5, lp_name, (352,128))
+                if len(classIDs) == 0:
                     utils.insert_result(conn, "yolo", image_fname, "au", "no_characters_recognised", number_plate, -1, "")
                     cv2.imwrite(os.path.join(error_dir, image_fname), lp)
 
@@ -96,6 +105,7 @@ def pipeline(image_dir, detector_path, confidence, threshold, error_log, error_d
                 if conn:
                     utils.insert_result(conn, "yolo", image_fname, "au", "number_plate_recognised", number_plate, -1, "")
                 cv2.imwrite(os.path.join(np_dir, image_fname), lp)
+        cv2.imwrite(os.path.join(all_dir, image_fname), image)
 
 def empty_image(image, s, error_log):
     (H, W) = image.shape[:2]
@@ -126,7 +136,7 @@ def setup_detector(detector_path, detector_name):
     
     return (net, labels)
 
-def run_object_detector(image, net, labels, min_confidence, threshold, image_name, size=(416, 416)):
+def run_object_detector(name, image, net, labels, min_confidence, threshold, image_name, size=(416, 416)):
     (H, W) = image.shape[:2]
 
     # determine only the *output* layer names that we need from YOLO
@@ -154,7 +164,7 @@ def run_object_detector(image, net, labels, min_confidence, threshold, image_nam
     
 
     # show timing information on YOLO
-    print("[INFO] YOLO took {:.6f} seconds".format(end - start))
+    print("[INFO] {name} YOLO took {sec} seconds".format(name=name, sec=(end - start)))
 
     # initialize our lists of detected bounding boxes, confidences, and
     # class IDs, respectively
@@ -194,7 +204,7 @@ def run_object_detector(image, net, labels, min_confidence, threshold, image_nam
                             confidences.append(float(confidence))
                             classIDs.append(classID)
                             
-    print(classIDs)
+    #print(classIDs)
 
     # apply non-maxima suppression to suppress weak, overlapping bounding
     # boxes
