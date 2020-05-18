@@ -1,2 +1,1 @@
-classes = 2
-names = yolov3.names
+classes = 80names = /Users/sara/work/ANPR-RevenueNSW/data/darknet_data/yolov3.names

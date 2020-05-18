@@ -1,2 +1,1 @@
-classes = 2
-names = vehicle-detection.names
+classes = 2names = /Users/sara/work/ANPR-RevenueNSW/data/darknet_data/vehicle-detection.names

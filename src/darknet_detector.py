@@ -31,7 +31,6 @@ from ctypes import (
 import os
 import cv2
 import numpy as np
-import re
 
 """
 def sample(probs):
@@ -95,7 +94,7 @@ class Detector():
     def network_height(self, net):
         return self.lib.network_height(net)
 
-    def __init__(self, dll_path, configPath, weightPath, dataPath):
+    def __init__(self, dll_path, configPath, weightPath, dataPath, labelsPath):
         """
             dll_path: str
                 should be where libdarknet.so lives.
@@ -108,6 +107,9 @@ class Detector():
 
             dataPath: str
                 Path to the data file. Raises ValueError if not found
+
+            labelsPath: str
+                Path to labels file
 
         """
         self.hasGPU = True
@@ -238,24 +240,10 @@ class Detector():
         # In Python 3, the metafile default access craps out on Windows (but
         # not Linux) Read the names file and create a list to feed to detect
 
-        try:
-            with open(dataPath) as metaFH:
-                metaContents = metaFH.read()
-                match = re.search("names *= *(.*)$", metaContents,
-                                  re.IGNORECASE | re.MULTILINE)
-                if match:
-                    result = match.group(1)
-                else:
-                    result = None
-                try:
-                    if os.path.exists(result):
-                        with open(result) as namesFH:
-                            namesList = namesFH.read().strip().split("\n")
-                            self.altNames = [x.strip() for x in namesList]
-                except TypeError:
-                    pass
-        except Exception:
-            pass
+        if os.path.exists(labelsPath):
+            with open(labelsPath) as namesFH:
+                namesList = namesFH.read().strip().split("\n")
+                self.altNames = [x.strip() for x in namesList]
 
         print("Initialized detector")
 
@@ -303,6 +291,7 @@ class Detector():
             hier_thresh=.5,
             nms=.45,
             debug=False):
+        print("***** using C++ detector *****")
         # custom_image_bgr = cv2.imread(image) # use: detect(,,imagePath,)
         # custom_image = cv2.cvtColor(custom_image_bgr, cv2.COLOR_BGR2RGB)
         # custom_image = cv2.resize(custom_image,(lib.network_width(net),
@@ -546,6 +535,7 @@ class Detector():
                 "caption": an image caption
             }
         """
+        print("**** Using C++ Darknet Detector *****")
         if not os.path.exists(imagePath):
             raise ValueError("Invalid image path `" +
                              os.path.abspath(imagePath) + "`")
@@ -706,5 +696,6 @@ if __name__ == "__main__":
                         "yolov4.weights", "./cfg/coco.data")
     detector.performDetect("./data/car.jpg", 0.25)
     detector = Detector("./libdarknet.so", "./cfg/yolov4.cfg",
-                        "yolov4.weights", "./cfg/coco.data")
+                        "yolov4.weights", "./cfg/coco.data",
+                        "./cfg/coco.names")
     detector.performDetect("./data/car.jpg", 0.25)

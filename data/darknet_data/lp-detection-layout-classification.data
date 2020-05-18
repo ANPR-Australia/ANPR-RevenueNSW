@@ -1,2 +1,1 @@
-classes = 5
-names = /Users/sara/work/ANPR-RevenueNSW/data/darknet_data/lp-detection-layout-classification.names
+classes = 5names = /Users/sara/work/ANPR-RevenueNSW/data/darknet_data/lp-detection-layout-classification.names

@@ -171,6 +171,13 @@ def get_x(box):
     return box[0]
 
 
+def create_data_file(dataPath, labelsPath, nClasses):
+    data_file = open(dataPath, "w+")
+    data_file.write("classes = " + str(nClasses))
+    data_file.write("names = " + labelsPath)
+    data_file.close()
+
+
 def setup_detector(detector_path, detector_name, darknet_dll=None):
     # load the COCO class labels our YOLO model was trained on
     labelsPath = os.path.sep.join([detector_path, detector_name+".names"])
@@ -180,11 +187,12 @@ def setup_detector(detector_path, detector_name, darknet_dll=None):
     weightsPath = os.path.sep.join([detector_path, detector_name+".weights"])
     configPath = os.path.sep.join([detector_path, detector_name+".cfg"])
     dataPath = os.path.sep.join([detector_path, detector_name+".data"])
+    create_data_file(dataPath, labelsPath, len(labels))
     # Load our darknet C++ detector
     if darknet_dll:
         net = darknet_detector.Detector(darknet_dll,
                                         configPath, weightsPath,
-                                        dataPath)
+                                        dataPath, labelsPath)
         return (net, labels)
 
     # load our YOLO object detector using openCV DNN
