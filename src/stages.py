@@ -71,7 +71,7 @@ def pipeline(image_dir, detector_path, confidence, threshold,
                                 "au", "empty_image", None, -1, "")
             continue
         (boxes, confidences, classIDs, vehicles) = run_object_detector(
-            "vd", image, vd_net, vd_labels, confidence, threshold, image_name,
+            "vd", image, vd_net, vd_labels, confidence, 0.25, image_name,
             (448, 288))
         if len(classIDs) == 0:
             utils.insert_result(conn, "yolo", image_fname, "au",
@@ -80,7 +80,7 @@ def pipeline(image_dir, detector_path, confidence, threshold,
             # try it with yolov3
             (boxes, confidences, classIDs, candidates) = run_object_detector(
                 "yolov3", image, yolov3_net, yolov3_labels, confidence,
-                threshold, image_name, (448, 288))
+                0.25, image_name, (448, 288))
             vehicles = []
             for cl, ve in zip(classIDs, candidates):
                 # coco classIDs for car, motorbike, truck, boat, bus, train
@@ -136,6 +136,8 @@ def pipeline(image_dir, detector_path, confidence, threshold,
                         "malformed_lp_detected", None, len(lps), "")
                     cv2.imwrite(os.path.join(error_dir, image_fname), vehicle)
                     lp = vehicle  # EXPERIMENTAL
+
+                resized = cv2.resize(lp, (352, 128))
                 (boxes, confidences, classIDs, plate_contents) = \
                     run_object_detector("lpr", lp, lpr_net, lpr_labels,
                                         confidence, 0.5, lp_name, (352, 128))
@@ -143,9 +145,6 @@ def pipeline(image_dir, detector_path, confidence, threshold,
                     utils.insert_result(
                         conn, "yolo", image_fname, "au",
                         "no_characters_recognised", None, -1, "")
-                    cv2.imwrite(os.path.join(error_dir, image_fname), lp)
-
-                    resized = cv2.resize(image, (352, 128))
                     np_path = os.path.join(np_dir, image_fname)
                     cv2.imwrite(np_path, resized)
                     (boxes, confidences, classIDs, lps) = \

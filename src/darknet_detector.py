@@ -339,6 +339,7 @@ class Detector():
         self.free_detections(dets, num)
         if debug:
             print("freed detections")
+        cv2.imwrite(image, cv_img)
         if show_image:
             cv2.imshow("image", cv_img)
             cv2.waitKey(0)
