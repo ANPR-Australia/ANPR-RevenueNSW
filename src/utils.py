@@ -372,6 +372,8 @@ def insert_result(conn, test_name, img_file_name,
         
 
 def replace_all(replacements, string):
+    if not string:
+        return "" 
     for a, b in replacements:
         string = string.replace(a, b)
     return string

@@ -1,6 +1,6 @@
 [DEFAULT]
 prefix = /Users/sara/work/
-labeled_data_dir =ANPR-RevenueNSW/data/training_rnsw
+labeled_data_dir = ANPR-RevenueNSW/data/training_rnsw
 training_data_dir = ANPR-RevenueNSW/data/training
 test_data_dir = ANPR-RevenueNSW/data/training_rnsw
 
@@ -30,7 +30,4 @@ error_images = ANPR-RevenueNSW/data/yolo_error_images
 number_plates = ANPR-RevenueNSW/data/yolo_numberplates
 vehicles = ANPR-RevenueNSW/data/yolo_vehicles
 all_images = ANPR-RevenueNSW/data/yolo_all
-
-
-
-
+darknet_dll = /Users/sara/work/darknet/libdarknet.so

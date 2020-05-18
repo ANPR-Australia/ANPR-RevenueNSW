@@ -27,13 +27,14 @@ def setup_yolo(conn=None):
     np_dir = prefix+config["YOLO"]["number_plates"]
     vehicle_dir = prefix+config["YOLO"]["vehicles"]
     all_dir = prefix+config["YOLO"]["all_images"]
-
+    darknet_dll = config["YOLO"]["darknet_dll"]
     make_paths([error_dir, np_dir, vehicle_dir, all_dir])
 
     error_log_file = prefix+config["YOLO"]["error_log"]
     error_log = open(error_log_file, "w+")
     pipeline(image_dir, detector_path, confidence, threshold,
-             error_log, error_dir, np_dir, vehicle_dir, all_dir, conn)
+             error_log, error_dir, np_dir, vehicle_dir, all_dir,
+             darknet_dll, conn)
 
 
 def make_paths(path_list):
@@ -43,12 +44,16 @@ def make_paths(path_list):
 
 
 def pipeline(image_dir, detector_path, confidence, threshold,
-             error_log, error_dir, np_dir, vehicle_dir, all_dir, conn=None):
+             error_log, error_dir, np_dir, vehicle_dir, all_dir,
+             darknet_dll, conn=None):
     (vd_net, vd_labels) = setup_detector(detector_path, "vehicle-detection")
     (lpd_net, lpd_labels) = setup_detector(
         detector_path, "lp-detection-layout-classification")
     (lpr_net, lpr_labels) = setup_detector(detector_path, "lp-recognition")
     (yolov3_net, yolov3_labels) = setup_detector(detector_path, "yolov3")
+    darknet_detector, _ = setup_detector(detector_path,
+                                         "lp-detection-layout-classification",
+                                         darknet_dll)
 
     images = [f for f in glob.glob(image_dir + "/*.jpg")]
     images.sort()
@@ -112,6 +117,15 @@ def pipeline(image_dir, detector_path, confidence, threshold,
                 utils.insert_result(conn, "yolo", image_fname,
                                     "au", "no_lp_detected", None, -1, "")
                 cv2.imwrite(os.path.join(error_dir, image_fname), vehicle)
+                (boxes, confidences, classIDs, lps) = \
+                    darknet_detector.run_object_detector(
+                                os.path.join(vehicle_dir, image_fname),
+                                thresh=0.1, obj_name=v_name)
+                if len(classIDs) == 0:
+                    utils.insert_result(conn, "yolo", image_fname,
+                                        "au", "no_lp_detected_darknet",
+                                        None, -1, "")
+
             for (lp, lp_name) in lps:
                 if empty_image(lp, "plate_"+lp_name, error_log):
                     utils.insert_result(
@@ -157,7 +171,7 @@ def get_x(box):
     return box[0]
 
 
-def setup_detector(detector_path, detector_name):
+def setup_detector(detector_path, detector_name, darknet_dll=None):
     # load the COCO class labels our YOLO model was trained on
     labelsPath = os.path.sep.join([detector_path, detector_name+".names"])
     labels = open(labelsPath).read().strip().split("\n")
@@ -165,8 +179,15 @@ def setup_detector(detector_path, detector_name):
     # derive the paths to the YOLO weights and model configuration
     weightsPath = os.path.sep.join([detector_path, detector_name+".weights"])
     configPath = os.path.sep.join([detector_path, detector_name+".cfg"])
+    dataPath = os.path.sep.join([detector_path, detector_name+".data"])
+    # Load our darknet C++ detector
+    if darknet_dll:
+        net = darknet_detector.Detector(darknet_dll,
+                                        configPath, weightsPath,
+                                        dataPath)
+        return (net, labels)
 
-    # load our YOLO object detector trained on COCO dataset (80 classes)
+    # load our YOLO object detector using openCV DNN
     print("[INFO] loading YOLO from disk...")
     net = cv2.dnn.readNetFromDarknet(configPath, weightsPath)
 
