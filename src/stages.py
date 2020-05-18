@@ -60,7 +60,11 @@ def pipeline(image_dir, detector_path, confidence, threshold,
 
     images = [f for f in glob.glob(image_dir + "/*.jpg")]
     images.sort()
+    n_images = len(images)
+    i = 0
     for img in images:
+        i=i+1
+        print("Processing img ("+str(i)+"/"+str(n_images)+")")
         image_fname = os.path.basename(img)
         image_name = os.path.splitext(image_fname)[0]
         print(img)
