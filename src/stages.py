@@ -51,9 +51,12 @@ def pipeline(image_dir, detector_path, confidence, threshold,
         detector_path, "lp-detection-layout-classification")
     (lpr_net, lpr_labels) = setup_detector(detector_path, "lp-recognition")
     (yolov3_net, yolov3_labels) = setup_detector(detector_path, "yolov3")
-    darknet_detector, _ = setup_detector(detector_path,
-                                         "lp-detection-layout-classification",
-                                         darknet_dll)
+    darknet_lpd, _ = setup_detector(detector_path,
+                                    "lp-detection-layout-classification",
+                                    darknet_dll)
+    darknet_lpr, _ = setup_detector(detector_path,
+                                    "lp-recognition",
+                                    darknet_dll)
 
     images = [f for f in glob.glob(image_dir + "/*.jpg")]
     images.sort()
@@ -118,7 +121,7 @@ def pipeline(image_dir, detector_path, confidence, threshold,
                                     "au", "no_lp_detected", None, -1, "")
                 cv2.imwrite(os.path.join(error_dir, image_fname), vehicle)
                 (boxes, confidences, classIDs, lps) = \
-                    darknet_detector.run_object_detector(
+                    darknet_lpd.run_object_detector(
                                 os.path.join(vehicle_dir, image_fname),
                                 thresh=0.1, obj_name=v_name)
                 if len(classIDs) == 0:
@@ -142,16 +145,29 @@ def pipeline(image_dir, detector_path, confidence, threshold,
                         "no_characters_recognised", None, -1, "")
                     cv2.imwrite(os.path.join(error_dir, image_fname), lp)
 
-                # sort the characters based on x value, then
-                # join them all up into a numberplate
-                number_plate = "".join(
-                    [lpr_labels[bc[1]] for bc in sorted(zip(boxes, classIDs),
-                                                        key=get_x)])
-                print(number_plate)
-                if conn:
+                    resized = cv2.resize(image, (352, 128))
+                    np_path = os.path.join(np_dir, image_fname)
+                    cv2.imwrite(np_path, resized)
+                    (boxes, confidences, classIDs, lps) = \
+                        darknet_lpr.run_object_detector(
+                                    np_path,
+                                    thresh=0.5, obj_name=lp_name)
+                if len(classIDs) == 0:
                     utils.insert_result(
                         conn, "yolo", image_fname, "au",
-                        "number_plate_recognised", number_plate, -1, "")
+                        "no_characters_recognised_darknet", None, -1, "")
+                else:
+                    # sort the characters based on x value, then
+                    # join them all up into a numberplate
+                    number_plate = "".join(
+                        [lpr_labels[bc[1]] for bc
+                            in sorted(zip(boxes, classIDs),
+                                      key=get_x)])
+                    print(number_plate)
+                    if conn:
+                        utils.insert_result(
+                            conn, "yolo", image_fname, "au",
+                            "number_plate_recognised", number_plate, -1, "")
                 cv2.imwrite(os.path.join(np_dir, image_fname), lp)
         cv2.imwrite(os.path.join(all_dir, image_fname), image)
 
