@@ -123,8 +123,8 @@ def create_labeled_data_from_images(conn, labeled_data_dir):
 
 
 def rename_files(input_dir, out_dir):
-    """ 
-    This renames all the files and associated yaml files into 
+    """
+    This renames all the files and associated yaml files into
     more readable filenames, it also generates a mapping between old file
     names and new file names so moved files can be renamed too.
     """
@@ -142,7 +142,6 @@ def rename_files(input_dir, out_dir):
                 print("Processing: " + yaml_file +
                       " (" + str(count) + "/" + str(len(yaml_files)) + ")")
                 yaml_path = os.path.join(input_dir, yaml_file)
-                yaml_without_ext = os.path.splitext(yaml_path)[0]
 
                 yaml_obj = yaml.safe_load(stream)
                 original_filename = yaml_obj['image_file']
@@ -168,7 +167,7 @@ def rename_files(input_dir, out_dir):
 
             except yaml.YAMLError as exc:
                 print(exc)
-                system.exit(1)
+                sys.exit(1)
 
     logfile.write(yaml.dump(log))
 
@@ -334,7 +333,10 @@ def insert_classification(conn, name, class_name):
     c = conn.cursor()
     values = (name, class_name)
     c.execute(
-        '''INSERT INTO classifications (image_file_name, classification) VALUES (?,?)''', values)
+        '''
+        INSERT INTO classifications (image_file_name, classification)
+        VALUES (?,?)
+        ''', values)
     conn.commit()
 
 
@@ -349,7 +351,10 @@ def insert_label(conn, img_file, region_code, plate_no):
     c = conn.cursor()
     values = (img_file, region_code, plate_no)
     c.execute(
-        '''INSERT INTO labels (image_file_name, region_code, plate_number) VALUES (?, ?, ?)''', values)
+        '''
+        INSERT INTO labels (image_file_name, region_code, plate_number)
+        VALUES (?, ?, ?)
+        ''', values)
     conn.commit()
 
 
@@ -358,7 +363,11 @@ def insert_metadata(conn, img_file):
     r = parse_filename(img_file)
     values = (img_file, r['date'], r['cameraType'],
               r['locationID'], r['incidentID'], r['cameraID'])
-    c.execute('''INSERT INTO file_metadata (image_file_name, capture_date, cameraType, location_id, incident_id, camera_id) values (?,?,?,?,?,?)''', values)
+    c.execute('''
+            INSERT INTO file_metadata (image_file_name, capture_date,
+            cameraType, location_id, incident_id, camera_id)
+            VALUES (?,?,?,?,?,?)
+            ''', values)
     conn.commit()
 
 
@@ -370,12 +379,16 @@ def insert_result(conn, test_name, img_file_name,
         values = (img_file_name, test_name, country_str, openalpr_conf_file,
                   first_plate, confidence, str(json_str))
         print(values)
-        c.execute('''INSERT INTO results (image_file_name, test_name, country_str, openalpr_conf_file, first_plate, confidence, json_str) VALUES (?, ?,?,?,?,?,?)''', values)
+        c.execute('''
+                INSERT INTO results (image_file_name, test_name, country_str,
+                openalpr_conf_file, first_plate, confidence, json_str)
+                VALUES (?, ?,?,?,?,?,?)''', values)
     else:
         values = (img_file_name, test_name, country_str, openalpr_conf_file)
         c.execute(
             '''
-            INSERT INTO results (image_file_name, test_name, country_str, openalpr_conf_file) 
+            INSERT INTO results
+            (image_file_name, test_name, country_str, openalpr_conf_file)
             VALUES (?,?,?,?)
             ''', values)
 
@@ -394,10 +407,13 @@ def results_by_incident(conn):
     c = conn.cursor()
     c.execute(
         """
-         SELECT file_metadata.image_file_name, file_metadata.location_id, file_metadata.incident_id, openalpr_conf_file, results.first_plate, labels.plate_number
+         SELECT file_metadata.image_file_name, file_metadata.location_id,
+         file_metadata.incident_id, openalpr_conf_file, results.first_plate,
+         labels.plate_number
          FROM labels
          INNER JOIN results on results.image_file_name = labels.image_file_name
-         INNER JOIN file_metadata on file_metadata.image_file_name = results.image_file_name
+         INNER JOIN file_metadata
+         ON file_metadata.image_file_name = results.image_file_name
          WHERE openalpr_conf_file = "number_plate_recognised"
          GROUP BY location_id, incident_id
          ORDER BY file_metadata.location_id;
