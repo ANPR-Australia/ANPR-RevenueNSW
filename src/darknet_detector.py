@@ -94,8 +94,11 @@ class Detector():
     def network_height(self, net):
         return self.lib.network_height(net)
 
-    def __init__(self, dll_path, configPath, weightPath, dataPath, labelsPath):
+    def __init__(self, detector_name,
+                 dll_path, configPath, weightPath, dataPath, labelsPath):
         """
+            detector_name: str
+                name for the detector
             dll_path: str
                 should be where libdarknet.so lives.
 
@@ -112,6 +115,7 @@ class Detector():
                 Path to labels file
 
         """
+        self.detector_name = detector_name
         self.hasGPU = True
         self.lib = CDLL(dll_path, RTLD_GLOBAL)
 
@@ -258,7 +262,8 @@ class Detector():
             debug=False,
             show_image=False):
 
-        print("***** using darknet_detector (" + obj_name + ") *****")
+        print("***** using darknet_detector (" +
+              self.detector_name + ") *****")
         im = self.load_image(image.encode("ascii"), 0, 0)
         num = c_int(0)
         if debug:

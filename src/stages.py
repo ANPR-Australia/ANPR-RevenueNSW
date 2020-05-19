@@ -63,7 +63,7 @@ def pipeline(image_dir, detector_path, confidence, threshold,
     n_images = len(images)
     i = 0
     for img in images:
-        i=i+1
+        i = i+1
         print("Processing img ("+str(i)+"/"+str(n_images)+")")
         image_fname = os.path.basename(img)
         image_name = os.path.splitext(image_fname)[0]
@@ -103,34 +103,31 @@ def pipeline(image_dir, detector_path, confidence, threshold,
             if empty_image(vehicle,
                            "vehicle_of_" + str(len(vehicles)) + "_" +
                            v_name, error_log):
-                # here we could continue the pipeline with image, assuming
-                # the reason it can't find the vehicle is
-                # because we're zoomed in too much.. worth testing this idea.
                 utils.insert_result(conn, "yolo", os.path.basename(
                     img), "au", "malformed_vehicle_detected", None,
                     len(vehicles), "")
-                # (boxes, confidences, classIDs, lps) =
-                # run_object_detector(image, lpd_net, lpd_labels, confidence,
-                # 0.1, v_name)
                 cv2.imwrite(os.path.join(error_dir, image_fname), image)
+                # here we could continue the pipeline with image, assuming
+                # the reason it can't find the vehicle is
+                # because we're zoomed in too much.. worth testing this idea.
                 vehicle = image  # EXPERIMENTAL
             cv2.imwrite(os.path.join(vehicle_dir, image_fname), vehicle)
-            (boxes, confidences, classIDs, lps) = run_object_detector(
-                "lpd", vehicle, lpd_net, lpd_labels, confidence, 0.1, v_name)
-            # cv2.imshow("vehicle", vehicle)
-            # cv2.waitKey(0)
+            (boxes, confidences, classIDs, lps) = \
+                darknet_lpd.run_object_detector(
+                                os.path.join(vehicle_dir, image_fname),
+                                thresh=0.1, obj_name=v_name)
 
             if len(classIDs) == 0:
                 utils.insert_result(conn, "yolo", image_fname,
-                                    "au", "no_lp_detected", None, -1, "")
-                cv2.imwrite(os.path.join(error_dir, image_fname), vehicle)
-                (boxes, confidences, classIDs, lps) = \
-                    darknet_lpd.run_object_detector(
-                                os.path.join(vehicle_dir, image_fname),
-                                thresh=0.1, obj_name=v_name)
+                                    "au", "no_lp_detected_darknet",
+                                    None, -1, "")
+                (boxes, confidences, classIDs, lps) = run_object_detector(
+                    "lpd", vehicle, lpd_net, lpd_labels,
+                    confidence, 0.1, v_name)
+
                 if len(classIDs) == 0:
                     utils.insert_result(conn, "yolo", image_fname,
-                                        "au", "no_lp_detected_darknet",
+                                        "au", "no_lp_detected_dnn",
                                         None, -1, "")
 
             for (lp, lp_name) in lps:
@@ -142,23 +139,26 @@ def pipeline(image_dir, detector_path, confidence, threshold,
                     lp = vehicle  # EXPERIMENTAL
 
                 resized = cv2.resize(lp, (352, 128))
-                (boxes, confidences, classIDs, plate_contents) = \
-                    run_object_detector("lpr", lp, lpr_net, lpr_labels,
-                                        confidence, 0.5, lp_name, (352, 128))
-                if len(classIDs) == 0:
-                    utils.insert_result(
-                        conn, "yolo", image_fname, "au",
-                        "no_characters_recognised", None, -1, "")
-                    np_path = os.path.join(np_dir, image_fname)
-                    cv2.imwrite(np_path, resized)
-                    (boxes, confidences, classIDs, lps) = \
-                        darknet_lpr.run_object_detector(
+                np_path = os.path.join(np_dir, image_fname)
+                cv2.imwrite(np_path, resized)
+                (boxes, confidences, classIDs, lps) = \
+                    darknet_lpr.run_object_detector(
                                     np_path,
                                     thresh=0.5, obj_name=lp_name)
                 if len(classIDs) == 0:
                     utils.insert_result(
                         conn, "yolo", image_fname, "au",
                         "no_characters_recognised_darknet", None, -1, "")
+                    np_path = os.path.join(np_dir, image_fname)
+                    cv2.imwrite(np_path, resized)
+                    (boxes, confidences, classIDs, plate_contents) = \
+                        run_object_detector("lpr", lp, lpr_net, lpr_labels,
+                                            confidence, 0.5,
+                                            lp_name, (352, 128))
+                if len(classIDs) == 0:
+                    utils.insert_result(
+                        conn, "yolo", image_fname, "au",
+                        "no_characters_recognised_dnn", None, -1, "")
                 else:
                     # sort the characters based on x value, then
                     # join them all up into a numberplate
@@ -209,7 +209,7 @@ def setup_detector(detector_path, detector_name, darknet_dll=None):
     create_data_file(dataPath, labelsPath, len(labels))
     # Load our darknet C++ detector
     if darknet_dll:
-        net = darknet_detector.Detector(darknet_dll,
+        net = darknet_detector.Detector(detector_name, darknet_dll,
                                         configPath, weightsPath,
                                         dataPath, labelsPath)
         return (net, labels)
