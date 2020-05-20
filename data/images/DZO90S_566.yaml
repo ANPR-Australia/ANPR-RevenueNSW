@@ -4,3 +4,4 @@ image_width: 3024
 plate_corners_gt: 482 1143 958 1226 962 1330 497 1239
 plate_inverted_gt: false
 plate_number_gt: DZO90S
+region_code_gt: nsw

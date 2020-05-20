@@ -4,3 +4,4 @@ image_width: 5472
 plate_corners_gt: 2420 3267 2570 3292 2564 3332 2415 3305
 plate_inverted_gt: false
 plate_number_gt: CZA71Y
+region_code_gt: nsw

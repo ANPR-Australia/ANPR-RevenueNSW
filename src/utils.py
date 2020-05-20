@@ -1,4 +1,5 @@
 import configparser
+import string
 import os
 import yaml
 import glob
@@ -237,6 +238,112 @@ def crop_image(input_dir, out_dir, yaml_file):
         except yaml.YAMLError as exc:
             print(exc)
             sys.exit(1)
+
+
+def train_aussie_plates(input_dir, output_dir):
+    classes = {"nsw": 1,
+               "vic": 2,
+               "qld": 3,
+               "sa":  4,
+               "nt":  5,
+               "act": 6,
+               "wa":  7,
+               "tas": 8}
+    prepare_yolo_training(input_dir, output_dir, classes)
+
+
+def prepare_yolo_training(input_dir, output_dir, classes):
+    yaml_files = [f for f in glob.glob(input_dir + "/*.yaml", recursive=False)]
+    image_path = os.path.join(output_dir, "img")
+    if not os.path.exists(image_path):
+        os.makedirs(image_path)
+    data_path = os.path.join(output_dir, "data")
+    if not os.path.exists(data_path):
+        os.makedirs(data_path)
+    for y in yaml_files:
+        create_yolo_images_and_annotation(y, input_dir, output_dir, classes)
+    create_yolo_training_obj_data(output_dir, classes)
+    create_yolo_training_obj_names(data_path, classes)
+    create_yolo_train_txt(output_dir, data_path)
+
+
+def create_yolo_images_and_annotation(yaml_file,
+                                      input_dir, output_dir,
+                                      classes):
+    """
+    <object-class> <x_center> <y_center> <width> <height>
+    """
+    yaml_path = os.path.join(input_dir, yaml_file)
+    with open(yaml_path, 'r') as stream:
+        yaml_obj = yaml.safe_load(stream)
+
+        try:
+            # Skip missing images
+            plate_corners = yaml_obj['plate_corners_gt']
+            full_image_path = os.path.join(
+                input_dir, yaml_obj['image_file'])
+            (fn, ext) = os.path.splitext(os.path.basename(full_image_path))
+            object_class = yaml_obj['region_code_gt']
+
+        except KeyError as e:
+            print("Missing key in file: " + yaml_file + "\n" + str(e))
+            sys.exit(1)
+
+        if not os.path.isfile(full_image_path):
+            print("Could not find image file %s, skipping" %
+                  (full_image_path))
+            return
+
+        shutil.copyfile(full_image_path, os.path.join(output_dir,
+                        "img", yaml_obj['image_file']))
+
+        cc = plate_corners.strip().split()
+        for i in range(0, len(cc)):
+            cc[i] = int(cc[i])
+
+        points = np.array([(cc[0], cc[1]), (cc[2], cc[3]),
+                           (cc[4], cc[5]), (cc[6], cc[7])])
+
+        rect = cv2.boundingRect(points)
+        (x1, y1, x2, y2) = rect
+        center_of_rect = ((x1+x2)*0.5, (y1+y2)*0.5)
+        s = string.Template("$object_class $x_center $y_center $width $height")
+        line = s.substitute(object_class=classes[object_class],
+                            x_center=center_of_rect[0],
+                            y_center=center_of_rect[1],
+                            width=int(yaml_obj['image_width']),
+                            height=int(yaml_obj['image_height']))
+        output_text_path = os.path.join(output_dir, "img", fn+".txt")
+        f = open(output_text_path, "w+")
+        f.write(line)
+        f.close()
+
+
+def create_yolo_training_obj_data(output_dir, classes):
+    s = string.Template("classes=$n_classes\ntrain=data/train.txt" +
+                        "\nvalid=data/train.txt\n" +
+                        "names=data/obj.names\nbackup = backup/")
+    path = os.path.join(output_dir, "obj.data")
+    f = open(path, "w+")
+    f.write(s.substitute(n_classes=len(classes)))
+    f.close()
+
+
+def create_yolo_training_obj_names(output_dir, classes):
+    path = os.path.join(output_dir, "obj.names")
+    f = open(path, "w+")
+    for c in classes:
+        f.write(c+"\n")
+    f.close()
+
+
+def create_yolo_train_txt(output_dir, input_dir):
+    path = os.path.join(output_dir, "train.txt")
+    f = open(path, "w+")
+    images = [f for f in glob.glob(input_dir + "/*.jpg", recursive=False)]
+    for i in images:
+        f.write(os.path.join(output_dir, "img", i)+"\n")
+    f.close()
 
 
 def capture_visual_classification(classified_dir, rename_log):

@@ -4,3 +4,4 @@ image_width: 3024
 plate_corners_gt: 1377 1404 1683 1319 1713 1459 1407 1562
 plate_inverted_gt: false
 plate_number_gt: CG42ZO
+region_code_gt: nsw 
