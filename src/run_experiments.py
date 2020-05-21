@@ -31,13 +31,14 @@ def run_experiments():
 
     conn = utils.init_db(dbFile, dbOld, dbSchema)
 
-    #label_dict = utils.create_labeled_data_from_images(conn, labeled_data_dir)
+    label_dict = utils.create_labeled_data_from_images(conn, labeled_data_dir)
     
-    label_dict = utils.create_labeled_data_from_rnsw_test_data(conn, 
-            test_data_dir)
+    #label_dict = utils.create_labeled_data_from_rnsw_test_data(conn, 
+    #        test_data_dir)
 
     yolo.setup_yolo(conn)
-    utils.results_by_incident(conn)
+    #utils.results_by_incident(conn)
+    utils.results_overall(conn)
     """
     
     cropped_results = test_cropped_number_plates(conn, results_dir, 

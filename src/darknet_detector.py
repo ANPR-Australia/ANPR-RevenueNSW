@@ -14,7 +14,8 @@ On a GPU system, you can force CPU evaluation by any of:
 - Set environment variable "FORCE_CPU" to "true"
 
 
-To use, either run performDetect() after import, or modify the end of this
+To use, either run performDetect() after creating a
+Detector object, or modify the end of this
 file.
 
 See the docstring of performDetect() for parameters.
@@ -24,6 +25,10 @@ installed (`pip install scikit-image`)
 
 @author: Philip Kahn
 @date: 20180503
+
+@author: Sara Falamaki
+@date: 2020015
+
 """
 from ctypes import (
         CDLL, Structure, c_float, c_int, POINTER, c_char_p, RTLD_GLOBAL,
@@ -31,24 +36,6 @@ from ctypes import (
 import os
 import cv2
 import numpy as np
-
-"""
-def sample(probs):
-    s = sum(probs)
-    probs = [a/s for a in probs]
-    r = random.uniform(0, 1)
-    for i in range(len(probs)):
-        r = r - probs[i]
-        if r <= 0:
-            return i
-    return len(probs)-1
-
-def c_array(ctype, values):
-    arr = (ctype*len(values))()
-    arr[:] = values
-    return arr
-
-"""
 
 
 class BOX(Structure):

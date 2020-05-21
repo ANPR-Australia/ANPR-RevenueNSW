@@ -106,7 +106,7 @@ def pipeline(image_dir, detector_path, confidence, threshold,
                 utils.insert_result(conn, "yolo", os.path.basename(
                     img), "au", "malformed_vehicle_detected", None,
                     len(vehicles), "")
-                cv2.imwrite(os.path.join(error_dir, image_fname), image)
+                # cv2.imwrite(os.path.join(error_dir, image_fname), image)
                 # here we could continue the pipeline with image, assuming
                 # the reason it can't find the vehicle is
                 # because we're zoomed in too much.. worth testing this idea.

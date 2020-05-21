@@ -549,6 +549,49 @@ def results_by_incident(conn):
           total=len(rows)))
 
 
+def results_overall(conn):
+    correct_dict = {}
+    c = conn.cursor()
+    c.execute(
+        """
+         SELECT labels.image_file_name, openalpr_conf_file,
+         results.first_plate, labels.plate_number
+         FROM labels
+         INNER JOIN results ON
+         results.image_file_name = labels.image_file_name;
+        """
+    )
+    rows = c.fetchall()
+    same_count = 0
+    replace_same_count = 0
+    for res in rows:
+        print(res)
+        filename = res[0]
+        numberplate = res[3].upper()
+        result = res[2]
+        if not result:
+            continue
+        result = result.upper()
+        replacements = [('0', 'O'), ('1', 'I'), ('B', '8'), ('G', '6')]
+        if result.upper() == numberplate.upper():
+            same_count = same_count+1
+            correct_dict[filename] = result
+
+        if replace_all(replacements, result) == replace_all(replacements,
+                                                            numberplate):
+            replace_same_count = replace_same_count+1
+            correct_dict[filename] = result
+
+    result = "same: {same_count}/{total} numberplates the same\n"
+    print(result.format(same_count=same_count, total=len(rows)))
+
+    result = "subs: {replace_same_count}/{total} numberplates the same\n"
+    print(result.format(replace_same_count=replace_same_count,
+          total=len(rows)))
+    print("number correct overall")
+    print(len(correct_dict))
+
+
 if __name__ == "__main__":
     config = configparser.ConfigParser()
     config.read("config.py")

@@ -21,7 +21,7 @@ output_dir = ANPR-RevenueNSW/data/cropped_plates
 classified_dir = ANPR-RevenueNSW/data/cropped_plates/classified
 
 [YOLO]
-input_image_dir = ANPR-RevenueNSW/data/training_rnsw
+input_image_dir = ANPR-RevenueNSW/data/images
 darknet_model_dir = ANPR-RevenueNSW/data/darknet_data
 confidence = 0.5
 threshold = 0.25
