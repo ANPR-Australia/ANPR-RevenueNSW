@@ -274,6 +274,7 @@ def create_yolo_images_and_annotation(yaml_file,
     <object-class> <x_center> <y_center> <width> <height>
     """
     yaml_path = os.path.join(input_dir, yaml_file)
+    yaml_path = yaml_file
     with open(yaml_path, 'r') as stream:
         yaml_obj = yaml.safe_load(stream)
 
@@ -305,18 +306,57 @@ def create_yolo_images_and_annotation(yaml_file,
                            (cc[4], cc[5]), (cc[6], cc[7])])
 
         rect = cv2.boundingRect(points)
-        (x1, y1, x2, y2) = rect
-        center_of_rect = ((x1+x2)*0.5, (y1+y2)*0.5)
+        (x1, y1, w, h) = rect
+        # debug
+        # img = cv2.imread(full_image_path)
+        # color = (255, 0, 0)
+        # thickness = 2
+        # img = cv2.rectangle(img, (x1, y1), (x1+w, y1+h), color, thickness)
+
+        # cv2.imshow("blah", img)
+        # cv2.waitKey(0)
+        center_of_rect = (x1+w*0.5, y1+h*0.5)
         s = string.Template("$object_class $x_center $y_center $width $height")
         line = s.substitute(object_class=classes[object_class],
                             x_center=center_of_rect[0],
                             y_center=center_of_rect[1],
-                            width=int(yaml_obj['image_width']),
-                            height=int(yaml_obj['image_height']))
+                            width=w,
+                            height=h)
         output_text_path = os.path.join(output_dir, "img", fn+".txt")
         f = open(output_text_path, "w+")
         f.write(line)
         f.close()
+
+
+def show_yolo_annotation(image_path):
+    image = cv2.imread(image_path)
+    txt_path = os.path.splitext(image_path)[0]+".txt"
+    with open(txt_path, "r") as f:
+        content = f.readlines()
+        values = content[0].strip().split()
+        for i in range(0, len(values)):
+            values[i] = float(values[i])
+
+        # cls = values[0]
+        x_centre = values[1]
+        y_centre = values[2]
+        w = values[3]
+        h = values[4]
+
+        x1 = int(x_centre - 0.5*w)
+        x2 = int(x_centre + 0.5*w)
+
+        y1 = int(y_centre - 0.5*h)
+        y2 = int(y_centre + 0.5*h)
+
+        # Blue color in BGR
+        color = (255, 0, 0)
+        # Line thickness of 2 px
+        thickness = 2
+        image = cv2.rectangle(image, (x1, y1), (x2, y2), color, thickness)
+        # Displaying the image
+        cv2.imshow("test", image)
+        cv2.waitKey(0)
 
 
 def create_yolo_training_obj_data(output_dir, classes):
