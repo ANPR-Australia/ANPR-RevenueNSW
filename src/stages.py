@@ -2,13 +2,13 @@
 # python yolo.py --image images/baggage_claim.jpg --yolo yolo-coco
 
 # import the necessary packages
-import numpy as np
-import time
 import cv2
 import os
 import glob
 import utils
-import darknet_detector
+import pytesseract
+import yolo_utils as yutils
+from pytesseract import Output
 
 
 def setup_yolo(conn=None):
@@ -32,6 +32,7 @@ def setup_yolo(conn=None):
 
     error_log_file = prefix+config["YOLO"]["error_log"]
     error_log = open(error_log_file, "w+")
+    # recognise_plates(image_dir, detector_path, confidence, threshold,
     pipeline(image_dir, detector_path, confidence, threshold,
              error_log, error_dir, np_dir, vehicle_dir, all_dir,
              darknet_dll, conn)
@@ -43,20 +44,126 @@ def make_paths(path_list):
             os.makedirs(p)
 
 
+def recognise_tesserect(image_path, min_conf):
+    # load the input image, convert it from BGR to RGB channel ordering,
+    # and use Tesseract to localize each area of text in the input image
+    image = cv2.imread(image_path)
+    rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+    results = pytesseract.image_to_string(rgb, output_type=Output.DICT)
+
+    # loop over each of the individual text localizations
+    for i in range(0, len(results["text"])):
+        # extract the bounding box coordinates of the text region from
+        # the current result
+        x = results["left"][i]
+        y = results["top"][i]
+        w = results["width"][i]
+        h = results["height"][i]
+
+        # extract the OCR text itself along with the confidence of the
+        # text localization
+        text = results["text"][i]
+        conf = int(results["conf"][i])
+
+        # filter out weak confidence text localizations
+        if conf > min_conf:
+            # display the confidence and text to our terminal
+            print("Confidence: {}".format(conf))
+            print("Text: {}".format(text))
+            print("")
+
+            # strip out non-ASCII text so we can draw the text on the image
+            # using OpenCV, then draw a bounding box around the text along
+            # with the text itself
+            text = "".join([c if ord(c) < 128 else "" for c in text]).strip()
+            cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
+            cv2.putText(image, text, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX,
+                        1.2, (0, 0, 255), 3)
+
+    # show the output image
+    cv2.imshow("Image", image)
+    cv2.waitKey(0)
+
+
+def recognise_plates(image_dir, detector_path, confidence, threshold,
+                     error_log, error_dir, np_dir, vehicle_dir, all_dir,
+                     darknet_dll, conn=None):
+    (lpr_net, lpr_labels) = yutils.setup_detector(detector_path,
+                                                  "lp-recognition")
+    darknet_lpr, _ = yutils.setup_detector(detector_path,
+                                           "lp-recognition",
+                                           darknet_dll)
+
+    images = [f for f in glob.glob(image_dir + "/*.jpg")]
+    images.sort()
+    n_images = len(images)
+    i = 0
+    for img in images:
+        i = i+1
+        print("Processing img ("+str(i)+"/"+str(n_images)+")")
+        image_fname = os.path.basename(img)
+        lp_name = os.path.splitext(image_fname)[0]
+        print(img)
+        # load our input image and grab its spatial dimensions
+        lp = cv2.imread(img)
+        if empty_image(lp, img, error_log):
+            utils.insert_result(conn, "yolo", image_fname,
+                                "au", "empty_image", None, -1, "")
+            continue
+        resized = cv2.resize(lp, (352, 128))
+        np_path = os.path.join(np_dir, image_fname)
+        cv2.imwrite(np_path, resized)
+        (boxes, confidences, classIDs, lps) = \
+            darknet_lpr.run_object_detector(
+                            np_path,
+                            thresh=0.5, obj_name=lp_name)
+        if len(classIDs) == 0:
+            utils.insert_result(
+                conn, "yolo", image_fname, "au",
+                "no_characters_recognised_darknet", None, -1, "")
+            np_path = os.path.join(np_dir, image_fname)
+            cv2.imwrite(np_path, resized)
+            (boxes, confidences, classIDs, plate_contents) = \
+                yutils.run_object_detector("lpr", lp, lpr_net, lpr_labels,
+                                           confidence, 0.5,
+                                           lp_name, (352, 128))
+        if len(classIDs) == 0:
+            utils.insert_result(
+                conn, "yolo", image_fname, "au",
+                "no_characters_recognised_dnn", None, -1, "")
+        else:
+            # sort the characters based on x value, then
+            # join them all up into a numberplate
+            number_plate = "".join(
+                [lpr_labels[bc[1]] for bc
+                    in sorted(zip(boxes, classIDs),
+                              key=get_x)])
+            print(number_plate)
+            if conn:
+                utils.insert_result(
+                    conn, "yolo", image_fname, "au",
+                    "number_plate_recognised", number_plate, -1, "")
+        cv2.imwrite(os.path.join(np_dir, image_fname), lp)
+
+
 def pipeline(image_dir, detector_path, confidence, threshold,
              error_log, error_dir, np_dir, vehicle_dir, all_dir,
              darknet_dll, conn=None):
-    (vd_net, vd_labels) = setup_detector(detector_path, "vehicle-detection")
-    (lpd_net, lpd_labels) = setup_detector(
+    (vd_net, vd_labels) = yutils.setup_detector(detector_path,
+                                                "vehicle-detection")
+    (lpd_net, lpd_labels) = yutils.setup_detector(
         detector_path, "lp-detection-layout-classification")
-    (lpr_net, lpr_labels) = setup_detector(detector_path, "lp-recognition")
-    (yolov3_net, yolov3_labels) = setup_detector(detector_path, "yolov3")
-    darknet_lpd, _ = setup_detector(detector_path,
-                                    "lp-detection-layout-classification",
-                                    darknet_dll)
-    darknet_lpr, _ = setup_detector(detector_path,
-                                    "lp-recognition",
-                                    darknet_dll)
+    (lpr_net, lpr_labels) = yutils.setup_detector(detector_path,
+                                                  "lp-recognition")
+    (yolov3_net, yolov3_labels) = yutils.setup_detector(detector_path,
+                                                        "yolov3")
+    darknet_lpd, _ =\
+        yutils.setup_detector(detector_path,
+                              "lp-detection-layout-classification",
+                              darknet_dll)
+    darknet_lpr, _ =\
+        yutils.setup_detector(detector_path, "lp-recognition",
+                              darknet_dll)
 
     images = [f for f in glob.glob(image_dir + "/*.jpg")]
     images.sort()
@@ -74,7 +181,7 @@ def pipeline(image_dir, detector_path, confidence, threshold,
             utils.insert_result(conn, "yolo", image_fname,
                                 "au", "empty_image", None, -1, "")
             continue
-        (boxes, confidences, classIDs, vehicles) = run_object_detector(
+        (boxes, confidences, classIDs, vehicles) = yutils.run_object_detector(
             "vd", image, vd_net, vd_labels, confidence, 0.25, image_name,
             (448, 288))
         if len(classIDs) == 0:
@@ -82,7 +189,8 @@ def pipeline(image_dir, detector_path, confidence, threshold,
                                 "no_vehicle_detected_vehicle_net", None, -1,
                                 "")
             # try it with yolov3
-            (boxes, confidences, classIDs, candidates) = run_object_detector(
+            (boxes, confidences, classIDs, candidates) =\
+                yutils.run_object_detector(
                 "yolov3", image, yolov3_net, yolov3_labels, confidence,
                 0.25, image_name, (448, 288))
             vehicles = []
@@ -98,6 +206,9 @@ def pipeline(image_dir, detector_path, confidence, threshold,
                     conn, "yolo", image_fname, "au",
                     "no_vehicle_detected_yolov3_net", None, -1, "")
                 cv2.imwrite(os.path.join(error_dir, image_fname), image)
+                # Assume we're cropped in too much to detect a vehicle and
+                # try finding the number plate in the whole image.
+                vehicles = (image, "whole_image")
 
         for (vehicle, v_name) in vehicles:
             if empty_image(vehicle,
@@ -113,7 +224,7 @@ def pipeline(image_dir, detector_path, confidence, threshold,
                 vehicle = image  # EXPERIMENTAL
             cv2.imwrite(os.path.join(vehicle_dir, image_fname), vehicle)
             (boxes, confidences, classIDs, lps) = \
-                darknet_lpd.run_object_detector(
+                darknet_lpd.yutils.run_object_detector(
                                 os.path.join(vehicle_dir, image_fname),
                                 thresh=0.1, obj_name=v_name)
 
@@ -121,7 +232,8 @@ def pipeline(image_dir, detector_path, confidence, threshold,
                 utils.insert_result(conn, "yolo", image_fname,
                                     "au", "no_lp_detected_darknet",
                                     None, -1, "")
-                (boxes, confidences, classIDs, lps) = run_object_detector(
+                (boxes, confidences, classIDs, lps) =\
+                    yutils.run_object_detector(
                     "lpd", vehicle, lpd_net, lpd_labels,
                     confidence, 0.1, v_name)
 
@@ -142,7 +254,7 @@ def pipeline(image_dir, detector_path, confidence, threshold,
                 np_path = os.path.join(np_dir, image_fname)
                 cv2.imwrite(np_path, resized)
                 (boxes, confidences, classIDs, lps) = \
-                    darknet_lpr.run_object_detector(
+                    darknet_lpr.yutils.run_object_detector(
                                     np_path,
                                     thresh=0.5, obj_name=lp_name)
                 if len(classIDs) == 0:
@@ -152,9 +264,10 @@ def pipeline(image_dir, detector_path, confidence, threshold,
                     np_path = os.path.join(np_dir, image_fname)
                     cv2.imwrite(np_path, resized)
                     (boxes, confidences, classIDs, plate_contents) = \
-                        run_object_detector("lpr", lp, lpr_net, lpr_labels,
-                                            confidence, 0.5,
-                                            lp_name, (352, 128))
+                        yutils.run_object_detector("lpr", lp,
+                                                   lpr_net, lpr_labels,
+                                                   confidence, 0.5,
+                                                   lp_name, (352, 128))
                 if len(classIDs) == 0:
                     utils.insert_result(
                         conn, "yolo", image_fname, "au",
@@ -176,149 +289,11 @@ def pipeline(image_dir, detector_path, confidence, threshold,
 
 
 def empty_image(image, s, error_log):
-    (H, W) = image.shape[:2]
-    if W <= 0 or H <= 0:
-        ps = "{sfile} width={W} height={H}\n"
-        formatted_str = ps.format(sfile=s, W=W, H=H)
-        error_log.write(formatted_str)
-        print(formatted_str)
-        return True
-    return False
+    return yutils.empty_image(image, s, error_log)
 
 
 def get_x(box):
     return box[0]
-
-
-def create_data_file(dataPath, labelsPath, nClasses):
-    data_file = open(dataPath, "w+")
-    data_file.write("classes = " + str(nClasses))
-    data_file.write("names = " + labelsPath)
-    data_file.close()
-
-
-def setup_detector(detector_path, detector_name, darknet_dll=None):
-    # load the COCO class labels our YOLO model was trained on
-    labelsPath = os.path.sep.join([detector_path, detector_name+".names"])
-    labels = open(labelsPath).read().strip().split("\n")
-
-    # derive the paths to the YOLO weights and model configuration
-    weightsPath = os.path.sep.join([detector_path, detector_name+".weights"])
-    configPath = os.path.sep.join([detector_path, detector_name+".cfg"])
-    dataPath = os.path.sep.join([detector_path, detector_name+".data"])
-    create_data_file(dataPath, labelsPath, len(labels))
-    # Load our darknet C++ detector
-    if darknet_dll:
-        net = darknet_detector.Detector(detector_name, darknet_dll,
-                                        configPath, weightsPath,
-                                        dataPath, labelsPath)
-        return (net, labels)
-
-    # load our YOLO object detector using openCV DNN
-    print("[INFO] loading YOLO from disk...")
-    net = cv2.dnn.readNetFromDarknet(configPath, weightsPath)
-
-    return (net, labels)
-
-
-def run_object_detector(name, image, net, labels, min_confidence,
-                        threshold, image_name, size=(416, 416)):
-    (H, W) = image.shape[:2]
-
-    # determine only the *output* layer names that we need from YOLO
-    ln = net.getLayerNames()
-    ln = [ln[i[0] - 1] for i in net.getUnconnectedOutLayers()]
-
-    # construct a blob from the input image and then perform a forward
-    # pass of the YOLO object detector, giving us our bounding boxes and
-    # associated probabilities
-
-    # cv2.imshow("original_img", image)
-    # cv2.waitKey(0)
-    blob = cv2.dnn.blobFromImage(image, 1 / 255.0, size,
-                                 swapRB=True, crop=False)
-    net.setInput(blob)
-    start = time.time()
-    layerOutputs = net.forward(ln)
-    end = time.time()
-
-    # initialize a list of colors to represent each possible class label
-    np.random.seed(42)
-    COLORS = np.random.randint(0, 255, size=(len(labels), 3),
-                               dtype="uint8")
-
-    # show timing information on YOLO
-    print("[INFO] {name} YOLO took {sec} seconds".format(
-        name=name, sec=(end - start)))
-
-    # initialize our lists of detected bounding boxes, confidences, and
-    # class IDs, respectively
-    boxes = []
-    confidences = []
-    classIDs = []
-
-    # loop over each of the layer outputs
-    for output in layerOutputs:
-        # loop over each of the detections
-        for detection in output:
-            # extract the class ID and confidence (i.e., probability) of
-            # the current object detection
-            scores = detection[5:]
-            classID = np.argmax(scores)
-            confidence = scores[classID]
-
-            # filter out weak predictions by ensuring the detected
-            # probability is greater than the minimum probability
-            if confidence > min_confidence:
-                # scale the bounding box coordinates back relative to the
-                # size of the image, keeping in mind that YOLO actually
-                # returns the center (x, y)-coordinates of the bounding
-                # box followed by the boxes' width and height
-                box = detection[0:4] * np.array([W, H, W, H])
-                (centerX, centerY, width, height) = box.astype("int")
-
-                # use the center (x, y)-coordinates to derive the top and
-                # and left corner of the bounding box
-                x = int(centerX - (width / 2))
-                y = int(centerY - (height / 2))
-
-                # update our list of bounding box coordinates, confidences,
-                # and class IDs
-                boxes.append([x, y, int(width), int(height)])
-                confidences.append(float(confidence))
-                classIDs.append(classID)
-
-    # print(classIDs)
-
-    # apply non-maxima suppression to suppress weak, overlapping bounding
-    # boxes
-    idxs = cv2.dnn.NMSBoxes(boxes, confidences, min_confidence,
-                            threshold)
-
-    cropped_images = []
-
-    # ensure at least one detection exists
-    if len(idxs) > 0:
-        # loop over the indexes we are keeping
-        for i in idxs.flatten():
-            # extract the bounding box coordinates
-            (x, y) = (boxes[i][0], boxes[i][1])
-            (w, h) = (boxes[i][2], boxes[i][3])
-
-            # draw a bounding box rectangle and label on the image
-            color = [int(c) for c in COLORS[classIDs[i]]]
-            cv2.rectangle(image, (x, y), (x + w, y + h), color, 2)
-            # text = "{}: {:.4f}".format(labels[classIDs[i]], confidences[i])
-            text = "{}".format(labels[classIDs[i]])
-            cv2.putText(image, text, (x, y - 5), cv2.FONT_HERSHEY_SIMPLEX,
-                        0.5, color, 2)
-            vname = image_name + "_" + \
-                str(i) + "_" + str(classIDs[i]) + "_" + str(confidences[i])
-            cropped = image[y:y+h, x:x+w]
-            cropped_images.append((cropped, vname))
-
-    # show the output image
-    return (boxes, confidences, classIDs, cropped_images)
 
 
 if __name__ == "__main__":
