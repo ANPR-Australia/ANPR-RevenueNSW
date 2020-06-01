@@ -52,3 +52,10 @@ Queensland (Taken from https://www.ppq.com.au/):
 4. 999AAA qld @@@###
 5. 9AAA9 qld @###@
 6. 3 letters and 2 or 3 numbers (in any order) and 5 or 6 characters in total.
+
+N.b: Training would need to cater for separate categories as well: Federal plates, consulate plates, National heavy vehicle plates (including customised ones for WA) as well. Links here:
+
+https://www.dfat.gov.au/about-us/publications/corporate/protocol-guidelines/Pages/7-7-registration-compulsory-third-party-insurance-and-number-plates
+
+https://www.nhvr.gov.au/road-access/registration/national-heavy-vehicle-plates
+
