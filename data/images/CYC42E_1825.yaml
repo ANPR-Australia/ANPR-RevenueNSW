@@ -1,7 +1,0 @@
-image_file: CYC42E_1825.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 3285 1475 3429 1477 3427 1518 3285 1512
-plate_inverted_gt: false
-plate_number_gt: CYC42E
-region_code_gt: nsw

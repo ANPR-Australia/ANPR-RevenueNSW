@@ -1,7 +1,0 @@
-image_file: CN43RA_183.jpg
-image_height: 2205
-image_width: 2030
-plate_corners_gt: 689 1269 1388 1270 1386 1499 703 1488
-plate_inverted_gt: false
-plate_number_gt: CN43RA
-region_code_gt: nsw

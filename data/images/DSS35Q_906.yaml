@@ -1,7 +1,0 @@
-image_file: DSS35Q_906.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 397 1915 862 1985 866 2075 410 2002
-plate_inverted_gt: false
-plate_number_gt: DSS35Q
-region_code_gt: nsw

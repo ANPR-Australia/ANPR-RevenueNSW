@@ -1,7 +1,0 @@
-image_file: AE64HQ_642.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1493 1687 2027 1606 2066 1813 1539 1916
-plate_inverted_gt: false
-plate_number_gt: AE64HQ
-region_code_gt: nsw

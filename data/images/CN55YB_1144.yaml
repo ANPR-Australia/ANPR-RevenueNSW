@@ -1,7 +1,0 @@
-image_file: CN55YB_1144.jpg
-image_height: 3024
-image_width: 4032
-plate_corners_gt: 1192 1595 2377 1610 2364 2006 1217 1965
-plate_inverted_gt: false
-plate_number_gt: CN55YB
-region_code_gt: nsw

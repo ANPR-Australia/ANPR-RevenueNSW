@@ -1,7 +1,0 @@
-image_file: ECN45A_521.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1781 1587 2133 1527 2145 1650 1794 1714
-plate_inverted_gt: false
-plate_number_gt: ECN45A
-region_code_gt: nsw

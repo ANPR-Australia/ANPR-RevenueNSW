@@ -1,7 +1,0 @@
-image_file: U1_385.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1297 1932 1449 1960 1449 2087 1298 2052
-plate_inverted_gt: false
-plate_number_gt: U1
-region_code_gt: nsw

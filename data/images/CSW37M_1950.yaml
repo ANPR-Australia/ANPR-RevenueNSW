@@ -1,7 +1,0 @@
-image_file: CSW37M_1950.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2861 1552 3002 1551 3001 1594 2863 1589
-plate_inverted_gt: false
-plate_number_gt: CSW37M
-region_code_gt: nsw

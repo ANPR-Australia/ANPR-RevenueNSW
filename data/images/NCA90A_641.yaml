@@ -1,7 +1,0 @@
-image_file: NCA90A_641.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1578 1190 2326 1165 2321 1350 1583 1395
-plate_inverted_gt: true
-plate_number_gt: NCA90A
-region_code_gt: nsw

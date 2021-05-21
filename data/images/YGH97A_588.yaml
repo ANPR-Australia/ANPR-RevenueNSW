@@ -1,7 +1,0 @@
-image_file: YGH97A_588.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1403 2545 1914 2414 1934 2567 1423 2699
-plate_inverted_gt: false
-plate_number_gt: YGH97A
-region_code_gt: nsw

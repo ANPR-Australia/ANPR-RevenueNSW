@@ -1,7 +1,0 @@
-image_file: CT86LL_2019.jpg
-image_height: 1600
-image_width: 1200
-plate_corners_gt: 696 721 1032 718 1039 834 704 848
-plate_inverted_gt: false
-plate_number_gt: CT86LL
-region_code_gt: nsw

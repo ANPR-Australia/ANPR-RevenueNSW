@@ -1,7 +1,0 @@
-image_file: BX03GX_416.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1512 1702 1769 1672 1780 1785 1524 1820
-plate_inverted_gt: false
-plate_number_gt: BX03GX
-region_code_gt: nsw

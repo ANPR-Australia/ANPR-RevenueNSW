@@ -1,7 +1,0 @@
-image_file: DPK80F_1728.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 3047 2639 3190 2652 3187 2691 3044 2676
-plate_inverted_gt: false
-plate_number_gt: DPK80F
-region_code_gt: nsw

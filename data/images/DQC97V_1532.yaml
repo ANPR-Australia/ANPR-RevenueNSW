@@ -1,7 +1,0 @@
-image_file: DQC97V_1532.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1225 1646 1679 1657 1675 1785 1227 1783
-plate_inverted_gt: false
-plate_number_gt: DQC97V
-region_code_gt: nsw

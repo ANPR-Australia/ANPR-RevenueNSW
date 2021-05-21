@@ -1,7 +1,0 @@
-image_file: DDB01M_1563.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 876 2354 1544 2422 1536 2547 871 2475
-plate_inverted_gt: false
-plate_number_gt: DDB01M
-region_code_gt: nsw

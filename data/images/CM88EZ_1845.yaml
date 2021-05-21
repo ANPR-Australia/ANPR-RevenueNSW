@@ -1,7 +1,0 @@
-image_file: CM88EZ_1845.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 1459 3264 1603 3313 1599 3364 1455 3317
-plate_inverted_gt: false
-plate_number_gt: CM88EZ
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: DTR017_896.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1796 1320 2237 1243 2244 1407 1807 1492
-plate_inverted_gt: false
-plate_number_gt: DTR017
-region_code_gt: nsw

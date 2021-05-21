@@ -1,7 +1,0 @@
-image_file: BB10AX_1693.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 3369 1905 3506 1904 3499 1942 3367 1947
-plate_inverted_gt: false
-plate_number_gt: BB10AX
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: CX47BD_345.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1020 2293 1557 2415 1545 2611 1025 2477
-plate_inverted_gt: false
-plate_number_gt: CX47BD
-region_code_gt: nsw

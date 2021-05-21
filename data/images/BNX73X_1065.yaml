@@ -1,7 +1,0 @@
-image_file: BNX73X_1065.jpg
-image_height: 1196
-image_width: 897
-plate_corners_gt: 554 336 657 330 660 358 556 363
-plate_inverted_gt: false
-plate_number_gt: BNX73X
-region_code_gt: nsw

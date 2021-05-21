@@ -1,7 +1,0 @@
-image_file: EHV77P_410.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1560 1778 1807 1756 1818 1843 1572 1872
-plate_inverted_gt: false
-plate_number_gt: EHV77P
-region_code_gt: nsw

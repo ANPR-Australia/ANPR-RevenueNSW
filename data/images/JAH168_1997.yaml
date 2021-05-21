@@ -1,7 +1,0 @@
-image_file: JAH168_1997.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2785 2960 2939 2980 2935 3023 2782 3000
-plate_inverted_gt: false
-plate_number_gt: JAH168
-region_code_gt: nsw

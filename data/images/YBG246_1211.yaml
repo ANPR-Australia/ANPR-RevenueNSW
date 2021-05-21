@@ -1,7 +1,0 @@
-image_file: YBG246_1211.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1070 1345 1538 1421 1526 1598 1075 1516
-plate_inverted_gt: false
-plate_number_gt: YBG246
-region_code_gt: nsw

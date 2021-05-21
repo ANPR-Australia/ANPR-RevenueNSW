@@ -1,7 +1,0 @@
-image_file: DPE98W_1084.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 782 1216 1090 1245 1091 1318 786 1283
-plate_inverted_gt: false
-plate_number_gt: DPE98W
-region_code_gt: nsw

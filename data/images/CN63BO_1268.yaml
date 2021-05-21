@@ -1,7 +1,0 @@
-image_file: CN63BO_1268.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1961 1176 2063 1192 2058 1232 1954 1217
-plate_inverted_gt: false
-plate_number_gt: CN63BO
-region_code_gt: nsw

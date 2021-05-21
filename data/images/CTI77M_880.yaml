@@ -1,7 +1,0 @@
-image_file: CTI77M_880.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1751 804 2127 767 2131 882 1756 920
-plate_inverted_gt: false
-plate_number_gt: CTI77M
-region_code_gt: nsw

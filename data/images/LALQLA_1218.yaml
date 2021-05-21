@@ -1,7 +1,0 @@
-image_file: LALQLA_1218.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1583 991 2060 966 2066 1169 1596 1210
-plate_inverted_gt: false
-plate_number_gt: LALQLA
-region_code_gt: nsw

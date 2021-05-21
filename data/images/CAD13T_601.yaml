@@ -1,7 +1,0 @@
-image_file: CAD13T_601.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1588 2235 2163 2046 2194 2246 1625 2468
-plate_inverted_gt: true
-plate_number_gt: CAD13T
-region_code_gt: nsw

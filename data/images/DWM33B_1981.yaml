@@ -1,7 +1,0 @@
-image_file: DWM33B_1981.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2890 2717 3039 2728 3036 2764 2890 2749
-plate_inverted_gt: false
-plate_number_gt: DWM33B
-region_code_gt: nsw

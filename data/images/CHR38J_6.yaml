@@ -1,7 +1,0 @@
-image_file: CHR38J_6.jpg
-image_height: 1600
-image_width: 1200
-plate_corners_gt: 539 672 805 672 808 748 542 750
-plate_inverted_gt: false
-plate_number_gt: CHR38J
-region_code_gt: nsw

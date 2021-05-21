@@ -1,7 +1,0 @@
-image_file: EDA05R_1167.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1890 1459 2197 1412 2201 1527 1892 1586
-plate_inverted_gt: false
-plate_number_gt: EDA05R
-region_code_gt: nsw

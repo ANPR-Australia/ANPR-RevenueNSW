@@ -1,7 +1,0 @@
-image_file: CQ19UO_1170.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1443 1924 1835 1895 1842 2039 1459 2073
-plate_inverted_gt: false
-plate_number_gt: CQ19UO
-region_code_gt: nsw

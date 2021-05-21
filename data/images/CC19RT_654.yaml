@@ -1,7 +1,0 @@
-image_file: CC19RT_654.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 789 1515 1228 1559 1236 1717 809 1662
-plate_inverted_gt: false
-plate_number_gt: CC19RT
-region_code_gt: nsw

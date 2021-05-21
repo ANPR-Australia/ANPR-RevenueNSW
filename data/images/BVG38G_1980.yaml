@@ -1,7 +1,0 @@
-image_file: BVG38G_1980.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2804 2713 2950 2734 2946 2781 2799 2759
-plate_inverted_gt: false
-plate_number_gt: BVG38G
-region_code_gt: nsw

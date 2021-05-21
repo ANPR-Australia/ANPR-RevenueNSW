@@ -1,7 +1,0 @@
-image_file: WWN593_1839.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 1687 2855 1838 2891 1835 2945 1684 2906
-plate_inverted_gt: false
-plate_number_gt: WWN593
-region_code_gt: nsw

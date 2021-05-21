@@ -1,7 +1,0 @@
-image_file: WDB900_54.jpg
-image_height: 2976
-image_width: 4464
-plate_corners_gt: 1723 2130 1856 2138 1856 2178 1724 2166
-plate_inverted_gt: false
-plate_number_gt: WDB900
-region_code_gt: nsw

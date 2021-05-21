@@ -1,7 +1,0 @@
-image_file: CME39E_100.jpg
-image_height: 2976
-image_width: 4464
-plate_corners_gt: 2225 2019 2357 2035 2356 2066 2224 2051
-plate_inverted_gt: false
-plate_number_gt: CME39E
-region_code_gt: nsw

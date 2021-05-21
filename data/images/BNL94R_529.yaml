@@ -1,7 +1,0 @@
-image_file: BNL94R_529.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1587 1249 2035 1194 2060 1332 1597 1390
-plate_inverted_gt: false
-plate_number_gt: BNL94R
-region_code_gt: nsw

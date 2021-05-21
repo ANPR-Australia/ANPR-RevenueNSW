@@ -1,7 +1,0 @@
-image_file: CNM06D_1205.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1561 783 2079 752 2091 902 1569 939
-plate_inverted_gt: false
-plate_number_gt: CNM06D
-region_code_gt: nsw

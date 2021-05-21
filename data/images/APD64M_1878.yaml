@@ -1,7 +1,0 @@
-image_file: APD64M_1878.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2974 1584 3122 1596 3119 1639 2971 1629
-plate_inverted_gt: false
-plate_number_gt: APD64M
-region_code_gt: nsw

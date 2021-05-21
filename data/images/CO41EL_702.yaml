@@ -1,7 +1,0 @@
-image_file: CO41EL_702.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1661 1739 2140 1672 2145 1864 1667 1930
-plate_inverted_gt: false
-plate_number_gt: CO41EL
-region_code_gt: nsw

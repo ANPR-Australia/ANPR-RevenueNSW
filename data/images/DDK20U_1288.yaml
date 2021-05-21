@@ -1,7 +1,0 @@
-image_file: DDK20U_1288.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1247 832 2203 675 2214 944 1283 1126
-plate_inverted_gt: false
-plate_number_gt: DDK20U
-region_code_gt: nsw

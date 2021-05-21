@@ -1,7 +1,0 @@
-image_file: ANC61G_719.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1797 1608 2428 1499 2440 1700 1819 1823
-plate_inverted_gt: false
-plate_number_gt: ANC61G
-region_code_gt: nsw

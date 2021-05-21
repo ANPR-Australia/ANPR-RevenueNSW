@@ -1,7 +1,0 @@
-image_file: YIC20Y_1664.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1219 2031 1497 2020 1503 2110 1222 2121
-plate_inverted_gt: false
-plate_number_gt: YIC20Y
-region_code_gt: nsw

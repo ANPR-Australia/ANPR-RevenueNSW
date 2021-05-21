@@ -1,7 +1,0 @@
-image_file: CD77LZ_637.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 808 982 1220 1022 1224 1180 816 1144
-plate_inverted_gt: false
-plate_number_gt: CD77LZ
-region_code_gt: nsw

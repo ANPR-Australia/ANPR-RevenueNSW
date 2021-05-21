@@ -1,7 +1,0 @@
-image_file: BY35CG_542.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1311 1801 1773 1744 1769 1899 1309 1983
-plate_inverted_gt: false
-plate_number_gt: BY35CG
-region_code_gt: nsw

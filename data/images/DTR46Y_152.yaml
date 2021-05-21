@@ -1,7 +1,0 @@
-image_file: DTR46Y_152.jpg
-image_height: 1600
-image_width: 1200
-plate_corners_gt: 257 681 406 694 403 743 259 727
-plate_inverted_gt: false
-plate_number_gt: DTR46Y
-region_code_gt: nsw

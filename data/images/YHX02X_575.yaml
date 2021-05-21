@@ -1,7 +1,0 @@
-image_file: YHX02X_575.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 685 1497 670 1378 1100 1512 1109 1612
-plate_inverted_gt: false
-plate_number_gt: YHX02X
-region_code_gt: nsw

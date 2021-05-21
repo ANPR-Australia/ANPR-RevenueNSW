@@ -1,7 +1,0 @@
-image_file: AT166_713.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1750 1730 2324 1680 2309 1905 1769 1987
-plate_inverted_gt: false
-plate_number_gt: AT166
-region_code_gt: nsw

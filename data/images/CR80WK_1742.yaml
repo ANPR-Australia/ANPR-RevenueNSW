@@ -1,7 +1,0 @@
-image_file: CR80WK_1742.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2752 2182 2898 2211 2898 2256 2752 2232
-plate_inverted_gt: false
-plate_number_gt: CR80WK
-region_code_gt: nsw

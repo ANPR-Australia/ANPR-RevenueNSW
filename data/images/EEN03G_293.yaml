@@ -1,7 +1,0 @@
-image_file: EEN03G_293.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1077 2056 1844 2099 1823 2229 1077 2191
-plate_inverted_gt: false
-plate_number_gt: EEN03G
-region_code_gt: nsw

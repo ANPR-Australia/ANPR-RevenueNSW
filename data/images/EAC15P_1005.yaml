@@ -1,7 +1,0 @@
-image_file: EAC15P_1005.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1112 2339 1974 2305 1986 2525 1118 2568
-plate_inverted_gt: false
-plate_number_gt: EAC15P
-region_code_gt: nsw

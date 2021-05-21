@@ -1,7 +1,0 @@
-image_file: EAZ65B_242.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1087 2177 2059 2235 2037 2408 1085 2331
-plate_inverted_gt: false
-plate_number_gt: EAZ65B
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: EBY11V_1495.jpg
-image_height: 1334
-image_width: 750
-plate_corners_gt: 200 639 264 637 265 658 201 657
-plate_inverted_gt: false
-plate_number_gt: EBY11V
-region_code_gt: nsw

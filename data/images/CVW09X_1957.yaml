@@ -1,7 +1,0 @@
-image_file: CVW09X_1957.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2032 3590 2035 3544 2183 3591 2176 3638
-plate_inverted_gt: false
-plate_number_gt: CVW09X
-region_code_gt: nsw

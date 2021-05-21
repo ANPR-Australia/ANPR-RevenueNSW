@@ -1,7 +1,0 @@
-image_file: EEA46M_612.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1373 1661 1833 1607 1843 1742 1386 1815
-plate_inverted_gt: false
-plate_number_gt: EEA46M
-region_code_gt: nsw

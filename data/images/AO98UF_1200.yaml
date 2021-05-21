@@ -1,7 +1,0 @@
-image_file: AO98UF_1200.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1464 1100 1858 1069 1853 1214 1472 1253
-plate_inverted_gt: false
-plate_number_gt: AO98UF
-region_code_gt: nsw

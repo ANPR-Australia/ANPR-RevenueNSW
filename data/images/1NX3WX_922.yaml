@@ -1,7 +1,0 @@
-image_file: 1NX3WX_922.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1392 1283 1686 1281 1683 1402 1396 1411
-plate_inverted_gt: false
-plate_number_gt: 1NX3WX
-region_code_gt: vic

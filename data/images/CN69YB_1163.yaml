@@ -1,7 +1,0 @@
-image_file: CN69YB_1163.jpg
-image_height: 3024
-image_width: 4032
-plate_corners_gt: 930 1754 1003 1754 1003 1780 930 1779
-plate_inverted_gt: false
-plate_number_gt: CN69YB
-region_code_gt: nsw

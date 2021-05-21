@@ -1,7 +1,0 @@
-image_file: CVG24S_1339.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1337 863 1793 831 1798 960 1349 999
-plate_inverted_gt: false
-plate_number_gt: CVG24S
-region_code_gt: nsw

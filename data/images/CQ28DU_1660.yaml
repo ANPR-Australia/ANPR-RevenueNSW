@@ -1,7 +1,0 @@
-image_file: CQ28DU_1660.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 2413 1627 2542 1631 2540 1672 2411 1671
-plate_inverted_gt: false
-plate_number_gt: CQ28DU
-region_code_gt: nsw

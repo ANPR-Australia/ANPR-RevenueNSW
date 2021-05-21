@@ -1,7 +1,0 @@
-image_file: EEH13B_16.jpg
-image_height: 1200
-image_width: 1600
-plate_corners_gt: 663 746 888 752 887 796 663 790
-plate_inverted_gt: false
-plate_number_gt: EEH13B
-region_code_gt: nsw

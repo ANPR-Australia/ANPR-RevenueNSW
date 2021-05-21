@@ -1,7 +1,0 @@
-image_file: BCP40_2009.jpg
-image_height: 1536
-image_width: 2048
-plate_corners_gt: 463 315 1934 225 1931 1145 425 1004
-plate_inverted_gt: false
-plate_number_gt: BCP40
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: DNS86X_1351.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1355 749 1839 718 1833 859 1363 884
-plate_inverted_gt: false
-plate_number_gt: DNS86X
-region_code_gt: nsw

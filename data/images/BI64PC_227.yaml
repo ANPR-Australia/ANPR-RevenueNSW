@@ -1,7 +1,0 @@
-image_file: BI64PC_227.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1934 2337 2081 2316 2101 2385 1948 2403
-plate_inverted_gt: false
-plate_number_gt: BI64PC
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: CIX21K_699.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1932 1562 2406 1491 2411 1646 1937 1723
-plate_inverted_gt: false
-plate_number_gt: CIX21K
-region_code_gt: nsw

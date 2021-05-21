@@ -1,7 +1,0 @@
-image_file: BK42CS_85.jpg
-image_height: 2976
-image_width: 4464
-plate_corners_gt: 1812 2395 1944 2410 1944 2457 1809 2440
-plate_inverted_gt: false
-plate_number_gt: BK42CS
-region_code_gt: nsw

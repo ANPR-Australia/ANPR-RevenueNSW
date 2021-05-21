@@ -1,7 +1,0 @@
-image_file: DLR73Z_1965.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2805 2748 2957 2775 2958 2816 2802 2789
-plate_inverted_gt: false
-plate_number_gt: DLR73Z
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: CI58KB_1974.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2899 2716 3049 2733 3044 2794 2898 2772
-plate_inverted_gt: false
-plate_number_gt: CI58KB
-region_code_gt: nsw

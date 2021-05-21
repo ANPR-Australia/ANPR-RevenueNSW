@@ -1,7 +1,0 @@
-image_file: ECN50V_1030.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 2052 1242 2519 1172 2525 1350 2064 1434
-plate_inverted_gt: false
-plate_number_gt: ECN50V
-region_code_gt: nsw

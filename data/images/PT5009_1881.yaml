@@ -1,7 +1,0 @@
-image_file: PT5009_1881.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 1974 2900 2120 2946 2113 2991 1968 2949
-plate_inverted_gt: true
-plate_number_gt: PT5009
-region_code_gt: nsw

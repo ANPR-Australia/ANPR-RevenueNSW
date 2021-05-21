@@ -1,7 +1,0 @@
-image_file: BL57FT_369.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 970 1536 1217 1594 1233 1705 988 1644
-plate_inverted_gt: false
-plate_number_gt: BL57FT
-region_code_gt: nsw

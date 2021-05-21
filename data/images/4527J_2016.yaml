@@ -1,7 +1,0 @@
-image_file: 4527J_2016.jpg
-image_height: 1536
-image_width: 2048
-plate_corners_gt: 80 454 1825 347 1822 1280 199 1333
-plate_inverted_gt: false
-plate_number_gt: 4527J
-region_code_gt: nsw

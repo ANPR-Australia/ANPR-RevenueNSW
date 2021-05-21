@@ -1,7 +1,0 @@
-image_file: BX34YU_468.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1099 1500 1599 1515 1603 1687 1109 1668
-plate_inverted_gt: false
-plate_number_gt: BX34YU
-region_code_gt: nsw

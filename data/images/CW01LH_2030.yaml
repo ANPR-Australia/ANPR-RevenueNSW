@@ -1,7 +1,0 @@
-image_file: CW01LH_2030.jpg
-image_height: 1600
-image_width: 1200
-plate_corners_gt: 272 1102 627 1149 620 1245 280 1198
-plate_inverted_gt: false
-plate_number_gt: CW01LH
-region_code_gt: nsw

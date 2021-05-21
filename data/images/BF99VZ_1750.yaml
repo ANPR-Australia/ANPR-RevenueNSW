@@ -1,7 +1,0 @@
-image_file: BF99VZ_1750.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 3223 685 3353 684 3352 734 3223 734
-plate_inverted_gt: false
-plate_number_gt: BF99VZ
-region_code_gt: nsw

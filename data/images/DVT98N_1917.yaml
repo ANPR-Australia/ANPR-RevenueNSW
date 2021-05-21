@@ -1,7 +1,0 @@
-image_file: DVT98N_1917.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 3084 1456 3225 1466 3223 1508 3081 1496
-plate_inverted_gt: false
-plate_number_gt: DVT98N
-region_code_gt: nsw

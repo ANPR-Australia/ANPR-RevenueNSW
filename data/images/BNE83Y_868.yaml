@@ -1,7 +1,0 @@
-image_file: BNE83Y_868.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1978 1083 2465 1034 2464 1185 1978 1239
-plate_inverted_gt: false
-plate_number_gt: BNE83Y
-region_code_gt: nsw

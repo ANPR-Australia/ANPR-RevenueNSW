@@ -1,7 +1,0 @@
-image_file: ECF65K_278.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 859 2301 1316 2360 1311 2494 848 2439
-plate_inverted_gt: false
-plate_number_gt: ECF65K
-region_code_gt: nsw

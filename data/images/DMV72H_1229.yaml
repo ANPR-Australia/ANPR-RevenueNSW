@@ -1,7 +1,0 @@
-image_file: DMV72H_1229.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1501 1028 1904 1020 1900 1122 1498 1141
-plate_inverted_gt: false
-plate_number_gt: DMV72H
-region_code_gt: nsw

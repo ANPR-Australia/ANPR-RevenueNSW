@@ -1,7 +1,0 @@
-image_file: EAU12C_363.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1445 1603 1683 1605 1682 1666 1448 1658
-plate_inverted_gt: false
-plate_number_gt: EAU12C
-region_code_gt: nsw

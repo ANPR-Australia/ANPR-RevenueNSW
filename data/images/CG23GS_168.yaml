@@ -1,7 +1,0 @@
-image_file: CG23GS_168.jpg
-image_height: 1152
-image_width: 864
-plate_corners_gt: 43 801 274 821 285 902 58 876
-plate_inverted_gt: false
-plate_number_gt: CG23GS
-region_code_gt: nsw

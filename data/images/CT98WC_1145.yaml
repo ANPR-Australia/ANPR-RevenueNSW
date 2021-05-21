@@ -1,7 +1,0 @@
-image_file: CT98WC_1145.jpg
-image_height: 3024
-image_width: 4032
-plate_corners_gt: 1280 1592 2567 1685 2541 2104 1302 1983
-plate_inverted_gt: false
-plate_number_gt: CT98WC
-region_code_gt: nsw

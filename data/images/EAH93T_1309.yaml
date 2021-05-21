@@ -1,7 +1,0 @@
-image_file: EAH93T_1309.jpg
-image_height: 1329
-image_width: 997
-plate_corners_gt: 383 621 518 627 514 659 383 650
-plate_inverted_gt: false
-plate_number_gt: EAH93T
-region_code_gt: nsw

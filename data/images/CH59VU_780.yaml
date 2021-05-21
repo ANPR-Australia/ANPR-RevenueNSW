@@ -1,7 +1,0 @@
-image_file: CH59VU_780.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1697 1343 2064 1295 2055 1426 1702 1490
-plate_inverted_gt: false
-plate_number_gt: CH59VU
-region_code_gt: nsw

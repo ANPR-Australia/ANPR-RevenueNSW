@@ -1,7 +1,0 @@
-image_file: CT54KR_1440.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1447 1308 1865 1319 1858 1483 1447 1483
-plate_inverted_gt: false
-plate_number_gt: CT54KR
-region_code_gt: nsw

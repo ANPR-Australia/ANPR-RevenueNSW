@@ -1,7 +1,0 @@
-image_file: LAKI_187.jpg
-image_height: 2384
-image_width: 2247
-plate_corners_gt: 719 1773 1366 1782 1363 1979 730 1973
-plate_inverted_gt: false
-plate_number_gt: LAKI
-region_code_gt: nsw

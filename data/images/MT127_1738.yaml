@@ -1,7 +1,0 @@
-image_file: MT127_1738.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2949 1764 3082 1772 3080 1814 2950 1802
-plate_inverted_gt: true
-plate_number_gt: MT127
-region_code_gt: nsw

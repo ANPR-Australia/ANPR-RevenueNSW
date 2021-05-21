@@ -1,7 +1,0 @@
-image_file: DHS98T_1964.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2839 3010 3000 3035 2996 3075 2839 3056
-plate_inverted_gt: false
-plate_number_gt: DHS98T
-region_code_gt: nsw

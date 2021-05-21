@@ -1,7 +1,0 @@
-image_file: AJ13EW_997.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1464 789 1755 762 1757 877 1468 912
-plate_inverted_gt: false
-plate_number_gt: AJ13EW
-region_code_gt: nsw

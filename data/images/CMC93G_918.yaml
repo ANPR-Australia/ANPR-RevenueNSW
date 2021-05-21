@@ -1,7 +1,0 @@
-image_file: CMC93G_918.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1399 1292 1717 1267 1722 1370 1400 1390
-plate_inverted_gt: false
-plate_number_gt: CMC93G
-region_code_gt: nsw

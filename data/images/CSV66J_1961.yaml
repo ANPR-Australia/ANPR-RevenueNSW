@@ -1,7 +1,0 @@
-image_file: CSV66J_1961.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2672 2577 2823 2595 2817 2635 2670 2612
-plate_inverted_gt: false
-plate_number_gt: CSV66J
-region_code_gt: nsw

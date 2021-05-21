@@ -1,7 +1,0 @@
-image_file: CYN55P_1977.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 1871 620 1970 604 1970 641 1874 661
-plate_inverted_gt: false
-plate_number_gt: CYN55P
-region_code_gt: nsw

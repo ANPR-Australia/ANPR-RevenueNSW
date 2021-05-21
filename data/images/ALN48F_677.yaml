@@ -1,7 +1,0 @@
-image_file: ALN48F_677.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1089 1709 1128 1488 2028 1720 1968 1950
-plate_inverted_gt: false
-plate_number_gt: ALN48F
-region_code_gt: nsw

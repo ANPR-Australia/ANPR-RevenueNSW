@@ -1,7 +1,0 @@
-image_file: YBS54S_1350.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1640 1351 2012 1346 2001 1451 1632 1457
-plate_inverted_gt: false
-plate_number_gt: YBS54S
-region_code_gt: nsw

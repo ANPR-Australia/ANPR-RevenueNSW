@@ -1,7 +1,0 @@
-image_file: EGH57N_1536.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 960 2264 1580 2353 1566 2487 956 2389
-plate_inverted_gt: false
-plate_number_gt: EGH57N
-region_code_gt: nsw

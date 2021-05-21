@@ -1,7 +1,0 @@
-image_file: DFR86X_1969.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 1988 3456 2148 3492 2143 3536 1987 3505
-plate_inverted_gt: false
-plate_number_gt: DFR86X
-region_code_gt: nsw

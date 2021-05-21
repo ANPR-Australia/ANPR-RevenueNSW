@@ -1,7 +1,0 @@
-image_file: EBI09N_827.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1722 1500 2256 1421 2264 1578 1734 1676
-plate_inverted_gt: false
-plate_number_gt: EBI09N
-region_code_gt: nsw

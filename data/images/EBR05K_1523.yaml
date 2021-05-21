@@ -1,7 +1,0 @@
-image_file: EBR05K_1523.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1082 1908 1551 1921 1549 2015 1082 2000
-plate_inverted_gt: false
-plate_number_gt: EBR05K
-region_code_gt: nsw

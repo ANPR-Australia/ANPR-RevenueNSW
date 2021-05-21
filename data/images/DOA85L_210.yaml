@@ -1,7 +1,0 @@
-image_file: DOA85L_210.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 259 2339 345 2332 348 2361 261 2367
-plate_inverted_gt: false
-plate_number_gt: DOA85L
-region_code_gt: nsw

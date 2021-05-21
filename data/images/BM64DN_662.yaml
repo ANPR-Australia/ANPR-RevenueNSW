@@ -1,7 +1,0 @@
-image_file: BM64DN_662.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1097 1775 1116 1512 1835 1828 1778 2075
-plate_inverted_gt: false
-plate_number_gt: BM64DN
-region_code_gt: nsw

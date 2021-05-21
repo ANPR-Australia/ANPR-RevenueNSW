@@ -1,7 +1,0 @@
-image_file: EAL55M_1029.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 2034 1416 2556 1380 2546 1549 2031 1593
-plate_inverted_gt: false
-plate_number_gt: EAL55M
-region_code_gt: nsw

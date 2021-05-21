@@ -1,7 +1,0 @@
-image_file: CQJ56A_141.jpg
-image_height: 1600
-image_width: 1200
-plate_corners_gt: 437 615 602 612 603 643 441 647
-plate_inverted_gt: false
-plate_number_gt: CQJ56A
-region_code_gt: nsw

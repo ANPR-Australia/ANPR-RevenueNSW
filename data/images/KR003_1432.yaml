@@ -1,7 +1,0 @@
-image_file: KR003_1432.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1578 1382 1892 1355 1902 1490 1592 1524
-plate_inverted_gt: true
-plate_number_gt: KR003
-region_code_gt: nsw

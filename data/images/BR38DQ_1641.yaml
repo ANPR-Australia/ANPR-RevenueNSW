@@ -1,7 +1,0 @@
-image_file: BR38DQ_1641.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1214 1788 1731 1770 1745 1949 1220 1969
-plate_inverted_gt: false
-plate_number_gt: BR38DQ
-region_code_gt: nsw

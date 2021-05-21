@@ -1,7 +1,0 @@
-image_file: CT45SY_372.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 989 1724 1242 1791 1251 1897 998 1829
-plate_inverted_gt: false
-plate_number_gt: CT45SY
-region_code_gt: nsw

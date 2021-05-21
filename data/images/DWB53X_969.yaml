@@ -1,7 +1,0 @@
-image_file: DWB53X_969.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 904 1463 904 1326 1640 1593 1615 1719
-plate_inverted_gt: false
-plate_number_gt: DWB53X
-region_code_gt: nsw

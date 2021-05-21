@@ -1,7 +1,0 @@
-image_file: CA75MH_2021.jpg
-image_height: 1600
-image_width: 1200
-plate_corners_gt: 760 598 914 596 919 673 764 676
-plate_inverted_gt: false
-plate_number_gt: CA75MH
-region_code_gt: nsw

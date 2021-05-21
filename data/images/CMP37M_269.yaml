@@ -1,7 +1,0 @@
-image_file: CMP37M_269.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1591 2438 2161 2398 2153 2506 1594 2554
-plate_inverted_gt: false
-plate_number_gt: CMP37M
-region_code_gt: nsw

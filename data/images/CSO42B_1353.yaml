@@ -1,7 +1,0 @@
-image_file: CSO42B_1353.jpg
-image_height: 2776
-image_width: 2082
-plate_corners_gt: 811 829 1095 859 1085 949 805 918
-plate_inverted_gt: false
-plate_number_gt: CSO42B
-region_code_gt: nsw

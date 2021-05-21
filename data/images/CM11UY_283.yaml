@@ -1,7 +1,0 @@
-image_file: CM11UY_283.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1005 2486 1762 2681 1737 2926 1000 2726
-plate_inverted_gt: false
-plate_number_gt: CM11UY
-region_code_gt: nsw

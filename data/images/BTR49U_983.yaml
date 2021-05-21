@@ -1,7 +1,0 @@
-image_file: BTR49U_983.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1399 896 1641 880 1645 955 1404 970
-plate_inverted_gt: false
-plate_number_gt: BTR49U
-region_code_gt: nsw

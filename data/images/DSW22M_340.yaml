@@ -1,7 +1,0 @@
-image_file: DSW22M_340.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1131 2352 1753 2437 1746 2533 1131 2444
-plate_inverted_gt: false
-plate_number_gt: DSW22M
-region_code_gt: nsw

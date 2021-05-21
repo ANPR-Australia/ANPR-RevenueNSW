@@ -1,7 +1,0 @@
-image_file: BBA24S_838.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1436 1744 2444 1696 2416 1962 1436 1990
-plate_inverted_gt: false
-plate_number_gt: BBA24S
-region_code_gt: nsw

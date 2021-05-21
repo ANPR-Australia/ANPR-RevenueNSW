@@ -1,7 +1,0 @@
-image_file: EES82F_1513.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1602 2006 2160 1984 2163 2120 1602 2152
-plate_inverted_gt: false
-plate_number_gt: EES82F
-region_code_gt: nsw

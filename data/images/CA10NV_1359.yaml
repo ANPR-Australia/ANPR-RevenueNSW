@@ -1,7 +1,0 @@
-image_file: CA10NV_1359.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1287 1194 1638 1243 1598 1371 1257 1313
-plate_inverted_gt: false
-plate_number_gt: CA10NV
-region_code_gt: nsw

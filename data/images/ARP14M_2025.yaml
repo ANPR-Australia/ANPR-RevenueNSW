@@ -1,7 +1,0 @@
-image_file: ARP14M_2025.jpg
-image_height: 1200
-image_width: 1600
-plate_corners_gt: 785 576 972 572 975 624 789 630
-plate_inverted_gt: false
-plate_number_gt: ARP14M
-region_code_gt: nsw

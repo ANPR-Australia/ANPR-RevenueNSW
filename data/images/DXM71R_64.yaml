@@ -1,7 +1,0 @@
-image_file: DXM71R_64.jpg
-image_height: 2976
-image_width: 4464
-plate_corners_gt: 1975 2046 2109 2061 2106 2096 1973 2083
-plate_inverted_gt: false
-plate_number_gt: DXM71R
-region_code_gt: nsw

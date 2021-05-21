@@ -1,7 +1,0 @@
-image_file: AU97LN_1415.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1234 1079 1464 1102 1452 1194 1220 1166
-plate_inverted_gt: false
-plate_number_gt: AU97LN
-region_code_gt: nsw

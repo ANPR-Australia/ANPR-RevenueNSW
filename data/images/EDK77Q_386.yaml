@@ -1,7 +1,0 @@
-image_file: EDK77Q_386.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1354 1580 1834 1679 1808 1824 1331 1721
-plate_inverted_gt: false
-plate_number_gt: EDK77Q
-region_code_gt: nsw

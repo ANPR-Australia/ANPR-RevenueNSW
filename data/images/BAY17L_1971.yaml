@@ -1,7 +1,0 @@
-image_file: BAY17L_1971.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2780 2830 2938 2854 2934 2898 2777 2875
-plate_inverted_gt: false
-plate_number_gt: BAY17L
-region_code_gt: nsw

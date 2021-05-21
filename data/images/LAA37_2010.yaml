@@ -1,7 +1,0 @@
-image_file: LAA37_2010.jpg
-image_height: 1536
-image_width: 2048
-plate_corners_gt: 416 391 1526 311 1526 923 479 998
-plate_inverted_gt: false
-plate_number_gt: LAA37
-region_code_gt: nsw

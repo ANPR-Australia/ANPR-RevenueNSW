@@ -1,7 +1,0 @@
-image_file: CQ48SF_599.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1025 2166 1378 2274 1364 2426 1024 2317
-plate_inverted_gt: false
-plate_number_gt: CQ48SF
-region_code_gt: nsw

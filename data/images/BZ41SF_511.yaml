@@ -1,7 +1,0 @@
-image_file: BZ41SF_511.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1523 1881 2033 1819 2013 1974 1523 2057
-plate_inverted_gt: false
-plate_number_gt: BZ41SF
-region_code_gt: nsw

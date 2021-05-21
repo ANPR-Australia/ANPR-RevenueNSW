@@ -1,7 +1,0 @@
-image_file: ECL98K_803.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 2047 1933 2216 1919 2217 1971 2048 1983
-plate_inverted_gt: false
-plate_number_gt: ECL98K
-region_code_gt: nsw

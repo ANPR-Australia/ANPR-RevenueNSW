@@ -1,7 +1,0 @@
-image_file: BY66FD_1768.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2980 1901 3122 1920 3117 1974 2975 1955
-plate_inverted_gt: false
-plate_number_gt: BY66FD
-region_code_gt: nsw

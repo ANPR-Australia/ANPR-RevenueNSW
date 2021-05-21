@@ -1,7 +1,0 @@
-image_file: DDP27S_1509.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1222 1998 1611 2002 1608 2079 1223 2070
-plate_inverted_gt: false
-plate_number_gt: DDP27S
-region_code_gt: nsw

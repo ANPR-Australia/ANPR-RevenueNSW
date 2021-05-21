@@ -1,7 +1,0 @@
-image_file: ECN49Y_1217.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1604 559 2045 544 2042 657 1609 676
-plate_inverted_gt: false
-plate_number_gt: ECN49Y
-region_code_gt: nsw

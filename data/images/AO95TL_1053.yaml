@@ -1,7 +1,0 @@
-image_file: AO95TL_1053.jpg
-image_height: 1652
-image_width: 1239
-plate_corners_gt: 498 1206 738 1191 742 1273 504 1286
-plate_inverted_gt: false
-plate_number_gt: AO95TL
-region_code_gt: nsw

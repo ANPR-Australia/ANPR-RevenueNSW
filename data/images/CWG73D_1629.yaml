@@ -1,7 +1,0 @@
-image_file: CWG73D_1629.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1054 2291 1625 2333 1617 2442 1050 2398
-plate_inverted_gt: false
-plate_number_gt: CWG73D
-region_code_gt: nsw

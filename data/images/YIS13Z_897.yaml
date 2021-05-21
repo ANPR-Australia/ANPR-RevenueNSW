@@ -1,7 +1,0 @@
-image_file: YIS13Z_897.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1707 1087 2145 1023 2145 1165 1714 1233
-plate_inverted_gt: false
-plate_number_gt: YIS13Z
-region_code_gt: nsw

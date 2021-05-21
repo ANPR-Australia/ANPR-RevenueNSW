@@ -1,7 +1,0 @@
-image_file: BNE54X_1951.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2812 1320 2936 1309 2943 1348 2817 1360
-plate_inverted_gt: false
-plate_number_gt: BNE54X
-region_code_gt: nsw

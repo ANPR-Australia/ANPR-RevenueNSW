@@ -1,7 +1,0 @@
-image_file: CVX17Y_1688.jpg
-image_height: 1443
-image_width: 1082
-plate_corners_gt: 672 370 813 365 816 406 675 416
-plate_inverted_gt: false
-plate_number_gt: CVX17Y
-region_code_gt: nsw

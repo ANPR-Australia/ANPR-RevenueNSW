@@ -1,7 +1,0 @@
-image_file: CG46LV_1035.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1311 1132 1915 1094 1932 1324 1328 1364
-plate_inverted_gt: false
-plate_number_gt: CG46LV
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: BG41JG_1816.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2952 1411 3090 1420 3091 1470 2952 1463
-plate_inverted_gt: false
-plate_number_gt: BG41JG
-region_code_gt: nsw

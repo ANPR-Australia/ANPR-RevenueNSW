@@ -1,7 +1,0 @@
-image_file: DXB34S_1188.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1224 1013 1447 1037 1432 1108 1211 1082
-plate_inverted_gt: false
-plate_number_gt: DXB34S
-region_code_gt: nsw

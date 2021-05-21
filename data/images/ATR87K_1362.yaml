@@ -1,7 +1,0 @@
-image_file: ATR87K_1362.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1114 939 1457 1022 1430 1128 1086 1048
-plate_inverted_gt: false
-plate_number_gt: ATR87K
-region_code_gt: nsw

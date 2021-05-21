@@ -1,7 +1,0 @@
-image_file: DVT71A_1931.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2594 1479 2730 1489 2734 1523 2590 1510
-plate_inverted_gt: false
-plate_number_gt: DVT71A
-region_code_gt: nsw

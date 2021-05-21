@@ -1,7 +1,0 @@
-image_file: MAL44K_878.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1787 1960 2207 1890 2223 2009 1801 2087
-plate_inverted_gt: false
-plate_number_gt: MAL44K
-region_code_gt: nsw

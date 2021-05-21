@@ -1,7 +1,0 @@
-image_file: CE05DB_755.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1849 1455 2358 1408 2372 1594 1863 1639
-plate_inverted_gt: false
-plate_number_gt: CE05DB
-region_code_gt: nsw

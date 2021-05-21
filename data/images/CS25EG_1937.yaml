@@ -1,7 +1,0 @@
-image_file: CS25EG_1937.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 1601 3248 1747 3294 1740 3350 1598 3303
-plate_inverted_gt: false
-plate_number_gt: CS25EG
-region_code_gt: nsw

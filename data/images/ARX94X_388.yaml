@@ -1,7 +1,0 @@
-image_file: ARX94X_388.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1007 2157 1406 2078 1413 2191 1014 2276
-plate_inverted_gt: false
-plate_number_gt: ARX94X
-region_code_gt: nsw

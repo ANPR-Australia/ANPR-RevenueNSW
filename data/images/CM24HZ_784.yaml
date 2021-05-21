@@ -1,7 +1,0 @@
-image_file: CM24HZ_784.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 843 1370 1473 1427 1450 1657 834 1606
-plate_inverted_gt: false
-plate_number_gt: CM24HZ
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: BU80AQ_770.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1660 1779 2216 1695 2189 1859 1654 1952
-plate_inverted_gt: false
-plate_number_gt: BU80AQ
-region_code_gt: nsw

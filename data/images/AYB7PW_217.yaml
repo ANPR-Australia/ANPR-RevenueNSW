@@ -1,7 +1,0 @@
-image_file: AYB7PW_217.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1595 2339 1758 2311 1782 2381 1613 2401
-plate_inverted_gt: false
-plate_number_gt: AYB7PW
-region_code_gt: nsw

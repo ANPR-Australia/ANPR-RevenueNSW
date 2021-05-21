@@ -1,7 +1,0 @@
-image_file: DTK86S_808.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1529 1356 1928 1353 1928 1462 1533 1472
-plate_inverted_gt: false
-plate_number_gt: DTK86S
-region_code_gt: nsw

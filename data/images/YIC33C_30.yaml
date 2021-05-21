@@ -1,7 +1,0 @@
-image_file: YIC33C_30.jpg
-image_height: 1600
-image_width: 1200
-plate_corners_gt: 486 817 749 820 749 892 483 888
-plate_inverted_gt: false
-plate_number_gt: YIC33C
-region_code_gt: nsw

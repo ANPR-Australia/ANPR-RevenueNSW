@@ -1,7 +1,0 @@
-image_file: MWE23_2011.jpg
-image_height: 1536
-image_width: 2048
-plate_corners_gt: 201 365 1527 310 1591 1021 194 1103
-plate_inverted_gt: false
-plate_number_gt: MWE23
-region_code_gt: nsw

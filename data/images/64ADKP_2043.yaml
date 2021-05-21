@@ -1,7 +1,0 @@
-image_file: 64ADKP_2043.jpg
-image_height: 1600
-image_width: 1200
-plate_corners_gt: 410 946 669 948 669 997 412 997
-plate_inverted_gt: true
-plate_number_gt: 64ADKP
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: BN88AP_807.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1586 1309 2111 1274 2111 1469 1591 1518
-plate_inverted_gt: false
-plate_number_gt: BN88AP
-region_code_gt: nsw

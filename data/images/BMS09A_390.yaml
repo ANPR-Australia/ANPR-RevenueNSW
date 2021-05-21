@@ -1,7 +1,0 @@
-image_file: BMS09A_390.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1576 2303 1592 2449 1166 2634 1147 2468
-plate_inverted_gt: false
-plate_number_gt: BMS09A
-region_code_gt: nsw

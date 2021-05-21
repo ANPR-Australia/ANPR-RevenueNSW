@@ -1,7 +1,0 @@
-image_file: CW11BH_284.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 854 2554 1517 2636 1513 2834 871 2748
-plate_inverted_gt: false
-plate_number_gt: CW11BH
-region_code_gt: nsw

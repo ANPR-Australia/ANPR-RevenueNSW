@@ -1,7 +1,0 @@
-image_file: 92ROW_352.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 902 1761 1924 1814 1910 2013 909 1953
-plate_inverted_gt: true
-plate_number_gt: 92ROW
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: 86370H_2044.jpg
-image_height: 1536
-image_width: 2048
-plate_corners_gt: 319 472 1550 479 1519 925 342 925
-plate_inverted_gt: false
-plate_number_gt: 86370H
-region_code_gt: nsw

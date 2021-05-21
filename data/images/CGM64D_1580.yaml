@@ -1,7 +1,0 @@
-image_file: CGM64D_1580.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 820 1724 1456 1789 1439 1963 808 1902
-plate_inverted_gt: false
-plate_number_gt: CGM64D
-region_code_gt: nsw

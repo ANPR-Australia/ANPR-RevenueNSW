@@ -1,7 +1,0 @@
-image_file: CF07WA_857.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1780 634 2208 569 2176 765 1766 844
-plate_inverted_gt: false
-plate_number_gt: CF07WA
-region_code_gt: nsw

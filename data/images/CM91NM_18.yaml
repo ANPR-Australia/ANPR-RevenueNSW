@@ -1,7 +1,0 @@
-image_file: CM91NM_18.jpg
-image_height: 1600
-image_width: 1600
-plate_corners_gt: 302 950 532 981 504 1106 280 1060
-plate_inverted_gt: false
-plate_number_gt: CM91NM
-region_code_gt: nsw

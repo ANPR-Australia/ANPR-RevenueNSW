@@ -1,7 +1,0 @@
-image_file: NXO01F_1212.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1392 1300 2003 1248 2011 1377 1398 1416
-plate_inverted_gt: false
-plate_number_gt: NXO01F
-region_code_gt: nsw

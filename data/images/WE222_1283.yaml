@@ -1,7 +1,0 @@
-image_file: WE222_1283.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1366 1605 1727 1593 1734 1686 1373 1705
-plate_inverted_gt: true
-plate_number_gt: WE222
-region_code_gt: nsw

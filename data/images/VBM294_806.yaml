@@ -1,7 +1,0 @@
-image_file: VBM294_806.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1298 1477 1808 1451 1785 1610 1298 1656
-plate_inverted_gt: false
-plate_number_gt: VBM294
-region_code_gt: nsw

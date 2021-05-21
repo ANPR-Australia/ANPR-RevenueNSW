@@ -1,7 +1,0 @@
-image_file: DKS30G_1603.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 911 2024 1563 2079 1542 2255 900 2191
-plate_inverted_gt: false
-plate_number_gt: DKS30G
-region_code_gt: nsw

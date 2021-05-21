@@ -1,7 +1,0 @@
-image_file: AST82U_174.jpg
-image_height: 1600
-image_width: 1200
-plate_corners_gt: 529 728 745 728 744 780 527 782
-plate_inverted_gt: false
-plate_number_gt: AST82U
-region_code_gt: nsw

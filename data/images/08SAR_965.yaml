@@ -1,7 +1,0 @@
-image_file: 08SAR_965.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 413 1249 672 1252 684 1341 424 1335
-plate_inverted_gt: false
-plate_number_gt: 08SAR
-region_code_gt: nsw

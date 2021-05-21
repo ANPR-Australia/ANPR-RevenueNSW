@@ -1,7 +1,0 @@
-image_file: CDX26Y_1875.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 1566 3247 1573 3206 1715 3252 1707 3294
-plate_inverted_gt: false
-plate_number_gt: CDX26Y
-region_code_gt: nsw

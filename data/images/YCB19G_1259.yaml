@@ -1,7 +1,0 @@
-image_file: YCB19G_1259.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1473 1248 1867 1257 1863 1383 1470 1382
-plate_inverted_gt: false
-plate_number_gt: YCB19G
-region_code_gt: nsw

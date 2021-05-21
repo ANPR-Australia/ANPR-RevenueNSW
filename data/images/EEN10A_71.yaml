@@ -1,7 +1,0 @@
-image_file: EEN10A_71.jpg
-image_height: 2976
-image_width: 4464
-plate_corners_gt: 2112 1953 2243 1961 2241 1997 2110 1988
-plate_inverted_gt: false
-plate_number_gt: EEN10A
-region_code_gt: nsw

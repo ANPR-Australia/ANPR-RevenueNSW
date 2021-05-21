@@ -1,7 +1,0 @@
-image_file: BE22VS_475.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 926 1400 1508 1297 1517 1483 954 1593
-plate_inverted_gt: false
-plate_number_gt: BE22VS
-region_code_gt: nsw

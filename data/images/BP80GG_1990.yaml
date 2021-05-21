@@ -1,7 +1,0 @@
-image_file: BP80GG_1990.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2852 1528 2979 1527 2978 1574 2850 1576
-plate_inverted_gt: false
-plate_number_gt: BP80GG
-region_code_gt: nsw

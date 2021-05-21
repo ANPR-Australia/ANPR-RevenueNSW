@@ -1,7 +1,0 @@
-image_file: CR07BJ_1156.jpg
-image_height: 3024
-image_width: 4032
-plate_corners_gt: 2318 2086 2378 2090 2379 2123 2322 2119
-plate_inverted_gt: false
-plate_number_gt: CR07BJ
-region_code_gt: nsw

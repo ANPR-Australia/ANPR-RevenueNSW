@@ -1,7 +1,0 @@
-image_file: BTP80C_1184.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1039 1556 1923 1590 1909 1724 1057 1690
-plate_inverted_gt: false
-plate_number_gt: BTP80C
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: YIU341_1480.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1211 1847 1582 1860 1576 1987 1212 1971
-plate_inverted_gt: false
-plate_number_gt: YIU341
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: CYP37S_1960.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 3096 1200 3230 1191 3229 1229 3099 1234
-plate_inverted_gt: false
-plate_number_gt: CYP37S
-region_code_gt: nsw

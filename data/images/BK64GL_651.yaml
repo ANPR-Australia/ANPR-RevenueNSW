@@ -1,7 +1,0 @@
-image_file: BK64GL_651.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 971 1485 1620 1492 1605 1710 974 1695
-plate_inverted_gt: false
-plate_number_gt: BK64GL
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: NVD333_1521.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1265 2603 1847 2581 1848 2700 1273 2725
-plate_inverted_gt: false
-plate_number_gt: NVD333
-region_code_gt: nsw

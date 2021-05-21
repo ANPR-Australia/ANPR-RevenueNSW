@@ -1,7 +1,0 @@
-image_file: CQU62B_151.jpg
-image_height: 1200
-image_width: 1600
-plate_corners_gt: 773 568 949 568 951 616 773 616
-plate_inverted_gt: false
-plate_number_gt: CQU62B
-region_code_gt: nsw

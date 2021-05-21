@@ -1,7 +1,0 @@
-image_file: DHT28C_517.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1486 1702 1965 1639 1965 1776 1491 1848
-plate_inverted_gt: false
-plate_number_gt: DHT28C
-region_code_gt: nsw

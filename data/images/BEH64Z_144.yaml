@@ -1,7 +1,0 @@
-image_file: BEH64Z_144.jpg
-image_height: 1600
-image_width: 1200
-plate_corners_gt: 465 1135 708 1123 711 1175 468 1183
-plate_inverted_gt: false
-plate_number_gt: BEH64Z
-region_code_gt: nsw

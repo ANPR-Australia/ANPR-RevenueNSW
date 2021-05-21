@@ -1,7 +1,0 @@
-image_file: AQ78PW_1400.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1813 404 2433 337 2437 598 1826 674
-plate_inverted_gt: false
-plate_number_gt: AQ78PW
-region_code_gt: nsw

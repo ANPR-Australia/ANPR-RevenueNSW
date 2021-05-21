@@ -1,7 +1,0 @@
-image_file: CH06YO_1078.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1737 1580 2017 1586 2019 1686 1738 1676
-plate_inverted_gt: false
-plate_number_gt: CH06YO
-region_code_gt: nsw

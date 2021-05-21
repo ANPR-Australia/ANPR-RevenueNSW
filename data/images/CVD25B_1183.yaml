@@ -1,7 +1,0 @@
-image_file: CVD25B_1183.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1637 1557 1745 1558 1746 1592 1638 1590
-plate_inverted_gt: false
-plate_number_gt: CVD25B
-region_code_gt: nsw

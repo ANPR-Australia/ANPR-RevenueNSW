@@ -1,7 +1,0 @@
-image_file: GAM101_1247.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1611 1084 1943 1095 1942 1200 1614 1194
-plate_inverted_gt: false
-plate_number_gt: GAM101
-region_code_gt: nsw

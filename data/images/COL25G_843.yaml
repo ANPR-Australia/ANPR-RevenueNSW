@@ -1,7 +1,0 @@
-image_file: COL25G_843.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1754 1362 2367 1286 2389 1450 1779 1542
-plate_inverted_gt: false
-plate_number_gt: COL25G
-region_code_gt: nsw

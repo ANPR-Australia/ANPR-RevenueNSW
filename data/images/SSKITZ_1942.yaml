@@ -1,7 +1,0 @@
-image_file: SSKITZ_1942.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2001 2769 2147 2809 2145 2847 1998 2813
-plate_inverted_gt: false
-plate_number_gt: SSKITZ
-region_code_gt: nsw

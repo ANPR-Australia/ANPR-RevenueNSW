@@ -1,7 +1,0 @@
-image_file: DMB70B_1414.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1128 1073 1517 1064 1521 1182 1133 1188
-plate_inverted_gt: false
-plate_number_gt: DMB70B
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: CT51SA_130.jpg
-image_height: 2976
-image_width: 4464
-plate_corners_gt: 1852 2093 1986 2106 1982 2152 1851 2142
-plate_inverted_gt: false
-plate_number_gt: CT51SA
-region_code_gt: nsw

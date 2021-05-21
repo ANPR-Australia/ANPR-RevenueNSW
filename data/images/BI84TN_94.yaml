@@ -1,7 +1,0 @@
-image_file: BI84TN_94.jpg
-image_height: 2976
-image_width: 4464
-plate_corners_gt: 2204 2079 2384 2099 2383 2133 2203 2113
-plate_inverted_gt: true
-plate_number_gt: BI84TN
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: NBR98K_801.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1424 1232 2102 1187 2101 1312 1432 1366
-plate_inverted_gt: false
-plate_number_gt: NBR98K
-region_code_gt: nsw

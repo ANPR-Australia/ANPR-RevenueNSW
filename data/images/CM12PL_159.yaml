@@ -1,7 +1,0 @@
-image_file: CM12PL_159.jpg
-image_height: 1200
-image_width: 1600
-plate_corners_gt: 762 753 1014 748 1018 839 766 840
-plate_inverted_gt: false
-plate_number_gt: CM12PL
-region_code_gt: nsw

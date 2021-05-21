@@ -1,7 +1,0 @@
-image_file: CK55SU_432.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1805 1509 2141 1456 2155 1604 1822 1660
-plate_inverted_gt: false
-plate_number_gt: CK55SU
-region_code_gt: nsw

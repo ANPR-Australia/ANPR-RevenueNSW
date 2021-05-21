@@ -1,7 +1,0 @@
-image_file: CC66AG_1356.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 920 772 1205 822 1184 941 899 885
-plate_inverted_gt: false
-plate_number_gt: CC66AG
-region_code_gt: nsw

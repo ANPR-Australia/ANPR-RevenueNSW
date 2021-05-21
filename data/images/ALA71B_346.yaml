@@ -1,7 +1,0 @@
-image_file: ALA71B_346.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 999 2549 1636 2524 1637 2654 1008 2666
-plate_inverted_gt: false
-plate_number_gt: ALA71B
-region_code_gt: nsw

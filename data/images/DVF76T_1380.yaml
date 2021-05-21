@@ -1,7 +1,0 @@
-image_file: DVF76T_1380.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1569 1467 2038 1413 2047 1564 1582 1625
-plate_inverted_gt: false
-plate_number_gt: DVF76T
-region_code_gt: nsw

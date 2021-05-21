@@ -1,7 +1,0 @@
-image_file: BDE74V_1968.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 3184 1484 3323 1486 3321 1527 3180 1521
-plate_inverted_gt: false
-plate_number_gt: BDE74V
-region_code_gt: nsw

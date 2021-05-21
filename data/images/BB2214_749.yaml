@@ -1,7 +1,0 @@
-image_file: BB2214_749.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1085 1429 2393 1491 2317 1983 1091 1915
-plate_inverted_gt: false
-plate_number_gt: BB2214
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: CGL48V_38.jpg
-image_height: 2976
-image_width: 4464
-plate_corners_gt: 1901 1020 2015 1011 2018 1045 1903 1049
-plate_inverted_gt: false
-plate_number_gt: CGL48V
-region_code_gt: nsw

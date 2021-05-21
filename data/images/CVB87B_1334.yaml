@@ -1,7 +1,0 @@
-image_file: CVB87B_1334.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1026 1210 1399 1318 1371 1437 1000 1325
-plate_inverted_gt: false
-plate_number_gt: CVB87B
-region_code_gt: nsw

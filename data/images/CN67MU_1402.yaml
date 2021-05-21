@@ -1,7 +1,0 @@
-image_file: CN67MU_1402.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1623 1078 2104 1035 2117 1218 1643 1268
-plate_inverted_gt: false
-plate_number_gt: CN67MU
-region_code_gt: nsw

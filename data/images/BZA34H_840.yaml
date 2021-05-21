@@ -1,7 +1,0 @@
-image_file: BZA34H_840.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1511 1043 2106 921 2146 1104 1555 1245
-plate_inverted_gt: false
-plate_number_gt: BZA34H
-region_code_gt: nsw

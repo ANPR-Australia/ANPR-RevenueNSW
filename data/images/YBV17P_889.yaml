@@ -1,7 +1,0 @@
-image_file: YBV17P_889.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1717 1192 2220 1117 2222 1266 1730 1347
-plate_inverted_gt: false
-plate_number_gt: YBV17P
-region_code_gt: nsw

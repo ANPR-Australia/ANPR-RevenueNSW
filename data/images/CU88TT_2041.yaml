@@ -1,7 +1,0 @@
-image_file: CU88TT_2041.jpg
-image_height: 1600
-image_width: 1200
-plate_corners_gt: 497 477 643 472 645 524 499 527
-plate_inverted_gt: false
-plate_number_gt: CU88TT
-region_code_gt: nsw

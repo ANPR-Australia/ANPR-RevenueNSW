@@ -1,7 +1,0 @@
-image_file: CI87HW_1298.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 893 1057 1210 1116 1201 1253 893 1186
-plate_inverted_gt: false
-plate_number_gt: CI87HW
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: AZJ80E_2.jpg
-image_height: 1600
-image_width: 1600
-plate_corners_gt: 701 998 1035 985 1039 1055 703 1067
-plate_inverted_gt: false
-plate_number_gt: AZJ80E
-region_code_gt: nsw

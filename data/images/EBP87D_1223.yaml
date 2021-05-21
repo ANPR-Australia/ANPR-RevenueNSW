@@ -1,7 +1,0 @@
-image_file: EBP87D_1223.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 736 1040 1129 1099 1131 1202 739 1130
-plate_inverted_gt: false
-plate_number_gt: EBP87D
-region_code_gt: nsw

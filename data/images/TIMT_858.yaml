@@ -1,7 +1,0 @@
-image_file: TIMT_858.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 2232 714 2788 652 2781 821 2236 895
-plate_inverted_gt: false
-plate_number_gt: TIMT
-region_code_gt: nsw

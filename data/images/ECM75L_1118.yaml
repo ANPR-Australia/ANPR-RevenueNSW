@@ -1,7 +1,0 @@
-image_file: ECM75L_1118.jpg
-image_height: 3024
-image_width: 4032
-plate_corners_gt: 1805 1852 2531 1826 2543 2012 1820 2035
-plate_inverted_gt: false
-plate_number_gt: ECM75L
-region_code_gt: nsw

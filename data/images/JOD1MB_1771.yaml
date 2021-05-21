@@ -1,7 +1,0 @@
-image_file: JOD1MB_1771.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 3648 1425 3796 1426 3793 1463 3647 1459
-plate_inverted_gt: false
-plate_number_gt: JOD1MB
-region_code_gt: nsw

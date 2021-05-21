@@ -1,7 +1,0 @@
-image_file: CV68SL_1476.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1331 1049 1736 1026 1737 1192 1334 1218
-plate_inverted_gt: false
-plate_number_gt: CV68SL
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: CB38NL_861.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 2233 288 2777 209 2772 450 2233 532
-plate_inverted_gt: false
-plate_number_gt: CB38NL
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: CQ98LI_166.jpg
-image_height: 1200
-image_width: 1600
-plate_corners_gt: 209 573 392 623 370 729 189 669
-plate_inverted_gt: false
-plate_number_gt: CQ98LI
-region_code_gt: nsw

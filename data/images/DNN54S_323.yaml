@@ -1,7 +1,0 @@
-image_file: DNN54S_323.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1011 2306 1651 2335 1648 2446 1019 2416
-plate_inverted_gt: false
-plate_number_gt: DNN54S
-region_code_gt: nsw

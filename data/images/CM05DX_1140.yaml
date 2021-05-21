@@ -1,7 +1,0 @@
-image_file: CM05DX_1140.jpg
-image_height: 3024
-image_width: 4032
-plate_corners_gt: 1180 1287 3025 1380 2975 1926 1251 1806
-plate_inverted_gt: false
-plate_number_gt: CM05DX
-region_code_gt: nsw

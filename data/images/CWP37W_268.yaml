@@ -1,7 +1,0 @@
-image_file: CWP37W_268.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1080 2680 1715 2719 1709 2837 1067 2807
-plate_inverted_gt: false
-plate_number_gt: CWP37W
-region_code_gt: nsw

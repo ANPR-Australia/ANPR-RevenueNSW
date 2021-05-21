@@ -1,7 +1,0 @@
-image_file: GOH002_1896.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 3199 1379 3342 1386 3340 1431 3201 1423
-plate_inverted_gt: false
-plate_number_gt: GOH002
-region_code_gt: nsw 

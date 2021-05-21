@@ -1,7 +1,0 @@
-image_file: BLD27H_903.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1748 962 2181 903 2189 1030 1759 1095
-plate_inverted_gt: false
-plate_number_gt: BLD27H
-region_code_gt: nsw

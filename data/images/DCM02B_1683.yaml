@@ -1,7 +1,0 @@
-image_file: DCM02B_1683.jpg
-image_height: 1255
-image_width: 941
-plate_corners_gt: 591 295 706 294 709 323 595 325
-plate_inverted_gt: false
-plate_number_gt: DCM02B
-region_code_gt: nsw

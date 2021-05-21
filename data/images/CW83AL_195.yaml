@@ -1,7 +1,0 @@
-image_file: CW83AL_195.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1551 2320 1656 2319 1659 2359 1555 2360
-plate_inverted_gt: false
-plate_number_gt: CW83AL
-region_code_gt: nsw

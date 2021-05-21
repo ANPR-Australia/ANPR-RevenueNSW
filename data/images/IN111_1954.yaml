@@ -1,7 +1,0 @@
-image_file: IN111_1954.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2958 1851 3088 1860 3083 1902 2957 1897
-plate_inverted_gt: false
-plate_number_gt: IN111
-region_code_gt: nsw

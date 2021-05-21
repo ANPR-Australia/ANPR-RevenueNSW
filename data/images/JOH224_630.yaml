@@ -1,7 +1,0 @@
-image_file: JOH224_630.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1154 587 2099 607 2077 882 1166 853
-plate_inverted_gt: true
-plate_number_gt: JOH224
-region_code_gt: qld

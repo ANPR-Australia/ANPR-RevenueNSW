@@ -1,7 +1,0 @@
-image_file: CQ08TU_219.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1377 2172 1465 2165 1469 2197 1379 2201
-plate_inverted_gt: false
-plate_number_gt: CQ08TU
-region_code_gt: nsw

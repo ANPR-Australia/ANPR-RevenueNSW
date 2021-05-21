@@ -1,7 +1,0 @@
-image_file: DMC79A_1013.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1309 1420 1911 1419 1903 1540 1302 1535
-plate_inverted_gt: false
-plate_number_gt: DMC79A
-region_code_gt: nsw

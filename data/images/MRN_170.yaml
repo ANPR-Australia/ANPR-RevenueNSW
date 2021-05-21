@@ -1,7 +1,0 @@
-image_file: MRN_170.jpg
-image_height: 1600
-image_width: 1200
-plate_corners_gt: 425 971 571 970 572 1008 426 1010
-plate_inverted_gt: false
-plate_number_gt: MRN
-region_code_gt: nsw

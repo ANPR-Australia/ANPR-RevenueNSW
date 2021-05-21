@@ -1,7 +1,0 @@
-image_file: CN07UW_1582.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 891 2024 1102 2028 1102 2100 892 2098
-plate_inverted_gt: false
-plate_number_gt: CN07UW
-region_code_gt: nsw

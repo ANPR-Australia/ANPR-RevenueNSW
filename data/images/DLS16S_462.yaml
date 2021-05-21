@@ -1,7 +1,0 @@
-image_file: DLS16S_462.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 472 1363 446 1260 903 1373 920 1492
-plate_inverted_gt: false
-plate_number_gt: DLS16S
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: DMF77T_1231.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1994 1296 2468 1250 2471 1407 1998 1463
-plate_inverted_gt: false
-plate_number_gt: DMF77T
-region_code_gt: nsw

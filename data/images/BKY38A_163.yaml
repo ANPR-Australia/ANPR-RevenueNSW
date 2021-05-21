@@ -1,7 +1,0 @@
-image_file: BKY38A_163.jpg
-image_height: 866
-image_width: 650
-plate_corners_gt: 299 411 498 412 497 452 299 450
-plate_inverted_gt: false
-plate_number_gt: BKY38A
-region_code_gt: nsw

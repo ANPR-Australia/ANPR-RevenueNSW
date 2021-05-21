@@ -1,7 +1,0 @@
-image_file: 675XSP_668.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 853 2049 1712 2258 1655 2498 822 2280
-plate_inverted_gt: false
-plate_number_gt: 675XSP
-region_code_gt: qld

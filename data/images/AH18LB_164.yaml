@@ -1,7 +1,0 @@
-image_file: AH18LB_164.jpg
-image_height: 1600
-image_width: 1200
-plate_corners_gt: 775 831 923 819 929 894 779 903
-plate_inverted_gt: false
-plate_number_gt: AH18LB
-region_code_gt: nsw

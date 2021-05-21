@@ -1,7 +1,0 @@
-image_file: BML44N_83.jpg
-image_height: 2976
-image_width: 4464
-plate_corners_gt: 2089 1647 2219 1651 2217 1685 2089 1681
-plate_inverted_gt: false
-plate_number_gt: BML44N
-region_code_gt: nsw

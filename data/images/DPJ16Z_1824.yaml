@@ -1,7 +1,0 @@
-image_file: DPJ16Z_1824.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2912 1134 3048 1138 3047 1175 2911 1171
-plate_inverted_gt: false
-plate_number_gt: DPJ16Z
-region_code_gt: nsw

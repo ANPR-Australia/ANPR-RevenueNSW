@@ -1,7 +1,0 @@
-image_file: CXJ63B_1000.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1764 897 2041 887 2043 980 1770 989
-plate_inverted_gt: false
-plate_number_gt: CXJ63B
-region_code_gt: nsw

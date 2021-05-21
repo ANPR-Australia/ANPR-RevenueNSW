@@ -1,7 +1,0 @@
-image_file: DWL24W_177.jpg
-image_height: 1200
-image_width: 1600
-plate_corners_gt: 726 594 961 599 961 661 725 655
-plate_inverted_gt: false
-plate_number_gt: DWL24W
-region_code_gt: nsw

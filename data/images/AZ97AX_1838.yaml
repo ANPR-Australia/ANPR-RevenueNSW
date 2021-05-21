@@ -1,7 +1,0 @@
-image_file: AZ97AX_1838.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 3060 728 3192 725 3192 772 3061 776
-plate_inverted_gt: false
-plate_number_gt: AZ97AX
-region_code_gt: nsw

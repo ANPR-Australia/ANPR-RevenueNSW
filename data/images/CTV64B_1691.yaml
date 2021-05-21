@@ -1,7 +1,0 @@
-image_file: CTV64B_1691.jpg
-image_height: 2480
-image_width: 1859
-plate_corners_gt: 695 1173 1257 1174 1263 1316 700 1314
-plate_inverted_gt: false
-plate_number_gt: CTV64B
-region_code_gt: nsw

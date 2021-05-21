@@ -1,7 +1,0 @@
-image_file: AR21XG_576.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 502 1102 946 1218 955 1396 517 1284
-plate_inverted_gt: false
-plate_number_gt: AR21XG
-region_code_gt: nsw

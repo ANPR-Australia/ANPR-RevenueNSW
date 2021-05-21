@@ -1,7 +1,0 @@
-image_file: YGC31U_685.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1235 2066 1949 1953 1929 2123 1242 2243
-plate_inverted_gt: false
-plate_number_gt: YGC31U
-region_code_gt: nsw

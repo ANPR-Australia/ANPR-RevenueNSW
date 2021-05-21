@@ -1,7 +1,0 @@
-image_file: CTR67A_923.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1453 1446 1699 1412 1709 1497 1463 1543
-plate_inverted_gt: false
-plate_number_gt: CTR67A
-region_code_gt: nsw

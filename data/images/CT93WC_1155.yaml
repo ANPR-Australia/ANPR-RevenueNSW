@@ -1,7 +1,0 @@
-image_file: CT93WC_1155.jpg
-image_height: 3024
-image_width: 4032
-plate_corners_gt: 2768 2099 2850 2099 2852 2136 2771 2136
-plate_inverted_gt: false
-plate_number_gt: CT93WC
-region_code_gt: nsw

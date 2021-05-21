@@ -1,7 +1,0 @@
-image_file: CH99RH_488.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1849 2125 2118 2020 2121 2161 1857 2273
-plate_inverted_gt: false
-plate_number_gt: CH99RH
-region_code_gt: nsw

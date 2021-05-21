@@ -1,7 +1,0 @@
-image_file: CAF98A_1744.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 3231 1169 3372 1174 3370 1214 3232 1204
-plate_inverted_gt: true
-plate_number_gt: CAF98A
-region_code_gt: nsw

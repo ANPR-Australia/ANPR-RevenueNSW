@@ -1,7 +1,0 @@
-image_file: CSX64A_616.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1539 1185 2166 1117 2165 1304 1543 1387
-plate_inverted_gt: false
-plate_number_gt: CSX64A
-region_code_gt: nsw

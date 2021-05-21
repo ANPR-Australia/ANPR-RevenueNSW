@@ -1,7 +1,0 @@
-image_file: AT39AK_379.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1405 2048 1483 2045 1487 2078 1413 2081
-plate_inverted_gt: false
-plate_number_gt: AT39AK
-region_code_gt: nsw

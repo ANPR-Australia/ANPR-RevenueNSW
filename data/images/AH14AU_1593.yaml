@@ -1,7 +1,0 @@
-image_file: AH14AU_1593.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 996 1590 1612 1652 1593 1876 978 1801
-plate_inverted_gt: false
-plate_number_gt: AH14AU
-region_code_gt: nsw

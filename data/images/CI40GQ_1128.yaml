@@ -1,7 +1,0 @@
-image_file: CI40GQ_1128.jpg
-image_height: 3024
-image_width: 4032
-plate_corners_gt: 1325 1521 2546 1505 2554 1880 1381 1864
-plate_inverted_gt: false
-plate_number_gt: CI40GQ
-region_code_gt: nsw

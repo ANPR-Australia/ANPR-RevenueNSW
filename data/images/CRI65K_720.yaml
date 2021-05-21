@@ -1,7 +1,0 @@
-image_file: CRI65K_720.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1917 1163 2328 1116 2339 1234 1927 1290
-plate_inverted_gt: false
-plate_number_gt: CRI65K
-region_code_gt: nsw

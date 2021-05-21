@@ -1,7 +1,0 @@
-image_file: BMU89E_13.jpg
-image_height: 1600
-image_width: 1200
-plate_corners_gt: 489 1147 713 1148 711 1203 489 1200
-plate_inverted_gt: false
-plate_number_gt: BMU89E
-region_code_gt: nsw

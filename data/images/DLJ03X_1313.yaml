@@ -1,7 +1,0 @@
-image_file: DLJ03X_1313.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1056 1204 1621 1189 1620 1341 1066 1353
-plate_inverted_gt: false
-plate_number_gt: DLJ03X
-region_code_gt: nsw

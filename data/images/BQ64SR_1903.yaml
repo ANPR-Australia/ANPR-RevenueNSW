@@ -1,7 +1,0 @@
-image_file: BQ64SR_1903.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2815 1784 2958 1801 2954 1851 2813 1836
-plate_inverted_gt: false
-plate_number_gt: BQ64SR
-region_code_gt: nsw

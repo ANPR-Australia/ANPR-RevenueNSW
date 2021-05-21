@@ -1,7 +1,0 @@
-image_file: CE99QY_493.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1473 1940 1787 1902 1793 2023 1475 2071
-plate_inverted_gt: false
-plate_number_gt: CE99QY
-region_code_gt: nsw

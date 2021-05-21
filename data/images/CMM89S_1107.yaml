@@ -1,7 +1,0 @@
-image_file: CMM89S_1107.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1794 976 2150 979 2154 1085 1795 1076
-plate_inverted_gt: false
-plate_number_gt: CMM89S
-region_code_gt: nsw

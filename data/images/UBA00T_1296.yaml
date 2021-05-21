@@ -1,7 +1,0 @@
-image_file: UBA00T_1296.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 261 1060 561 1090 570 1184 266 1136
-plate_inverted_gt: false
-plate_number_gt: UBA00T
-region_code_gt: nsw

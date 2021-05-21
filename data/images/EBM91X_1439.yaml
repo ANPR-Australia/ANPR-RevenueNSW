@@ -1,7 +1,0 @@
-image_file: EBM91X_1439.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1444 1243 1748 1247 1748 1333 1452 1334
-plate_inverted_gt: false
-plate_number_gt: EBM91X
-region_code_gt: nsw

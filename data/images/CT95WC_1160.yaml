@@ -1,7 +1,0 @@
-image_file: CT95WC_1160.jpg
-image_height: 3024
-image_width: 4032
-plate_corners_gt: 2094 1850 2204 1853 2207 1896 2095 1896
-plate_inverted_gt: false
-plate_number_gt: CT95WC
-region_code_gt: nsw

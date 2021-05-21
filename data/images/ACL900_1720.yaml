@@ -1,7 +1,0 @@
-image_file: ACL900_1720.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2716 2772 2870 2789 2865 2829 2714 2816
-plate_inverted_gt: false
-plate_number_gt: ACL900
-region_code_gt: vic

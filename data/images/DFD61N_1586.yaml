@@ -1,7 +1,0 @@
-image_file: DFD61N_1586.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 850 2105 1519 2218 1507 2330 850 2218
-plate_inverted_gt: false
-plate_number_gt: DFD61N
-region_code_gt: nsw

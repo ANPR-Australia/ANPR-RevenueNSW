@@ -1,7 +1,0 @@
-image_file: DDN30D_134.jpg
-image_height: 2976
-image_width: 4464
-plate_corners_gt: 2100 1844 2228 1853 2228 1888 2100 1876
-plate_inverted_gt: false
-plate_number_gt: DDN30D
-region_code_gt: nsw

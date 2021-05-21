@@ -1,7 +1,0 @@
-image_file: ATU96N_946.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1701 1575 2010 1536 2012 1630 1703 1689
-plate_inverted_gt: false
-plate_number_gt: ATU96N
-region_code_gt: nsw

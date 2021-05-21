@@ -1,7 +1,0 @@
-image_file: CR13RT_1142.jpg
-image_height: 3024
-image_width: 4032
-plate_corners_gt: 391 1153 3443 1016 3286 1603 841 1642
-plate_inverted_gt: false
-plate_number_gt: CR13RT
-region_code_gt: nsw

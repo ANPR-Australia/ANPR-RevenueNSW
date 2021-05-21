@@ -1,7 +1,0 @@
-image_file: BZO10F_248.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 749 1504 1690 1410 1703 1651 774 1737
-plate_inverted_gt: false
-plate_number_gt: BZO10F
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: CZP60K_1335.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 837 1247 845 1168 1227 1282 1222 1373
-plate_inverted_gt: false
-plate_number_gt: CZP60K
-region_code_gt: nsw

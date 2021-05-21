@@ -1,7 +1,0 @@
-image_file: APO51Y_1500.jpg
-image_height: 1334
-image_width: 750
-plate_corners_gt: 415 963 553 966 553 1010 415 1005
-plate_inverted_gt: false
-plate_number_gt: APO51Y
-region_code_gt: nsw

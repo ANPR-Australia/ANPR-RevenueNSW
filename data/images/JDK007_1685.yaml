@@ -1,7 +1,0 @@
-image_file: JDK007_1685.jpg
-image_height: 921
-image_width: 691
-plate_corners_gt: 404 265 498 264 500 296 406 299
-plate_inverted_gt: true
-plate_number_gt: JDK007
-region_code_gt: nsw

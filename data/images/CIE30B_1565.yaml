@@ -1,7 +1,0 @@
-image_file: CIE30B_1565.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 929 1879 1605 1914 1599 2099 922 2068
-plate_inverted_gt: false
-plate_number_gt: CIE30B
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: CSN34R_1323.jpg
-image_height: 2225
-image_width: 1669
-plate_corners_gt: 535 1136 831 1153 837 1220 541 1199
-plate_inverted_gt: false
-plate_number_gt: CSN34R
-region_code_gt: nsw

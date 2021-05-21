@@ -1,7 +1,0 @@
-image_file: DJB53K_556.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1392 1329 1674 1308 1677 1379 1396 1396
-plate_inverted_gt: false
-plate_number_gt: DJB53K
-region_code_gt: nsw

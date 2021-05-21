@@ -1,7 +1,0 @@
-image_file: ZR03AZ_434.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1452 1801 1996 1696 2025 1883 1482 1985
-plate_inverted_gt: false
-plate_number_gt: ZR03AZ
-region_code_gt: nsw

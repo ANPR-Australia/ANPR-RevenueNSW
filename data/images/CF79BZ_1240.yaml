@@ -1,7 +1,0 @@
-image_file: CF79BZ_1240.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1651 1057 2011 1066 2006 1206 1646 1201
-plate_inverted_gt: false
-plate_number_gt: CF79BZ
-region_code_gt: nsw

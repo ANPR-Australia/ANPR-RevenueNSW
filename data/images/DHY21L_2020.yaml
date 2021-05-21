@@ -1,7 +1,0 @@
-image_file: DHY21L_2020.jpg
-image_height: 1600
-image_width: 1200
-plate_corners_gt: 435 890 717 898 714 979 431 967
-plate_inverted_gt: false
-plate_number_gt: DHY21L
-region_code_gt: nsw

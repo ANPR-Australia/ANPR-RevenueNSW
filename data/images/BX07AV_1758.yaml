@@ -1,7 +1,0 @@
-image_file: BX07AV_1758.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2630 49 2737 28 2746 65 2638 86
-plate_inverted_gt: false
-plate_number_gt: BX07AV
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: CP81RG_1826.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 3601 1416 3744 1418 3743 1469 3603 1468
-plate_inverted_gt: false
-plate_number_gt: CP81RG
-region_code_gt: nsw

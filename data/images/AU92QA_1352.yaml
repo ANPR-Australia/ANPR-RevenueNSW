@@ -1,7 +1,0 @@
-image_file: AU92QA_1352.jpg
-image_height: 1502
-image_width: 1126
-plate_corners_gt: 297 549 430 548 426 600 295 598
-plate_inverted_gt: false
-plate_number_gt: AU92QA
-region_code_gt: nsw

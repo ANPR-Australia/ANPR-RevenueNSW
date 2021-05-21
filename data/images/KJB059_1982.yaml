@@ -1,7 +1,0 @@
-image_file: KJB059_1982.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2867 2619 3017 2637 3014 2676 2868 2660
-plate_inverted_gt: true
-plate_number_gt: KJB059
-region_code_gt: nsw

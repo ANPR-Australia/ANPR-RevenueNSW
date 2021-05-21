@@ -1,7 +1,0 @@
-image_file: NCA85V_1547.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1227 1849 1937 1871 1939 2008 1227 1980
-plate_inverted_gt: true
-plate_number_gt: NCA85V
-region_code_gt: nsw

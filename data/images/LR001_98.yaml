@@ -1,7 +1,0 @@
-image_file: LR001_98.jpg
-image_height: 2976
-image_width: 4464
-plate_corners_gt: 2465 1717 2571 1719 2571 1762 2464 1759
-plate_inverted_gt: true
-plate_number_gt: LR001
-region_code_gt: nsw

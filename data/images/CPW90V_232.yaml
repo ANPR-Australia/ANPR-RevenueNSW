@@ -1,7 +1,0 @@
-image_file: CPW90V_232.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 853 2727 1087 2707 1092 2782 854 2806
-plate_inverted_gt: false
-plate_number_gt: CPW90V
-region_code_gt: nsw

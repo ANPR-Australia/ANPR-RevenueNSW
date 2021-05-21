@@ -1,7 +1,0 @@
-image_file: BZB04B_1067.jpg
-image_height: 1635
-image_width: 1226
-plate_corners_gt: 675 464 817 461 822 501 678 504
-plate_inverted_gt: false
-plate_number_gt: BZB04B
-region_code_gt: nsw

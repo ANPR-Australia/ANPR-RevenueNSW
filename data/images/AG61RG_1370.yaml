@@ -1,7 +1,0 @@
-image_file: AG61RG_1370.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1554 1296 1736 1279 1733 1356 1557 1372
-plate_inverted_gt: false
-plate_number_gt: AG61RG
-region_code_gt: nsw

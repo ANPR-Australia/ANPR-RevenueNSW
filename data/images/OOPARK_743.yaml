@@ -1,7 +1,0 @@
-image_file: OOPARK_743.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 2263 1188 2797 1172 2783 1308 2248 1329
-plate_inverted_gt: false
-plate_number_gt: OOPARK
-region_code_gt: nsw

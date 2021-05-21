@@ -1,7 +1,0 @@
-image_file: DVU02W_1533.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 936 2192 1432 2245 1425 2348 930 2294
-plate_inverted_gt: false
-plate_number_gt: DVU02W
-region_code_gt: nsw

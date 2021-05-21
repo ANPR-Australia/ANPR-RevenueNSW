@@ -1,7 +1,0 @@
-image_file: DXI38V_1408.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1450 1444 1916 1408 1911 1548 1460 1597
-plate_inverted_gt: false
-plate_number_gt: DXI38V
-region_code_gt: nsw

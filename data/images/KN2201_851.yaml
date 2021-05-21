@@ -1,7 +1,0 @@
-image_file: KN2201_851.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1584 1518 2049 1451 2049 1590 1590 1662
-plate_inverted_gt: false
-plate_number_gt: KN2201
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: CDV37X_986.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1365 1151 1725 1105 1739 1205 1384 1260
-plate_inverted_gt: false
-plate_number_gt: CDV37X
-region_code_gt: nsw

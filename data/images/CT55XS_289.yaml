@@ -1,7 +1,0 @@
-image_file: CT55XS_289.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 950 2244 1147 2229 1156 2304 957 2318
-plate_inverted_gt: false
-plate_number_gt: CT55XS
-region_code_gt: nsw

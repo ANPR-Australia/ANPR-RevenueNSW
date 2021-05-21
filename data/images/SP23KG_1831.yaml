@@ -1,7 +1,0 @@
-image_file: SP23KG_1831.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2332 2201 2474 2226 2476 2269 2329 2241
-plate_inverted_gt: true
-plate_number_gt: SP23KG
-region_code_gt: nsw

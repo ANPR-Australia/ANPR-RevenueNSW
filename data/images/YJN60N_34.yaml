@@ -1,7 +1,0 @@
-image_file: YJN60N_34.jpg
-image_height: 1600
-image_width: 1200
-plate_corners_gt: 326 859 610 874 606 945 331 931
-plate_inverted_gt: false
-plate_number_gt: YJN60N
-region_code_gt: nsw

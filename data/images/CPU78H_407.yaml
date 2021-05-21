@@ -1,7 +1,0 @@
-image_file: CPU78H_407.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1627 1816 1888 1797 1894 1883 1631 1903
-plate_inverted_gt: false
-plate_number_gt: CPU78H
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: CU58PQ_288.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 2257 2026 2442 2014 2450 2079 2265 2087
-plate_inverted_gt: false
-plate_number_gt: CU58PQ
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: BY58SP_90.jpg
-image_height: 2976
-image_width: 4464
-plate_corners_gt: 2099 960 2210 952 2209 988 2099 994
-plate_inverted_gt: false
-plate_number_gt: BY58SP
-region_code_gt: nsw

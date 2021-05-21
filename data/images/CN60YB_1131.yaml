@@ -1,7 +1,0 @@
-image_file: CN60YB_1131.jpg
-image_height: 3024
-image_width: 4032
-plate_corners_gt: 743 1459 2493 1734 2441 2219 844 1944
-plate_inverted_gt: false
-plate_number_gt: CN60YB
-region_code_gt: nsw

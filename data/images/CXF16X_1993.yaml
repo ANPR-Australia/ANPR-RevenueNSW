@@ -1,7 +1,0 @@
-image_file: CXF16X_1993.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2681 1351 2803 1335 2805 1368 2684 1383
-plate_inverted_gt: false
-plate_number_gt: CXF16X
-region_code_gt: nsw

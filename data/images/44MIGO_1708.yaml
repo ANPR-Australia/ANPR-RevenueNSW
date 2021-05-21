@@ -1,7 +1,0 @@
-image_file: 44MIGO_1708.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2987 2917 3132 2947 3129 2987 2984 2957
-plate_inverted_gt: false
-plate_number_gt: 44MIGO
-region_code_gt: nsw

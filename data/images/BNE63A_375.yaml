@@ -1,7 +1,0 @@
-image_file: BNE63A_375.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1964 1877 2308 1823 2320 1940 1976 1984
-plate_inverted_gt: false
-plate_number_gt: BNE63A
-region_code_gt: nsw

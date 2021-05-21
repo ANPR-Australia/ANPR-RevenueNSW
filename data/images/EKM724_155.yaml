@@ -1,7 +1,0 @@
-image_file: EKM724_155.jpg
-image_height: 763
-image_width: 572
-plate_corners_gt: 243 118 364 113 364 156 244 162
-plate_inverted_gt: true
-plate_number_gt: EKM724
-region_code_gt: nsw

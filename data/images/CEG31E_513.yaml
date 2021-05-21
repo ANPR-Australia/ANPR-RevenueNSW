@@ -1,7 +1,0 @@
-image_file: CEG31E_513.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1582 1384 2010 1342 2018 1478 1594 1528
-plate_inverted_gt: false
-plate_number_gt: CEG31E
-region_code_gt: nsw

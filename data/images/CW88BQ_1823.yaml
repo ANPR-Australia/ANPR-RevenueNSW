@@ -1,7 +1,0 @@
-image_file: CW88BQ_1823.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2685 1345 2822 1349 2821 1393 2685 1391
-plate_inverted_gt: false
-plate_number_gt: CW88BQ
-region_code_gt: nsw

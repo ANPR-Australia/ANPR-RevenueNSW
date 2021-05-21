@@ -1,7 +1,0 @@
-image_file: AZW13Q_360.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1190 1792 1666 1823 1658 1965 1178 1920
-plate_inverted_gt: false
-plate_number_gt: AZW13Q
-region_code_gt: nsw

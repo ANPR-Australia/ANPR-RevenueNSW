@@ -1,7 +1,0 @@
-image_file: CNY58X_1970.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2235 3397 2391 3432 2385 3477 2231 3441
-plate_inverted_gt: false
-plate_number_gt: CNY58X
-region_code_gt: nsw

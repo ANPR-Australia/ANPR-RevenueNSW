@@ -1,7 +1,0 @@
-image_file: DWM41B_435.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 748 1251 1143 1256 1145 1363 771 1352
-plate_inverted_gt: false
-plate_number_gt: DWM41B
-region_code_gt: nsw

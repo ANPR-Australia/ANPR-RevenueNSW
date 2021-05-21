@@ -1,7 +1,0 @@
-image_file: AA22MA_1534.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1002 1988 1550 2037 1538 2223 992 2183
-plate_inverted_gt: false
-plate_number_gt: AA22MA
-region_code_gt: nsw

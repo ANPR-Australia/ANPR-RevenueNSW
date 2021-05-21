@@ -1,7 +1,0 @@
-image_file: DBU65U_1945.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2825 1859 2969 1883 2962 1929 2822 1906
-plate_inverted_gt: false
-plate_number_gt: DBU65U
-region_code_gt: nsw

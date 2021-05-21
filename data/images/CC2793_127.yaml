@@ -1,7 +1,0 @@
-image_file: CC2793_127.jpg
-image_height: 2976
-image_width: 4464
-plate_corners_gt: 2151 1119 2266 1115 2267 1154 2151 1159
-plate_inverted_gt: false
-plate_number_gt: CC2793
-region_code_gt: nsw

@@ -1,7 +1,0 @@
-image_file: CSJ09X_1972.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2920 2554 3069 2578 3064 2624 2915 2604
-plate_inverted_gt: false
-plate_number_gt: CSJ09X
-region_code_gt: nsw

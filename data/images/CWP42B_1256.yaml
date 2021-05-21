@@ -1,7 +1,0 @@
-image_file: CWP42B_1256.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1662 1301 2102 1278 2100 1420 1664 1438
-plate_inverted_gt: false
-plate_number_gt: CWP42B
-region_code_gt: nsw

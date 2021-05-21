@@ -1,7 +1,0 @@
-image_file: BVT24L_171.jpg
-image_height: 1600
-image_width: 1200
-plate_corners_gt: 378 588 489 594 490 622 378 613
-plate_inverted_gt: false
-plate_number_gt: BVT24L
-region_code_gt: nsw

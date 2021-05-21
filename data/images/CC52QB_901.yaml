@@ -1,7 +1,0 @@
-image_file: CC52QB_901.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1690 1405 2072 1343 2065 1485 1696 1545
-plate_inverted_gt: false
-plate_number_gt: CC52QB
-region_code_gt: nsw

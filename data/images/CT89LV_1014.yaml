@@ -1,7 +1,0 @@
-image_file: CT89LV_1014.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 614 1860 1254 1971 1249 2187 633 2064
-plate_inverted_gt: false
-plate_number_gt: CT89LV
-region_code_gt: nsw

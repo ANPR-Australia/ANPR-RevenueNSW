@@ -1,7 +1,0 @@
-image_file: ASR70R_1388.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1371 1479 1565 1500 1562 1543 1367 1524
-plate_inverted_gt: false
-plate_number_gt: ASR70R
-region_code_gt: nsw

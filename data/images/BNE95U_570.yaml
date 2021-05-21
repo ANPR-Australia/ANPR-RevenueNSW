@@ -1,7 +1,0 @@
-image_file: BNE95U_570.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 2053 1717 2072 1840 1696 1981 1671 1851
-plate_inverted_gt: false
-plate_number_gt: BNE95U
-region_code_gt: nsw

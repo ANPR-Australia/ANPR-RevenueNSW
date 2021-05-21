@@ -1,7 +1,0 @@
-image_file: DMM29B_442.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1317 1681 1767 1776 1755 1911 1316 1807
-plate_inverted_gt: false
-plate_number_gt: DMM29B
-region_code_gt: nsw

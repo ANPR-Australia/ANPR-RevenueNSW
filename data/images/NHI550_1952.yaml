@@ -1,7 +1,0 @@
-image_file: NHI550_1952.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2789 2436 2993 2455 2989 2506 2786 2481
-plate_inverted_gt: false
-plate_number_gt: NHI550
-region_code_gt: nsw

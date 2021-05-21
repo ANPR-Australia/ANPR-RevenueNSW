@@ -1,7 +1,0 @@
-image_file: CV16NF_1101.jpg
-image_height: 1858
-image_width: 1379
-plate_corners_gt: 295 1753 437 1742 438 1815 292 1825
-plate_inverted_gt: false
-plate_number_gt: CV16NF
-region_code_gt: nsw

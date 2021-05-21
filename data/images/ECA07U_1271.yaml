@@ -1,7 +1,0 @@
-image_file: ECA07U_1271.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1448 720 1827 710 1835 833 1454 837
-plate_inverted_gt: false
-plate_number_gt: ECA07U
-region_code_gt: nsw

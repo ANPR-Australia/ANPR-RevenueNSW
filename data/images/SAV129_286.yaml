@@ -1,7 +1,0 @@
-image_file: SAV129_286.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1262 2335 1813 2305 1808 2420 1266 2456
-plate_inverted_gt: false
-plate_number_gt: SAV129
-region_code_gt: nsw

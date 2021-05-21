@@ -1,7 +1,0 @@
-image_file: YHQ17B_1511.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1335 2369 1905 2342 1901 2481 1339 2511
-plate_inverted_gt: false
-plate_number_gt: YHQ17B
-region_code_gt: nsw

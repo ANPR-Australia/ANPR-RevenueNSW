@@ -1,7 +1,0 @@
-image_file: BPG20T_1655.jpg
-image_height: 2400
-image_width: 1802
-plate_corners_gt: 1249 1691 1476 1670 1492 1741 1261 1769
-plate_inverted_gt: false
-plate_number_gt: BPG20T
-region_code_gt: nsw

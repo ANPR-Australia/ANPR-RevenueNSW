@@ -1,7 +1,0 @@
-image_file: ECC89T_1849.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 1464 3302 1462 3264 1603 3303 1605 3352
-plate_inverted_gt: false
-plate_number_gt: ECC89T
-region_code_gt: nsw

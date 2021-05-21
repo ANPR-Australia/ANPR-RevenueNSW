@@ -1,7 +1,0 @@
-image_file: CR20RT_1133.jpg
-image_height: 3024
-image_width: 4032
-plate_corners_gt: 628 1304 3151 1374 2980 1942 840 1854
-plate_inverted_gt: false
-plate_number_gt: CR20RT
-region_code_gt: nsw

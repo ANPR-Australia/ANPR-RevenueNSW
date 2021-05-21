@@ -1,7 +1,0 @@
-image_file: APX48B_236.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 851 2446 1018 2434 1014 2475 847 2481
-plate_inverted_gt: false
-plate_number_gt: APX48B
-region_code_gt: nsw

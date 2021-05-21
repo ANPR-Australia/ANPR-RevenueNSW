@@ -1,7 +1,0 @@
-image_file: AMF96P_499.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1887 1997 1894 2103 1483 2231 1478 2113
-plate_inverted_gt: false
-plate_number_gt: AMF96P
-region_code_gt: nsw

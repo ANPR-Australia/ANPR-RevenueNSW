@@ -1,7 +1,0 @@
-image_file: BWW20A_2035.jpg
-image_height: 1600
-image_width: 1200
-plate_corners_gt: 445 721 663 727 661 789 443 776
-plate_inverted_gt: false
-plate_number_gt: BWW20A
-region_code_gt: nsw

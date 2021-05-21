@@ -1,7 +1,0 @@
-image_file: HC019_1802.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2968 1588 3112 1600 3108 1646 2965 1631
-plate_inverted_gt: false
-plate_number_gt: HC019
-region_code_gt: nsw

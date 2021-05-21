@@ -1,7 +1,0 @@
-image_file: NJA021_1941.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2833 1243 3031 1252 3031 1295 2834 1288
-plate_inverted_gt: false
-plate_number_gt: NJA021
-region_code_gt: nsw

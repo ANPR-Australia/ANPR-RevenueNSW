@@ -1,7 +1,0 @@
-image_file: DXM52X_392.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1704 1206 2100 1160 2118 1296 1722 1352
-plate_inverted_gt: false
-plate_number_gt: DXM52X
-region_code_gt: nsw

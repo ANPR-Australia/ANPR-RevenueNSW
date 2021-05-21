@@ -1,7 +1,0 @@
-image_file: DVG81C_1900.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 3225 1721 3365 1723 3365 1758 3226 1756
-plate_inverted_gt: false
-plate_number_gt: DVG81C
-region_code_gt: nsw

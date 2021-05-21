@@ -1,7 +1,0 @@
-image_file: DBT46A_981.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1608 1240 1895 1204 1903 1290 1617 1322
-plate_inverted_gt: false
-plate_number_gt: DBT46A
-region_code_gt: nsw

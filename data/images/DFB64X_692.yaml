@@ -1,7 +1,0 @@
-image_file: DFB64X_692.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 2134 814 2460 808 2458 895 2133 903
-plate_inverted_gt: false
-plate_number_gt: DFB64X
-region_code_gt: nsw

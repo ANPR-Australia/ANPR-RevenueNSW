@@ -1,7 +1,0 @@
-image_file: DXL80B_510.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1815 1559 2223 1452 2230 1589 1822 1706
-plate_inverted_gt: false
-plate_number_gt: DXL80B
-region_code_gt: nsw

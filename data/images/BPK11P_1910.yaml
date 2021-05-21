@@ -1,7 +1,0 @@
-image_file: BPK11P_1910.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2702 1635 2842 1648 2845 1690 2703 1673
-plate_inverted_gt: false
-plate_number_gt: BPK11P
-region_code_gt: nsw

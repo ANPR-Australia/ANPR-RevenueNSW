@@ -1,7 +1,0 @@
-image_file: CS97QN_1860.jpg
-image_height: 3648
-image_width: 5472
-plate_corners_gt: 2060 2805 2216 2840 2212 2897 2060 2862
-plate_inverted_gt: false
-plate_number_gt: CS97QN
-region_code_gt: nsw

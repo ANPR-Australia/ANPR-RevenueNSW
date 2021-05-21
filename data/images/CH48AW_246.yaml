@@ -1,7 +1,0 @@
-image_file: CH48AW_246.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1067 1935 1995 1893 1997 2195 1094 2224
-plate_inverted_gt: false
-plate_number_gt: CH48AW
-region_code_gt: nsw

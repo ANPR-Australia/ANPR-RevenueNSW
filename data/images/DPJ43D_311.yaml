@@ -1,7 +1,0 @@
-image_file: DPJ43D_311.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 922 2108 1694 2139 1696 2293 931 2260
-plate_inverted_gt: false
-plate_number_gt: DPJ43D
-region_code_gt: nsw

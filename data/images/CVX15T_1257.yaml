@@ -1,7 +1,0 @@
-image_file: CVX15T_1257.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1988 1054 2520 1046 2511 1225 1986 1243
-plate_inverted_gt: false
-plate_number_gt: CVX15T
-region_code_gt: nsw

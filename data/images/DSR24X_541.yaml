@@ -1,7 +1,0 @@
-image_file: DSR24X_541.jpg
-image_height: 4032
-image_width: 3024
-plate_corners_gt: 1368 1909 1865 1791 1871 1934 1382 2063
-plate_inverted_gt: false
-plate_number_gt: DSR24X
-region_code_gt: nsw
